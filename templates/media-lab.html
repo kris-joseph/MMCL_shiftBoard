@@ -93,7 +93,13 @@
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
                             <div class="booking-card-summary-title">{{ booking.title }}</div>
-                            <div class="booking-card-summary-time">{{ booking.from_time }} - {{ booking.to_time }} • {{ booking.patron_name }}</div>
+                            <div class="booking-card-summary-time">
+                                {%- if booking.task_time -%}
+                                {{ booking.task_time_label }}: {{ booking.task_time }}
+                                {%- else -%}
+                                {{ booking.from_time }} - {{ booking.to_time }}
+                                {%- endif %} • {{ booking.patron_name }}
+                            </div>
                         </div>
                         <div class="booking-badges">
                             {% if booking.task_label %}
@@ -132,8 +138,13 @@
                     {# Booking Details #}
                     <div class="booking-details">
                         <div class="detail-row">
+                            {% if booking.task_time %}
+                            <span class="detail-label">{{ booking.task_time_label }}:</span>
+                            <span class="detail-value">{{ booking.task_time }}</span>
+                            {% else %}
                             <span class="detail-label">Time:</span>
                             <span class="detail-value">{{ booking.from_time }} - {{ booking.to_time }}</span>
+                            {% endif %}
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Patron:</span>

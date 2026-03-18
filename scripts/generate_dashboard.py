@@ -522,13 +522,15 @@ class DashboardGenerator:
         if task_type == "start_task":
             equipment_indicator = {"type": "pickup", "label": "📦 Pickup"}
             task_label = "CHECKOUT NEEDED"
-            # Use fromDate for sorting START tasks
             sort_time = from_dt
+            task_time = self.format_time(from_dt)
+            task_time_label = "Checkout"
         else:  # end_task
             equipment_indicator = {"type": "return", "label": "↩️ Return"}
             task_label = "CHECKIN NEEDED"
-            # Use toDate for sorting END tasks
             sort_time = to_dt
+            task_time = self.format_time(to_dt)
+            task_time_label = "Due back"
 
         return {
             "booking_id": booking.get("bookId", "N/A"),
@@ -539,6 +541,8 @@ class DashboardGenerator:
             "category": booking.get("category_name", "Equipment"),
             "from_time": self.format_time(from_dt),
             "to_time": self.format_time(to_dt),
+            "task_time": task_time,
+            "task_time_label": task_time_label,
             "from_datetime": sort_time,  # For sorting
             "patron_name": self.mask_patron_name(booking.get("firstName", ""), booking.get("lastName", "")),
             "patron_email": self.mask_patron_email(booking.get("email", "")),
@@ -607,7 +611,7 @@ class DashboardGenerator:
             "category": booking.get("category_name", "Booking"),
             "from_time": self.format_time(from_dt),
             "to_time": self.format_time(to_dt),
-            "patron_name": f"{booking.get('firstName', '')} {booking.get('lastName', '')}".strip()
+            "patron_name": self.mask_patron_name(booking.get("firstName", ""), booking.get("lastName", ""))
         }
 
     def assign_workflow_to_workstation(self, booking: Dict, config: Dict) -> Optional[str]:
