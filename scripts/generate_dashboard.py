@@ -789,6 +789,19 @@ class DashboardGenerator:
         duration_hours = (to_dt - from_dt).total_seconds() / 3600
         duration_str = f"{duration_hours:.1f} hours" if duration_hours >= 1 else f"{int(duration_hours * 60)} minutes"
 
+        # Calculate progress duration (for in_progress display)
+        if now:
+            progress_seconds = (now - from_dt).total_seconds()
+            progress_hours = progress_seconds / 3600
+            if progress_hours < 1:
+                progress_duration = f"{int(progress_hours * 60)} minutes"
+            elif progress_hours < 24:
+                progress_duration = f"{progress_hours:.1f} hours"
+            else:
+                progress_duration = f"{progress_hours / 24:.1f} days"
+        else:
+            progress_duration = None
+
         # Load workflow if assigned
         workflow_data = None
         if workflow_id and workflow_id in self.workflows:
@@ -842,6 +855,11 @@ class DashboardGenerator:
             "is_appointment": False,
             "spans_shift_boundary": self.spans_shift_boundary(booking["fromDate"], booking["toDate"], shift_boundary),
             "duration_hours": duration_str,
+            "start_date": self.format_date(from_dt),
+            "start_time": self.format_time(from_dt),
+            "end_date": self.format_date(to_dt),
+            "end_time": self.format_time(to_dt),
+            "progress_duration": progress_duration,
             "workflow": workflow_data,
             "staff_name": None
         }
