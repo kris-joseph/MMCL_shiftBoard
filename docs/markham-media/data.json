@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-18T18:02:18.170570",
+  "fetch_timestamp": "2026-03-18T18:42:39.145307",
   "date": "2026-03-18",
   "space_bookings": [
     {
@@ -108,6 +108,46 @@
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "5157bdfc9f61",
+      "id": 338224,
+      "eid": 33665,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-03-16T09:32:40-04:00",
+      "toDate": "2026-03-18T14:31:00-04:00",
+      "created": "2026-03-16T09:32:29-04:00",
+      "firstName": "NASTARAN",
+      "lastName": "PEDARI",
+      "email": "pedari83@my.yorku.ca",
+      "account": "5859730001040346",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932686"
+    },
+    {
+      "bookId": "791dd98aec6b",
+      "id": 339501,
+      "eid": 33660,
+      "cid": 8162,
+      "lid": 3432,
+      "fromDate": "2026-03-18T14:14:13-04:00",
+      "toDate": "2026-03-18T18:30:00-04:00",
+      "created": "2026-03-18T14:13:29-04:00",
+      "firstName": "RUIYU",
+      "lastName": "HUANG",
+      "email": "huangruiyu0107@163.com",
+      "account": "5859730001046934",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Headphones",
+      "item_name": "Sony MDR-7506 Headphones",
+      "event": null,
+      "barcode": "39007054934112"
+    },
     {
       "bookId": "89ecdad3ccbc",
       "id": 336041,
@@ -369,26 +409,6 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007054931134"
-    },
-    {
-      "bookId": "5157bdfc9f61",
-      "id": 338224,
-      "eid": 33665,
-      "cid": 8161,
-      "lid": 3432,
-      "fromDate": "2026-03-16T09:32:40-04:00",
-      "toDate": "2026-03-23T18:30:00-04:00",
-      "created": "2026-03-16T09:32:29-04:00",
-      "firstName": "NASTARAN",
-      "lastName": "PEDARI",
-      "email": "pedari83@my.yorku.ca",
-      "account": "5859730001040346",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Microphones",
-      "item_name": "Rode Wireless Pro II",
-      "event": null,
-      "barcode": "39007054932686"
     },
     {
       "bookId": "10c13589e704",

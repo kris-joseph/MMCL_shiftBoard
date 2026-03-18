@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Wednesday, March 18, 2026</div>
-                <div class="last-updated">Last updated: 06:02 PM</div>
+                <div class="last-updated">Last updated: 06:42 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -65,13 +65,13 @@
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
-                <div class="timeline-count">2</div>
+                <div class="timeline-bar" style="height: 50.0%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+                <div class="timeline-bar" style="height: 16.666666666666664%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour past">
@@ -118,6 +118,7 @@
                     0 workstation bookings                </div>
             </div>
 
+
             <div class="empty-state">
                 <div class="empty-state-icon">📭</div>
                 <div class="empty-state-message">No bookings for this shift</div>
@@ -127,131 +128,268 @@
             <div class="shift-group-header">
                 <h2>Closing Shift</h2>
                 <div class="booking-count">
-                    1 workstation booking                </div>
+                    2 workstation bookings                </div>
             </div>
 
-            <div class="booking-list">
-                <article class="booking-card workstation" data-booking-id="471c015b1549" data-station-type="3d-printers">
 
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Prusa Mini #05 &#34;Golden Wind&#34;</div>
-                            <div class="booking-card-summary-time">3:30 PM - 6:30 PM • D.D.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge status-tentative">TENTATIVE</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
+
+
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">3 PM</span>
+                        <span class="hour-group-count">2 tasks</span>
                     </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card workstation" data-booking-id="28688c18c7c3" data-station-type="3d-printers">
 
-                    <div class="booking-card-content">
-
-                    <div class="booking-header">
-                        <div class="booking-title">
-                            <h3>Prusa Mini #05 &#34;Golden Wind&#34;</h3>
-                            <div class="booking-category">3D Printers</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge status-tentative">TENTATIVE</span>
-                        </div>
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">Prusa Mini #02 &#34;Star Platinum&#34;</div>
+                        <div class="booking-card-summary-time">3:00 PM - 4:30 PM • R.D.</div>
                     </div>
-
-                    <div class="booking-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Time:</span>
-                            <span class="detail-value">3:30 PM - 6:30 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Patron:</span>
-                            <span class="detail-value patron-info">D.D. (y***@my.yorku.ca)</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration:</span>
-                            <span class="detail-value">3.0 hours</span>
-                        </div>
+                    <div class="booking-badges">
+                        <span class="badge status-tentative">TENTATIVE</span>
                     </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
 
-                    <div class="workflow-panel">
-                        <div class="workflow-header">
-                            <span class="workflow-title">FDM 3D Print Job</span>
-                            <span class="workflow-progress">11 steps</span>
-                        </div>
-                        <ol class="workflow-steps">
-                            <li class="workflow-step ">
-                                <span class="step-number">1</span>
-                                <span class="step-description">
-                                    Confirm patron has completed FDM orientation training
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">2</span>
-                                <span class="step-description">
-                                    Receive file from patron; load into slicer software
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">3</span>
-                                <span class="step-description">
-                                    Slice file; check for errors, supports, and infill; review and agree settings with patron
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">4</span>
-                                <span class="step-description">
-                                    Provide estimated print duration and material cost to patron
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">5</span>
-                                <span class="step-description">
-                                    Update booking duration in LibCal to match slicer estimate
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">6</span>
-                                <span class="step-description">
-                                    Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">7</span>
-                                <span class="step-description">
-                                    Send sliced file to printer; start print job
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">8</span>
-                                <span class="step-description">
-                                    Monitor print in progress
-                                    <br><em>Phase 2: Live countdown timer</em>
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">9</span>
-                                <span class="step-description">
-                                    Remove completed parts from build plate; clean bed
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">10</span>
-                                <span class="step-description">
-                                    Record in ordering log: material weight, price, patron information
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <span class="step-number">11</span>
-                                <span class="step-description">
-                                    Provide patron with order number for payment at front desk
-                                </span>
-                            </li>
-                        </ol>
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Prusa Mini #02 &#34;Star Platinum&#34;</h3>
+                        <div class="booking-category">3D Printers</div>
                     </div>
+                    <div class="booking-badges">
+                        <span class="badge status-tentative">TENTATIVE</span>
+                    </div>
+                </div>
 
-                    <div class="booking-id">ID: 471c015b1549</div>
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">3:00 PM - 4:30 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">R.D. (r***@my.yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Duration:</span>
+                        <span class="detail-value">1.5 hours</span>
+                    </div>
+                </div>
 
-                    </div> 
-                </article>
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">FDM 3D Print Job</span>
+                        <span class="workflow-progress">11 steps</span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step ">
+                            <span class="step-number">1</span>
+                            <span class="step-description">
+                                Confirm patron has completed FDM orientation training
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">2</span>
+                            <span class="step-description">
+                                Receive file from patron; load into slicer software
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">3</span>
+                            <span class="step-description">
+                                Slice file; check for errors, supports, and infill; review and agree settings with patron
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">4</span>
+                            <span class="step-description">
+                                Provide estimated print duration and material cost to patron
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">5</span>
+                            <span class="step-description">
+                                Update booking duration in LibCal to match slicer estimate
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">6</span>
+                            <span class="step-description">
+                                Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">7</span>
+                            <span class="step-description">
+                                Send sliced file to printer; start print job
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">8</span>
+                            <span class="step-description">
+                                Monitor print in progress
+                                <br><em>Phase 2: Live countdown timer</em>
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">9</span>
+                            <span class="step-description">
+                                Remove completed parts from build plate; clean bed
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">10</span>
+                            <span class="step-description">
+                                Record in ordering log: material weight, price, patron information
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">11</span>
+                            <span class="step-description">
+                                Provide patron with order number for payment at front desk
+                            </span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 28688c18c7c3</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card workstation" data-booking-id="471c015b1549" data-station-type="3d-printers">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">Prusa Mini #05 &#34;Golden Wind&#34;</div>
+                        <div class="booking-card-summary-time">3:30 PM - 6:30 PM • D.D.</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-tentative">TENTATIVE</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Prusa Mini #05 &#34;Golden Wind&#34;</h3>
+                        <div class="booking-category">3D Printers</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-tentative">TENTATIVE</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">3:30 PM - 6:30 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">D.D. (y***@my.yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Duration:</span>
+                        <span class="detail-value">3.0 hours</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">FDM 3D Print Job</span>
+                        <span class="workflow-progress">11 steps</span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step ">
+                            <span class="step-number">1</span>
+                            <span class="step-description">
+                                Confirm patron has completed FDM orientation training
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">2</span>
+                            <span class="step-description">
+                                Receive file from patron; load into slicer software
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">3</span>
+                            <span class="step-description">
+                                Slice file; check for errors, supports, and infill; review and agree settings with patron
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">4</span>
+                            <span class="step-description">
+                                Provide estimated print duration and material cost to patron
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">5</span>
+                            <span class="step-description">
+                                Update booking duration in LibCal to match slicer estimate
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">6</span>
+                            <span class="step-description">
+                                Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">7</span>
+                            <span class="step-description">
+                                Send sliced file to printer; start print job
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">8</span>
+                            <span class="step-description">
+                                Monitor print in progress
+                                <br><em>Phase 2: Live countdown timer</em>
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">9</span>
+                            <span class="step-description">
+                                Remove completed parts from build plate; clean bed
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">10</span>
+                            <span class="step-description">
+                                Record in ordering log: material weight, price, patron information
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <span class="step-number">11</span>
+                            <span class="step-description">
+                                Provide patron with order number for payment at front desk
+                            </span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 471c015b1549</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
             </div>
+
         </section>
 
     </main>
@@ -261,7 +399,7 @@
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>In-Progress Jobs</h2>
-                <span class="section-count">10</span>
+                <span class="section-count">8</span>
             </div>
             <div class="booking-list">
                 <article class="booking-card in-progress" data-station-type="3d-printers">
@@ -289,7 +427,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">20.5 hours</span>
+                            <span class="detail-value">21.2 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -327,7 +465,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">20.5 hours</span>
+                            <span class="detail-value">21.2 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -339,82 +477,6 @@
                         </div>
                     </div>
                     <div class="booking-id">ID: 319d7609e902</div>
-                </article>
-                <article class="booking-card in-progress" data-station-type="3d-printers">
-                    <div class="booking-header">
-                        <div class="booking-title">
-                            <h3>Prusa Mini #02 &#34;Star Platinum&#34;</h3>
-                            <div class="booking-category">3D Printers</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
-                        </div>
-                    </div>
-                    <div class="booking-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Started:</span>
-                            <span class="detail-value">Wednesday, March 18, 2026 at 1:30 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Due:</span>
-                            <span class="detail-value">Wednesday, March 18, 2026 at 2:30 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Patron:</span>
-                            <span class="detail-value patron-info">M.T. (m***@my.yorku.ca)</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">In progress:</span>
-                            <span class="detail-value">32 minutes</span>
-                        </div>
-                    </div>
-                    <div class="workflow-panel">
-                        <div class="workflow-header">
-                            <span class="workflow-title">FDM 3D Print Job</span>
-                        </div>
-                        <div class="detail-row" style="padding: var(--spacing-xs); background-color: var(--light-grey); border-radius: var(--radius-sm);">
-                            <span class="detail-value">11 steps - Phase 2: Track progress</span>
-                        </div>
-                    </div>
-                    <div class="booking-id">ID: 4e8acc9fd6ad</div>
-                </article>
-                <article class="booking-card in-progress" data-station-type="3d-printers">
-                    <div class="booking-header">
-                        <div class="booking-title">
-                            <h3>Prusa Mini #01 &#34;Killer Queen&#34;</h3>
-                            <div class="booking-category">3D Printers</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
-                        </div>
-                    </div>
-                    <div class="booking-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Started:</span>
-                            <span class="detail-value">Wednesday, March 18, 2026 at 1:30 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Due:</span>
-                            <span class="detail-value">Wednesday, March 18, 2026 at 2:30 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Patron:</span>
-                            <span class="detail-value patron-info">M.T. (m***@my.yorku.ca)</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">In progress:</span>
-                            <span class="detail-value">32 minutes</span>
-                        </div>
-                    </div>
-                    <div class="workflow-panel">
-                        <div class="workflow-header">
-                            <span class="workflow-title">FDM 3D Print Job</span>
-                        </div>
-                        <div class="detail-row" style="padding: var(--spacing-xs); background-color: var(--light-grey); border-radius: var(--radius-sm);">
-                            <span class="detail-value">11 steps - Phase 2: Track progress</span>
-                        </div>
-                    </div>
-                    <div class="booking-id">ID: 8e4f1e3f4a53</div>
                 </article>
                 <article class="booking-card in-progress" data-station-type="3d-printers">
                     <div class="booking-header">
@@ -441,7 +503,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.0 hours</span>
+                            <span class="detail-value">4.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -479,7 +541,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.0 hours</span>
+                            <span class="detail-value">1.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -517,7 +579,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">3.0 hours</span>
+                            <span class="detail-value">3.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -555,7 +617,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.0 hours</span>
+                            <span class="detail-value">1.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -593,7 +655,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">32 minutes</span>
+                            <span class="detail-value">1.2 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -631,7 +693,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.5 hours</span>
+                            <span class="detail-value">5.2 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -650,7 +712,7 @@
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">4</span>
+                <span class="section-count">6</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -746,6 +808,50 @@
                                 </div>
                             </div>
                             <div class="booking-id">ID: 133c6b16722c</div>
+                        </article>
+                        <article class="booking-card">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Prusa Mini #02 &#34;Star Platinum&#34;</h3>
+                                    <div class="booking-category">3D Printers</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">1:30 PM - 2:30 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">M.T.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 4e8acc9fd6ad</div>
+                        </article>
+                        <article class="booking-card">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Prusa Mini #01 &#34;Killer Queen&#34;</h3>
+                                    <div class="booking-category">3D Printers</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">1:30 PM - 2:30 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">M.T.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 8e4f1e3f4a53</div>
                         </article>
                     </div>
                 </div>

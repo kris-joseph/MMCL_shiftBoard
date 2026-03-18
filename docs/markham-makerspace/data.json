@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-18T18:02:18.666130",
+  "fetch_timestamp": "2026-03-18T18:42:39.832333",
   "date": "2026-03-18",
   "space_bookings": [
     {
@@ -238,6 +238,25 @@
       "event": null
     },
     {
+      "bookId": "28688c18c7c3",
+      "id": 15545037,
+      "eid": 30725,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-18T15:00:00-04:00",
+      "toDate": "2026-03-18T16:30:00-04:00",
+      "created": "2026-03-18T14:34:51-04:00",
+      "firstName": "Roland",
+      "lastName": "Daher",
+      "email": "rolandd@my.yorku.ca",
+      "account": "rolandd@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #02 \"Star Platinum\"",
+      "event": null
+    },
+    {
       "bookId": "e021a4584617",
       "id": 15543334,
       "eid": 30727,
@@ -349,6 +368,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #1 \"Tiamat\"",
+      "event": null
+    },
+    {
+      "bookId": "bd861509b55f",
+      "id": 15544483,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-19T13:00:00-04:00",
+      "toDate": "2026-03-19T14:00:00-04:00",
+      "created": "2026-03-18T14:11:18-04:00",
+      "firstName": "Chloe",
+      "lastName": "Tam",
+      "email": "chloe831@my.yorku.ca",
+      "account": "chloe831@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
     },
     {

@@ -176,6 +176,23 @@
   };
 
   /**
+   * Toggle hour group expanded/collapsed state
+   * Called from onclick in template
+   */
+  window.toggleHourGroup = function(header) {
+    const group = header.closest('.hour-group');
+    const content = group.querySelector('.hour-group-content');
+    const isCollapsed = content.classList.contains('collapsed');
+    if (isCollapsed) {
+      content.classList.remove('collapsed');
+      group.classList.add('expanded');
+    } else {
+      content.classList.add('collapsed');
+      group.classList.remove('expanded');
+    }
+  };
+
+  /**
    * Expand all booking cards
    */
   function expandAllBookings() {
@@ -222,6 +239,18 @@
       } else {
         // Hide non-matching cards
         card.classList.add('filter-hidden');
+      }
+    });
+
+    // Hide hour groups whose cards are all filtered out
+    document.querySelectorAll('.hour-group').forEach(group => {
+      const content = group.querySelector('.hour-group-content');
+      if (!content) return;
+      const visibleCards = content.querySelectorAll('.booking-card:not(.filter-hidden)').length;
+      if (visibleCards === 0 && filterType !== 'all') {
+        group.classList.add('filter-hidden');
+      } else {
+        group.classList.remove('filter-hidden');
       }
     });
 
