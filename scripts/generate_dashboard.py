@@ -289,6 +289,17 @@ class DashboardGenerator:
                 ]
                 print(f"  → Filtered teaching events to space_id={filter_space_id}: {len(all_teaching_events)} → {len(teaching_events)}")
 
+        # Use fetch_timestamp to determine "now" - this ensures consistency with when data was fetched
+        # If fetch_timestamp not available, fall back to current time
+        fetch_timestamp_str = data.get("fetch_timestamp")
+        if fetch_timestamp_str:
+            now = datetime.fromisoformat(fetch_timestamp_str)
+            # Ensure timezone-aware (fetch_timestamp may be naive, bookings are timezone-aware)
+            if now.tzinfo is None:
+                now = now.replace(tzinfo=timezone.utc)
+        else:
+            now = datetime.now(timezone.utc)
+
         # Filter for today's bookings (not cancelled)
         def is_valid_today_booking(booking):
             if "cancelled" in booking:
@@ -296,23 +307,29 @@ class DashboardGenerator:
             return (self.is_today(booking["fromDate"], today) or
                     self.is_today(booking["toDate"], today))
 
-        space_bookings = [b for b in all_space_bookings if is_valid_today_booking(b)]
-        equipment_bookings = [b for b in all_equipment_bookings if is_valid_today_booking(b)]
-        teaching_bookings = [b for b in teaching_events if is_valid_today_booking(b)]
-
-        # Find overdue equipment
-        now = datetime.now(timezone.utc)
-        overdue_equipment = [
-            b for b in all_equipment_bookings
-            if self.parse_datetime(b["toDate"]) < now and "cancelled" not in b
-               and b.get("status", "").lower() not in ["completed", "returned"]
-        ]
-
         # Find completed today
         completed_bookings = [
             b for b in all_space_bookings + all_equipment_bookings
             if is_valid_today_booking(b) and b.get("status", "").lower() in ["completed", "returned"]
         ]
+        completed_ids = {b.get("bookId") for b in completed_bookings}
+
+        # Find overdue equipment (ended in past, not returned, not completed)
+        overdue_equipment = [
+            b for b in all_equipment_bookings
+            if self.parse_datetime(b["toDate"]) < now and "cancelled" not in b
+               and b.get("status", "").lower() not in ["completed", "returned"]
+        ]
+        overdue_ids = {b.get("bookId") for b in overdue_equipment}
+
+        # Filter bookings for main shift display: exclude completed and overdue
+        def is_active_booking(booking):
+            booking_id = booking.get("bookId")
+            return is_valid_today_booking(booking) and booking_id not in completed_ids and booking_id not in overdue_ids
+
+        space_bookings = [b for b in all_space_bookings if is_active_booking(b)]
+        equipment_bookings = [b for b in all_equipment_bookings if is_active_booking(b)]
+        teaching_bookings = [b for b in teaching_events if is_valid_today_booking(b)]
 
         # Group bookings by shift
         shifts_data = {}
@@ -373,14 +390,14 @@ class DashboardGenerator:
         # Determine shift label for header
         shift_label = None
         if shift_boundary:
-            current_time = datetime.now().time()
+            current_time = now.time()
             boundary_time = datetime.strptime(shift_boundary, "%H:%M").time()
             shift_label = "Opening Shift" if current_time < boundary_time else "Closing Shift"
 
         return {
             "location_name": location_name,
             "current_date": self.format_date(today),
-            "last_updated": datetime.now().strftime("%I:%M %p"),
+            "last_updated": now.strftime("%I:%M %p"),
             "shift_label": shift_label,
             "timeline": timeline,
             "shifts": shifts,
@@ -536,6 +553,16 @@ class DashboardGenerator:
         shift_boundary = data.get("shift_boundary")
         location_name = data["location_name"]
 
+        # Use fetch_timestamp to determine "now" - this ensures consistency with when data was fetched
+        fetch_timestamp_str = data.get("fetch_timestamp")
+        if fetch_timestamp_str:
+            now = datetime.fromisoformat(fetch_timestamp_str)
+            # Ensure timezone-aware (fetch_timestamp may be naive, bookings are timezone-aware)
+            if now.tzinfo is None:
+                now = now.replace(tzinfo=timezone.utc)
+        else:
+            now = datetime.now(timezone.utc)
+
         # All space bookings (workstations)
         all_space_bookings = data.get("space_bookings", [])
         all_appointments = data.get("appointments", [])
@@ -555,15 +582,20 @@ class DashboardGenerator:
             to_dt = self.parse_datetime(booking["toDate"])
             return from_dt.date() < today and to_dt.date() >= today
 
-        today_bookings = [b for b in all_space_bookings if is_valid_today_booking(b) and not is_in_progress(b)]
-        in_progress_bookings = [b for b in all_space_bookings if is_in_progress(b)]
-        today_appointments = [a for a in all_appointments if is_valid_today_booking(a)]
-
         # Find completed bookings
         completed_bookings = [
             b for b in all_space_bookings
             if is_valid_today_booking(b) and b.get("status", "").lower() in ["completed", "returned"]
         ]
+        completed_ids = {b.get("bookId") for b in completed_bookings}
+
+        # Filter bookings: exclude completed, separate in-progress
+        today_bookings = [
+            b for b in all_space_bookings
+            if is_valid_today_booking(b) and not is_in_progress(b) and b.get("bookId") not in completed_ids
+        ]
+        in_progress_bookings = [b for b in all_space_bookings if is_in_progress(b)]
+        today_appointments = [a for a in all_appointments if is_valid_today_booking(a)]
 
         # Group bookings by shift
         shifts_data = {}
@@ -633,7 +665,7 @@ class DashboardGenerator:
         # Determine shift label
         shift_label = None
         if shift_boundary:
-            current_time = datetime.now().time()
+            current_time = now.time()
             boundary_time = datetime.strptime(shift_boundary, "%H:%M").time()
             shift_label = "Opening Shift" if current_time < boundary_time else "Closing Shift"
 
@@ -661,7 +693,7 @@ class DashboardGenerator:
         return {
             "location_name": location_name,
             "current_date": self.format_date(today),
-            "last_updated": datetime.now().strftime("%I:%M %p"),
+            "last_updated": now.strftime("%I:%M %p"),
             "shift_label": shift_label,
             "timeline": timeline,
             "shifts": shifts,
