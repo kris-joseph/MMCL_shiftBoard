@@ -19,15 +19,13 @@ The GitHub Actions workflow requires LibCal API credentials to be stored as repo
 
    **Secret 1:**
    - Name: `LIBCAL_CLIENT_ID`
-   - Value: Your LibCal OAuth client ID
+   - Value: `320` (your LibCal client ID)
 
    **Secret 2:**
    - Name: `LIBCAL_CLIENT_SECRET`
-   - Value: Your LibCal OAuth client secret
+   - Value: `5c6908a560dd43f065fff001817630dc` (your LibCal client secret)
 
 5. Click **Add secret** for each
-
-**Note**: Contact MMCL staff or LibCal administrators to obtain these credentials. Never commit credentials to the repository.
 
 ## Step 2: Enable GitHub Pages
 
@@ -55,15 +53,13 @@ GitHub Pages will deploy automatically whenever the `docs/` directory is updated
 After the first successful workflow run:
 
 1. Check that `docs/*/data.json` files have been created and committed
-2. Check that `docs/static/` directory exists with `style.css` and `dashboard.js`
-3. Wait a few minutes for GitHub Pages to deploy (usually 1-2 minutes)
-4. Visit your GitHub Pages URL:
-   - Main page: `https://<username>.github.io/<repository-name>/`
-   - Scott: `https://<username>.github.io/<repository-name>/scott/`
-   - Markham Media: `https://<username>.github.io/<repository-name>/markham-media/`
-   - Markham Makerspace: `https://<username>.github.io/<repository-name>/markham-makerspace/`
-
-**Expected Result**: You should see styled dashboards with York University branding. Patron names will be shown as initials (e.g., "A.M.") and emails partially masked (e.g., "a***@my.yorku.ca").
+2. Wait a few minutes for GitHub Pages to deploy
+3. Visit your GitHub Pages URL:
+   - Usually: `https://<username>.github.io/<repository-name>/`
+   - Specific dashboards:
+     - Scott: `https://<username>.github.io/<repository-name>/scott/`
+     - Markham Media: `https://<username>.github.io/<repository-name>/markham-media/`
+     - Markham Makerspace: `https://<username>.github.io/<repository-name>/markham-makerspace/`
 
 ## Workflow Schedule
 
@@ -75,37 +71,6 @@ The workflow runs automatically:
 **Note:** The schedule uses UTC times and assumes EST (UTC-5). If daylight saving time (EDT/UTC-4) is in effect, the times will shift by one hour. Adjust the cron schedule in `.github/workflows/refresh.yml` if needed.
 
 ## Troubleshooting
-
-### 404 Error - Page Not Found
-
-**Symptom**: GitHub Pages URL returns a 404 error
-
-**Solutions**:
-1. **Check Pages settings**: Go to Settings → Pages and verify:
-   - Source: Deploy from a branch
-   - Branch: `main` (or `master`)
-   - Folder: `/docs`
-   - Click Save
-
-2. **Wait for deployment**: GitHub Pages can take 1-2 minutes to deploy after commits. Check the Actions tab for "pages-build-deployment" workflow.
-
-3. **Verify files exist**: Check that these files are in your repository:
-   - `docs/index.html`
-   - `docs/scott/index.html`
-   - `docs/markham-media/index.html`
-   - `docs/markham-makerspace/index.html`
-   - `docs/static/style.css`
-   - `docs/static/dashboard.js`
-
-4. **Check workflow ran successfully**: Go to Actions tab and verify "Refresh Dashboard Data" completed without errors.
-
-### Pages Load but No Styling
-
-**Symptom**: Dashboard pages load but appear unstyled (no colors, plain HTML)
-
-**Cause**: CSS/JS files not found
-
-**Solution**: Ensure `docs/static/` directory exists with both `style.css` and `dashboard.js`. The workflow should automatically copy these files. If missing, run the workflow manually or commit the static files.
 
 ### Workflow fails with authentication error
 
