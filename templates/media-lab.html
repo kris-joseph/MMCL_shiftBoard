@@ -50,7 +50,7 @@
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Bookings</button>
         <button class="filter-button" data-filter="space" onclick="filterBookings('space')">Space Bookings</button>
         <button class="filter-button" data-filter="equipment" onclick="filterBookings('equipment')">Equipment Loans</button>
-        {% if teaching_events %}
+        {% if has_teaching_events %}
         <button class="filter-button" data-filter="teaching" onclick="filterBookings('teaching')">Teaching Events</button>
         {% endif %}
     </section>

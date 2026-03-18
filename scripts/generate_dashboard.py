@@ -464,6 +464,12 @@ class DashboardGenerator:
             boundary_time = datetime.strptime(shift_boundary, "%H:%M").time()
             shift_label = "Opening Shift" if current_time < boundary_time else "Closing Shift"
 
+        has_teaching_events = any(
+            b.get("booking_type") == "teaching"
+            for shift in shifts
+            for b in shift["bookings"]
+        )
+
         return {
             "location_name": location_name,
             "current_date": self.format_date(today),
@@ -474,6 +480,7 @@ class DashboardGenerator:
             "in_progress_spaces": in_progress_spaces,
             "overdue_items": overdue_items,
             "completed_items": completed_bookings,
+            "has_teaching_events": has_teaching_events,
             "warnings": []  # For Phase 2: conflict detection
         }
 
