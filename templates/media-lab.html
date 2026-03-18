@@ -75,7 +75,22 @@
             {% if shift.bookings %}
             <div class="booking-list">
                 {% for booking in shift.bookings %}
-                <article class="booking-card {{ booking.card_class }}">
+                <article class="booking-card {{ booking.card_class }}" data-booking-id="{{ booking.booking_id }}">
+
+                    {# Collapsible Header Bar #}
+                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                        <div class="booking-card-summary">
+                            <div class="booking-card-summary-title">{{ booking.title }}</div>
+                            <div class="booking-card-summary-time">{{ booking.from_time }} - {{ booking.to_time }} • {{ booking.patron_name }}</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
+                        </div>
+                        <span class="booking-card-expand-icon">▼</span>
+                    </div>
+
+                    {# Collapsible Content #}
+                    <div class="booking-card-content">
 
                     {# Card Header #}
                     <div class="booking-header">
@@ -142,6 +157,8 @@
 
                     {# Booking ID Footer #}
                     <div class="booking-id">ID: {{ booking.booking_id }}</div>
+
+                    </div> {# End booking-card-content #}
 
                 </article>
                 {% endfor %}

@@ -258,7 +258,7 @@ class DashboardGenerator:
 
         return timeline
 
-    def process_media_lab_data(self, data: Dict) -> Dict:
+    def process_media_lab_data(self, data: Dict, config: Optional[Dict] = None) -> Dict:
         """Process data for media lab dashboard."""
         today = datetime.fromisoformat(data["date"]).date()
         shift_boundary = data.get("shift_boundary")
@@ -267,7 +267,19 @@ class DashboardGenerator:
         # All bookings (space + equipment + teaching)
         all_space_bookings = data.get("space_bookings", [])
         all_equipment_bookings = data.get("equipment_bookings", [])
-        teaching_events = data.get("teaching_events", [])
+        all_teaching_events = data.get("teaching_events", [])
+
+        # Filter teaching events to specific space_id if configured
+        teaching_events = all_teaching_events
+        if config and all_teaching_events:
+            teaching_config = config.get("teaching_events", {})
+            filter_space_id = teaching_config.get("space_id")
+            if filter_space_id:
+                teaching_events = [
+                    t for t in all_teaching_events
+                    if t.get("eid") == filter_space_id
+                ]
+                print(f"  → Filtered teaching events to space_id={filter_space_id}: {len(all_teaching_events)} → {len(teaching_events)}")
 
         # Filter for today's bookings (not cancelled)
         def is_valid_today_booking(booking):
@@ -785,7 +797,7 @@ class DashboardGenerator:
 
         # Process based on template type
         if template_name == "media-lab":
-            context = self.process_media_lab_data(data)
+            context = self.process_media_lab_data(data, config)
         elif template_name == "makerspace":
             if not config:
                 raise ValueError("Makerspace template requires config file")
@@ -823,8 +835,8 @@ def main():
 
     # Dashboard configurations: (data_file, output_file, template, config_file)
     dashboards = [
-        ("docs/scott/data.json", "docs/scott/index.html", "media-lab", None),
-        ("docs/markham-media/data.json", "docs/markham-media/index.html", "media-lab", None),
+        ("docs/scott/data.json", "docs/scott/index.html", "media-lab", "config/scott-media-lab.json"),
+        ("docs/markham-media/data.json", "docs/markham-media/index.html", "media-lab", "config/markham-media-lab.json"),
         ("docs/markham-makerspace/data.json", "docs/markham-makerspace/index.html", "makerspace", "config/markham-makerspace.json"),
     ]
 
