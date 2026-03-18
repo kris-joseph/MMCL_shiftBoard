@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ location_name }} - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/style.css?v={{ asset_version }}">
     <meta name="description" content="Staff dashboard for {{ location_name }} showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> {# Auto-refresh every 5 minutes #}
 </head>
@@ -410,6 +410,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js"></script>
+    <script src="../static/dashboard.js?v={{ asset_version }}"></script>
 </body>
 </html>

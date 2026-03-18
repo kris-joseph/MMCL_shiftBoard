@@ -1064,6 +1064,7 @@ class DashboardGenerator:
 
         # Render template
         template = self.jinja_env.get_template(f"{template_name}.html")
+        context['asset_version'] = int(datetime.now(timezone.utc).timestamp())
         html = template.render(**context)
 
         # Write output
