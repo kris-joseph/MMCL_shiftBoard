@@ -455,9 +455,12 @@ class DashboardGenerator:
             from_dt = self.parse_datetime(booking["fromDate"])
             to_dt = self.parse_datetime(booking["toDate"])
 
-            if from_dt.date() == today and from_dt > now:
+            if from_dt.date() == today and to_dt > now:
+                # Show while ongoing today (before start OR currently running)
                 shift = self.get_shift_group(booking["fromDate"], shift_boundary)
                 shift_tasks[shift].append(self._format_teaching_booking(booking, shift_boundary))
+            elif from_dt.date() == today and to_dt <= now:
+                completed_bookings.append(self._format_completed_item(booking))
 
         # Build shift data structure
         shifts = []
