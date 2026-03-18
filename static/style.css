@@ -635,8 +635,8 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 3px;
-  background-color: var(--pewter);
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .workflow-header-progress-fill {

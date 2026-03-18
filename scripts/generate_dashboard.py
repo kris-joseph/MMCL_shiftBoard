@@ -206,12 +206,14 @@ class DashboardGenerator:
             workflow = self.workflows.get(workflow_id)
             if workflow:
                 phase, _ = self.get_workflow_phase(workflow, task_type)
+                phase_steps = phase.get("steps", [])
                 return {
                     "type": "equipment-loan",
                     "phase_name": phase.get("name", "Equipment Checkout"),
+                    "step_count": len(phase_steps),
                     "steps": [
                         {"number": step["step"], "description": step["description"]}
-                        for step in phase.get("steps", [])
+                        for step in phase_steps
                     ]
                 }
         return None
