@@ -201,6 +201,87 @@ class DashboardGenerator:
                 }
         return None
 
+    def is_checked_in_space(self, booking: Dict) -> bool:
+        """
+        Detect if a space/makerspace booking has been checked in.
+
+        Standard booking slots are at :00, :15, :30, :45 minutes.
+        When a patron checks in, fromDate gets updated to the exact check-in time.
+        """
+        from_dt = self.parse_datetime(booking["fromDate"])
+        return from_dt.minute not in [0, 15, 30, 45]
+
+    def get_booking_tasks(self, booking: Dict, booking_type: str, today: date, now: datetime) -> Dict:
+        """
+        Determine what tasks (START, END, IN_PROGRESS, COMPLETED) apply to a booking.
+
+        Returns dict with:
+        - has_start_task: bool
+        - has_end_task: bool
+        - is_in_progress: bool
+        - is_completed: bool
+        - task_time: datetime (for sorting - when the task occurs)
+        """
+        from_dt = self.parse_datetime(booking["fromDate"])
+        to_dt = self.parse_datetime(booking["toDate"])
+        status = booking.get("status", "").lower()
+
+        # Skip cancelled bookings
+        if "cancelled" in booking.get("status", "").lower():
+            return {"has_start_task": False, "has_end_task": False, "is_in_progress": False, "is_completed": False}
+
+        if booking_type == "equipment":
+            # Equipment: Use status field for tracking
+            has_start_task = (
+                from_dt.date() == today and
+                status in ["confirmed", "self-booked confirmed", "mediated approved"]
+            )
+            has_end_task = (
+                to_dt.date() == today and
+                status == "checked out"
+            )
+            is_completed = status == "checked in"
+            is_in_progress = False  # Equipment doesn't have "in progress" state
+
+            # Task time: use fromDate for START, toDate for END
+            if has_start_task:
+                task_time = from_dt
+            elif has_end_task:
+                task_time = to_dt
+            else:
+                task_time = from_dt
+
+        else:  # space or makerspace
+            # Spaces: Use fromDate minute detection for check-in
+            checked_in = self.is_checked_in_space(booking)
+
+            has_start_task = (
+                from_dt.date() == today and
+                not checked_in and
+                from_dt > now  # Only show if not yet time
+            )
+
+            is_in_progress = (
+                checked_in and
+                now < to_dt  # Patron checked in, hasn't left yet
+            )
+
+            is_completed = (
+                to_dt < now and
+                (checked_in or status in ["completed", "returned"])
+            )
+
+            has_end_task = False  # Spaces don't have trackable END task in Phase 1
+            task_time = from_dt
+
+        return {
+            "has_start_task": has_start_task,
+            "has_end_task": has_end_task,
+            "is_in_progress": is_in_progress,
+            "is_completed": is_completed,
+            "task_time": task_time
+        }
+
     def calculate_timeline(self, bookings: List[Dict], today: date) -> List[Dict]:
         """
         Calculate hourly staff transaction counts for timeline.
@@ -267,7 +348,7 @@ class DashboardGenerator:
         return timeline
 
     def process_media_lab_data(self, data: Dict, config: Optional[Dict] = None) -> Dict:
-        """Process data for media lab dashboard."""
+        """Process data for media lab dashboard using task-based model."""
         today = datetime.fromisoformat(data["date"]).date()
         shift_boundary = data.get("shift_boundary")
         location_name = data["location_name"]
@@ -289,103 +370,92 @@ class DashboardGenerator:
                 ]
                 print(f"  → Filtered teaching events to space_id={filter_space_id}: {len(all_teaching_events)} → {len(teaching_events)}")
 
-        # Use fetch_timestamp to determine "now" - this ensures consistency with when data was fetched
-        # If fetch_timestamp not available, fall back to current time
+        # Use fetch_timestamp to determine "now"
         fetch_timestamp_str = data.get("fetch_timestamp")
         if fetch_timestamp_str:
             now = datetime.fromisoformat(fetch_timestamp_str)
-            # Ensure timezone-aware (fetch_timestamp may be naive, bookings are timezone-aware)
             if now.tzinfo is None:
                 now = now.replace(tzinfo=timezone.utc)
         else:
             now = datetime.now(timezone.utc)
 
-        # Filter for today's bookings (not cancelled)
-        def is_valid_today_booking(booking):
-            if "cancelled" in booking:
-                return False
-            return (self.is_today(booking["fromDate"], today) or
-                    self.is_today(booking["toDate"], today))
+        # Categorize all bookings by task state
+        shift_tasks = {}  # Tasks that need to be done today (START or END)
+        in_progress_spaces = []  # Spaces where patron is onsite
+        completed_bookings = []  # Completed bookings
+        overdue_equipment = []  # Equipment that's overdue
 
-        # Find completed today
-        completed_bookings = [
-            b for b in all_space_bookings + all_equipment_bookings
-            if is_valid_today_booking(b) and b.get("status", "").lower() in ["completed", "returned"]
-        ]
-        completed_ids = {b.get("bookId") for b in completed_bookings}
-
-        # Find overdue equipment (ended in past, not returned, not completed)
-        overdue_equipment = [
-            b for b in all_equipment_bookings
-            if self.parse_datetime(b["toDate"]) < now and "cancelled" not in b
-               and b.get("status", "").lower() not in ["completed", "returned"]
-        ]
-        overdue_ids = {b.get("bookId") for b in overdue_equipment}
-
-        # Filter bookings for main shift display: exclude completed and overdue
-        def is_active_booking(booking):
-            booking_id = booking.get("bookId")
-            return is_valid_today_booking(booking) and booking_id not in completed_ids and booking_id not in overdue_ids
-
-        space_bookings = [b for b in all_space_bookings if is_active_booking(b)]
-        equipment_bookings = [b for b in all_equipment_bookings if is_active_booking(b)]
-        teaching_bookings = [b for b in teaching_events if is_valid_today_booking(b)]
-
-        # Group bookings by shift
-        shifts_data = {}
+        # Initialize shift buckets
         for shift_name in (["Opening Shift", "Closing Shift"] if shift_boundary else ["Full Shift"]):
-            shifts_data[shift_name] = {
-                "space": [],
-                "equipment": [],
-                "teaching": []
-            }
+            shift_tasks[shift_name] = []
 
-        # Categorize space bookings
-        for booking in space_bookings:
-            shift = self.get_shift_group(booking["fromDate"], shift_boundary)
-            shifts_data[shift]["space"].append(self._format_space_booking(booking, shift_boundary))
+        # Process space bookings
+        for booking in all_space_bookings:
+            tasks = self.get_booking_tasks(booking, "space", today, now)
 
-        # Categorize equipment bookings
-        for booking in equipment_bookings:
-            shift = self.get_shift_group(booking["fromDate"], shift_boundary)
-            shifts_data[shift]["equipment"].append(self._format_equipment_booking(booking, shift_boundary))
+            if tasks["is_in_progress"]:
+                in_progress_spaces.append(self._format_space_booking(booking, shift_boundary, now, "in_progress"))
+            elif tasks["is_completed"]:
+                completed_bookings.append(self._format_completed_item(booking))
+            elif tasks["has_start_task"]:
+                shift = self.get_shift_group(booking["fromDate"], shift_boundary)
+                shift_tasks[shift].append(self._format_space_booking(booking, shift_boundary, now, "start_task"))
 
-        # Categorize teaching events
-        for booking in teaching_bookings:
-            shift = self.get_shift_group(booking["fromDate"], shift_boundary)
-            shifts_data[shift]["teaching"].append(self._format_teaching_booking(booking, shift_boundary))
+        # Process equipment bookings
+        for booking in all_equipment_bookings:
+            tasks = self.get_booking_tasks(booking, "equipment", today, now)
 
-        # Combine and sort bookings within each shift
+            if tasks["is_completed"]:
+                completed_bookings.append(self._format_completed_item(booking))
+            elif tasks["has_start_task"]:
+                # Equipment pickup task
+                shift = self.get_shift_group(booking["fromDate"], shift_boundary)
+                shift_tasks[shift].append(self._format_equipment_booking(booking, shift_boundary, now, "start_task"))
+            elif tasks["has_end_task"]:
+                # Equipment return task
+                shift = self.get_shift_group(booking["toDate"], shift_boundary)
+                shift_tasks[shift].append(self._format_equipment_booking(booking, shift_boundary, now, "end_task"))
+            elif self.parse_datetime(booking["toDate"]) < now and booking.get("status", "").lower() not in ["checked in", "completed", "returned"]:
+                # Overdue equipment
+                overdue_equipment.append(booking)
+
+        # Process teaching events (treated like spaces but usually no check-in tracking)
+        for booking in teaching_events:
+            if "cancelled" in booking.get("status", "").lower():
+                continue
+
+            from_dt = self.parse_datetime(booking["fromDate"])
+            to_dt = self.parse_datetime(booking["toDate"])
+
+            if from_dt.date() == today and from_dt > now:
+                shift = self.get_shift_group(booking["fromDate"], shift_boundary)
+                shift_tasks[shift].append(self._format_teaching_booking(booking, shift_boundary))
+
+        # Build shift data structure
         shifts = []
-        for shift_name, shift_bookings in shifts_data.items():
-            all_shift_bookings = (
-                shift_bookings["space"] +
-                shift_bookings["equipment"] +
-                shift_bookings["teaching"]
-            )
-
-            # Sort by start time
-            all_shift_bookings.sort(key=lambda b: b["from_datetime"])
+        for shift_name, tasks in shift_tasks.items():
+            # Sort by task time
+            tasks.sort(key=lambda b: b["from_datetime"])
 
             shifts.append({
                 "name": shift_name,
-                "space_count": len(shift_bookings["space"]),
-                "equipment_count": len(shift_bookings["equipment"]),
-                "teaching_count": len(shift_bookings["teaching"]),
-                "bookings": all_shift_bookings
+                "space_count": len([t for t in tasks if t.get("booking_type") == "space"]),
+                "equipment_count": len([t for t in tasks if t.get("booking_type") == "equipment"]),
+                "teaching_count": len([t for t in tasks if t.get("booking_type") == "teaching"]),
+                "bookings": tasks
             })
 
-        # Calculate timeline
-        timeline = self.calculate_timeline(
-            space_bookings + equipment_bookings + teaching_bookings,
-            today
-        )
+        # Calculate timeline (include all bookings that start or end today)
+        all_today_bookings = all_space_bookings + all_equipment_bookings + teaching_events
+        timeline_bookings = [
+            b for b in all_today_bookings
+            if (self.is_today(b["fromDate"], today) or self.is_today(b["toDate"], today))
+            and "cancelled" not in b.get("status", "").lower()
+        ]
+        timeline = self.calculate_timeline(timeline_bookings, today)
 
         # Format overdue items
         overdue_items = [self._format_overdue_item(item, now) for item in overdue_equipment]
-
-        # Format completed items
-        completed_items = [self._format_completed_item(item) for item in completed_bookings]
 
         # Determine shift label for header
         shift_label = None
@@ -401,19 +471,30 @@ class DashboardGenerator:
             "shift_label": shift_label,
             "timeline": timeline,
             "shifts": shifts,
+            "in_progress_spaces": in_progress_spaces,
             "overdue_items": overdue_items,
-            "completed_items": completed_items,
+            "completed_items": completed_bookings,
             "warnings": []  # For Phase 2: conflict detection
         }
 
-    def _format_space_booking(self, booking: Dict, shift_boundary: Optional[str]) -> Dict:
-        """Format a space booking for display."""
+    def _format_space_booking(self, booking: Dict, shift_boundary: Optional[str], now: datetime, task_type: str = "start_task") -> Dict:
+        """Format a space booking for display with task context."""
         from_dt = self.parse_datetime(booking["fromDate"])
         to_dt = self.parse_datetime(booking["toDate"])
+
+        # Determine task-specific display
+        if task_type == "in_progress":
+            task_label = "IN PROGRESS"
+            card_class = "in-progress"
+        else:  # start_task
+            task_label = None
+            card_class = ""
 
         return {
             "booking_id": booking.get("bookId", "N/A"),
             "booking_type": "space",
+            "task_type": task_type,
+            "task_label": task_label,
             "title": booking.get("item_name", "Unknown Space"),
             "category": booking.get("category_name", "Space"),
             "from_time": self.format_time(from_dt),
@@ -424,7 +505,7 @@ class DashboardGenerator:
             "check_in_code": booking.get("check_in_code"),
             "status_display": self.map_status_display(booking.get("status", "")),
             "status_class": self.map_status_to_class(booking.get("status", "")),
-            "card_class": "",
+            "card_class": card_class,
             "is_teaching_event": False,
             "spans_shift_boundary": self.spans_shift_boundary(booking["fromDate"], booking["toDate"], shift_boundary),
             "equipment_indicator": None,
@@ -432,30 +513,33 @@ class DashboardGenerator:
             "group_name": None
         }
 
-    def _format_equipment_booking(self, booking: Dict, shift_boundary: Optional[str]) -> Dict:
-        """Format an equipment booking for display."""
+    def _format_equipment_booking(self, booking: Dict, shift_boundary: Optional[str], now: datetime, task_type: str = "start_task") -> Dict:
+        """Format an equipment booking for display with task context."""
         from_dt = self.parse_datetime(booking["fromDate"])
         to_dt = self.parse_datetime(booking["toDate"])
 
-        # Determine if this is pickup or return based on current time
-        now = datetime.now(timezone.utc)
-        is_pickup = from_dt > now
-        is_return = to_dt < now and from_dt < now
-
-        equipment_indicator = None
-        if is_pickup:
+        # Equipment indicator based on task type
+        if task_type == "start_task":
             equipment_indicator = {"type": "pickup", "label": "📦 Pickup"}
-        elif is_return:
+            task_label = "CHECKOUT NEEDED"
+            # Use fromDate for sorting START tasks
+            sort_time = from_dt
+        else:  # end_task
             equipment_indicator = {"type": "return", "label": "↩️ Return"}
+            task_label = "CHECKIN NEEDED"
+            # Use toDate for sorting END tasks
+            sort_time = to_dt
 
         return {
             "booking_id": booking.get("bookId", "N/A"),
             "booking_type": "equipment",
+            "task_type": task_type,
+            "task_label": task_label,
             "title": booking.get("item_name", "Unknown Equipment"),
             "category": booking.get("category_name", "Equipment"),
             "from_time": self.format_time(from_dt),
             "to_time": self.format_time(to_dt),
-            "from_datetime": from_dt,
+            "from_datetime": sort_time,  # For sorting
             "patron_name": self.mask_patron_name(booking.get("firstName", ""), booking.get("lastName", "")),
             "patron_email": self.mask_patron_email(booking.get("email", "")),
             "check_in_code": booking.get("check_in_code"),
@@ -548,16 +632,15 @@ class DashboardGenerator:
         return None
 
     def process_makerspace_data(self, data: Dict, config: Dict) -> Dict:
-        """Process data for makerspace dashboard."""
+        """Process data for makerspace dashboard using task-based model."""
         today = datetime.fromisoformat(data["date"]).date()
         shift_boundary = data.get("shift_boundary")
         location_name = data["location_name"]
 
-        # Use fetch_timestamp to determine "now" - this ensures consistency with when data was fetched
+        # Use fetch_timestamp to determine "now"
         fetch_timestamp_str = data.get("fetch_timestamp")
         if fetch_timestamp_str:
             now = datetime.fromisoformat(fetch_timestamp_str)
-            # Ensure timezone-aware (fetch_timestamp may be naive, bookings are timezone-aware)
             if now.tzinfo is None:
                 now = now.replace(tzinfo=timezone.utc)
         else:
@@ -567,100 +650,91 @@ class DashboardGenerator:
         all_space_bookings = data.get("space_bookings", [])
         all_appointments = data.get("appointments", [])
 
-        # Filter for today's bookings (not cancelled)
-        def is_valid_today_booking(booking):
-            if "cancelled" in booking:
-                return False
-            return (self.is_today(booking["fromDate"], today) or
-                    self.is_today(booking["toDate"], today))
+        # Categorize bookings by task state
+        shift_tasks = {}  # Upcoming tasks (staff needs to help set up)
+        in_progress_jobs = []  # Multi-day jobs in progress OR today's bookings where patron is onsite
+        completed_bookings = []  # Completed bookings
 
-        # Separate in-progress jobs (started before today, end today or later)
-        def is_in_progress(booking):
-            if "cancelled" in booking:
-                return False
+        # Initialize shift buckets
+        for shift_name in (["Opening Shift", "Closing Shift"] if shift_boundary else ["Full Shift"]):
+            shift_tasks[shift_name] = []
+
+        # Process workstation bookings (3D printers, sewing, etc.)
+        for booking in all_space_bookings:
+            if "cancelled" in booking.get("status", "").lower():
+                continue
+
             from_dt = self.parse_datetime(booking["fromDate"])
             to_dt = self.parse_datetime(booking["toDate"])
-            return from_dt.date() < today and to_dt.date() >= today
 
-        # Find completed bookings
-        completed_bookings = [
-            b for b in all_space_bookings
-            if is_valid_today_booking(b) and b.get("status", "").lower() in ["completed", "returned"]
-        ]
-        completed_ids = {b.get("bookId") for b in completed_bookings}
-
-        # Filter bookings: exclude completed, separate in-progress
-        today_bookings = [
-            b for b in all_space_bookings
-            if is_valid_today_booking(b) and not is_in_progress(b) and b.get("bookId") not in completed_ids
-        ]
-        in_progress_bookings = [b for b in all_space_bookings if is_in_progress(b)]
-        today_appointments = [a for a in all_appointments if is_valid_today_booking(a)]
-
-        # Group bookings by shift
-        shifts_data = {}
-        for shift_name in (["Opening Shift", "Closing Shift"] if shift_boundary else ["Full Shift"]):
-            shifts_data[shift_name] = {
-                "workstations": [],
-                "appointments": [],
-                "teaching": []
-            }
-
-        # Categorize workstation bookings
-        for booking in today_bookings:
-            shift = self.get_shift_group(booking["fromDate"], shift_boundary)
-
-            # Check if this is a teaching event
-            if booking.get("category_name") == "Makerspace Room":
-                shifts_data[shift]["teaching"].append(self._format_teaching_booking(booking, shift_boundary))
-            else:
-                # Assign workflow
+            # Multi-day print jobs (started before today, end today or later)
+            if from_dt.date() < today and to_dt.date() >= today:
                 workflow_id = self.assign_workflow_to_workstation(booking, config)
-                shifts_data[shift]["workstations"].append(
-                    self._format_workstation_booking(booking, shift_boundary, workflow_id)
+                in_progress_jobs.append(self._format_in_progress_job(booking, today, config))
+                continue
+
+            # Check if booking is for today
+            if from_dt.date() != today and to_dt.date() != today:
+                continue
+
+            # Teaching events (Makerspace Room)
+            if booking.get("category_name") == "Makerspace Room":
+                if from_dt > now:
+                    shift = self.get_shift_group(booking["fromDate"], shift_boundary)
+                    shift_tasks[shift].append(self._format_teaching_booking(booking, shift_boundary))
+                continue
+
+            # Regular workstation bookings - use time-based logic (no manual check-in in Phase 1)
+            if from_dt > now:
+                # UPCOMING: Show as task
+                shift = self.get_shift_group(booking["fromDate"], shift_boundary)
+                workflow_id = self.assign_workflow_to_workstation(booking, config)
+                shift_tasks[shift].append(
+                    self._format_workstation_booking(booking, shift_boundary, workflow_id, now, "upcoming")
                 )
+            elif from_dt <= now < to_dt:
+                # IN PROGRESS: Patron is onsite
+                workflow_id = self.assign_workflow_to_workstation(booking, config)
+                in_progress_jobs.append(
+                    self._format_workstation_booking(booking, shift_boundary, workflow_id, now, "in_progress")
+                )
+            elif to_dt < now:
+                # COMPLETED: Booking has ended
+                completed_bookings.append(self._format_completed_item(booking))
 
-        # Categorize appointments
-        for appointment in today_appointments:
-            shift = self.get_shift_group(appointment["fromDate"], shift_boundary)
-            shifts_data[shift]["appointments"].append(
-                self._format_appointment_booking(appointment, shift_boundary)
-            )
+        # Process appointments (if enabled)
+        for appointment in all_appointments:
+            if "cancelled" in appointment.get("status", "").lower():
+                continue
 
-        # Combine and sort bookings within each shift
+            from_dt = self.parse_datetime(appointment["fromDate"])
+            to_dt = self.parse_datetime(appointment["toDate"])
+
+            if from_dt.date() == today and from_dt > now:
+                shift = self.get_shift_group(appointment["fromDate"], shift_boundary)
+                shift_tasks[shift].append(self._format_appointment_booking(appointment, shift_boundary))
+
+        # Build shift data structure
         shifts = []
-        for shift_name, shift_bookings in shifts_data.items():
-            all_shift_bookings = (
-                shift_bookings["workstations"] +
-                shift_bookings["appointments"] +
-                shift_bookings["teaching"]
-            )
-
-            # Sort by start time
-            all_shift_bookings.sort(key=lambda b: b["from_datetime"])
+        for shift_name, tasks in shift_tasks.items():
+            # Sort by task time
+            tasks.sort(key=lambda b: b["from_datetime"])
 
             shifts.append({
                 "name": shift_name,
-                "workstation_count": len(shift_bookings["workstations"]),
-                "appointment_count": len(shift_bookings["appointments"]),
-                "teaching_count": len(shift_bookings["teaching"]),
-                "bookings": all_shift_bookings
+                "workstation_count": len([t for t in tasks if t.get("booking_type") == "workstation"]),
+                "appointment_count": len([t for t in tasks if t.get("booking_type") == "appointment"]),
+                "teaching_count": len([t for t in tasks if t.get("booking_type") == "teaching"]),
+                "bookings": tasks
             })
 
-        # Calculate timeline
-        timeline = self.calculate_timeline(
-            today_bookings + today_appointments,
-            today
-        )
-
-        # Format in-progress jobs
-        in_progress_jobs = [
-            self._format_in_progress_job(job, today, config)
-            for job in in_progress_bookings
+        # Calculate timeline (include all bookings that start or end today)
+        all_today_bookings = [
+            b for b in all_space_bookings + all_appointments
+            if (self.is_today(b["fromDate"], today) or self.is_today(b["toDate"], today))
+            and "cancelled" not in b.get("status", "").lower()
         ]
-
-        # Format completed items
-        completed_items = [self._format_completed_item(item) for item in completed_bookings]
+        timeline = self.calculate_timeline(all_today_bookings, today)
 
         # Determine shift label
         shift_label = None
@@ -677,12 +751,15 @@ class DashboardGenerator:
                     # Phase 2: Implement conflict detection logic
                     pass
 
-        # Collect unique station types for filter buttons
+        # Collect unique station types for filter buttons (from all bookings)
         station_types = set()
         for shift in shifts:
             for booking in shift["bookings"]:
                 if booking.get("station_type"):
                     station_types.add((booking["station_type"], booking["category"]))
+        for job in in_progress_jobs:
+            if job.get("station_type"):
+                station_types.add((job["station_type"], job["category"]))
 
         # Sort by category name and create filter list
         station_filters = [
@@ -698,13 +775,13 @@ class DashboardGenerator:
             "timeline": timeline,
             "shifts": shifts,
             "in_progress_jobs": in_progress_jobs,
-            "completed_items": completed_items,
+            "completed_items": completed_bookings,
             "warnings": warnings,
             "station_filters": station_filters
         }
 
-    def _format_workstation_booking(self, booking: Dict, shift_boundary: Optional[str], workflow_id: Optional[str]) -> Dict:
-        """Format a workstation booking for display."""
+    def _format_workstation_booking(self, booking: Dict, shift_boundary: Optional[str], workflow_id: Optional[str], now: datetime = None, task_type: str = "upcoming") -> Dict:
+        """Format a workstation booking for display with task context."""
         from_dt = self.parse_datetime(booking["fromDate"])
         to_dt = self.parse_datetime(booking["toDate"])
 
@@ -736,10 +813,20 @@ class DashboardGenerator:
         category = booking.get("category_name", "Workstation")
         station_type = category.lower().replace(" & ", "-").replace(" ", "-")
 
+        # Task-specific display
+        if task_type == "in_progress":
+            task_label = "IN PROGRESS"
+            card_class = "workstation in-progress"
+        else:  # upcoming
+            task_label = None
+            card_class = "workstation"
+
         return {
             "booking_id": booking.get("bookId", "N/A"),
             "booking_type": "workstation",
             "station_type": station_type,
+            "task_type": task_type,
+            "task_label": task_label,
             "title": booking.get("item_name", "Unknown Workstation"),
             "category": category,
             "from_time": self.format_time(from_dt),
@@ -750,7 +837,7 @@ class DashboardGenerator:
             "check_in_code": booking.get("check_in_code"),
             "status_display": self.map_status_display(booking.get("status", "")),
             "status_class": self.map_status_to_class(booking.get("status", "")),
-            "card_class": "workstation",
+            "card_class": card_class,
             "is_teaching_event": False,
             "is_appointment": False,
             "spans_shift_boundary": self.spans_shift_boundary(booking["fromDate"], booking["toDate"], shift_boundary),

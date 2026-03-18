@@ -94,6 +94,9 @@
                             <div class="booking-card-summary-time">{{ booking.from_time }} - {{ booking.to_time }} • {{ booking.patron_name }}</div>
                         </div>
                         <div class="booking-badges">
+                            {% if booking.task_label %}
+                            <span class="badge badge-task">{{ booking.task_label }}</span>
+                            {% endif %}
                             <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
                         </div>
                         <span class="booking-card-expand-icon">▼</span>

@@ -411,6 +411,12 @@ body {
   color: var(--white);
 }
 
+.badge.badge-task {
+  background-color: var(--bright-blue);
+  color: var(--white);
+  font-weight: 700;
+}
+
 .badge.shift-boundary-flag {
   background-color: var(--bright-blue);
   color: var(--white);

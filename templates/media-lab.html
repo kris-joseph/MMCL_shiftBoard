@@ -96,6 +96,9 @@
                             <div class="booking-card-summary-time">{{ booking.from_time }} - {{ booking.to_time }} • {{ booking.patron_name }}</div>
                         </div>
                         <div class="booking-badges">
+                            {% if booking.task_label %}
+                            <span class="badge badge-task">{{ booking.task_label }}</span>
+                            {% endif %}
                             <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
                         </div>
                         <span class="booking-card-expand-icon">▼</span>
@@ -188,6 +191,55 @@
 
     {# ========== Zone D: Persistent Sections ========== #}
     <aside class="persistent-sections">
+
+        {# In Progress Section (Spaces where patron is onsite) #}
+        {% if in_progress_spaces %}
+        <section class="persistent-section in-progress-section">
+            <div class="section-header">
+                <h2>Patron Onsite</h2>
+                <span class="section-count">{{ in_progress_spaces|length }}</span>
+            </div>
+            <div class="booking-list">
+                {% for booking in in_progress_spaces %}
+                <article class="booking-card {{ booking.card_class }}" data-booking-id="{{ booking.booking_id }}" data-booking-type="{{ booking.booking_type }}">
+                    {# Collapsible Header Bar #}
+                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                        <div class="booking-card-summary">
+                            <div class="booking-card-summary-title">{{ booking.title }}</div>
+                            <div class="booking-card-summary-time">{{ booking.from_time }} - {{ booking.to_time }} • {{ booking.patron_name }}</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge badge-task">IN PROGRESS</span>
+                            <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
+                        </div>
+                        <span class="booking-card-expand-icon">▼</span>
+                    </div>
+
+                    {# Collapsible Content - same structure as shift bookings #}
+                    <div class="booking-card-content">
+                        <div class="booking-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Time:</span>
+                                <span class="detail-value">{{ booking.from_time }} - {{ booking.to_time }}</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Patron:</span>
+                                <span class="detail-value patron-info">{{ booking.patron_name }} ({{ booking.patron_email }})</span>
+                            </div>
+                            {% if booking.check_in_code %}
+                            <div class="detail-row">
+                                <span class="detail-label">Check-in Code:</span>
+                                <span class="detail-value">{{ booking.check_in_code }}</span>
+                            </div>
+                            {% endif %}
+                        </div>
+                        <div class="booking-id">ID: {{ booking.booking_id }}</div>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
 
         {# Overdue Items Section #}
         {% if overdue_items %}
