@@ -8,7 +8,7 @@ import os
 import json
 import sys
 import re
-from datetime import datetime, date, timezone
+from datetime import datetime, date, timezone, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -151,7 +151,7 @@ class DashboardGenerator:
     def map_status_to_class(self, status: str) -> str:
         """Map LibCal status to CSS class."""
         status_lower = status.lower()
-        if "confirmed" in status_lower or "self-booked" in status_lower:
+        if "confirmed" in status_lower or "self-booked" in status_lower or "mediated approved" in status_lower:
             return "status-confirmed"
         elif "tentative" in status_lower:
             return "status-tentative"
@@ -347,6 +347,33 @@ class DashboardGenerator:
 
         return timeline
 
+    def group_shift_bookings(self, bookings: List[Dict], now: datetime) -> Dict:
+        """Group shift bookings by task hour; pull tasks >2h overdue into an outstanding list."""
+        cutoff = now - timedelta(hours=2)
+        outstanding = []
+        by_hour: Dict[int, Dict] = {}
+
+        for booking in bookings:
+            task_dt = booking.get("from_datetime")
+            if task_dt and task_dt < cutoff:
+                outstanding.append(booking)
+            else:
+                if task_dt:
+                    hour_key = task_dt.hour
+                    hour_label = task_dt.strftime("%-I %p")
+                else:
+                    hour_key = 99
+                    hour_label = "—"
+                if hour_key not in by_hour:
+                    by_hour[hour_key] = {"label": hour_label, "bookings": []}
+                by_hour[hour_key]["bookings"].append(booking)
+
+        hour_groups = [
+            {"label": data["label"], "count": len(data["bookings"]), "bookings": data["bookings"]}
+            for _, data in sorted(by_hour.items())
+        ]
+        return {"outstanding": outstanding, "hour_groups": hour_groups}
+
     def process_media_lab_data(self, data: Dict, config: Optional[Dict] = None) -> Dict:
         """Process data for media lab dashboard using task-based model."""
         today = datetime.fromisoformat(data["date"]).date()
@@ -436,13 +463,16 @@ class DashboardGenerator:
         for shift_name, tasks in shift_tasks.items():
             # Sort by task time
             tasks.sort(key=lambda b: b["from_datetime"])
+            grouped = self.group_shift_bookings(tasks, now)
 
             shifts.append({
                 "name": shift_name,
                 "space_count": len([t for t in tasks if t.get("booking_type") == "space"]),
                 "equipment_count": len([t for t in tasks if t.get("booking_type") == "equipment"]),
                 "teaching_count": len([t for t in tasks if t.get("booking_type") == "teaching"]),
-                "bookings": tasks
+                "bookings": tasks,
+                "outstanding": grouped["outstanding"],
+                "hour_groups": grouped["hour_groups"]
             })
 
         # Calculate timeline (include all bookings that start or end today)
@@ -730,13 +760,16 @@ class DashboardGenerator:
         for shift_name, tasks in shift_tasks.items():
             # Sort by task time
             tasks.sort(key=lambda b: b["from_datetime"])
+            grouped = self.group_shift_bookings(tasks, now)
 
             shifts.append({
                 "name": shift_name,
                 "workstation_count": len([t for t in tasks if t.get("booking_type") == "workstation"]),
                 "appointment_count": len([t for t in tasks if t.get("booking_type") == "appointment"]),
                 "teaching_count": len([t for t in tasks if t.get("booking_type") == "teaching"]),
-                "bookings": tasks
+                "bookings": tasks,
+                "outstanding": grouped["outstanding"],
+                "hour_groups": grouped["hour_groups"]
             })
 
         # Calculate timeline (include all bookings that start or end today)

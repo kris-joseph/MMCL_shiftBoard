@@ -83,112 +83,151 @@
                 </div>
             </div>
 
-            {# Combined list of all bookings in this shift, sorted by time #}
-            {% if shift.bookings %}
-            <div class="booking-list">
-                {% for booking in shift.bookings %}
-                <article class="booking-card {{ booking.card_class }}" data-booking-id="{{ booking.booking_id }}" data-booking-type="{{ booking.booking_type }}">
+            {# Macro: renders a single booking card #}
+            {% macro render_booking_card(booking) %}
+            <article class="booking-card {{ booking.card_class }}" data-booking-id="{{ booking.booking_id }}" data-booking-type="{{ booking.booking_type }}">
 
-                    {# Collapsible Header Bar #}
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">{{ booking.title }}</div>
-                            <div class="booking-card-summary-time">
-                                {%- if booking.task_time -%}
-                                {{ booking.task_time_label }}: {{ booking.task_time }}
-                                {%- else -%}
-                                {{ booking.from_time }} - {{ booking.to_time }}
-                                {%- endif %} • {{ booking.patron_name }}
-                            </div>
+                {# Collapsible Header Bar #}
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+                            {% if booking.task_time %}<span class="task-time-prominent">{{ booking.task_time }}</span>{% endif %}{{ booking.title }}
                         </div>
-                        <div class="booking-badges">
-                            {% if booking.task_label %}
-                            <span class="badge badge-task">{{ booking.task_label }}</span>
-                            {% endif %}
-                            <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    {# Collapsible Content #}
-                    <div class="booking-card-content">
-
-                    {# Card Header #}
-                    <div class="booking-header">
-                        <div class="booking-title">
-                            <h3>{{ booking.title }}</h3>
-                            <div class="booking-category">{{ booking.category }}</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
-                            {% if booking.is_teaching_event %}
-                            <span class="badge teaching-event-badge">Teaching Event</span>
-                            {% endif %}
-                            {% if booking.spans_shift_boundary %}
-                            <span class="badge shift-boundary-flag">Shift Boundary</span>
-                            {% endif %}
-                            {% if booking.equipment_indicator %}
-                            <span class="equipment-indicator {{ booking.equipment_indicator.type }}">
-                                {{ booking.equipment_indicator.label }}
-                            </span>
-                            {% endif %}
+                        <div class="booking-card-summary-time">
+                            {% if booking.task_time %}{{ booking.task_time_label }} • {{ booking.patron_name }}{% else %}{{ booking.from_time }} - {{ booking.to_time }} • {{ booking.patron_name }}{% endif %}
                         </div>
                     </div>
-
-                    {# Booking Details #}
-                    <div class="booking-details">
-                        <div class="detail-row">
-                            {% if booking.task_time %}
-                            <span class="detail-label">{{ booking.task_time_label }}:</span>
-                            <span class="detail-value">{{ booking.task_time }}</span>
-                            {% else %}
-                            <span class="detail-label">Time:</span>
-                            <span class="detail-value">{{ booking.from_time }} - {{ booking.to_time }}</span>
-                            {% endif %}
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Patron:</span>
-                            <span class="detail-value patron-info">{{ booking.patron_name }} ({{ booking.patron_email }})</span>
-                        </div>
-                        {% if booking.check_in_code %}
-                        <div class="detail-row">
-                            <span class="detail-label">Check-in:</span>
-                            <span class="detail-value booking-id">{{ booking.check_in_code }}</span>
-                        </div>
+                    <div class="booking-badges">
+                        {% if booking.task_label %}
+                        <span class="badge badge-task">{{ booking.task_label }}</span>
                         {% endif %}
-                        {% if booking.group_name %}
-                        <div class="detail-row">
-                            <span class="detail-label">Group:</span>
-                            <span class="detail-value">{{ booking.group_name }}</span>
-                        </div>
+                        <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                {# Collapsible Content #}
+                <div class="booking-card-content">
+
+                {# Card Header #}
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>{{ booking.title }}</h3>
+                        <div class="booking-category">{{ booking.category }}</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
+                        {% if booking.is_teaching_event %}
+                        <span class="badge teaching-event-badge">Teaching Event</span>
+                        {% endif %}
+                        {% if booking.spans_shift_boundary %}
+                        <span class="badge shift-boundary-flag">Shift Boundary</span>
+                        {% endif %}
+                        {% if booking.equipment_indicator %}
+                        <span class="equipment-indicator {{ booking.equipment_indicator.type }}">
+                            {{ booking.equipment_indicator.label }}
+                        </span>
                         {% endif %}
                     </div>
+                </div>
 
-                    {# Equipment Loan Workflow (2-phase: checkout/return) #}
-                    {% if booking.workflow and booking.workflow.type == 'equipment-loan' %}
-                    <div class="workflow-panel">
-                        <div class="workflow-header">
-                            <span class="workflow-title">{{ booking.workflow.phase_name }}</span>
-                        </div>
-                        <ol class="workflow-steps">
-                            {% for step in booking.workflow.steps %}
-                            <li class="workflow-step">
-                                <span class="step-number">{{ step.number }}</span>
-                                <span class="step-description">{{ step.description }}</span>
-                            </li>
-                            {% endfor %}
-                        </ol>
+                {# Booking Details #}
+                <div class="booking-details">
+                    <div class="detail-row">
+                        {% if booking.task_time %}
+                        <span class="detail-label">{{ booking.task_time_label }}:</span>
+                        <span class="detail-value">{{ booking.task_time }}</span>
+                        {% else %}
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">{{ booking.from_time }} - {{ booking.to_time }}</span>
+                        {% endif %}
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">{{ booking.patron_name }} ({{ booking.patron_email }})</span>
+                    </div>
+                    {% if booking.check_in_code %}
+                    <div class="detail-row">
+                        <span class="detail-label">Check-in:</span>
+                        <span class="detail-value booking-id">{{ booking.check_in_code }}</span>
                     </div>
                     {% endif %}
+                    {% if booking.group_name %}
+                    <div class="detail-row">
+                        <span class="detail-label">Group:</span>
+                        <span class="detail-value">{{ booking.group_name }}</span>
+                    </div>
+                    {% endif %}
+                </div>
 
-                    {# Booking ID Footer #}
-                    <div class="booking-id">ID: {{ booking.booking_id }}</div>
+                {# Equipment Loan Workflow (2-phase: checkout/return) #}
+                {% if booking.workflow and booking.workflow.type == 'equipment-loan' %}
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">{{ booking.workflow.phase_name }}</span>
+                    </div>
+                    <ol class="workflow-steps">
+                        {% for step in booking.workflow.steps %}
+                        <li class="workflow-step">
+                            <span class="step-number">{{ step.number }}</span>
+                            <span class="step-description">{{ step.description }}</span>
+                        </li>
+                        {% endfor %}
+                    </ol>
+                </div>
+                {% endif %}
 
-                    </div> {# End booking-card-content #}
+                {# Booking ID Footer #}
+                <div class="booking-id">ID: {{ booking.booking_id }}</div>
 
-                </article>
-                {% endfor %}
+                </div> {# End booking-card-content #}
+
+            </article>
+            {% endmacro %}
+
+            {# Combined list of all bookings in this shift, grouped by hour #}
+            {% if shift.outstanding or shift.hour_groups %}
+
+            {# Outstanding tasks from earlier today #}
+            {% if shift.outstanding %}
+            <div class="hour-group outstanding-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">Still outstanding from earlier today</span>
+                        <span class="hour-group-count">{{ shift.outstanding|length }} task{% if shift.outstanding|length != 1 %}s{% endif %}</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                        {% for booking in shift.outstanding %}
+                        {{ render_booking_card(booking) }}
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
+            {% endif %}
+
+            {# Hour groups #}
+            {% for group in shift.hour_groups %}
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">{{ group.label }}</span>
+                        <span class="hour-group-count">{{ group.count }} task{% if group.count != 1 %}s{% endif %}</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                        {% for booking in group.bookings %}
+                        {{ render_booking_card(booking) }}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
             {% else %}
             <div class="empty-state">
                 <div class="empty-state-icon">📭</div>
