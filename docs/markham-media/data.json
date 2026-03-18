@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-18T22:54:19.630280",
+  "fetch_timestamp": "2026-03-18T23:23:10.686423",
   "date": "2026-03-18",
   "space_bookings": [
     {
@@ -99,7 +99,7 @@
       "lastName": "Yang",
       "email": "beckyyn@my.yorku.ca",
       "account": "beckyyn@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Podcast Studios",
       "item_name": "Podcast Studio #2 (Rm 3060D)",
