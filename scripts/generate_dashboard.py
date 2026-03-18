@@ -9,6 +9,7 @@ import json
 import sys
 import re
 from datetime import datetime, date, timezone, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -503,7 +504,7 @@ class DashboardGenerator:
         return {
             "location_name": location_name,
             "current_date": self.format_date(today),
-            "last_updated": now.strftime("%I:%M %p"),
+            "last_updated": now.astimezone(ZoneInfo("America/Toronto")).strftime("%-I:%M %p"),
             "shift_label": shift_label,
             "timeline": timeline,
             "shifts": shifts,
@@ -814,7 +815,7 @@ class DashboardGenerator:
         return {
             "location_name": location_name,
             "current_date": self.format_date(today),
-            "last_updated": now.strftime("%I:%M %p"),
+            "last_updated": now.astimezone(ZoneInfo("America/Toronto")).strftime("%-I:%M %p"),
             "shift_label": shift_label,
             "timeline": timeline,
             "shifts": shifts,
