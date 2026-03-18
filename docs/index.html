@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMCL Dashboards</title>
+    <link rel="stylesheet" href="static/style.css">
+    <style>
+        .dashboard-links {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: var(--spacing-xxl);
+        }
+        .dashboard-card {
+            background-color: var(--white);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            margin-bottom: var(--spacing-lg);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid var(--york-red);
+        }
+        .dashboard-card h2 {
+            margin-bottom: var(--spacing-sm);
+            color: var(--york-red-dark);
+        }
+        .dashboard-card p {
+            color: var(--grey-dark);
+            margin-bottom: var(--spacing-md);
+        }
+        .dashboard-card a {
+            display: inline-block;
+            background-color: var(--york-red);
+            color: var(--white);
+            padding: var(--spacing-sm) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+        }
+        .dashboard-card a:hover {
+            background-color: var(--york-red-medium);
+        }
+    </style>
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="header-top">
+            <div class="location-info">
+                <h1>MMCL Staff Dashboards</h1>
+                <div class="service-type">Making & Media Creation Lab</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="dashboard-links">
+        <div class="dashboard-card">
+            <h2>Scott Media Lab</h2>
+            <p>Studio bookings, equipment loans, and teaching events at Scott Library</p>
+            <a href="scott/">View Dashboard →</a>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Markham Media Lab</h2>
+            <p>Studio bookings and equipment loans at Markham Library Media Lab</p>
+            <a href="markham-media/">View Dashboard →</a>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Markham Makerspace</h2>
+            <p>Workstation bookings, appointments, and job tracking at Markham Makerspace</p>
+            <a href="markham-makerspace/">View Dashboard →</a>
+        </div>
+
+        <div style="text-align: center; margin-top: var(--spacing-xxl); color: var(--grey-dark); font-size: 0.875rem;">
+            <p>Dashboards refresh automatically every 30 minutes</p>
+            <p>Privacy-protected: Patron names and emails are masked</p>
+        </div>
+    </main>
+</body>
+</html>

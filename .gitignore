@@ -30,17 +30,19 @@ env/
 .env
 .env.local
 
-# IDE
+# IDE and Editor Files
 .idea/
 .vscode/
+.claude/
 *.swp
 *.swo
 *~
+.DS_Store
 
 # OS
-.DS_Store
 Thumbs.db
 
 # Project specific
+# Note: docs/static/ should be committed (needed for GitHub Pages)
 docs/*/data.json
 *.log
