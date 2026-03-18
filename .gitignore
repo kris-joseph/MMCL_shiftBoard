@@ -45,5 +45,8 @@ Thumbs.db
 # Project specific
 # Note: docs/static/ should be committed (needed for GitHub Pages)
 docs/*/data.json
-docs/SETUP.md
 *.log
+
+# Internal documentation (not for public repo)
+CLAUDE.md
+docs/SETUP.md
