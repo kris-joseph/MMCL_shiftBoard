@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-18T22:24:48.547748",
+  "fetch_timestamp": "2026-03-18T22:54:20.106294",
   "date": "2026-03-18",
   "space_bookings": [
     {
@@ -468,22 +468,22 @@
       "event": null
     },
     {
-      "bookId": "45e530449dba",
-      "id": 15549126,
-      "eid": 35300,
+      "bookId": "11d72fe43008",
+      "id": 15549624,
+      "eid": 35301,
       "cid": 7245,
       "lid": 3430,
       "fromDate": "2026-03-18T18:00:00-04:00",
-      "toDate": "2026-03-19T00:00:00-04:00",
-      "created": "2026-03-18T18:10:49-04:00",
-      "firstName": "Keegan",
-      "lastName": "David",
-      "email": "kegyrd04@my.yorku.ca",
-      "account": "kegyrd04@my.yorku.ca",
+      "toDate": "2026-03-19T07:00:00-04:00",
+      "created": "2026-03-18T18:51:14-04:00",
+      "firstName": "Jacob",
+      "lastName": "Turola",
+      "email": "jturola@yorku.ca",
+      "account": "jturola@yorku.ca",
       "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
-      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "item_name": "Prusa XL #2 \"Orochi\"",
       "event": null
     },
     {
@@ -674,6 +674,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #06 \"King Crimson\"",
+      "event": null
+    },
+    {
+      "bookId": "45e530449dba",
+      "id": 15549126,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-18T18:00:00-04:00",
+      "toDate": "2026-03-20T00:00:00-04:00",
+      "created": "2026-03-18T18:10:49-04:00",
+      "firstName": "Keegan",
+      "lastName": "David",
+      "email": "kegyrd04@my.yorku.ca",
+      "account": "kegyrd04@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
       "event": null
     }
   ],
