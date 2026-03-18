@@ -135,7 +135,14 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--york-red-dark);
+  margin-bottom: var(--spacing-xs);
+}
+
+.timeline-description {
+  font-size: 0.875rem;
+  color: var(--grey-dark);
   margin-bottom: var(--spacing-md);
+  font-style: italic;
 }
 
 .timeline {

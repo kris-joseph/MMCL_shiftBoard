@@ -29,9 +29,10 @@
         </div>
     </header>
 
-    {# ========== Zone B: Peak Load Timeline ========== #}
+    {# ========== Zone B: Staff Activity Timeline ========== #}
     <section class="peak-load-section">
-        <h2>Peak Load Timeline</h2>
+        <h2>Staff Activity Timeline</h2>
+        <p class="timeline-description">Shows hourly staff transactions (booking starts and ends requiring setup, teardown, checkout, or checkin)</p>
         <div class="timeline">
             {% for hour in timeline %}
             <div class="timeline-hour {% if hour.is_past %}past{% endif %}">

@@ -202,12 +202,20 @@ class DashboardGenerator:
         return None
 
     def calculate_timeline(self, bookings: List[Dict], today: date) -> List[Dict]:
-        """Calculate hourly concurrent booking counts for timeline."""
+        """
+        Calculate hourly staff transaction counts for timeline.
+
+        Counts start and end transactions separately - staff have tasks when bookings
+        START (setup/checkout) and when they END (teardown/checkin), but not during.
+
+        Example: 2-4 PM space booking creates transactions at 2 PM (setup) and 4 PM (teardown),
+        but zero transactions at 3 PM.
+        """
         # Operating hours: 8 AM - 9 PM (13 hours)
         hours = list(range(8, 22))  # 8-21 (8 AM - 9 PM)
         hour_counts = {hour: 0 for hour in hours}
 
-        # Count concurrent bookings for each hour
+        # Count start and end transactions for each hour
         for booking in bookings:
             from_dt = self.parse_datetime(booking["fromDate"])
             to_dt = self.parse_datetime(booking["toDate"])
@@ -220,15 +228,15 @@ class DashboardGenerator:
             if "cancelled" in booking:
                 continue
 
-            # Count which hours this booking overlaps
-            for hour in hours:
-                # Make timezone-aware to match booking datetimes
-                hour_start = datetime.combine(today, time(hour, 0)).replace(tzinfo=from_dt.tzinfo)
-                hour_end = datetime.combine(today, time(hour + 1, 0)).replace(tzinfo=from_dt.tzinfo)
+            # Count booking START transaction (setup/checkout)
+            start_hour = from_dt.hour
+            if start_hour in hours:
+                hour_counts[start_hour] += 1
 
-                # Check if booking overlaps this hour
-                if from_dt < hour_end and to_dt > hour_start:
-                    hour_counts[hour] += 1
+            # Count booking END transaction (teardown/checkin)
+            end_hour = to_dt.hour
+            if end_hour in hours:
+                hour_counts[end_hour] += 1
 
         # Find max count for scaling
         max_count = max(hour_counts.values()) if hour_counts else 1
