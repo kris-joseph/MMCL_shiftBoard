@@ -33,29 +33,6 @@
   }
 
   /**
-   * Update current time indicator in timeline
-   */
-  function updateTimelineIndicator() {
-    const now = new Date();
-    const currentHour = now.getHours();
-
-    // Highlight current hour in timeline
-    const timelineHours = document.querySelectorAll('.timeline-hour');
-    timelineHours.forEach(hourElement => {
-      const label = hourElement.querySelector('.timeline-hour-label');
-      if (label) {
-        const hourText = label.textContent.trim();
-        const hour = parseInt(hourText.replace(/[^\d]/g, ''), 10);
-
-        // Mark as current hour
-        if (hour === currentHour || (hourText.includes('PM') && hour + 12 === currentHour)) {
-          hourElement.classList.add('current-hour');
-        }
-      }
-    });
-  }
-
-  /**
    * Add ARIA labels for accessibility
    */
   function enhanceAccessibility() {
@@ -68,22 +45,6 @@
         card.setAttribute('aria-label', `Booking: ${title.textContent} at ${time.textContent}`);
       }
     });
-  }
-
-  /**
-   * Auto-refresh notification
-   * Show a subtle notification when page is about to refresh
-   */
-  function initAutoRefreshNotification() {
-    // Page refreshes every 5 minutes (300 seconds)
-    // Show notification 10 seconds before refresh
-    const refreshInterval = 300000; // 5 minutes in ms
-    const notificationTime = refreshInterval - 10000; // Show 10s before
-
-    setTimeout(() => {
-      console.log('Dashboard will refresh in 10 seconds...');
-      // Could add a visual notification here in Phase 2
-    }, notificationTime);
   }
 
   /**
@@ -108,25 +69,6 @@
       }
     `;
     document.head.appendChild(style);
-  }
-
-  /**
-   * Format relative times (e.g., "Starting in 15 minutes")
-   * Phase 1: Display only
-   * Phase 2: Update dynamically
-   */
-  function addRelativeTimeHints() {
-    const now = new Date();
-    const bookingCards = document.querySelectorAll('.booking-card');
-
-    bookingCards.forEach(card => {
-      const timeValue = card.querySelector('.detail-value');
-      if (timeValue && timeValue.textContent.includes('-')) {
-        const [startTime] = timeValue.textContent.split('-');
-        // Future enhancement: parse and calculate relative time
-        // For Phase 1, we leave this for Phase 2 implementation
-      }
-    });
   }
 
   /**
@@ -191,14 +133,6 @@
       group.classList.remove('expanded');
     }
   };
-
-  /**
-   * Expand all booking cards
-   */
-  function expandAllBookings() {
-    const cards = document.querySelectorAll('.booking-card');
-    cards.forEach(card => card.classList.add('expanded'));
-  }
 
   /**
    * Collapse all booking cards
@@ -364,11 +298,7 @@
 
     // Visual enhancements
     addPulseAnimation();
-    updateTimelineIndicator();
     highlightOverdueItems();
-
-    // Auto-refresh
-    initAutoRefreshNotification();
 
     // Debug info
     const bookingCount = document.querySelectorAll('.booking-card').length;
