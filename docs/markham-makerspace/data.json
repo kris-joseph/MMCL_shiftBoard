@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-18T18:44:50.615471",
+  "fetch_timestamp": "2026-03-18T19:42:18.689860",
   "date": "2026-03-18",
   "space_bookings": [
     {
@@ -238,6 +238,25 @@
       "event": null
     },
     {
+      "bookId": "48d140fa80be",
+      "id": 15546005,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-18T15:00:00-04:00",
+      "toDate": "2026-03-18T16:00:00-04:00",
+      "created": "2026-03-18T15:19:51-04:00",
+      "firstName": "Nancy",
+      "lastName": "Habre",
+      "email": "habre@my.yorku.ca",
+      "account": "habre@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
+    },
+    {
       "bookId": "28688c18c7c3",
       "id": 15545037,
       "eid": 30725,
@@ -250,10 +269,30 @@
       "lastName": "Daher",
       "email": "rolandd@my.yorku.ca",
       "account": "rolandd@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #02 \"Star Platinum\"",
+      "event": null,
+      "cancelled": "2026-03-18T18:45:11+00:00"
+    },
+    {
+      "bookId": "b5c790a78a20",
+      "id": 15545332,
+      "eid": 30729,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-18T15:30:00-04:00",
+      "toDate": "2026-03-18T17:00:00-04:00",
+      "created": "2026-03-18T14:48:22-04:00",
+      "firstName": "Roland",
+      "lastName": "Daher",
+      "email": "rolandd@my.yorku.ca",
+      "account": "rolandd@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #06 \"King Crimson\"",
       "event": null
     },
     {
@@ -273,6 +312,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #04 \"The World\"",
+      "event": null
+    },
+    {
+      "bookId": "48d140fa80be",
+      "id": 15546006,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-18T16:30:00-04:00",
+      "toDate": "2026-03-18T17:30:00-04:00",
+      "created": "2026-03-18T15:19:51-04:00",
+      "firstName": "Nancy",
+      "lastName": "Habre",
+      "email": "habre@my.yorku.ca",
+      "account": "habre@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
       "event": null
     },
     {
