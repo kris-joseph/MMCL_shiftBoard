@@ -4,103 +4,113 @@
   "description": "Workflow for resin (SLA/MSLA) 3D printing - STAFF OPERATED ONLY",
   "patron_operated": false,
   "safety_critical": true,
-  "steps": [
-    {
-      "step": 1,
-      "type": "verification",
-      "description": "Confirm patron has completed resin orientation training",
-      "notes": "Separate training from FDM - resin-specific safety protocols. Phase 2: check training registry",
-      "phase2_action": "check_training_registry"
+  "phases": {
+    "start": {
+      "name": "Print Setup",
+      "steps": [
+        {
+          "step": 1,
+          "type": "verification",
+          "description": "Confirm patron has completed resin orientation training",
+          "notes": "Separate training from FDM - resin-specific safety protocols. Phase 2: check training registry",
+          "phase2_action": "check_training_registry"
+        },
+        {
+          "step": 2,
+          "type": "preparation",
+          "description": "Receive file from patron; load into resin slicer",
+          "notes": "Common resin slicers: Chitubox, Lychee Slicer"
+        },
+        {
+          "step": 3,
+          "type": "preparation",
+          "description": "Configure supports and part orientation; review and agree settings with patron",
+          "notes": "Support placement critical for resin prints - affects success rate and finish quality"
+        },
+        {
+          "step": 4,
+          "type": "handoff",
+          "description": "Provide estimated print duration and material cost to patron",
+          "notes": "Duration and resin volume from slicer output"
+        },
+        {
+          "step": 5,
+          "type": "data_entry",
+          "description": "Update booking duration in LibCal to match slicer estimate",
+          "notes": "Phase 2: PATCH request to LibCal API",
+          "phase2_action": "libcal_patch",
+          "phase2_scope_required": "sp_w"
+        },
+        {
+          "step": 6,
+          "type": "verification",
+          "description": "Staff puts on required PPE: nitrile gloves and eye protection",
+          "notes": "MANDATORY - uncured resin is toxic and can cause skin sensitization",
+          "safety_required": true
+        },
+        {
+          "step": 7,
+          "type": "preparation",
+          "description": "Inspect FEP film for damage; confirm integrity BEFORE adding resin to vat",
+          "notes": "Damaged FEP can cause resin leaks - check BEFORE pouring resin",
+          "safety_required": true
+        },
+        {
+          "step": 8,
+          "type": "preparation",
+          "description": "Shake resin bottle thoroughly; pour into vat; level build plate",
+          "notes": "Resin settles - must shake before use. Level build plate to manufacturer specs"
+        },
+        {
+          "step": 9,
+          "type": "preparation",
+          "description": "Send sliced file to printer; start print job",
+          "notes": "Transfer via USB or network depending on printer model"
+        },
+        {
+          "step": 10,
+          "type": "timer",
+          "description": "Monitor print in progress",
+          "notes": "Phase 1: show estimated completion time. Phase 2: live countdown timer. Do not open printer during print."
+        }
+      ]
     },
-    {
-      "step": 2,
-      "type": "preparation",
-      "description": "Receive file from patron; load into resin slicer",
-      "notes": "Common resin slicers: Chitubox, Lychee Slicer"
-    },
-    {
-      "step": 3,
-      "type": "preparation",
-      "description": "Configure supports and part orientation; review and agree settings with patron",
-      "notes": "Support placement critical for resin prints - affects success rate and finish quality"
-    },
-    {
-      "step": 4,
-      "type": "handoff",
-      "description": "Provide estimated print duration and material cost to patron",
-      "notes": "Duration and resin volume from slicer output"
-    },
-    {
-      "step": 5,
-      "type": "data_entry",
-      "description": "Update booking duration in LibCal to match slicer estimate",
-      "notes": "Phase 2: PATCH request to LibCal API",
-      "phase2_action": "libcal_patch",
-      "phase2_scope_required": "sp_w"
-    },
-    {
-      "step": 6,
-      "type": "verification",
-      "description": "Staff puts on required PPE: nitrile gloves and eye protection",
-      "notes": "MANDATORY - uncured resin is toxic and can cause skin sensitization",
-      "safety_required": true
-    },
-    {
-      "step": 7,
-      "type": "preparation",
-      "description": "Inspect FEP film for damage; confirm integrity BEFORE adding resin to vat",
-      "notes": "Damaged FEP can cause resin leaks - check BEFORE pouring resin",
-      "safety_required": true
-    },
-    {
-      "step": 8,
-      "type": "preparation",
-      "description": "Shake resin bottle thoroughly; pour into vat; level build plate",
-      "notes": "Resin settles - must shake before use. Level build plate to manufacturer specs"
-    },
-    {
-      "step": 9,
-      "type": "preparation",
-      "description": "Send sliced file to printer; start print job",
-      "notes": "Transfer via USB or network depending on printer model"
-    },
-    {
-      "step": 10,
-      "type": "timer",
-      "description": "Monitor print in progress",
-      "notes": "Phase 1: show estimated completion time. Phase 2: live countdown timer. Do not open printer during print."
-    },
-    {
-      "step": 11,
-      "type": "preparation",
-      "description": "Remove build plate; wash printed parts in IPA (isopropyl alcohol)",
-      "notes": "Wash in 90%+ IPA to remove uncured resin. Use wash station if available."
-    },
-    {
-      "step": 12,
-      "type": "preparation",
-      "description": "UV cure parts in curing station",
-      "notes": "Post-cure strengthens parts and fully hardens any remaining resin"
-    },
-    {
-      "step": 13,
-      "type": "preparation",
-      "description": "Remove supports; inspect parts; clean resin vat and build plate. Dispose waste resin per safety protocol",
-      "notes": "Do NOT pour uncured resin down drain. Follow hazardous waste disposal protocol.",
-      "safety_required": true
-    },
-    {
-      "step": 14,
-      "type": "data_entry",
-      "description": "Record in ordering log: resin volume, price, patron information",
-      "notes": "Ordering log is SharePoint/Excel - manual entry, no API access",
-      "phase2_action": "ordering_log"
-    },
-    {
-      "step": 15,
-      "type": "handoff",
-      "description": "Provide patron with order number for payment at front desk",
-      "notes": "Final step - job complete"
+    "end": {
+      "name": "Print Completion",
+      "steps": [
+        {
+          "step": 1,
+          "type": "preparation",
+          "description": "Remove build plate; wash printed parts in IPA (isopropyl alcohol)",
+          "notes": "Wash in 90%+ IPA to remove uncured resin. Use wash station if available."
+        },
+        {
+          "step": 2,
+          "type": "preparation",
+          "description": "UV cure parts in curing station",
+          "notes": "Post-cure strengthens parts and fully hardens any remaining resin"
+        },
+        {
+          "step": 3,
+          "type": "preparation",
+          "description": "Remove supports; inspect parts; clean resin vat and build plate. Dispose waste resin per safety protocol",
+          "notes": "Do NOT pour uncured resin down drain. Follow hazardous waste disposal protocol.",
+          "safety_required": true
+        },
+        {
+          "step": 4,
+          "type": "data_entry",
+          "description": "Record in ordering log: resin volume, price, patron information",
+          "notes": "Ordering log is SharePoint/Excel - manual entry, no API access",
+          "phase2_action": "ordering_log"
+        },
+        {
+          "step": 5,
+          "type": "handoff",
+          "description": "Provide patron with order number for payment at front desk",
+          "notes": "Final step - job complete"
+        }
+      ]
     }
-  ]
+  }
 }

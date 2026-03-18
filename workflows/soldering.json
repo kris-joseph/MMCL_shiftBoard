@@ -3,27 +3,43 @@
   "name": "Soldering Station Session",
   "description": "Workflow for using soldering stations",
   "safety_critical": true,
-  "steps": [
-    {
-      "step": 1,
-      "type": "verification",
-      "description": "Confirm patron has completed soldering safety orientation",
-      "notes": "Phase 2: check training registry",
-      "phase2_action": "check_training_registry"
+  "phases": {
+    "start": {
+      "name": "Station Setup",
+      "steps": [
+        {
+          "step": 1,
+          "type": "verification",
+          "description": "Confirm patron has completed soldering safety orientation",
+          "notes": "Phase 2: check training registry",
+          "phase2_action": "check_training_registry"
+        },
+        {
+          "step": 2,
+          "type": "preparation",
+          "description": "Verify station is in working order and safety equipment is available",
+          "notes": "Check iron, ventilation, safety glasses. To be expanded based on staff input",
+          "safety_required": true
+        },
+        {
+          "step": 3,
+          "type": "handoff",
+          "description": "Provide safety reminders and usage guidelines",
+          "notes": "To be expanded based on staff input"
+        }
+      ]
     },
-    {
-      "step": 2,
-      "type": "preparation",
-      "description": "Verify station is in working order and safety equipment is available",
-      "notes": "Check iron, ventilation, safety glasses. To be expanded based on staff input",
-      "safety_required": true
-    },
-    {
-      "step": 3,
-      "type": "handoff",
-      "description": "Provide safety reminders and usage guidelines",
-      "notes": "To be expanded based on staff input"
+    "end": {
+      "name": "Station Close-Out",
+      "steps": [
+        {
+          "step": 1,
+          "type": "preparation",
+          "description": "Confirm station is cleaned and returned to ready state",
+          "notes": "To be expanded based on staff input"
+        }
+      ]
     }
-  ],
+  },
   "comment": "Workflow details to be completed after staff consultation"
 }

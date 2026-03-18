@@ -4,7 +4,7 @@
   "description": "Two-phase workflow for checking out and returning media equipment",
   "applies_to": "all_equipment_categories",
   "phases": {
-    "checkout": {
+    "start": {
       "name": "Equipment Checkout",
       "steps": [
         {
@@ -47,7 +47,7 @@
         }
       ]
     },
-    "return": {
+    "end": {
       "name": "Equipment Return",
       "steps": [
         {

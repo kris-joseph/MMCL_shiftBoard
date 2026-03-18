@@ -183,21 +183,35 @@ class DashboardGenerator:
         else:
             return status.upper()
 
-    def get_workflow_for_booking(self, booking: Dict, booking_type: str) -> Optional[Dict]:
+    def get_workflow_phase(self, workflow: Dict, task_type: str) -> tuple:
+        """Return the correct phase dict given task_type.
+
+        task_type == "end_task" → phases.end
+        All other task_types (start_task, upcoming, in_progress) → phases.start
+        """
+        phases = workflow.get("phases", {})
+        if task_type == "end_task":
+            phase = phases.get("end", {})
+            phase_key = "end"
+        else:
+            phase = phases.get("start", {})
+            phase_key = "start"
+        return phase, phase_key
+
+    def get_workflow_for_booking(self, booking: Dict, booking_type: str, task_type: str = "start_task") -> Optional[Dict]:
         """Get workflow data for a booking if applicable."""
         # Equipment loans always use equipment-loan workflow
         if booking_type == "equipment":
             workflow_id = "equipment-loan"
             workflow = self.workflows.get(workflow_id)
             if workflow:
-                # Determine phase (checkout or return) based on time
-                # For Phase 1, we show checkout steps by default
+                phase, _ = self.get_workflow_phase(workflow, task_type)
                 return {
                     "type": "equipment-loan",
-                    "phase_name": "Equipment Checkout",
+                    "phase_name": phase.get("name", "Equipment Checkout"),
                     "steps": [
                         {"number": step["step"], "description": step["description"]}
-                        for step in workflow["phases"]["checkout"]["steps"]
+                        for step in phase.get("steps", [])
                     ]
                 }
         return None
@@ -594,7 +608,7 @@ class DashboardGenerator:
             "is_teaching_event": False,
             "spans_shift_boundary": self.spans_shift_boundary(booking["fromDate"], booking["toDate"], shift_boundary),
             "equipment_indicator": equipment_indicator,
-            "workflow": self.get_workflow_for_booking(booking, "equipment"),
+            "workflow": self.get_workflow_for_booking(booking, "equipment", task_type),
             "group_name": booking.get("groupName")
         }
 
@@ -854,9 +868,12 @@ class DashboardGenerator:
         workflow_data = None
         if workflow_id and workflow_id in self.workflows:
             workflow = self.workflows[workflow_id]
+            phase, _ = self.get_workflow_phase(workflow, task_type)
+            phase_steps = phase.get("steps", [])
             workflow_data = {
                 "name": workflow["name"],
-                "step_count": len(workflow["steps"]),
+                "phase_name": phase.get("name", workflow["name"]),
+                "step_count": len(phase_steps),
                 "safety_critical": workflow.get("safety_critical", False),
                 "patron_operated": workflow.get("patron_operated", True),
                 "steps": [
@@ -866,7 +883,7 @@ class DashboardGenerator:
                         "type": step["type"],
                         "safety_required": step.get("safety_required", False)
                     }
-                    for step in workflow["steps"]
+                    for step in phase_steps
                 ]
             }
 
@@ -917,14 +934,17 @@ class DashboardGenerator:
         from_dt = self.parse_datetime(appointment["fromDate"])
         to_dt = self.parse_datetime(appointment["toDate"])
 
-        # Get workflow from appointment metadata
+        # Get workflow from appointment metadata (appointments always show start phase)
         workflow_id = appointment.get("_workflow")
         workflow_data = None
         if workflow_id and workflow_id in self.workflows:
             workflow = self.workflows[workflow_id]
+            phase, _ = self.get_workflow_phase(workflow, "start_task")
+            phase_steps = phase.get("steps", [])
             workflow_data = {
                 "name": workflow["name"],
-                "step_count": len(workflow["steps"]),
+                "phase_name": phase.get("name", workflow["name"]),
+                "step_count": len(phase_steps),
                 "safety_critical": workflow.get("safety_critical", False),
                 "patron_operated": workflow.get("patron_operated", True),
                 "steps": [
@@ -934,7 +954,7 @@ class DashboardGenerator:
                         "type": step["type"],
                         "safety_required": step.get("safety_required", False)
                     }
-                    for step in workflow["steps"]
+                    for step in phase_steps
                 ]
             }
 
@@ -978,14 +998,16 @@ class DashboardGenerator:
             progress_days = progress_hours / 24
             progress_duration = f"{progress_days:.1f} days"
 
-        # Assign workflow
+        # Assign workflow (in-progress jobs show start phase for context)
         workflow_id = self.assign_workflow_to_workstation(booking, config)
         workflow_data = None
         if workflow_id and workflow_id in self.workflows:
             workflow = self.workflows[workflow_id]
+            phase, _ = self.get_workflow_phase(workflow, "start_task")
             workflow_data = {
                 "name": workflow["name"],
-                "step_count": len(workflow["steps"])
+                "phase_name": phase.get("name", workflow["name"]),
+                "step_count": len(phase.get("steps", []))
             }
 
         # Normalize station type for filtering

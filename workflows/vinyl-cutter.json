@@ -2,26 +2,42 @@
   "id": "vinyl-cutter",
   "name": "Vinyl Cutter / Cricut Session",
   "description": "Workflow for using Cricut vinyl cutter",
-  "steps": [
-    {
-      "step": 1,
-      "type": "verification",
-      "description": "Confirm patron has completed Cricut orientation",
-      "notes": "Phase 2: check training registry",
-      "phase2_action": "check_training_registry"
+  "phases": {
+    "start": {
+      "name": "Station Setup",
+      "steps": [
+        {
+          "step": 1,
+          "type": "verification",
+          "description": "Confirm patron has completed Cricut orientation",
+          "notes": "Phase 2: check training registry",
+          "phase2_action": "check_training_registry"
+        },
+        {
+          "step": 2,
+          "type": "preparation",
+          "description": "Verify machine is ready and materials are available",
+          "notes": "To be expanded based on staff input"
+        },
+        {
+          "step": 3,
+          "type": "handoff",
+          "description": "Provide usage guidance and material recommendations",
+          "notes": "To be expanded based on staff input"
+        }
+      ]
     },
-    {
-      "step": 2,
-      "type": "preparation",
-      "description": "Verify machine is ready and materials are available",
-      "notes": "To be expanded based on staff input"
-    },
-    {
-      "step": 3,
-      "type": "handoff",
-      "description": "Provide usage guidance and material recommendations",
-      "notes": "To be expanded based on staff input"
+    "end": {
+      "name": "Station Close-Out",
+      "steps": [
+        {
+          "step": 1,
+          "type": "preparation",
+          "description": "Confirm station is cleaned and returned to ready state",
+          "notes": "To be expanded based on staff input"
+        }
+      ]
     }
-  ],
+  },
   "comment": "Workflow details to be completed after staff consultation"
 }
