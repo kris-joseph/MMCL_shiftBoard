@@ -96,7 +96,7 @@ class LibCalClient:
 
         return all_results
 
-    def fetch_space_bookings(self, location_id: int, start_date: str, end_date: str) -> List[Dict]:
+    def fetch_space_bookings(self, location_id: int, start_date: str) -> List[Dict]:
         """Fetch space bookings for a location."""
         endpoint = "space/bookings"
         params = {
@@ -109,7 +109,7 @@ class LibCalClient:
         print(f"  → Fetched {len(results)} space bookings for lid={location_id}")
         return results
 
-    def fetch_equipment_bookings(self, location_id: int, start_date: str, end_date: str) -> List[Dict]:
+    def fetch_equipment_bookings(self, location_id: int, start_date: str) -> List[Dict]:
         """Fetch equipment bookings for a location."""
         endpoint = "equipment/bookings"
         params = {
@@ -122,7 +122,7 @@ class LibCalClient:
         print(f"  → Fetched {len(results)} equipment bookings for lid={location_id}")
         return results
 
-    def fetch_appointments(self, group_id: int, start_date: str, end_date: str) -> List[Dict]:
+    def fetch_appointments(self, group_id: int, start_date: str) -> List[Dict]:
         """Fetch appointments for a group."""
         endpoint = "appointments/bookings"
         params = {
@@ -153,7 +153,7 @@ def get_today_date() -> str:
     return date.today().isoformat()
 
 
-def fetch_dashboard_data(client: LibCalClient, config: Dict, config_name: str) -> Dict:
+def fetch_dashboard_data(client: LibCalClient, config: Dict) -> Dict:
     """
     Fetch all data for a single dashboard instance.
     Returns a dictionary ready to be saved as data.json.
@@ -165,31 +165,22 @@ def fetch_dashboard_data(client: LibCalClient, config: Dict, config_name: str) -
 
     print(f"\n📊 Fetching data for {location_name} (template: {template})")
 
-    result = {
-        "location_id": location_id,
-        "location_name": location_name,
-        "template": template,
-        "shift_boundary": config.get("shift_boundary"),
-        "fetch_timestamp": datetime.now().isoformat(),
-        "date": today,
-        "space_bookings": [],
-        "equipment_bookings": [],
-        "appointments": [],
-        "teaching_events": []
-    }
+    result = {"location_id": location_id, "location_name": location_name, "template": template,
+              "shift_boundary": config.get("shift_boundary"), "fetch_timestamp": datetime.now().isoformat(),
+              "date": today, "space_bookings": client.fetch_space_bookings(location_id, today),
+              "equipment_bookings": [], "appointments": [], "teaching_events": []}
 
     # Fetch space bookings (all dashboards)
-    result["space_bookings"] = client.fetch_space_bookings(location_id, today, today)
 
     # Media Lab dashboards: fetch equipment bookings
     if template == "media-lab":
-        result["equipment_bookings"] = client.fetch_equipment_bookings(location_id, today, today)
+        result["equipment_bookings"] = client.fetch_equipment_bookings(location_id, today)
 
         # Scott Media Lab: fetch teaching events from separate location
         if "teaching_events" in config and config["teaching_events"].get("enabled"):
             teaching_lid = config["teaching_events"]["location_id"]
             print(f"  → Fetching teaching events from lid={teaching_lid}")
-            result["teaching_events"] = client.fetch_space_bookings(teaching_lid, today, today)
+            result["teaching_events"] = client.fetch_space_bookings(teaching_lid, today)
 
     # Makerspace dashboard: fetch appointments (if enabled)
     if template == "makerspace":
@@ -199,7 +190,7 @@ def fetch_dashboard_data(client: LibCalClient, config: Dict, config_name: str) -
                 group_id = group["group_id"]
                 group_name = group["name"]
                 print(f"  → Fetching appointments for {group_name} (gid={group_id})")
-                group_appointments = client.fetch_appointments(group_id, today, today)
+                group_appointments = client.fetch_appointments(group_id, today)
 
                 # Tag appointments with their group info
                 for appt in group_appointments:
@@ -251,7 +242,7 @@ def main():
         config = load_config(config_path)
 
         # Fetch data
-        data = fetch_dashboard_data(client, config, config_file)
+        data = fetch_dashboard_data(client, config)
 
         # Save to JSON
         output_path.parent.mkdir(parents=True, exist_ok=True)

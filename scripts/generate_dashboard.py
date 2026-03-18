@@ -8,9 +8,9 @@ import os
 import json
 import sys
 import re
-from datetime import datetime, date, time, timezone
+from datetime import datetime, date, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional
 
 from jinja2 import Environment, FileSystemLoader
 
