@@ -192,7 +192,8 @@
   }
 
   /**
-   * Filter bookings by type
+   * Filter bookings by type or station
+   * Works for both media lab (booking-type) and makerspace (station-type)
    */
   window.filterBookings = function(filterType) {
     const allCards = document.querySelectorAll('.booking-card');
@@ -209,7 +210,8 @@
 
     // Filter cards
     allCards.forEach(card => {
-      const cardType = card.dataset.bookingType;
+      // Use station-type if available (makerspace), otherwise booking-type (media lab)
+      const cardType = card.dataset.stationType || card.dataset.bookingType;
 
       if (filterType === 'all') {
         // Show all cards

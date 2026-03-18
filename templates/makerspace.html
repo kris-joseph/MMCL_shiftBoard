@@ -44,6 +44,15 @@
         </div>
     </section>
 
+    {# ========== Filters ========== #}
+    <section class="filters-section">
+        <span class="filters-label">Show:</span>
+        <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Stations</button>
+        {% for filter in station_filters %}
+        <button class="filter-button" data-filter="{{ filter.type }}" onclick="filterBookings('{{ filter.type }}')">{{ filter.label }}</button>
+        {% endfor %}
+    </section>
+
     {# ========== Zone C: Main Booking List ========== #}
     <main class="main-content">
 
@@ -76,7 +85,7 @@
             {% if shift.bookings %}
             <div class="booking-list">
                 {% for booking in shift.bookings %}
-                <article class="booking-card {{ booking.card_class }}" data-booking-id="{{ booking.booking_id }}">
+                <article class="booking-card {{ booking.card_class }}" data-booking-id="{{ booking.booking_id }}" data-station-type="{{ booking.station_type }}">
 
                     {# Collapsible Header Bar #}
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
@@ -208,7 +217,7 @@
             </div>
             <div class="booking-list">
                 {% for job in in_progress_jobs %}
-                <article class="booking-card in-progress">
+                <article class="booking-card in-progress" data-station-type="{{ job.station_type }}">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>{{ job.title }}</h3>
@@ -302,6 +311,29 @@
         </section>
 
     </aside>
+
+    {# ========== Status Legend ========== #}
+    <footer class="status-legend">
+        <h3>Status Badge Legend</h3>
+        <div class="legend-items">
+            <div class="legend-item">
+                <span class="legend-badge status-confirmed">CONFIRMED</span>
+                <span class="legend-description">Booking confirmed and ready</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-badge status-pending">PENDING</span>
+                <span class="legend-description">Awaiting approval or confirmation</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-badge status-tentative">TENTATIVE</span>
+                <span class="legend-description">Provisional booking</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-badge status-checked-in">CHECKED IN</span>
+                <span class="legend-description">Patron has arrived</span>
+            </div>
+        </div>
+    </footer>
 
     <script src="../static/dashboard.js"></script>
 </body>

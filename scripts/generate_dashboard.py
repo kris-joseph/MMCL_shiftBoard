@@ -460,6 +460,7 @@ class DashboardGenerator:
         return {
             "booking_id": booking.get("bookId", "N/A"),
             "booking_type": "teaching",
+            "station_type": "teaching",
             "title": booking.get("item_name", "Teaching Event"),
             "category": "Teaching Event",
             "from_time": self.format_time(from_dt),
@@ -644,6 +645,19 @@ class DashboardGenerator:
                     # Phase 2: Implement conflict detection logic
                     pass
 
+        # Collect unique station types for filter buttons
+        station_types = set()
+        for shift in shifts:
+            for booking in shift["bookings"]:
+                if booking.get("station_type"):
+                    station_types.add((booking["station_type"], booking["category"]))
+
+        # Sort by category name and create filter list
+        station_filters = [
+            {"type": st_type, "label": st_label}
+            for st_type, st_label in sorted(station_types, key=lambda x: x[1])
+        ]
+
         return {
             "location_name": location_name,
             "current_date": self.format_date(today),
@@ -653,7 +667,8 @@ class DashboardGenerator:
             "shifts": shifts,
             "in_progress_jobs": in_progress_jobs,
             "completed_items": completed_items,
-            "warnings": warnings
+            "warnings": warnings,
+            "station_filters": station_filters
         }
 
     def _format_workstation_booking(self, booking: Dict, shift_boundary: Optional[str], workflow_id: Optional[str]) -> Dict:
@@ -685,10 +700,16 @@ class DashboardGenerator:
                 ]
             }
 
+        # Normalize station type for filtering
+        category = booking.get("category_name", "Workstation")
+        station_type = category.lower().replace(" & ", "-").replace(" ", "-")
+
         return {
             "booking_id": booking.get("bookId", "N/A"),
+            "booking_type": "workstation",
+            "station_type": station_type,
             "title": booking.get("item_name", "Unknown Workstation"),
-            "category": booking.get("category_name", "Workstation"),
+            "category": category,
             "from_time": self.format_time(from_dt),
             "to_time": self.format_time(to_dt),
             "from_datetime": from_dt,
@@ -734,6 +755,8 @@ class DashboardGenerator:
 
         return {
             "booking_id": appointment.get("bookId", "N/A"),
+            "booking_type": "appointment",
+            "station_type": "appointment",
             "title": appointment.get("_group_name", "Appointment"),
             "category": "Appointment",
             "from_time": self.format_time(from_dt),
@@ -780,10 +803,15 @@ class DashboardGenerator:
                 "step_count": len(workflow["steps"])
             }
 
+        # Normalize station type for filtering
+        category = booking.get("category_name", "Workstation")
+        station_type = category.lower().replace(" & ", "-").replace(" ", "-")
+
         return {
             "booking_id": booking.get("bookId", "N/A"),
+            "station_type": station_type,
             "title": booking.get("item_name", "Unknown"),
-            "category": booking.get("category_name", "Workstation"),
+            "category": category,
             "start_date": self.format_date(from_dt),
             "start_time": self.format_time(from_dt),
             "end_date": self.format_date(to_dt),
