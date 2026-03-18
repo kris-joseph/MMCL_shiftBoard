@@ -13,12 +13,12 @@ The MMCL Dashboard system includes privacy protection features to safeguard patr
 When deployed to GitHub Pages (publicly accessible), patron information is automatically masked:
 
 - **Names**: Shown as initials only
-  - "Anne Magsombol" → "A.M."
-  - "Rebecca Caines" → "R.C."
+  - "Anne Marks" → "A.M."
+  - "Rebecca Clementine" → "R.C."
 
 - **Emails**: First character + asterisks, domain visible
-  - "magzs110@my.yorku.ca" → "m***@my.yorku.ca"
-  - "rcaines@yorku.ca" → "r***@yorku.ca"
+  - "makzs790@my.yorku.ca" → "m***@my.yorku.ca"
+  - "rclem@yorku.ca" → "r***@yorku.ca"
 
 This protects patron privacy while still allowing staff to identify bookings by context (time, resource, initials).
 
