@@ -249,7 +249,7 @@ class DashboardGenerator:
             # Equipment: Use status field for tracking
             has_start_task = (
                 from_dt.date() == today and
-                status in ["confirmed", "self-booked confirmed", "mediated approved"]
+                status in ["confirmed", "self-booked confirmed", "mediated approved", "mediated tentative"]
             )
             has_end_task = (
                 to_dt.date() == today and
