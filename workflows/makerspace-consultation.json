@@ -1,0 +1,27 @@
+{
+  "id": "makerspace-consultation",
+  "name": "Makerspace Consultation",
+  "description": "Workflow for general makerspace consultations",
+  "appointment_type": true,
+  "steps": [
+    {
+      "step": 1,
+      "type": "preparation",
+      "description": "Review consultation request and patron's project goals",
+      "notes": "If booking notes include project description, review before patron arrives"
+    },
+    {
+      "step": 2,
+      "type": "handoff",
+      "description": "Meet with patron; discuss project requirements and available resources",
+      "notes": "To be expanded based on staff input"
+    },
+    {
+      "step": 3,
+      "type": "handoff",
+      "description": "Provide recommendations and next steps",
+      "notes": "May include training requirements, equipment bookings, or referrals"
+    }
+  ],
+  "comment": "Workflow details to be completed after staff consultation"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "equipment-loan",
+  "name": "Equipment Loan",
+  "description": "Two-phase workflow for checking out and returning media equipment",
+  "applies_to": "all_equipment_categories",
+  "phases": {
+    "checkout": {
+      "name": "Equipment Checkout",
+      "steps": [
+        {
+          "step": 1,
+          "type": "verification",
+          "description": "Verify patron identity against booking record",
+          "notes": "Check YU card or government-issued ID"
+        },
+        {
+          "step": 2,
+          "type": "preparation",
+          "description": "Retrieve equipment kit; check all components against printed component list",
+          "notes": "Each kit should have a printed checklist of included items"
+        },
+        {
+          "step": 3,
+          "type": "verification",
+          "description": "Confirm batteries are fully charged",
+          "notes": "Test battery charge indicators; replace with charged batteries if needed"
+        },
+        {
+          "step": 4,
+          "type": "preparation",
+          "description": "Inspect equipment condition; document any existing damage or wear",
+          "notes": "Note scratches, dings, lens condition, etc. in LibCal booking notes"
+        },
+        {
+          "step": 5,
+          "type": "data_entry",
+          "description": "Check out equipment in LibCal system",
+          "notes": "Update booking status to checked out",
+          "phase2_action": "libcal_patch",
+          "phase2_scope_required": "eq_w"
+        },
+        {
+          "step": 6,
+          "type": "handoff",
+          "description": "Provide patron with return instructions and due date reminder",
+          "notes": "Confirm return time and late fee policy"
+        }
+      ]
+    },
+    "return": {
+      "name": "Equipment Return",
+      "steps": [
+        {
+          "step": 1,
+          "type": "handoff",
+          "description": "Receive equipment from patron",
+          "notes": "Initial visual inspection"
+        },
+        {
+          "step": 2,
+          "type": "preparation",
+          "description": "Check all components against printed component list",
+          "notes": "Verify all items present; note any missing components"
+        },
+        {
+          "step": 3,
+          "type": "preparation",
+          "description": "Inspect equipment condition; compare against checkout notes",
+          "notes": "Document any new damage; assess whether damage is beyond normal wear"
+        },
+        {
+          "step": 4,
+          "type": "data_entry",
+          "description": "Check in equipment in LibCal system",
+          "notes": "Update booking status to returned/complete",
+          "phase2_action": "libcal_patch",
+          "phase2_scope_required": "eq_w"
+        },
+        {
+          "step": 5,
+          "type": "data_entry",
+          "description": "If damage or missing components detected: flag in system and notify supervisor",
+          "notes": "Follow damage reporting protocol; may require patron contact for fees",
+          "conditional": true
+        }
+      ]
+    }
+  }
+}

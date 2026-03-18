@@ -1,0 +1,23 @@
+{
+  "location_id": 3432,
+  "location_name": "Markham Media Lab",
+  "template": "media-lab",
+  "shift_boundary": "13:00",
+  "space_categories": {
+    "studios": [
+      {"cid": 7761, "name": "Video Studios", "display": true},
+      {"cid": 7762, "name": "Podcast Studios", "display": true},
+      {"cid": 7467, "name": "Editing Studios", "display": true},
+      {"cid": 7951, "name": "Large Studios", "display": true}
+    ],
+    "non_public": [
+      {"cid": 7770, "name": "All Media Creation Suites", "display": false}
+    ]
+  },
+  "equipment_groups": [
+    {"group_id": 7832, "name": "Camera Lenses"},
+    {"group_id": 8161, "name": "Microphones"}
+  ],
+  "equipment_groups_complete": false,
+  "comments": "Equipment groups list is partial - requires paginated audit query for complete list. Shift boundary: bookings before 13:00 = Opening Shift, >= 13:00 = Closing Shift"
+}

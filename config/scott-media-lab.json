@@ -1,0 +1,30 @@
+{
+  "location_id": 2632,
+  "location_name": "Scott Media Lab",
+  "template": "media-lab",
+  "shift_boundary": null,
+  "space_categories": {
+    "studios": [
+      {"cid": 5833, "name": "Audio Recording Rooms", "display": true},
+      {"cid": 6842, "name": "Flex Studio Spaces", "display": true},
+      {"cid": 5832, "name": "VR Rooms", "display": true},
+      {"cid": 8413, "name": "Scanning Stations", "display": true}
+    ],
+    "non_public": [
+      {"cid": 7878, "name": "Class Support", "display": false},
+      {"cid": 8034, "name": "Events", "display": false}
+    ]
+  },
+  "teaching_events": {
+    "enabled": true,
+    "location_id": 3458,
+    "space_id": 26820
+  },
+  "equipment_groups": [
+    {"group_id": 8143, "name": "Camera Stabilizers"},
+    {"group_id": 8147, "name": "Microphones"},
+    {"group_id": 8146, "name": "Lighting"}
+  ],
+  "equipment_groups_complete": false,
+  "comments": "Equipment groups list is partial - requires paginated audit query for complete list"
+}

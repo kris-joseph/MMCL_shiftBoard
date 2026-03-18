@@ -1,0 +1,77 @@
+name: Refresh Dashboard Data
+
+on:
+  # Run every 30 minutes from 08:00-21:00 Toronto time (EST/UTC-5)
+  # Note: This schedule assumes EST (UTC-5). Adjust for EDT (UTC-4) if needed during DST.
+  schedule:
+    # First run at 07:45 EST (12:45 UTC) - data ready before opening
+    - cron: '45 12 * * *'
+    # Every 30 minutes from 08:00-18:30 EST (13:00-23:30 UTC)
+    - cron: '0,30 13-23 * * *'
+    # Every 30 minutes from 19:00-20:30 EST (00:00-01:30 UTC)
+    - cron: '0,30 0-1 * * *'
+    # Final run at 21:00 EST (02:00 UTC)
+    - cron: '0 2 * * *'
+
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Need fetch-depth > 1 to allow pushing commits
+          fetch-depth: 0
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch LibCal data
+        env:
+          LIBCAL_CLIENT_ID: ${{ secrets.LIBCAL_CLIENT_ID }}
+          LIBCAL_CLIENT_SECRET: ${{ secrets.LIBCAL_CLIENT_SECRET }}
+        run: |
+          python scripts/fetch_data.py
+
+      - name: Generate HTML dashboards
+        run: |
+          python scripts/generate_dashboard.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Add generated files
+          git add docs/*/data.json
+          git add docs/scott/index.html docs/markham-media/index.html docs/markham-makerspace/index.html
+
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update dashboard data - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi
+
+      - name: Deployment summary
+        run: |
+          echo "✅ Dashboard data refreshed successfully"
+          echo "📊 Dashboards updated:"
+          echo "  - Scott Media Lab: docs/scott/"
+          echo "  - Markham Media Lab: docs/markham-media/"
+          echo "  - Markham Makerspace: docs/markham-makerspace/"
+          echo ""
+          echo "🌐 GitHub Pages will auto-deploy from docs/ directory"

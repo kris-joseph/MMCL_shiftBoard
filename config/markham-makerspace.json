@@ -1,0 +1,48 @@
+{
+  "location_id": 3430,
+  "location_name": "Markham Makerspace",
+  "template": "makerspace",
+  "shift_boundary": "13:00",
+  "space_categories": {
+    "workstations": [
+      {
+        "cid": 7245,
+        "name": "3D Printers",
+        "workflow_assignment": "by_space_name",
+        "workflow_rules": [
+          {"pattern": "Prusa (Mini|MK4|XL|Core One)", "workflow": "fdm-print"},
+          {"pattern": "Resin", "workflow": "resin-print"}
+        ],
+        "comment": "FDM vs Resin share cid=7245 - disambiguate by space name"
+      },
+      {"cid": 7971, "name": "Resin 3D Printers", "workflow": "resin-print"},
+      {"cid": 7718, "name": "Sewing & Cricut", "workflow": "sewing"},
+      {"cid": 7722, "name": "Soldering Stations", "workflow": "soldering"},
+      {"cid": 7897, "name": "3D Scanners", "workflow": null, "comment": "Equipment use, no job workflow"},
+      {"cid": 7767, "name": "Makerspace Room", "workflow": "teaching-event"}
+    ]
+  },
+  "appointments": {
+    "enabled": false,
+    "groups": [
+      {
+        "group_id": 6581,
+        "name": "Laser Cutter Appointments",
+        "workflow": "laser-cutter-appointment",
+        "conflict_detection": {
+          "enabled": true,
+          "user_ids": [42694, 43625],
+          "user_names": ["Jacob Turola", "Lana Yuan"],
+          "comment": "Check for time overlap between Jacob and Lana's bookings"
+        }
+      },
+      {
+        "group_id": 6372,
+        "name": "Makerspace Consultations",
+        "workflow": "makerspace-consultation"
+      }
+    ],
+    "comment": "Appointments API returns 403 with current key - awaiting new key with ap_r scope"
+  },
+  "comments": "Shift boundary: bookings before 13:00 = Opening Shift, >= 13:00 = Closing Shift. Workstations are LibCal Spaces, NOT Equipment - never query Equipment API for makerspace."
+}
