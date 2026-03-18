@@ -162,8 +162,8 @@ body {
 }
 
 .timeline-hour.past .timeline-bar {
-  background-color: var(--pewter);
-  opacity: 0.6;
+  background-color: var(--grey-dark);
+  opacity: 0.5;
 }
 
 .timeline-hour-label {
@@ -215,14 +215,68 @@ body {
 .booking-card {
   background-color: var(--white);
   border-radius: var(--radius-md);
-  padding: var(--spacing-md);
+  padding: 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   border-left: 4px solid var(--york-red);
   transition: box-shadow 0.2s ease;
+  overflow: hidden;
 }
 
 .booking-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.booking-card-header-bar {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--light-grey);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+  user-select: none;
+}
+
+.booking-card-header-bar:hover {
+  background-color: var(--pewter);
+}
+
+.booking-card-summary {
+  flex: 1;
+}
+
+.booking-card-summary-title {
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: var(--spacing-xs);
+}
+
+.booking-card-summary-time {
+  font-size: 0.875rem;
+  color: var(--grey-dark);
+}
+
+.booking-card-expand-icon {
+  font-size: 1.25rem;
+  color: var(--grey-dark);
+  transition: transform 0.2s ease;
+  margin-left: var(--spacing-md);
+}
+
+.booking-card.expanded .booking-card-expand-icon {
+  transform: rotate(180deg);
+}
+
+.booking-card-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 var(--spacing-md);
+}
+
+.booking-card.expanded .booking-card-content {
+  max-height: 3000px;
+  padding: var(--spacing-md);
 }
 
 .booking-card.equipment-loan {

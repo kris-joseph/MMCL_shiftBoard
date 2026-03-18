@@ -167,10 +167,38 @@
   }
 
   /**
+   * Toggle booking card expanded/collapsed state
+   * Called from onclick in template
+   */
+  window.toggleBookingCard = function(headerBar) {
+    const card = headerBar.closest('.booking-card');
+    card.classList.toggle('expanded');
+  };
+
+  /**
+   * Expand all booking cards
+   */
+  function expandAllBookings() {
+    const cards = document.querySelectorAll('.booking-card');
+    cards.forEach(card => card.classList.add('expanded'));
+  }
+
+  /**
+   * Collapse all booking cards
+   */
+  function collapseAllBookings() {
+    const cards = document.querySelectorAll('.booking-card');
+    cards.forEach(card => card.classList.remove('expanded'));
+  }
+
+  /**
    * Initialize dashboard on page load
    */
   function init() {
     console.log('MMCL Dashboard initialized');
+
+    // Start with all cards collapsed
+    collapseAllBookings();
 
     // Core functionality
     initCollapsibles();
