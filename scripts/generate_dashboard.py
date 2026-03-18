@@ -1007,7 +1007,16 @@ class DashboardGenerator:
             workflow_data = {
                 "name": workflow["name"],
                 "phase_name": phase.get("name", workflow["name"]),
-                "step_count": len(phase.get("steps", []))
+                "step_count": len(phase.get("steps", [])),
+                "steps": [
+                    {
+                        "number": step["step"],
+                        "description": step["description"],
+                        "type": step["type"],
+                        "safety_required": step.get("safety_required", False)
+                    }
+                    for step in phase.get("steps", [])
+                ]
             }
 
         # Normalize station type for filtering

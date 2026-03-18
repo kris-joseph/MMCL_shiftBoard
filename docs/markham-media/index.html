@@ -147,6 +147,9 @@ Checkout • D.Y.                        </div>
                         <span class="badge status-confirmed">CONFIRMED</span>
                     </div>
                     <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
                 </div>
 
                 <div class="booking-card-content">
@@ -179,29 +182,50 @@ Checkout • D.Y.                        </div>
                 <div class="workflow-panel">
                     <div class="workflow-header">
                         <span class="workflow-title">Equipment Checkout</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 
+                        </span>
                     </div>
                     <ol class="workflow-steps">
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">1</span>
                             <span class="step-description">Verify patron identity against booking record</span>
                         </li>
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">2</span>
                             <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
                         </li>
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">3</span>
                             <span class="step-description">Confirm any required batteries are fully charged</span>
                         </li>
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">4</span>
                             <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
                         </li>
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">5</span>
                             <span class="step-description">Check out equipment in LibCal system</span>
                         </li>
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="6"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">6</span>
                             <span class="step-description">Provide patron with return instructions and due date reminder</span>
                         </li>
@@ -255,6 +279,9 @@ Due back • R.H.                        </div>
                         <span class="badge status-confirmed">CHECKED OUT</span>
                     </div>
                     <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
                 </div>
 
                 <div class="booking-card-content">
@@ -286,25 +313,43 @@ Due back • R.H.                        </div>
                 <div class="workflow-panel">
                     <div class="workflow-header">
                         <span class="workflow-title">Equipment Return</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 
+                        </span>
                     </div>
                     <ol class="workflow-steps">
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">1</span>
                             <span class="step-description">Receive equipment from patron</span>
                         </li>
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">2</span>
                             <span class="step-description">Check all components against printed component list</span>
                         </li>
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">3</span>
                             <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
                         </li>
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">4</span>
                             <span class="step-description">Check in equipment in LibCal system</span>
                         </li>
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">5</span>
                             <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
                         </li>

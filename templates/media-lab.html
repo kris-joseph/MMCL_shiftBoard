@@ -104,6 +104,11 @@
                         <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
                     </div>
                     <span class="booking-card-expand-icon">▼</span>
+                    {% if booking.workflow %}
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                    {% endif %}
                 </div>
 
                 {# Collapsible Content #}
@@ -165,10 +170,16 @@
                 <div class="workflow-panel">
                     <div class="workflow-header">
                         <span class="workflow-title">{{ booking.workflow.phase_name }}</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / {{ booking.workflow.step_count }}
+                        </span>
                     </div>
                     <ol class="workflow-steps">
                         {% for step in booking.workflow.steps %}
                         <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="{{ step.number }}"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">{{ step.number }}</span>
                             <span class="step-description">{{ step.description }}</span>
                         </li>

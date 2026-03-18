@@ -268,6 +268,83 @@
     }
   }
 
+  // ─── Workflow Checklist ────────────────────────────────────────────────────
+
+  function workflowStorageKey(bookingId) {
+    return 'mmcl_steps_' + bookingId;
+  }
+
+  function loadCheckedSteps(bookingId) {
+    try {
+      const saved = localStorage.getItem(workflowStorageKey(bookingId));
+      return saved ? JSON.parse(saved) : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveCheckedSteps(bookingId, checkedSteps) {
+    try {
+      localStorage.setItem(workflowStorageKey(bookingId), JSON.stringify(checkedSteps));
+    } catch (e) { /* localStorage unavailable — silent fail */ }
+  }
+
+  function updateWorkflowProgress(card) {
+    const checkboxes = card.querySelectorAll('.step-checkbox');
+    if (!checkboxes.length) return;
+
+    const total = checkboxes.length;
+    const checked = Array.from(checkboxes).filter(cb => cb.checked).length;
+    const pct = (checked / total) * 100;
+
+    // Header bar progress fill (collapsible cards)
+    const headerFill = card.querySelector('.workflow-header-progress-fill');
+    if (headerFill) headerFill.style.width = pct + '%';
+
+    // Inline progress fill (always-expanded in-progress job cards)
+    const inlineFill = card.querySelector('.workflow-inline-progress-fill');
+    if (inlineFill) inlineFill.style.width = pct + '%';
+
+    // Step counter "X / N"
+    const counter = card.querySelector('.workflow-step-counter');
+    if (counter) counter.textContent = checked;
+  }
+
+  window.onStepChecked = function(checkbox) {
+    const stepItem = checkbox.closest('.workflow-step');
+    const card = checkbox.closest('.booking-card');
+    if (!stepItem || !card) return;
+
+    stepItem.classList.toggle('step-completed', checkbox.checked);
+    updateWorkflowProgress(card);
+
+    const bookingId = card.dataset.bookingId;
+    if (bookingId) {
+      const checkedSteps = Array.from(card.querySelectorAll('.step-checkbox'))
+        .filter(cb => cb.checked)
+        .map(cb => parseInt(cb.dataset.step, 10));
+      saveCheckedSteps(bookingId, checkedSteps);
+    }
+  };
+
+  function initWorkflowCheckboxes() {
+    document.querySelectorAll('.booking-card[data-booking-id]').forEach(card => {
+      const bookingId = card.dataset.bookingId;
+      const saved = loadCheckedSteps(bookingId);
+      if (!saved.length) return;
+
+      card.querySelectorAll('.step-checkbox').forEach(checkbox => {
+        if (saved.includes(parseInt(checkbox.dataset.step, 10))) {
+          checkbox.checked = true;
+          checkbox.closest('.workflow-step').classList.add('step-completed');
+        }
+      });
+      updateWorkflowProgress(card);
+    });
+  }
+
+  // ─────────────────────────────────────────────────────────────────────────────
+
   /**
    * Initialize dashboard on page load
    */
@@ -280,6 +357,7 @@
     // Core functionality
     initCollapsibles();
     initFilters();
+    initWorkflowCheckboxes();
     enhanceAccessibility();
     enhanceKeyboardNav();
     enhancePrintView();

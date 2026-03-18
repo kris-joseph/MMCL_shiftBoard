@@ -374,6 +374,7 @@ body {
 }
 
 .booking-card-header-bar {
+  position: relative;
   padding: var(--spacing-sm) var(--spacing-md);
   background-color: var(--light-grey);
   cursor: pointer;
@@ -626,6 +627,63 @@ body {
 .step-description {
   flex: 1;
   color: var(--black);
+}
+
+/* --- Workflow progress bar in collapsed card header --- */
+.workflow-header-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: var(--pewter);
+}
+
+.workflow-header-progress-fill {
+  height: 100%;
+  background-color: var(--status-checked-in);
+  transition: width 0.3s ease;
+  width: 0%;
+}
+
+/* --- Completed step state --- */
+.workflow-step.step-completed {
+  opacity: 0.65;
+}
+
+.workflow-step.step-completed .step-description {
+  text-decoration: line-through;
+  color: var(--grey-dark);
+}
+
+.workflow-step.step-completed .step-number {
+  background-color: var(--status-checked-in);
+}
+
+/* --- Step checkbox --- */
+.step-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--york-red);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* --- Inline progress bar (always-expanded in-progress job cards) --- */
+.workflow-inline-progress {
+  height: 4px;
+  background-color: var(--pewter);
+  border-radius: 2px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.workflow-inline-progress-fill {
+  height: 100%;
+  background-color: var(--status-checked-in);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+  width: 0%;
 }
 
 /* ========== Zone D: Persistent Sections ========== */

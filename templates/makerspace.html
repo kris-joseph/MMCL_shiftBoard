@@ -98,6 +98,11 @@
                         <span class="badge {{ booking.status_class }}">{{ booking.status_display }}</span>
                     </div>
                     <span class="booking-card-expand-icon">▼</span>
+                    {% if booking.workflow %}
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                    {% endif %}
                 </div>
 
                 {# Collapsible Content #}
@@ -155,7 +160,9 @@
                 <div class="workflow-panel">
                     <div class="workflow-header">
                         <span class="workflow-title">{{ booking.workflow.name }}</span>
-                        <span class="workflow-progress">{{ booking.workflow.step_count }} steps</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / {{ booking.workflow.step_count }}
+                        </span>
                     </div>
                     {% if booking.workflow.safety_critical %}
                     <div class="warning-banner" style="margin-bottom: var(--spacing-sm);">
@@ -168,6 +175,9 @@
                     <ol class="workflow-steps">
                         {% for step in booking.workflow.steps %}
                         <li class="workflow-step {% if step.safety_required %}safety-step{% endif %}">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="{{ step.number }}"
+                                   onchange="onStepChecked(this)">
                             <span class="step-number">{{ step.number }}</span>
                             <span class="step-description">
                                 {{ step.description }}
@@ -261,7 +271,7 @@
             </div>
             <div class="booking-list">
                 {% for job in in_progress_jobs %}
-                <article class="booking-card in-progress" data-station-type="{{ job.station_type }}">
+                <article class="booking-card in-progress" data-booking-id="{{ job.booking_id }}" data-station-type="{{ job.station_type }}">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>{{ job.title }}</h3>
@@ -292,11 +302,32 @@
                     {% if job.workflow %}
                     <div class="workflow-panel">
                         <div class="workflow-header">
-                            <span class="workflow-title">{{ job.workflow.name }}</span>
+                            <span class="workflow-title">{{ job.workflow.phase_name }}</span>
+                            <span class="workflow-progress">
+                                <span class="workflow-step-counter">0</span> / {{ job.workflow.step_count }}
+                            </span>
                         </div>
-                        <div class="detail-row" style="padding: var(--spacing-xs); background-color: var(--light-grey); border-radius: var(--radius-sm);">
-                            <span class="detail-value">{{ job.workflow.step_count }} steps - Phase 2: Track progress</span>
+                        <div class="workflow-inline-progress">
+                            <div class="workflow-inline-progress-fill"></div>
                         </div>
+                        {% if job.workflow.steps %}
+                        <ol class="workflow-steps">
+                            {% for step in job.workflow.steps %}
+                            <li class="workflow-step {% if step.safety_required %}safety-step{% endif %}">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="{{ step.number }}"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">{{ step.number }}</span>
+                                <span class="step-description">
+                                    {{ step.description }}
+                                    {% if step.type == 'timer' %}
+                                    <br><em>Phase 2: Live countdown timer</em>
+                                    {% endif %}
+                                </span>
+                            </li>
+                            {% endfor %}
+                        </ol>
+                        {% endif %}
                     </div>
                     {% endif %}
                     <div class="booking-id">ID: {{ job.booking_id }}</div>
