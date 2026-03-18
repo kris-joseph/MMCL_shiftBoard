@@ -43,8 +43,6 @@ env/
 Thumbs.db
 
 # Project specific
-# Note: docs/static/ should be committed (needed for GitHub Pages)
-docs/*/data.json
 *.log
 
 # Internal documentation (not for public repo)
