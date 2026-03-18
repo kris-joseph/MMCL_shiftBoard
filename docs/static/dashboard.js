@@ -192,6 +192,52 @@
   }
 
   /**
+   * Filter bookings by type
+   */
+  window.filterBookings = function(filterType) {
+    const allCards = document.querySelectorAll('.booking-card');
+    const buttons = document.querySelectorAll('.filter-button');
+
+    // Update button states
+    buttons.forEach(btn => {
+      if (btn.dataset.filter === filterType) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+
+    // Filter cards
+    allCards.forEach(card => {
+      const cardType = card.dataset.bookingType;
+
+      if (filterType === 'all') {
+        // Show all cards
+        card.classList.remove('filter-hidden');
+      } else if (cardType === filterType) {
+        // Show matching cards
+        card.classList.remove('filter-hidden');
+      } else {
+        // Hide non-matching cards
+        card.classList.add('filter-hidden');
+      }
+    });
+
+    console.log(`Filter applied: ${filterType}`);
+  };
+
+  /**
+   * Initialize filter buttons
+   */
+  function initFilters() {
+    // Set default active state
+    const allButton = document.querySelector('.filter-button[data-filter="all"]');
+    if (allButton) {
+      allButton.classList.add('active');
+    }
+  }
+
+  /**
    * Initialize dashboard on page load
    */
   function init() {
@@ -202,6 +248,7 @@
 
     // Core functionality
     initCollapsibles();
+    initFilters();
     enhanceAccessibility();
     enhanceKeyboardNav();
     enhancePrintView();

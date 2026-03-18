@@ -388,6 +388,7 @@ class DashboardGenerator:
 
         return {
             "booking_id": booking.get("bookId", "N/A"),
+            "booking_type": "space",
             "title": booking.get("item_name", "Unknown Space"),
             "category": booking.get("category_name", "Space"),
             "from_time": self.format_time(from_dt),
@@ -424,6 +425,7 @@ class DashboardGenerator:
 
         return {
             "booking_id": booking.get("bookId", "N/A"),
+            "booking_type": "equipment",
             "title": booking.get("item_name", "Unknown Equipment"),
             "category": booking.get("category_name", "Equipment"),
             "from_time": self.format_time(from_dt),
@@ -449,6 +451,7 @@ class DashboardGenerator:
 
         return {
             "booking_id": booking.get("bookId", "N/A"),
+            "booking_type": "teaching",
             "title": booking.get("item_name", "Teaching Event"),
             "category": "Teaching Event",
             "from_time": self.format_time(from_dt),

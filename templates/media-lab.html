@@ -43,6 +43,17 @@
         </div>
     </section>
 
+    {# ========== Filters ========== #}
+    <section class="filters-section">
+        <span class="filters-label">Show:</span>
+        <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Bookings</button>
+        <button class="filter-button" data-filter="space" onclick="filterBookings('space')">Space Bookings</button>
+        <button class="filter-button" data-filter="equipment" onclick="filterBookings('equipment')">Equipment Loans</button>
+        {% if teaching_events %}
+        <button class="filter-button" data-filter="teaching" onclick="filterBookings('teaching')">Teaching Events</button>
+        {% endif %}
+    </section>
+
     {# ========== Zone C: Main Booking List ========== #}
     <main class="main-content">
 
@@ -75,7 +86,7 @@
             {% if shift.bookings %}
             <div class="booking-list">
                 {% for booking in shift.bookings %}
-                <article class="booking-card {{ booking.card_class }}" data-booking-id="{{ booking.booking_id }}">
+                <article class="booking-card {{ booking.card_class }}" data-booking-id="{{ booking.booking_id }}" data-booking-type="{{ booking.booking_type }}">
 
                     {# Collapsible Header Bar #}
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
@@ -186,7 +197,7 @@
             </div>
             <div class="booking-list">
                 {% for item in overdue_items %}
-                <article class="booking-card overdue">
+                <article class="booking-card overdue" data-booking-type="equipment">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>{{ item.title }}</h3>
@@ -238,7 +249,7 @@
                     {% if completed_items %}
                     <div class="booking-list" style="margin-top: var(--spacing-md);">
                         {% for item in completed_items %}
-                        <article class="booking-card">
+                        <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
                                 <div class="booking-title">
                                     <h3>{{ item.title }}</h3>

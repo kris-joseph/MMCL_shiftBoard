@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Tuesday, March 17, 2026</div>
-                <div class="last-updated">Last updated: 11:15 PM</div>
+                <div class="last-updated">Last updated: 11:49 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -101,6 +101,13 @@
         </div>
     </section>
 
+    <section class="filters-section">
+        <span class="filters-label">Show:</span>
+        <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Bookings</button>
+        <button class="filter-button" data-filter="space" onclick="filterBookings('space')">Space Bookings</button>
+        <button class="filter-button" data-filter="equipment" onclick="filterBookings('equipment')">Equipment Loans</button>
+    </section>
+
     <main class="main-content">
 
 
@@ -113,7 +120,7 @@
             </div>
 
             <div class="booking-list">
-                <article class="booking-card equipment-loan" data-booking-id="f9a6cfb27063">
+                <article class="booking-card equipment-loan" data-booking-id="f9a6cfb27063" data-booking-type="equipment">
 
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -189,7 +196,7 @@
 
                     </div> 
                 </article>
-                <article class="booking-card equipment-loan" data-booking-id="10c13589e704">
+                <article class="booking-card equipment-loan" data-booking-id="10c13589e704" data-booking-type="equipment">
 
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -273,7 +280,7 @@
             </div>
 
             <div class="booking-list">
-                <article class="booking-card equipment-loan" data-booking-id="839060b014b8">
+                <article class="booking-card equipment-loan" data-booking-id="839060b014b8" data-booking-type="equipment">
 
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -348,7 +355,7 @@
 
                     </div> 
                 </article>
-                <article class="booking-card equipment-loan" data-booking-id="839060b014b8">
+                <article class="booking-card equipment-loan" data-booking-id="839060b014b8" data-booking-type="equipment">
 
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -423,7 +430,7 @@
 
                     </div> 
                 </article>
-                <article class="booking-card equipment-loan" data-booking-id="839060b014b8">
+                <article class="booking-card equipment-loan" data-booking-id="839060b014b8" data-booking-type="equipment">
 
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -498,7 +505,7 @@
 
                     </div> 
                 </article>
-                <article class="booking-card equipment-loan" data-booking-id="61fa87eb187a">
+                <article class="booking-card equipment-loan" data-booking-id="61fa87eb187a" data-booking-type="equipment">
 
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -573,7 +580,7 @@
 
                     </div> 
                 </article>
-                <article class="booking-card " data-booking-id="8452a4fa529b">
+                <article class="booking-card " data-booking-id="8452a4fa529b" data-booking-type="space">
 
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -631,7 +638,7 @@
                 <span class="section-count">5</span>
             </div>
             <div class="booking-list">
-                <article class="booking-card overdue">
+                <article class="booking-card overdue" data-booking-type="equipment">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>Canon RF 55mm-210mm</h3>
@@ -657,7 +664,7 @@
                     </div>
                     <div class="booking-id">ID: 839060b014b8</div>
                 </article>
-                <article class="booking-card overdue">
+                <article class="booking-card overdue" data-booking-type="equipment">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>SmallRig Tripod</h3>
@@ -683,7 +690,7 @@
                     </div>
                     <div class="booking-id">ID: 839060b014b8</div>
                 </article>
-                <article class="booking-card overdue">
+                <article class="booking-card overdue" data-booking-type="equipment">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>Canon EOS R50</h3>
@@ -709,7 +716,7 @@
                     </div>
                     <div class="booking-id">ID: 839060b014b8</div>
                 </article>
-                <article class="booking-card overdue">
+                <article class="booking-card overdue" data-booking-type="equipment">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>SmallRig Tripod</h3>
@@ -730,12 +737,12 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Overdue by:</span>
-                            <span class="detail-value">7 hours</span>
+                            <span class="detail-value">8 hours</span>
                         </div>
                     </div>
                     <div class="booking-id">ID: 61fa87eb187a</div>
                 </article>
-                <article class="booking-card overdue">
+                <article class="booking-card overdue" data-booking-type="equipment">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>Rode Wireless Pro II</h3>
@@ -756,7 +763,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Overdue by:</span>
-                            <span class="detail-value">4 hours</span>
+                            <span class="detail-value">5 hours</span>
                         </div>
                     </div>
                     <div class="booking-id">ID: f9a6cfb27063</div>
