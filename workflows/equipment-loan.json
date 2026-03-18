@@ -22,7 +22,7 @@
         {
           "step": 3,
           "type": "verification",
-          "description": "Confirm batteries are fully charged",
+          "description": "Confirm any required batteries are fully charged",
           "notes": "Test battery charge indicators; replace with charged batteries if needed"
         },
         {
