@@ -269,23 +269,28 @@ class DashboardGenerator:
                 task_time = from_dt
 
         else:  # space or makerspace
-            # Spaces: Use fromDate minute detection for check-in
+            # checked_in: patron used LibCal self-check-in (fromDate minute shifts to non-standard value).
+            # Used only to suppress the start-task reminder once a patron is already onsite early.
+            # NOT used as the gate for is_in_progress — many mediated bookings never trigger check-in.
             checked_in = self.is_checked_in_space(booking)
 
             has_start_task = (
                 from_dt.date() == today and
                 not checked_in and
-                from_dt > now  # Only show if not yet time
+                from_dt > now  # Only show as upcoming if booking hasn't started yet
             )
 
+            # Any booking whose window is currently active counts as in-progress,
+            # regardless of LibCal check-in status.
             is_in_progress = (
-                checked_in and
-                now < to_dt  # Patron checked in, hasn't left yet
+                from_dt.date() == today and
+                from_dt <= now < to_dt
             )
 
+            # Booking is done when its window has passed (today only).
             is_completed = (
-                to_dt < now and
-                (checked_in or status in ["completed", "returned"])
+                from_dt.date() == today and
+                to_dt <= now
             )
 
             has_end_task = False  # Spaces don't have trackable END task in Phase 1
