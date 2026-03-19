@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-03-19T14:02:43.543265",
+  "fetch_timestamp": "2026-03-19T15:10:22.323358",
   "date": "2026-03-19",
   "space_bookings": [
     {
@@ -1078,6 +1078,26 @@
       "item_name": "MKE 600 Shotgun Microphone",
       "event": null,
       "barcode": "39007054936299"
+    },
+    {
+      "bookId": "c6549bcd7d96",
+      "id": 340001,
+      "eid": 34322,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-03-19T12:00:00-04:00",
+      "toDate": "2026-03-23T17:00:00-04:00",
+      "created": "2026-03-19T11:07:15-04:00",
+      "firstName": "SAHIB",
+      "lastName": "SIDHU",
+      "email": "sahib04@my.yorku.ca",
+      "account": "5859730000165208",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936489"
     },
     {
       "bookId": "8ada5feef1a6",
