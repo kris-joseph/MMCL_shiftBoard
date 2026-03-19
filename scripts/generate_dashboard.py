@@ -304,7 +304,7 @@ class DashboardGenerator:
             "task_time": task_time
         }
 
-    def calculate_timeline(self, bookings: List[Dict], today: date) -> List[Dict]:
+    def calculate_timeline(self, bookings: List[Dict], today: date, now: datetime) -> List[Dict]:
         """
         Calculate hourly staff transaction counts for timeline.
 
@@ -345,8 +345,8 @@ class DashboardGenerator:
         max_count = max(hour_counts.values()) if hour_counts else 1
         max_count = max(max_count, 1)  # Avoid division by zero
 
-        # Current hour
-        current_hour = datetime.now().hour
+        # Current hour in local (Toronto) time
+        current_hour = now.hour
 
         # Build timeline data
         timeline = []
@@ -509,7 +509,7 @@ class DashboardGenerator:
             if (self.is_today(b["fromDate"], today) or self.is_today(b["toDate"], today))
             and "cancelled" not in b.get("status", "").lower()
         ]
-        timeline = self.calculate_timeline(timeline_bookings, today)
+        timeline = self.calculate_timeline(timeline_bookings, today, now)
 
         # Format overdue items
         overdue_items = [self._format_overdue_item(item, now) for item in overdue_equipment]
@@ -807,7 +807,7 @@ class DashboardGenerator:
             if (self.is_today(b["fromDate"], today) or self.is_today(b["toDate"], today))
             and "cancelled" not in b.get("status", "").lower()
         ]
-        timeline = self.calculate_timeline(all_today_bookings, today)
+        timeline = self.calculate_timeline(all_today_bookings, today, now)
 
         # Determine shift label
         shift_label = None
