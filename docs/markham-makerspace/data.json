@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-19T20:39:11.440467+00:00",
+  "fetch_timestamp": "2026-03-19T21:26:14.359667+00:00",
   "date": "2026-03-19",
   "space_bookings": [
     {
@@ -270,6 +270,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Sewing & Cricut",
       "item_name": "Cricut Cutter",
+      "event": null
+    },
+    {
+      "bookId": "5d061ef6bdd1",
+      "id": 15562523,
+      "eid": 31776,
+      "cid": 7722,
+      "lid": 3430,
+      "fromDate": "2026-03-19T16:30:00-04:00",
+      "toDate": "2026-03-19T17:30:00-04:00",
+      "created": "2026-03-19T16:47:30-04:00",
+      "firstName": "Lawrence",
+      "lastName": "Prophete",
+      "email": "llp17@my.yorku.ca",
+      "account": "llp17@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Soldering Stations",
+      "item_name": "Soldering Station #01",
       "event": null
     },
     {
