@@ -419,14 +419,16 @@ class DashboardGenerator:
                 ]
                 print(f"  → Filtered teaching events to space_id={filter_space_id}: {len(all_teaching_events)} → {len(teaching_events)}")
 
-        # Use fetch_timestamp to determine "now"
+        # Use fetch_timestamp to determine "now", converted to Toronto local time.
         fetch_timestamp_str = data.get("fetch_timestamp")
         if fetch_timestamp_str:
             now = datetime.fromisoformat(fetch_timestamp_str)
             if now.tzinfo is None:
+                # Legacy naive timestamp: assume UTC (pre-fix data files)
                 now = now.replace(tzinfo=timezone.utc)
         else:
             now = datetime.now(timezone.utc)
+        now = now.astimezone(ZoneInfo("America/Toronto"))
 
         # Categorize all bookings by task state
         shift_tasks = {}  # Tasks that need to be done today (START or END)
@@ -528,7 +530,7 @@ class DashboardGenerator:
         return {
             "location_name": location_name,
             "current_date": self.format_date(today),
-            "last_updated": now.astimezone(ZoneInfo("America/Toronto")).strftime("%-I:%M %p"),
+            "last_updated": now.strftime("%-I:%M %p"),
             "shift_label": shift_label,
             "timeline": timeline,
             "shifts": shifts,
@@ -703,14 +705,16 @@ class DashboardGenerator:
         shift_boundary = data.get("shift_boundary")
         location_name = data["location_name"]
 
-        # Use fetch_timestamp to determine "now"
+        # Use fetch_timestamp to determine "now", converted to Toronto local time.
         fetch_timestamp_str = data.get("fetch_timestamp")
         if fetch_timestamp_str:
             now = datetime.fromisoformat(fetch_timestamp_str)
             if now.tzinfo is None:
+                # Legacy naive timestamp: assume UTC (pre-fix data files)
                 now = now.replace(tzinfo=timezone.utc)
         else:
             now = datetime.now(timezone.utc)
+        now = now.astimezone(ZoneInfo("America/Toronto"))
 
         # All space bookings (workstations)
         all_space_bookings = data.get("space_bookings", [])
@@ -839,7 +843,7 @@ class DashboardGenerator:
         return {
             "location_name": location_name,
             "current_date": self.format_date(today),
-            "last_updated": now.astimezone(ZoneInfo("America/Toronto")).strftime("%-I:%M %p"),
+            "last_updated": now.strftime("%-I:%M %p"),
             "shift_label": shift_label,
             "timeline": timeline,
             "shifts": shifts,

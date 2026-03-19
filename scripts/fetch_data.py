@@ -7,7 +7,7 @@ Fetches booking data from LibCal API for all three dashboard instances.
 import os
 import json
 import sys
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 from typing import Dict, List, Optional, Any
 from pathlib import Path
 
@@ -166,7 +166,7 @@ def fetch_dashboard_data(client: LibCalClient, config: Dict) -> Dict:
     print(f"\n📊 Fetching data for {location_name} (template: {template})")
 
     result = {"location_id": location_id, "location_name": location_name, "template": template,
-              "shift_boundary": config.get("shift_boundary"), "fetch_timestamp": datetime.now().isoformat(),
+              "shift_boundary": config.get("shift_boundary"), "fetch_timestamp": datetime.now(timezone.utc).isoformat(),
               "date": today, "space_bookings": client.fetch_space_bookings(location_id, today),
               "equipment_bookings": [], "appointments": [], "teaching_events": []}
 
