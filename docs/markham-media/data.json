@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-19T18:09:09.018228+00:00",
+  "fetch_timestamp": "2026-03-19T19:05:32.356795+00:00",
   "date": "2026-03-19",
   "space_bookings": [
     {
@@ -492,6 +492,26 @@
       "item_name": "SmallRig Tripod",
       "event": null,
       "barcode": "39007054933981"
+    },
+    {
+      "bookId": "11e9851d18d8",
+      "id": 340227,
+      "eid": 36743,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-03-19T00:00:00-04:00",
+      "toDate": "2026-03-26T23:59:00-04:00",
+      "created": "2026-03-19T15:04:07-04:00",
+      "firstName": "DONY",
+      "lastName": "DOSMATOV",
+      "email": "donydosmatov@gmail.com",
+      "account": "5859730001059817",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007052956703"
     }
   ],
   "appointments": [],
