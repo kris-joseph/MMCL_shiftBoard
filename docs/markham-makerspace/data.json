@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-19T02:00:17.328636",
+  "fetch_timestamp": "2026-03-19T04:18:46.768168",
   "date": "2026-03-19",
   "space_bookings": [
     {
@@ -42,6 +42,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
+      "bookId": "d7e31a49db20",
+      "id": 15552067,
+      "eid": 30735,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-19T11:30:00-04:00",
+      "toDate": "2026-03-19T14:30:00-04:00",
+      "created": "2026-03-18T23:15:40-04:00",
+      "firstName": "Ahmedaly",
+      "lastName": "Kermali",
+      "email": "ahmeda1y@my.yorku.ca",
+      "account": "ahmeda1y@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4 #01 \"Orpheus\"",
       "event": null
     },
     {
