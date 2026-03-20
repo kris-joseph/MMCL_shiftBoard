@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-20T01:54:06.526300+00:00",
+  "fetch_timestamp": "2026-03-20T04:09:23.987168+00:00",
   "date": "2026-03-20",
   "space_bookings": [
     {
@@ -119,6 +119,26 @@
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
       "event": null
+    },
+    {
+      "bookId": "5ed95433c7b1",
+      "id": 15565663,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-20T10:00:00-04:00",
+      "toDate": "2026-03-20T14:00:00-04:00",
+      "created": "2026-03-19T21:58:15-04:00",
+      "firstName": "Raoul",
+      "lastName": "Yammine",
+      "email": "raouly@my.yorku.ca",
+      "account": "raouly@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null,
+      "cancelled": "2026-03-20T02:33:18+00:00"
     },
     {
       "bookId": "d01c8a08db24",
