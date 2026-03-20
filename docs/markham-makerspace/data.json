@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-20T19:09:44.180256+00:00",
+  "fetch_timestamp": "2026-03-20T19:52:59.383932+00:00",
   "date": "2026-03-20",
   "space_bookings": [
     {
@@ -241,6 +241,25 @@
       "item_name": "Prusa Mini #05 \"Golden Wind\"",
       "event": null,
       "cancelled": "2026-03-20T16:47:18+00:00"
+    },
+    {
+      "bookId": "a0c9f9434599",
+      "id": 15573318,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-20T15:30:00-04:00",
+      "toDate": "2026-03-20T16:30:00-04:00",
+      "created": "2026-03-20T15:36:13-04:00",
+      "firstName": "Hyemin",
+      "lastName": "Kim",
+      "email": "kimh136@yorku.ca",
+      "account": "kimh136@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
+      "event": null
     },
     {
       "bookId": "64905d878c4e",
