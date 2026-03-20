@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-20T14:37:21.406347+00:00",
+  "fetch_timestamp": "2026-03-20T15:34:21.924429+00:00",
   "date": "2026-03-20",
   "space_bookings": [
     {
@@ -64,6 +64,25 @@
       "item_name": "Prusa Mini #05 \"Golden Wind\"",
       "event": null,
       "cancelled": "2026-03-20T13:26:46+00:00"
+    },
+    {
+      "bookId": "cd6bb22be9c8",
+      "id": 15568963,
+      "eid": 30732,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-20T10:30:00-04:00",
+      "toDate": "2026-03-20T13:30:00-04:00",
+      "created": "2026-03-20T10:54:15-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #09 \"Crazy Diamond\"",
+      "event": null
     },
     {
       "bookId": "ce549f6b3e59",
