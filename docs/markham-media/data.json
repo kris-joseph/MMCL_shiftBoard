@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-21T14:50:09.907782+00:00",
+  "fetch_timestamp": "2026-03-21T15:17:13.359554+00:00",
   "date": "2026-03-21",
   "space_bookings": [
     {
@@ -40,7 +40,7 @@
       "lastName": "Pamneja",
       "email": "the12th@my.yorku.ca",
       "account": "the12th@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Podcast Studios",
       "item_name": "Podcast Studio #2 (Rm 3060D)",
@@ -60,7 +60,7 @@
       "lastName": "Gagnon",
       "email": "gagnone@my.yorku.ca",
       "account": "gagnone@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Podcast Studios",
       "item_name": "Podcast Studio #2 (Rm 3060D)",
