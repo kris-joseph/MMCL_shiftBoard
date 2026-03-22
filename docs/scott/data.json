@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-03-22T20:49:05.402529+00:00",
+  "fetch_timestamp": "2026-03-22T21:17:32.301251+00:00",
   "date": "2026-03-22",
   "space_bookings": [
     {
@@ -67,6 +67,26 @@
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
       "check_in_code": "X5J"
+    },
+    {
+      "bookId": "ee45f4acc0f3",
+      "id": 15586542,
+      "eid": 29187,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-03-22T17:00:00-04:00",
+      "toDate": "2026-03-22T18:45:00-04:00",
+      "created": "2026-03-22T17:01:17-04:00",
+      "firstName": "DUVALIER",
+      "lastName": "REID",
+      "email": "focus@my.yorku.ca",
+      "account": "5859730001067268",
+      "status": "Mediated Approved",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 207C - Audio Recording Booth",
+      "event": null,
+      "check_in_code": "U6Y2"
     },
     {
       "bookId": "98a0effc6c07",

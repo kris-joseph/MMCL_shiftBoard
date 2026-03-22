@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1774212547">
+    <link rel="stylesheet" href="../static/style.css?v=1774214254">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Sunday, March 22, 2026</div>
-                <div class="last-updated">Last updated: 4:49 PM</div>
+                <div class="last-updated">Last updated: 5:17 PM</div>
             </div>
         </div>
     </header>
@@ -66,19 +66,19 @@
                 <div class="timeline-count">6</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 22.22222222222222%;"></div>
                 <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 44.44444444444444%;"></div>
-                <div class="timeline-count">4</div>
+                <div class="timeline-bar" style="height: 55.55555555555556%;"></div>
+                <div class="timeline-count">5</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 22.22222222222222%;"></div>
-                <div class="timeline-count">2</div>
+                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">6PM</div>
             </div>
             <div class="timeline-hour ">
@@ -299,6 +299,45 @@ Due back • M.K.                        </div>
 
     <aside class="persistent-sections">
 
+        <section class="persistent-section in-progress-section">
+            <div class="section-header">
+                <h2>Patron Onsite</h2>
+                <span class="section-count">1</span>
+            </div>
+            <div class="booking-list">
+                <article class="booking-card in-progress" data-booking-id="ee45f4acc0f3" data-booking-type="space">
+                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                        <div class="booking-card-summary">
+                            <div class="booking-card-summary-title">Scott 207C - Audio Recording Booth</div>
+                            <div class="booking-card-summary-time">5:00 PM - 6:45 PM • D.R.</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge badge-task">IN PROGRESS</span>
+                            <span class="badge status-confirmed">CONFIRMED</span>
+                        </div>
+                        <span class="booking-card-expand-icon">▼</span>
+                    </div>
+
+                    <div class="booking-card-content">
+                        <div class="booking-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Time:</span>
+                                <span class="detail-value">5:00 PM - 6:45 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Patron:</span>
+                                <span class="detail-value patron-info">D.R. (f***@my.yorku.ca)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Check-in Code:</span>
+                                <span class="detail-value">U6Y2</span>
+                            </div>
+                        </div>
+                        <div class="booking-id">ID: ee45f4acc0f3</div>
+                    </div>
+                </article>
+            </div>
+        </section>
 
 
         <section class="persistent-section">
@@ -430,6 +469,6 @@ Due back • M.K.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1774212547"></script>
+    <script src="../static/dashboard.js?v=1774214254"></script>
 </body>
 </html>
