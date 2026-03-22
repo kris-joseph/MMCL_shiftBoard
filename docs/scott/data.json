@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-03-22T17:48:03.829423+00:00",
+  "fetch_timestamp": "2026-03-22T18:23:23.188153+00:00",
   "date": "2026-03-22",
   "space_bookings": [
     {
@@ -357,7 +357,7 @@
     {
       "bookId": "9805e94947ce",
       "id": 340391,
-      "eid": 25244,
+      "eid": 34094,
       "cid": 8147,
       "lid": 2632,
       "fromDate": "2026-03-22T14:00:00-04:00",
@@ -370,9 +370,9 @@
       "status": "Confirmed",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Microphones",
-      "item_name": "Blue Yeti Nano",
+      "item_name": "Shure SM58",
       "event": null,
-      "barcode": "39007054933163"
+      "barcode": "39007054936109"
     },
     {
       "bookId": "e893a4841abc",
@@ -1560,7 +1560,7 @@
     {
       "bookId": "535b736b9c43",
       "id": 339444,
-      "eid": 34094,
+      "eid": 26372,
       "cid": 8147,
       "lid": 2632,
       "fromDate": "2026-03-18T12:46:00-04:00",
@@ -1573,9 +1573,9 @@
       "status": "Checked Out",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Microphones",
-      "item_name": "Shure SM58",
+      "item_name": "Audio-Technica AT2005USB",
       "event": null,
-      "barcode": "39007054936109"
+      "barcode": "39007054933452"
     },
     {
       "bookId": "f8e28fdb035d",
