@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-22T22:15:52.349711+00:00",
+  "fetch_timestamp": "2026-03-22T22:48:53.573283+00:00",
   "date": "2026-03-22",
   "space_bookings": [
     {
@@ -33,7 +33,7 @@
       "cid": 7762,
       "lid": 3432,
       "fromDate": "2026-03-22T16:30:00-04:00",
-      "toDate": "2026-03-22T19:00:00-04:00",
+      "toDate": "2026-03-22T18:34:00-04:00",
       "created": "2026-03-20T12:18:24-04:00",
       "firstName": "Etienne",
       "lastName": "Gagnon",
