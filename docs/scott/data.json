@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-03-22T21:17:32.301251+00:00",
+  "fetch_timestamp": "2026-03-22T21:46:34.515777+00:00",
   "date": "2026-03-22",
   "space_bookings": [
     {
@@ -49,6 +49,28 @@
       "cancelled": "2026-03-22T19:31:04+00:00"
     },
     {
+      "bookId": "80670d19e8de",
+      "id": 15586891,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-03-22T17:30:00-04:00",
+      "toDate": "2026-03-22T18:45:00-04:00",
+      "created": "2026-03-22T17:31:51-04:00",
+      "firstName": "THU HUONG",
+      "lastName": "NGUYEN",
+      "email": "hhng1102@my.yorku.ca",
+      "account": "5859730001012883",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32113,
+      "seat_name": "Workstation 5 (Mac Studio)",
+      "check_in_code": "DE7"
+    },
+    {
       "bookId": "72769d0c0d24",
       "id": 15559122,
       "eid": 19904,
@@ -81,12 +103,13 @@
       "lastName": "REID",
       "email": "focus@my.yorku.ca",
       "account": "5859730001067268",
-      "status": "Mediated Approved",
+      "status": "Cancelled by System",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Audio Recording Rooms",
       "item_name": "Scott 207C - Audio Recording Booth",
       "event": null,
-      "check_in_code": "U6Y2"
+      "check_in_code": "U6Y2",
+      "cancelled": "2026-03-22T21:31:04+00:00"
     },
     {
       "bookId": "98a0effc6c07",
