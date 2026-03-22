@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-03-22T19:47:38.886703+00:00",
+  "fetch_timestamp": "2026-03-22T20:15:53.499396+00:00",
   "date": "2026-03-22",
   "space_bookings": [
     {
@@ -417,26 +417,6 @@
       "barcode": "39007054933965"
     },
     {
-      "bookId": "e22d633e2c44",
-      "id": 340888,
-      "eid": 21621,
-      "cid": 8138,
-      "lid": 2632,
-      "fromDate": "2026-03-22T14:00:00-04:00",
-      "toDate": "2026-03-23T17:00:00-04:00",
-      "created": "2026-03-22T00:26:41-04:00",
-      "firstName": "Mohammad Areeb",
-      "lastName": ".",
-      "email": "areeb157@my.yorku.ca",
-      "account": "areeb157@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS M50",
-      "event": null,
-      "barcode": "39007054930235"
-    },
-    {
       "bookId": "1e56362c908f",
       "id": 328251,
       "eid": 29176,
@@ -795,6 +775,26 @@
       "item_name": "Shure SM58",
       "event": null,
       "barcode": "39007054936109"
+    },
+    {
+      "bookId": "e22d633e2c44",
+      "id": 340888,
+      "eid": 21621,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-03-22T15:57:00-04:00",
+      "toDate": "2026-03-23T17:00:00-04:00",
+      "created": "2026-03-22T00:26:41-04:00",
+      "firstName": "Mohammad Areeb",
+      "lastName": ".",
+      "email": "areeb157@my.yorku.ca",
+      "account": "areeb157@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50",
+      "event": null,
+      "barcode": "39007054930235"
     },
     {
       "bookId": "a30da5821d38",
@@ -2654,26 +2654,6 @@
       "barcode": "39007054930482"
     },
     {
-      "bookId": "cdfae5ae7b0a",
-      "id": 340080,
-      "eid": 31910,
-      "cid": 8138,
-      "lid": 2632,
-      "fromDate": "2026-03-22T14:00:00-04:00",
-      "toDate": "2026-03-29T19:00:00-04:00",
-      "created": "2026-03-19T12:52:54-04:00",
-      "firstName": "Tessa",
-      "lastName": "Parker",
-      "email": "tessap@my.yorku.ca",
-      "account": "tessap@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS R50",
-      "event": null,
-      "barcode": "39007054932249"
-    },
-    {
       "bookId": "a686736a2400",
       "id": 340907,
       "eid": 27970,
@@ -2692,6 +2672,26 @@
       "item_name": "Ulanzi Phone Mount",
       "event": null,
       "barcode": "39007054933619"
+    },
+    {
+      "bookId": "cdfae5ae7b0a",
+      "id": 340080,
+      "eid": 31910,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-03-22T15:57:00-04:00",
+      "toDate": "2026-03-29T19:00:00-04:00",
+      "created": "2026-03-19T12:52:54-04:00",
+      "firstName": "Tessa",
+      "lastName": "Parker",
+      "email": "tessap@my.yorku.ca",
+      "account": "tessap@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054932249"
     },
     {
       "bookId": "33b524c24ffc",
