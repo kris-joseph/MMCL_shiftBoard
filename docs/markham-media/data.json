@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-23T04:24:08.950407+00:00",
+  "fetch_timestamp": "2026-03-23T14:00:35.791974+00:00",
   "date": "2026-03-23",
   "space_bookings": [
     {
@@ -59,12 +59,13 @@
       "lastName": "Kosavic",
       "email": "akosavic@yorku.ca",
       "account": "akosavic@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Podcast Studios",
       "item_name": "Podcast Studio #2 (Rm 3060D)",
       "event": null,
-      "check_in_code": "36M"
+      "check_in_code": "36M",
+      "cancelled": "2026-03-23T13:24:08+00:00"
     }
   ],
   "equipment_bookings": [
@@ -289,6 +290,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931597"
+    },
+    {
+      "bookId": "41f29a3c1692",
+      "id": 341004,
+      "eid": 32185,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-03-23T09:30:00-04:00",
+      "toDate": "2026-03-30T18:30:00-04:00",
+      "created": "2026-03-23T03:32:29-04:00",
+      "firstName": "Jieyi",
+      "lastName": "Zhou",
+      "email": "jessz17@my.yorku.ca",
+      "account": "jessz17@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054931134"
     },
     {
       "bookId": "9965ede82655",
