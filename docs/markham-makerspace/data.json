@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-23T16:45:56.349167+00:00",
+  "fetch_timestamp": "2026-03-23T17:43:29.519270+00:00",
   "date": "2026-03-23",
   "space_bookings": [
     {
@@ -137,6 +137,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
+      "bookId": "24a08690524b",
+      "id": 15599246,
+      "eid": 31776,
+      "cid": 7722,
+      "lid": 3430,
+      "fromDate": "2026-03-23T14:00:00-04:00",
+      "toDate": "2026-03-23T14:30:00-04:00",
+      "created": "2026-03-23T13:34:38-04:00",
+      "firstName": "Ahmedaly",
+      "lastName": "Kermali",
+      "email": "ahmeda1y@my.yorku.ca",
+      "account": "ahmeda1y@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Soldering Stations",
+      "item_name": "Soldering Station #01",
       "event": null
     },
     {

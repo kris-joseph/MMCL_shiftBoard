@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-03-23T16:45:54.870335+00:00",
+  "fetch_timestamp": "2026-03-23T17:43:28.208029+00:00",
   "date": "2026-03-23",
   "space_bookings": [
     {
@@ -101,14 +101,15 @@
       "lastName": "CASTRO POZO CASTRO",
       "email": "tcastrop@yorku.ca",
       "account": "5859730000007564",
-      "status": "Confirmed",
+      "status": "Cancelled by System",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Computer Labs",
       "item_name": "Scott 207 - Editing Lab",
       "event": null,
       "seat_id": 32116,
       "seat_name": "Workstation 4 (Mac Studio)",
-      "check_in_code": "W9P"
+      "check_in_code": "W9P",
+      "cancelled": "2026-03-23T17:31:04+00:00"
     },
     {
       "bookId": "03e691e63950",
@@ -189,6 +190,29 @@
       "item_name": "Scott 207C - Audio Recording Booth",
       "event": null,
       "check_in_code": "SD9"
+    },
+    {
+      "bookId": "c0179e9b3e5b",
+      "id": 15598620,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-03-23T13:00:00-04:00",
+      "toDate": "2026-03-23T16:45:00-04:00",
+      "created": "2026-03-23T13:08:36-04:00",
+      "firstName": "GILLIAN",
+      "lastName": "MURPHY",
+      "email": "gkmurphy@my.yorku.ca",
+      "account": "5859730001026268",
+      "status": "Cancelled by System",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32113,
+      "seat_name": "Workstation 5 (Mac Studio)",
+      "check_in_code": "K3W",
+      "cancelled": "2026-03-23T17:31:04+00:00"
     },
     {
       "bookId": "8627a1d1b433",
@@ -591,26 +615,6 @@
       "item_name": "Meta Quest 2 (256 GB), VR Headset & Controllers",
       "event": null,
       "barcode": "39007054933197"
-    },
-    {
-      "bookId": "ff22de63b325",
-      "id": 338434,
-      "eid": 24962,
-      "cid": 5661,
-      "lid": 2632,
-      "fromDate": "2026-03-16T13:01:35-04:00",
-      "toDate": "2026-03-23T17:00:00-04:00",
-      "created": "2026-03-16T13:01:32-04:00",
-      "firstName": "Maiss",
-      "lastName": "Am Ali",
-      "email": "mais2003@my.yorku.ca",
-      "account": "mais2003@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "VR Headsets",
-      "item_name": "Meta Quest 2 (256 GB), VR Headset & Controllers",
-      "event": null,
-      "barcode": "39007054933247"
     },
     {
       "bookId": "e47a93209e23",
@@ -2910,6 +2914,26 @@
       "item_name": "Canon EOS R50-V",
       "event": null,
       "barcode": "39007054936182"
+    },
+    {
+      "bookId": "ff22de63b325",
+      "id": 338434,
+      "eid": 24962,
+      "cid": 5661,
+      "lid": 2632,
+      "fromDate": "2026-03-16T13:01:00-04:00",
+      "toDate": "2026-03-30T17:00:00-04:00",
+      "created": "2026-03-16T13:01:32-04:00",
+      "firstName": "Maiss",
+      "lastName": "Am Ali",
+      "email": "mais2003@my.yorku.ca",
+      "account": "mais2003@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 2 (256 GB), VR Headset & Controllers",
+      "event": null,
+      "barcode": "39007054933247"
     },
     {
       "bookId": "2282bb77cad1",
