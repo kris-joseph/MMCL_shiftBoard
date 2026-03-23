@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-23T14:08:31.264955+00:00",
+  "fetch_timestamp": "2026-03-23T15:32:48.572710+00:00",
   "date": "2026-03-23",
   "space_bookings": [
     {
@@ -83,6 +83,44 @@
       "event": null
     },
     {
+      "bookId": "1d5bd8857624",
+      "id": 15594686,
+      "eid": 30724,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-23T10:30:00-04:00",
+      "toDate": "2026-03-23T15:00:00-04:00",
+      "created": "2026-03-23T10:24:16-04:00",
+      "firstName": "Debashis",
+      "lastName": "Dey",
+      "email": "ypas16@my.yorku.ca",
+      "account": "ypas16@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #01 \"Killer Queen\"",
+      "event": null
+    },
+    {
+      "bookId": "76cccac2c39c",
+      "id": 15594852,
+      "eid": 31933,
+      "cid": 7767,
+      "lid": 3430,
+      "fromDate": "2026-03-23T15:00:00-04:00",
+      "toDate": "2026-03-23T16:00:00-04:00",
+      "created": "2026-03-23T10:32:40-04:00",
+      "firstName": "Ted",
+      "lastName": "Belke",
+      "email": "tbelke@yorku.ca",
+      "account": "tbelke@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Makerspace Room",
+      "item_name": "Makerspace (Rm 3055)",
+      "event": null
+    },
+    {
       "bookId": "a752b6cdf78c",
       "id": 15582390,
       "eid": 32049,
@@ -114,11 +152,12 @@
       "lastName": "Fong",
       "email": "mjf1@my.yorku.ca",
       "account": "mjf1@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-03-23T14:31:26+00:00"
     },
     {
       "bookId": "b137a957dc89",
