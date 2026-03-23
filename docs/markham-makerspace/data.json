@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-23T19:41:05.916657+00:00",
+  "fetch_timestamp": "2026-03-23T20:29:12.728096+00:00",
   "date": "2026-03-23",
   "space_bookings": [
     {
@@ -248,7 +248,7 @@
       "lastName": "Hagman",
       "email": "adara@my.yorku.ca",
       "account": "adara@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #02 \"Star Platinum\"",
