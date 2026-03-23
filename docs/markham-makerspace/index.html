@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Makerspace - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1774299756">
+    <link rel="stylesheet" href="../static/style.css?v=1774302844">
     <meta name="description" content="Staff dashboard for Markham Makerspace showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Monday, March 23, 2026</div>
-                <div class="last-updated">Last updated: 5:02 PM</div>
+                <div class="last-updated">Last updated: 5:54 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -106,7 +106,6 @@
         <span class="filters-label">Show:</span>
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Stations</button>
         <button class="filter-button" data-filter="3d-printers" onclick="filterBookings('3d-printers')">3D Printers</button>
-        <button class="filter-button" data-filter="soldering-stations" onclick="filterBookings('soldering-stations')">Soldering Stations</button>
     </section>
 
     <main class="main-content">
@@ -146,7 +145,7 @@
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>In-Progress Jobs</h2>
-                <span class="section-count">3</span>
+                <span class="section-count">2</span>
             </div>
             <div class="booking-list">
                 <article class="booking-card in-progress" data-booking-id="f2d24273f123" data-station-type="3d-printers">
@@ -174,7 +173,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.1 days</span>
+                            <span class="detail-value">1.2 days</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -290,7 +289,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.1 days</span>
+                            <span class="detail-value">1.2 days</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -381,83 +380,13 @@
                     </div>
                     <div class="booking-id">ID: f2d24273f123</div>
                 </article>
-                <article class="booking-card in-progress" data-booking-id="a752b6cdf78c" data-station-type="soldering-stations">
-                    <div class="booking-header">
-                        <div class="booking-title">
-                            <h3>Soldering Station #03</h3>
-                            <div class="booking-category">Soldering Stations</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
-                        </div>
-                    </div>
-                    <div class="booking-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Started:</span>
-                            <span class="detail-value">Monday, March 23, 2026 at 4:30 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Due:</span>
-                            <span class="detail-value">Monday, March 23, 2026 at 5:30 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Patron:</span>
-                            <span class="detail-value patron-info">C.Z. (d***@my.yorku.ca)</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">In progress:</span>
-                            <span class="detail-value">32 minutes</span>
-                        </div>
-                    </div>
-                    <div class="workflow-panel">
-                        <div class="workflow-header">
-                            <span class="workflow-title">Station Setup</span>
-                            <span class="workflow-progress">
-                                <span class="workflow-step-counter">0</span> / 3
-                            </span>
-                        </div>
-                        <div class="workflow-inline-progress">
-                            <div class="workflow-inline-progress-fill"></div>
-                        </div>
-                        <ol class="workflow-steps">
-                            <li class="workflow-step ">
-                                <input type="checkbox" class="step-checkbox"
-                                       data-step="1"
-                                       onchange="onStepChecked(this)">
-                                <span class="step-number">1</span>
-                                <span class="step-description">
-                                    Confirm patron has completed soldering safety orientation
-                                </span>
-                            </li>
-                            <li class="workflow-step safety-step">
-                                <input type="checkbox" class="step-checkbox"
-                                       data-step="2"
-                                       onchange="onStepChecked(this)">
-                                <span class="step-number">2</span>
-                                <span class="step-description">
-                                    Verify station is in working order and safety equipment is available
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <input type="checkbox" class="step-checkbox"
-                                       data-step="3"
-                                       onchange="onStepChecked(this)">
-                                <span class="step-number">3</span>
-                                <span class="step-description">
-                                    Provide safety reminders and usage guidelines
-                                </span>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="booking-id">ID: a752b6cdf78c</div>
-                </article>
             </div>
         </section>
 
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">7</span>
+                <span class="section-count">8</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -620,6 +549,28 @@
                             </div>
                             <div class="booking-id">ID: 1d5bd8857624</div>
                         </article>
+                        <article class="booking-card">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Soldering Station #03</h3>
+                                    <div class="booking-category">Soldering Stations</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">4:30 PM - 5:30 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">C.Z.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: a752b6cdf78c</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -649,6 +600,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1774299756"></script>
+    <script src="../static/dashboard.js?v=1774302844"></script>
 </body>
 </html>
