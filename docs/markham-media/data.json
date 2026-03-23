@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-23T18:43:19.591998+00:00",
+  "fetch_timestamp": "2026-03-23T19:41:05.466255+00:00",
   "date": "2026-03-23",
   "space_bookings": [
     {
@@ -312,6 +312,26 @@
       "barcode": "39007054931134"
     },
     {
+      "bookId": "9965ede82655",
+      "id": 339976,
+      "eid": 32505,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-03-23T15:21:00-04:00",
+      "toDate": "2026-03-30T18:30:00-04:00",
+      "created": "2026-03-19T10:14:14-04:00",
+      "firstName": "SARAH",
+      "lastName": "ZIPP",
+      "email": "szipp@yorku.ca",
+      "account": "5859730001068479",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931613"
+    },
+    {
       "bookId": "24041d466cea",
       "id": 341085,
       "eid": 32521,
@@ -352,24 +372,24 @@
       "barcode": "39007052956703"
     },
     {
-      "bookId": "9965ede82655",
-      "id": 339976,
-      "eid": 32505,
-      "cid": 7828,
+      "bookId": "1675bec305ad",
+      "id": 341349,
+      "eid": 32501,
+      "cid": 7812,
       "lid": 3432,
-      "fromDate": "2026-03-23T09:30:00-04:00",
+      "fromDate": "2026-03-23T15:21:00-04:00",
       "toDate": "2026-03-30T18:30:00-04:00",
-      "created": "2026-03-19T10:14:14-04:00",
+      "created": "2026-03-23T15:20:39-04:00",
       "firstName": "SARAH",
       "lastName": "ZIPP",
       "email": "szipp@yorku.ca",
       "account": "5859730001068479",
-      "status": "Mediated Approved",
+      "status": "Checked Out",
       "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS R50",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
       "event": null,
-      "barcode": "39007054931613"
+      "barcode": "39007054931126"
     }
   ],
   "appointments": [],
