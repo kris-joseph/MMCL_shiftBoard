@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-03-24T04:12:57.483528+00:00",
+  "fetch_timestamp": "2026-03-24T14:03:21.283107+00:00",
   "date": "2026-03-24",
   "space_bookings": [
     {
@@ -125,6 +125,26 @@
       "item_name": "Scott 203G - VR/Podcasting Room",
       "event": null,
       "check_in_code": "33B"
+    },
+    {
+      "bookId": "f5920beb65ea",
+      "id": 15609436,
+      "eid": 19905,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-03-25T14:00:00-04:00",
+      "toDate": "2026-03-25T16:30:00-04:00",
+      "created": "2026-03-24T01:47:47-04:00",
+      "firstName": "James",
+      "lastName": "Tremblay",
+      "email": "jamesgen@my.yorku.ca",
+      "account": "jamesgen@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 203K - Audio Recording Studio",
+      "event": null,
+      "check_in_code": "E5Q"
     },
     {
       "bookId": "e5a4f491e16f",
@@ -2707,6 +2727,26 @@
       "item_name": "Canon EOS M50",
       "event": null,
       "barcode": "39007054930326"
+    },
+    {
+      "bookId": "0b49ef6873b8",
+      "id": 341565,
+      "eid": 24947,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-03-24T11:00:00-04:00",
+      "toDate": "2026-03-31T17:00:00-04:00",
+      "created": "2026-03-24T09:59:45-04:00",
+      "firstName": "Adam",
+      "lastName": "Jaffar",
+      "email": "adamjaff@my.yorku.ca",
+      "account": "adamjaff@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50 Mark II",
+      "event": null,
+      "barcode": "39007054933023"
     },
     {
       "bookId": "7d873800d500",
