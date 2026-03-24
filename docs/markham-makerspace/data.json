@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-24T14:14:08.704585+00:00",
+  "fetch_timestamp": "2026-03-24T15:38:43.471750+00:00",
   "date": "2026-03-24",
   "space_bookings": [
     {
@@ -61,7 +61,7 @@
       "lastName": "Lake",
       "email": "klake@my.yorku.ca",
       "account": "klake@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4 #02 \"Eurydice\"",
