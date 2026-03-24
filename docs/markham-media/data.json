@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-24T15:38:42.896888+00:00",
+  "fetch_timestamp": "2026-03-24T16:52:03.573904+00:00",
   "date": "2026-03-24",
   "space_bookings": [
     {
@@ -67,6 +67,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956745 "
+    },
+    {
+      "bookId": "47c30bacfece",
+      "id": 341696,
+      "eid": 36894,
+      "cid": 8328,
+      "lid": 3432,
+      "fromDate": "2026-03-24T12:43:41-04:00",
+      "toDate": "2026-03-24T16:30:00-04:00",
+      "created": "2026-03-24T12:43:38-04:00",
+      "firstName": "NIEL",
+      "lastName": "GORDON",
+      "email": "nielgordon2@gmail.com",
+      "account": "221623210",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "On Site Equipment",
+      "item_name": "DJI RS4 Pro",
+      "event": null,
+      "barcode": "39007054932058"
     },
     {
       "bookId": "30f8a5b19267",
