@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-24T16:52:03.895214+00:00",
+  "fetch_timestamp": "2026-03-24T17:49:09.211897+00:00",
   "date": "2026-03-24",
   "space_bookings": [
     {
@@ -47,6 +47,44 @@
         "title": "Makerspace Orientations: 3D Printing"
       },
       "nickname": "Makerspace Orientations: 3D Printing"
+    },
+    {
+      "bookId": "0d1e7026878a",
+      "id": 15615984,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-03-24T16:00:00-04:00",
+      "toDate": "2026-03-24T17:00:00-04:00",
+      "created": "2026-03-24T13:11:49-04:00",
+      "firstName": "Ashley",
+      "lastName": "Ramsewack",
+      "email": "ash520@my.yorku.ca",
+      "account": "ash520@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing & Cricut",
+      "item_name": "Cricut Cutter",
+      "event": null
+    },
+    {
+      "bookId": "714bc9423729",
+      "id": 15616870,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-24T17:00:00-04:00",
+      "toDate": "2026-03-24T18:30:00-04:00",
+      "created": "2026-03-24T13:46:09-04:00",
+      "firstName": "Ivor",
+      "lastName": "Anand",
+      "email": "ivor15@my.yorku.ca",
+      "account": "ivor15@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
     },
     {
       "bookId": "c60d1fab0747",
