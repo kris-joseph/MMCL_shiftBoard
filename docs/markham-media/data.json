@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-24T20:31:56.030964+00:00",
+  "fetch_timestamp": "2026-03-24T21:28:51.336129+00:00",
   "date": "2026-03-24",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-03-24T16:30:00-04:00",
-      "toDate": "2026-03-24T18:30:00-04:00",
+      "toDate": "2026-03-24T16:43:00-04:00",
       "created": "2026-03-24T14:07:43-04:00",
       "firstName": "Benedict",
       "lastName": "Cruz",
@@ -25,6 +25,26 @@
       "item_name": "Editing and Music Studio #1 (Rm 3060G)",
       "event": null,
       "check_in_code": "3QKT"
+    },
+    {
+      "bookId": "03f4d3f3bf7d",
+      "id": 15621427,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-03-24T17:00:00-04:00",
+      "toDate": "2026-03-24T18:30:00-04:00",
+      "created": "2026-03-24T16:45:43-04:00",
+      "firstName": "Benedict",
+      "lastName": "Cruz",
+      "email": "isola@my.yorku.ca",
+      "account": "isola@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "J639"
     },
     {
       "bookId": "fc39c1477da7",
