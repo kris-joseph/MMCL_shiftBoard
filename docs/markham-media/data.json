@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-25T15:41:54.854548+00:00",
+  "fetch_timestamp": "2026-03-25T16:54:06.272029+00:00",
   "date": "2026-03-25",
   "space_bookings": [
     {
@@ -88,26 +88,6 @@
       "event": null,
       "barcode": "39007054931795",
       "cancelled": "2026-03-19T01:32:06+00:00"
-    },
-    {
-      "bookId": "72d6d53ecd78",
-      "id": 339921,
-      "eid": 36515,
-      "cid": 7832,
-      "lid": 3432,
-      "fromDate": "2026-03-19T09:11:04-04:00",
-      "toDate": "2026-03-26T18:30:00-04:00",
-      "created": "2026-03-19T09:10:05-04:00",
-      "firstName": "BURCU",
-      "lastName": "YURDAKUL",
-      "email": "burcu1@yorku.ca",
-      "account": "5859730001015942",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Camera Lenses",
-      "item_name": "Sigma RF 18mm-55mm",
-      "event": null,
-      "barcode": "39007052956802"
     },
     {
       "bookId": "11e9851d18d8",
@@ -352,6 +332,26 @@
       "event": null,
       "barcode": "39007054933981",
       "cancelled": "2026-03-24T17:32:06+00:00"
+    },
+    {
+      "bookId": "72d6d53ecd78",
+      "id": 339921,
+      "eid": 36515,
+      "cid": 7832,
+      "lid": 3432,
+      "fromDate": "2026-03-19T09:11:00-04:00",
+      "toDate": "2026-04-01T18:30:00-04:00",
+      "created": "2026-03-19T09:10:05-04:00",
+      "firstName": "BURCU",
+      "lastName": "YURDAKUL",
+      "email": "burcu1@yorku.ca",
+      "account": "5859730001015942",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Lenses",
+      "item_name": "Sigma RF 18mm-55mm",
+      "event": null,
+      "barcode": "39007052956802"
     }
   ],
   "appointments": [],
