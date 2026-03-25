@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-25T14:12:33.890292+00:00",
+  "fetch_timestamp": "2026-03-25T15:41:55.442030+00:00",
   "date": "2026-03-25",
   "space_bookings": [
     {
@@ -97,11 +97,12 @@
       "lastName": "Dey",
       "email": "ypas16@my.yorku.ca",
       "account": "ypas16@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #04 \"The World\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-03-25T15:31:11+00:00"
     },
     {
       "bookId": "aa220605a7ec",
@@ -348,6 +349,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
+      "event": null
+    },
+    {
+      "bookId": "60c6d66ae675",
+      "id": 15631139,
+      "eid": 30728,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-25T11:30:00-04:00",
+      "toDate": "2026-03-25T19:30:00-04:00",
+      "created": "2026-03-25T11:29:31-04:00",
+      "firstName": "Kaleigh",
+      "lastName": "Lake",
+      "email": "klake@my.yorku.ca",
+      "account": "klake@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #05 \"Golden Wind\"",
       "event": null
     }
   ],
