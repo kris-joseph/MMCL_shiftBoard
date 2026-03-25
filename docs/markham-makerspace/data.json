@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-25T17:50:17.996372+00:00",
+  "fetch_timestamp": "2026-03-25T18:43:08.066963+00:00",
   "date": "2026-03-25",
   "space_bookings": [
     {
@@ -232,10 +232,29 @@
       "lastName": "Giorgio",
       "email": "glendha5@my.yorku.ca",
       "account": "glendha5@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
+    },
+    {
+      "bookId": "c74016d3cd49",
+      "id": 15634834,
+      "eid": 30735,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-25T14:00:00-04:00",
+      "toDate": "2026-03-25T18:00:00-04:00",
+      "created": "2026-03-25T14:08:05-04:00",
+      "firstName": "Adara",
+      "lastName": "Hagman",
+      "email": "adara@my.yorku.ca",
+      "account": "adara@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4 #01 \"Orpheus\"",
       "event": null
     },
     {
