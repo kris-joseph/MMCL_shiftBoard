@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-26T14:10:01.325160+00:00",
+  "fetch_timestamp": "2026-03-26T14:21:04.631283+00:00",
   "date": "2026-03-26",
   "space_bookings": [
     {
@@ -138,6 +138,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #06 \"King Crimson\"",
+      "event": null
+    },
+    {
+      "bookId": "e8f5d3a05735",
+      "id": 15645736,
+      "eid": 30725,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-26T10:00:00-04:00",
+      "toDate": "2026-03-26T18:30:00-04:00",
+      "created": "2026-03-26T10:18:46-04:00",
+      "firstName": "SHELBEY",
+      "lastName": "WALKER",
+      "email": "skwalker@yorku.ca",
+      "account": "219882059",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #02 \"Star Platinum\"",
       "event": null
     },
     {

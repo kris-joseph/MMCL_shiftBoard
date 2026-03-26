@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-26T14:10:00.611318+00:00",
+  "fetch_timestamp": "2026-03-26T14:21:04.071134+00:00",
   "date": "2026-03-26",
   "space_bookings": [
     {
@@ -51,22 +51,22 @@
     {
       "bookId": "dbe3918e446e",
       "id": 342626,
-      "eid": 32341,
+      "eid": 32520,
       "cid": 7827,
       "lid": 3432,
-      "fromDate": "2026-03-26T10:00:00-04:00",
+      "fromDate": "2026-03-26T10:12:00-04:00",
       "toDate": "2026-03-26T17:00:00-04:00",
       "created": "2026-03-26T10:03:02-04:00",
       "firstName": "Kris",
       "lastName": "Joseph",
       "email": "kjo@yorku.ca",
       "account": "kjo@yorku.ca",
-      "status": "Confirmed",
+      "status": "Checked Out",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "VR Headsets",
       "item_name": "Meta Quest 3",
       "event": null,
-      "barcode": "39007054931720"
+      "barcode": "39007054931704"
     },
     {
       "bookId": "11e9851d18d8",
