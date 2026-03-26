@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Makerspace - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1774540084">
+    <link rel="stylesheet" href="../static/style.css?v=1774543976">
     <meta name="description" content="Staff dashboard for Markham Makerspace showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Thursday, March 26, 2026</div>
-                <div class="last-updated">Last updated: 11:48 AM</div>
+                <div class="last-updated">Last updated: 12:52 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Opening Shift</span>
                 </div>
@@ -40,48 +40,48 @@
                 <div class="timeline-hour-label">9AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 25.0%;"></div>
+                <div class="timeline-bar" style="height: 16.666666666666664%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 100.0%;"></div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 66.66666666666666%;"></div>
                 <div class="timeline-count">4</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour ">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">4</div>
+                <div class="timeline-count">6</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 50.0%;"></div>
-                <div class="timeline-count">2</div>
+                <div class="timeline-bar" style="height: 83.33333333333334%;"></div>
+                <div class="timeline-count">5</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 25.0%;"></div>
+                <div class="timeline-bar" style="height: 16.666666666666664%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 50.0%;"></div>
+                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
                 <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 75.0%;"></div>
+                <div class="timeline-bar" style="height: 50.0%;"></div>
                 <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 25.0%;"></div>
+                <div class="timeline-bar" style="height: 16.666666666666664%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 25.0%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">6PM</div>
             </div>
             <div class="timeline-hour ">
@@ -106,7 +106,6 @@
         <span class="filters-label">Show:</span>
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Stations</button>
         <button class="filter-button" data-filter="3d-printers" onclick="filterBookings('3d-printers')">3D Printers</button>
-        <button class="filter-button" data-filter="sewing-cricut" onclick="filterBookings('sewing-cricut')">Sewing &amp; Cricut</button>
     </section>
 
     <main class="main-content">
@@ -116,7 +115,20 @@
             <div class="shift-group-header">
                 <h2>Opening Shift</h2>
                 <div class="booking-count">
-                    3 workstation bookings                </div>
+                    0 workstation bookings                </div>
+            </div>
+
+
+            <div class="empty-state">
+                <div class="empty-state-icon">📭</div>
+                <div class="empty-state-message">No bookings for this shift</div>
+            </div>
+        </section>
+        <section class="shift-group">
+            <div class="shift-group-header">
+                <h2>Closing Shift</h2>
+                <div class="booking-count">
+                    2 workstation bookings                </div>
             </div>
 
 
@@ -125,19 +137,19 @@
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
-                        <span class="hour-group-title">12 PM</span>
-                        <span class="hour-group-count">3 tasks</span>
+                        <span class="hour-group-title">1 PM</span>
+                        <span class="hour-group-count">1 task</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
                 <div class="hour-group-content collapsed">
                     <div class="booking-list">
-                                    <article class="booking-card workstation" data-booking-id="79230e93d4e7" data-station-type="3d-printers">
+                                    <article class="booking-card workstation" data-booking-id="e2e797cfaa3f" data-station-type="3d-printers">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">Prusa Mini #06 &#34;King Crimson&#34;</div>
-                        <div class="booking-card-summary-time">12:00 PM - 3:00 PM • Z.H.</div>
+                        <div class="booking-card-summary-title">Prusa Mini #09 &#34;Crazy Diamond&#34;</div>
+                        <div class="booking-card-summary-time">1:00 PM - 6:30 PM • Z.H.</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CONFIRMED</span>
@@ -152,19 +164,18 @@
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Prusa Mini #06 &#34;King Crimson&#34;</h3>
+                        <h3>Prusa Mini #09 &#34;Crazy Diamond&#34;</h3>
                         <div class="booking-category">3D Printers</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="badge shift-boundary-flag">Shift Boundary</span>
                     </div>
                 </div>
 
                 <div class="booking-details">
                     <div class="detail-row">
                         <span class="detail-label">Time:</span>
-                        <span class="detail-value">12:00 PM - 3:00 PM</span>
+                        <span class="detail-value">1:00 PM - 6:30 PM</span>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
@@ -172,7 +183,7 @@
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Duration:</span>
-                        <span class="detail-value">3.0 hours</span>
+                        <span class="detail-value">5.5 hours</span>
                     </div>
                 </div>
 
@@ -260,273 +271,7 @@
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 79230e93d4e7</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card workstation" data-booking-id="79230e93d4e7" data-station-type="3d-printers">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">Prusa Mini #08 &#34;Echoes&#34;</div>
-                        <div class="booking-card-summary-time">12:00 PM - 4:00 PM • Z.H.</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Prusa Mini #08 &#34;Echoes&#34;</h3>
-                        <div class="booking-category">3D Printers</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="badge shift-boundary-flag">Shift Boundary</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">12:00 PM - 4:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">Z.H. (z***@my.yorku.ca)</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Duration:</span>
-                        <span class="detail-value">4.0 hours</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">FDM 3D Print Job</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 8
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">
-                                Confirm patron has completed FDM orientation training
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">
-                                Receive file from patron; load into slicer software
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">
-                                Slice file; check for errors, supports, and infill; review and agree settings with patron
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">
-                                Provide estimated print duration and material cost to patron
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">
-                                Update booking duration in LibCal to match slicer estimate
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">
-                                Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="7"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">7</span>
-                            <span class="step-description">
-                                Send sliced file to printer; start print job
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="8"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">8</span>
-                            <span class="step-description">
-                                Monitor print in progress
-                                <br><em>Phase 2: Live countdown timer</em>
-                            </span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 79230e93d4e7</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card workstation" data-booking-id="79230e93d4e7" data-station-type="3d-printers">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">Prusa Mini #07 &#34;The Hand&#34;</div>
-                        <div class="booking-card-summary-time">12:00 PM - 4:00 PM • Z.H.</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Prusa Mini #07 &#34;The Hand&#34;</h3>
-                        <div class="booking-category">3D Printers</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="badge shift-boundary-flag">Shift Boundary</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">12:00 PM - 4:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">Z.H. (z***@my.yorku.ca)</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Duration:</span>
-                        <span class="detail-value">4.0 hours</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">FDM 3D Print Job</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 8
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">
-                                Confirm patron has completed FDM orientation training
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">
-                                Receive file from patron; load into slicer software
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">
-                                Slice file; check for errors, supports, and infill; review and agree settings with patron
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">
-                                Provide estimated print duration and material cost to patron
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">
-                                Update booking duration in LibCal to match slicer estimate
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">
-                                Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="7"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">7</span>
-                            <span class="step-description">
-                                Send sliced file to printer; start print job
-                            </span>
-                        </li>
-                        <li class="workflow-step ">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="8"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">8</span>
-                            <span class="step-description">
-                                Monitor print in progress
-                                <br><em>Phase 2: Live countdown timer</em>
-                            </span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 79230e93d4e7</div>
+                <div class="booking-id">ID: e2e797cfaa3f</div>
 
                 </div> 
             </article>
@@ -534,18 +279,6 @@
                     </div>
                 </div>
             </div>
-
-        </section>
-        <section class="shift-group">
-            <div class="shift-group-header">
-                <h2>Closing Shift</h2>
-                <div class="booking-count">
-                    1 workstation booking                </div>
-            </div>
-
-
-
-
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
@@ -701,7 +434,7 @@
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>In-Progress Jobs</h2>
-                <span class="section-count">7</span>
+                <span class="section-count">11</span>
             </div>
             <div class="booking-list">
                 <article class="booking-card in-progress" data-booking-id="560a6db213f2" data-station-type="3d-printers">
@@ -729,7 +462,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">22.3 hours</span>
+                            <span class="detail-value">23.4 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -820,76 +553,6 @@
                     </div>
                     <div class="booking-id">ID: 560a6db213f2</div>
                 </article>
-                <article class="booking-card in-progress" data-booking-id="c7c084c54ca8" data-station-type="sewing-cricut">
-                    <div class="booking-header">
-                        <div class="booking-title">
-                            <h3>Cricut Cutter</h3>
-                            <div class="booking-category">Sewing &amp; Cricut</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
-                        </div>
-                    </div>
-                    <div class="booking-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Started:</span>
-                            <span class="detail-value">Thursday, March 26, 2026 at 11:00 AM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Due:</span>
-                            <span class="detail-value">Thursday, March 26, 2026 at 12:00 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Patron:</span>
-                            <span class="detail-value patron-info">A.R. (a***@my.yorku.ca)</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">In progress:</span>
-                            <span class="detail-value">48 minutes</span>
-                        </div>
-                    </div>
-                    <div class="workflow-panel">
-                        <div class="workflow-header">
-                            <span class="workflow-title">Station Setup</span>
-                            <span class="workflow-progress">
-                                <span class="workflow-step-counter">0</span> / 3
-                            </span>
-                        </div>
-                        <div class="workflow-inline-progress">
-                            <div class="workflow-inline-progress-fill"></div>
-                        </div>
-                        <ol class="workflow-steps">
-                            <li class="workflow-step ">
-                                <input type="checkbox" class="step-checkbox"
-                                       data-step="1"
-                                       onchange="onStepChecked(this)">
-                                <span class="step-number">1</span>
-                                <span class="step-description">
-                                    Confirm patron has completed sewing machine orientation
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <input type="checkbox" class="step-checkbox"
-                                       data-step="2"
-                                       onchange="onStepChecked(this)">
-                                <span class="step-number">2</span>
-                                <span class="step-description">
-                                    Verify machine is threaded and ready for use
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <input type="checkbox" class="step-checkbox"
-                                       data-step="3"
-                                       onchange="onStepChecked(this)">
-                                <span class="step-number">3</span>
-                                <span class="step-description">
-                                    Provide brief usage reminder and safety guidelines
-                                </span>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="booking-id">ID: c7c084c54ca8</div>
-                </article>
                 <article class="booking-card in-progress" data-booking-id="f0ebd54e95ef" data-station-type="3d-printers">
                     <div class="booking-header">
                         <div class="booking-title">
@@ -915,7 +578,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">18 minutes</span>
+                            <span class="detail-value">1.4 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -1006,6 +669,238 @@
                     </div>
                     <div class="booking-id">ID: f0ebd54e95ef</div>
                 </article>
+                <article class="booking-card in-progress" data-booking-id="aae722eae6f9" data-station-type="3d-printers">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Prusa MK4 #01 &#34;Orpheus&#34;</h3>
+                            <div class="booking-category">3D Printers</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Started:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 12:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 1:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">P.M. (p***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">In progress:</span>
+                            <span class="detail-value">52 minutes</span>
+                        </div>
+                    </div>
+                    <div class="workflow-panel">
+                        <div class="workflow-header">
+                            <span class="workflow-title">Job Setup</span>
+                            <span class="workflow-progress">
+                                <span class="workflow-step-counter">0</span> / 8
+                            </span>
+                        </div>
+                        <div class="workflow-inline-progress">
+                            <div class="workflow-inline-progress-fill"></div>
+                        </div>
+                        <ol class="workflow-steps">
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="1"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">1</span>
+                                <span class="step-description">
+                                    Confirm patron has completed FDM orientation training
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="2"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">2</span>
+                                <span class="step-description">
+                                    Receive file from patron; load into slicer software
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="3"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">3</span>
+                                <span class="step-description">
+                                    Slice file; check for errors, supports, and infill; review and agree settings with patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="4"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">4</span>
+                                <span class="step-description">
+                                    Provide estimated print duration and material cost to patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="5"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">5</span>
+                                <span class="step-description">
+                                    Update booking duration in LibCal to match slicer estimate
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="6"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">6</span>
+                                <span class="step-description">
+                                    Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="7"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">7</span>
+                                <span class="step-description">
+                                    Send sliced file to printer; start print job
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="8"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">8</span>
+                                <span class="step-description">
+                                    Monitor print in progress
+                                    <br><em>Phase 2: Live countdown timer</em>
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="booking-id">ID: aae722eae6f9</div>
+                </article>
+                <article class="booking-card in-progress" data-booking-id="38f61011bf18" data-station-type="3d-printers">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Prusa XL #2 &#34;Orochi&#34;</h3>
+                            <div class="booking-category">3D Printers</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Started:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 12:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 1:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">P.M. (p***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">In progress:</span>
+                            <span class="detail-value">52 minutes</span>
+                        </div>
+                    </div>
+                    <div class="workflow-panel">
+                        <div class="workflow-header">
+                            <span class="workflow-title">Job Setup</span>
+                            <span class="workflow-progress">
+                                <span class="workflow-step-counter">0</span> / 8
+                            </span>
+                        </div>
+                        <div class="workflow-inline-progress">
+                            <div class="workflow-inline-progress-fill"></div>
+                        </div>
+                        <ol class="workflow-steps">
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="1"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">1</span>
+                                <span class="step-description">
+                                    Confirm patron has completed FDM orientation training
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="2"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">2</span>
+                                <span class="step-description">
+                                    Receive file from patron; load into slicer software
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="3"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">3</span>
+                                <span class="step-description">
+                                    Slice file; check for errors, supports, and infill; review and agree settings with patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="4"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">4</span>
+                                <span class="step-description">
+                                    Provide estimated print duration and material cost to patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="5"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">5</span>
+                                <span class="step-description">
+                                    Update booking duration in LibCal to match slicer estimate
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="6"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">6</span>
+                                <span class="step-description">
+                                    Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="7"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">7</span>
+                                <span class="step-description">
+                                    Send sliced file to printer; start print job
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="8"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">8</span>
+                                <span class="step-description">
+                                    Monitor print in progress
+                                    <br><em>Phase 2: Live countdown timer</em>
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="booking-id">ID: 38f61011bf18</div>
+                </article>
                 <article class="booking-card in-progress" data-booking-id="32b6b846eb07" data-station-type="3d-printers">
                     <div class="booking-header">
                         <div class="booking-title">
@@ -1031,7 +926,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">18 minutes</span>
+                            <span class="detail-value">1.4 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -1122,6 +1017,122 @@
                     </div>
                     <div class="booking-id">ID: 32b6b846eb07</div>
                 </article>
+                <article class="booking-card in-progress" data-booking-id="79230e93d4e7" data-station-type="3d-printers">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Prusa Mini #06 &#34;King Crimson&#34;</h3>
+                            <div class="booking-category">3D Printers</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Started:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 12:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 3:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">Z.H. (z***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">In progress:</span>
+                            <span class="detail-value">52 minutes</span>
+                        </div>
+                    </div>
+                    <div class="workflow-panel">
+                        <div class="workflow-header">
+                            <span class="workflow-title">Job Setup</span>
+                            <span class="workflow-progress">
+                                <span class="workflow-step-counter">0</span> / 8
+                            </span>
+                        </div>
+                        <div class="workflow-inline-progress">
+                            <div class="workflow-inline-progress-fill"></div>
+                        </div>
+                        <ol class="workflow-steps">
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="1"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">1</span>
+                                <span class="step-description">
+                                    Confirm patron has completed FDM orientation training
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="2"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">2</span>
+                                <span class="step-description">
+                                    Receive file from patron; load into slicer software
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="3"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">3</span>
+                                <span class="step-description">
+                                    Slice file; check for errors, supports, and infill; review and agree settings with patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="4"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">4</span>
+                                <span class="step-description">
+                                    Provide estimated print duration and material cost to patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="5"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">5</span>
+                                <span class="step-description">
+                                    Update booking duration in LibCal to match slicer estimate
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="6"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">6</span>
+                                <span class="step-description">
+                                    Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="7"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">7</span>
+                                <span class="step-description">
+                                    Send sliced file to printer; start print job
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="8"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">8</span>
+                                <span class="step-description">
+                                    Monitor print in progress
+                                    <br><em>Phase 2: Live countdown timer</em>
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="booking-id">ID: 79230e93d4e7</div>
+                </article>
                 <article class="booking-card in-progress" data-booking-id="abdce9d917ae" data-station-type="3d-printers">
                     <div class="booking-header">
                         <div class="booking-title">
@@ -1147,7 +1158,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">18 minutes</span>
+                            <span class="detail-value">1.4 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -1238,6 +1249,238 @@
                     </div>
                     <div class="booking-id">ID: abdce9d917ae</div>
                 </article>
+                <article class="booking-card in-progress" data-booking-id="79230e93d4e7" data-station-type="3d-printers">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Prusa Mini #08 &#34;Echoes&#34;</h3>
+                            <div class="booking-category">3D Printers</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Started:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 12:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 4:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">Z.H. (z***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">In progress:</span>
+                            <span class="detail-value">52 minutes</span>
+                        </div>
+                    </div>
+                    <div class="workflow-panel">
+                        <div class="workflow-header">
+                            <span class="workflow-title">Job Setup</span>
+                            <span class="workflow-progress">
+                                <span class="workflow-step-counter">0</span> / 8
+                            </span>
+                        </div>
+                        <div class="workflow-inline-progress">
+                            <div class="workflow-inline-progress-fill"></div>
+                        </div>
+                        <ol class="workflow-steps">
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="1"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">1</span>
+                                <span class="step-description">
+                                    Confirm patron has completed FDM orientation training
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="2"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">2</span>
+                                <span class="step-description">
+                                    Receive file from patron; load into slicer software
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="3"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">3</span>
+                                <span class="step-description">
+                                    Slice file; check for errors, supports, and infill; review and agree settings with patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="4"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">4</span>
+                                <span class="step-description">
+                                    Provide estimated print duration and material cost to patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="5"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">5</span>
+                                <span class="step-description">
+                                    Update booking duration in LibCal to match slicer estimate
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="6"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">6</span>
+                                <span class="step-description">
+                                    Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="7"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">7</span>
+                                <span class="step-description">
+                                    Send sliced file to printer; start print job
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="8"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">8</span>
+                                <span class="step-description">
+                                    Monitor print in progress
+                                    <br><em>Phase 2: Live countdown timer</em>
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="booking-id">ID: 79230e93d4e7</div>
+                </article>
+                <article class="booking-card in-progress" data-booking-id="79230e93d4e7" data-station-type="3d-printers">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Prusa Mini #07 &#34;The Hand&#34;</h3>
+                            <div class="booking-category">3D Printers</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Started:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 12:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Thursday, March 26, 2026 at 4:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">Z.H. (z***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">In progress:</span>
+                            <span class="detail-value">52 minutes</span>
+                        </div>
+                    </div>
+                    <div class="workflow-panel">
+                        <div class="workflow-header">
+                            <span class="workflow-title">Job Setup</span>
+                            <span class="workflow-progress">
+                                <span class="workflow-step-counter">0</span> / 8
+                            </span>
+                        </div>
+                        <div class="workflow-inline-progress">
+                            <div class="workflow-inline-progress-fill"></div>
+                        </div>
+                        <ol class="workflow-steps">
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="1"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">1</span>
+                                <span class="step-description">
+                                    Confirm patron has completed FDM orientation training
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="2"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">2</span>
+                                <span class="step-description">
+                                    Receive file from patron; load into slicer software
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="3"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">3</span>
+                                <span class="step-description">
+                                    Slice file; check for errors, supports, and infill; review and agree settings with patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="4"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">4</span>
+                                <span class="step-description">
+                                    Provide estimated print duration and material cost to patron
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="5"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">5</span>
+                                <span class="step-description">
+                                    Update booking duration in LibCal to match slicer estimate
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="6"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">6</span>
+                                <span class="step-description">
+                                    Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="7"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">7</span>
+                                <span class="step-description">
+                                    Send sliced file to printer; start print job
+                                </span>
+                            </li>
+                            <li class="workflow-step ">
+                                <input type="checkbox" class="step-checkbox"
+                                       data-step="8"
+                                       onchange="onStepChecked(this)">
+                                <span class="step-number">8</span>
+                                <span class="step-description">
+                                    Monitor print in progress
+                                    <br><em>Phase 2: Live countdown timer</em>
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="booking-id">ID: 79230e93d4e7</div>
+                </article>
                 <article class="booking-card in-progress" data-booking-id="e8f5d3a05735" data-station-type="3d-printers">
                     <div class="booking-header">
                         <div class="booking-title">
@@ -1263,7 +1506,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.8 hours</span>
+                            <span class="detail-value">2.9 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -1379,7 +1622,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">23.8 hours</span>
+                            <span class="detail-value">1.0 days</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -1476,7 +1719,7 @@
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">0</span>
+                <span class="section-count">1</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -1484,8 +1727,29 @@
                     <span class="collapse-icon">▼</span>
                 </button>
                 <div id="completed-collapse" class="collapse-content">
-                    <div class="empty-state">
-                        <div class="empty-state-message">No completed bookings today</div>
+                    <div class="booking-list" style="margin-top: var(--spacing-md);">
+                        <article class="booking-card">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Cricut Cutter</h3>
+                                    <div class="booking-category">Sewing &amp; Cricut</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">11:00 AM - 12:00 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">A.R.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: c7c084c54ca8</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -1515,6 +1779,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1774540084"></script>
+    <script src="../static/dashboard.js?v=1774543976"></script>
 </body>
 </html>
