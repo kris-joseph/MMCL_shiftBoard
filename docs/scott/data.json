@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-03-26T04:29:25.074017+00:00",
+  "fetch_timestamp": "2026-03-26T14:09:59.178031+00:00",
   "date": "2026-03-26",
   "space_bookings": [
     {
@@ -3154,6 +3154,26 @@
       "item_name": "Canon EOS R50-V",
       "event": null,
       "barcode": "39007054936166"
+    },
+    {
+      "bookId": "d55065cfeefb",
+      "id": 342563,
+      "eid": 27869,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-03-26T11:00:00-04:00",
+      "toDate": "2026-04-02T17:00:00-04:00",
+      "created": "2026-03-26T07:59:58-04:00",
+      "firstName": "Naimah",
+      "lastName": "Hassan",
+      "email": "nth1012@my.yorku.ca",
+      "account": "nth1012@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Power DeWise Lavalier Microphone",
+      "event": null,
+      "barcode": "39007054933809"
     },
     {
       "bookId": "07d025bb8d1a",
