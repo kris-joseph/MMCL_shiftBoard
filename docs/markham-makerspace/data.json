@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-27T19:14:09.474876+00:00",
+  "fetch_timestamp": "2026-03-27T19:55:07.092623+00:00",
   "date": "2026-03-27",
   "space_bookings": [
     {
@@ -427,6 +427,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #06 \"King Crimson\"",
+      "event": null
+    },
+    {
+      "bookId": "72a302cb2edd",
+      "id": 15663699,
+      "eid": 30733,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-27T15:00:00-04:00",
+      "toDate": "2026-03-27T16:00:00-04:00",
+      "created": "2026-03-27T15:16:12-04:00",
+      "firstName": "Nancy",
+      "lastName": "Habre",
+      "email": "habre@my.yorku.ca",
+      "account": "habre@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #10 \"Silver Chariot\"",
       "event": null
     },
     {
