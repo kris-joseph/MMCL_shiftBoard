@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-27T17:14:49.879879+00:00",
+  "fetch_timestamp": "2026-03-27T18:08:35.796172+00:00",
   "date": "2026-03-27",
   "space_bookings": [
     {
@@ -456,6 +456,26 @@
       "cancelled": "2026-03-25T17:21:53+00:00"
     },
     {
+      "bookId": "52beb781ebde",
+      "id": 343202,
+      "eid": 32515,
+      "cid": 7827,
+      "lid": 3432,
+      "fromDate": "2026-03-27T09:30:00-04:00",
+      "toDate": "2026-04-02T18:30:00-04:00",
+      "created": "2026-03-27T13:22:53-04:00",
+      "firstName": "Mojoyinola",
+      "lastName": "Salisu",
+      "email": "mojo28@my.yorku.ca",
+      "account": "mojo28@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054931761"
+    },
+    {
       "bookId": "c691ab6064e6",
       "id": 342732,
       "eid": 34967,
@@ -574,6 +594,26 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007054932686"
+    },
+    {
+      "bookId": "61a1dc292aa5",
+      "id": 343203,
+      "eid": 32185,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-03-27T13:23:42-04:00",
+      "toDate": "2026-04-03T16:30:00-04:00",
+      "created": "2026-03-27T13:23:30-04:00",
+      "firstName": "MOJOYINOLA",
+      "lastName": "SALISU",
+      "email": "mojo28@my.yorku.ca",
+      "account": "5859730001041814",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054931134"
     }
   ],
   "appointments": [],
