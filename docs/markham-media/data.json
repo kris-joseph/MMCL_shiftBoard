@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-28T19:05:47.614248+00:00",
+  "fetch_timestamp": "2026-03-28T19:50:08.454769+00:00",
   "date": "2026-03-28",
   "space_bookings": [
     {
@@ -67,6 +67,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931613"
+    },
+    {
+      "bookId": "39b56251714a",
+      "id": 343264,
+      "eid": 32341,
+      "cid": 7827,
+      "lid": 3432,
+      "fromDate": "2026-03-27T15:15:00-04:00",
+      "toDate": "2026-03-28T15:27:00-04:00",
+      "created": "2026-03-27T15:15:54-04:00",
+      "firstName": "Adam",
+      "lastName": "Duncan",
+      "email": "aduncan@yorku.ca",
+      "account": "aduncan@yorku.ca",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054931720"
     },
     {
       "bookId": "24041d466cea",
@@ -392,26 +412,6 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007054932686"
-    },
-    {
-      "bookId": "39b56251714a",
-      "id": 343264,
-      "eid": 32341,
-      "cid": 7827,
-      "lid": 3432,
-      "fromDate": "2026-03-27T15:15:00-04:00",
-      "toDate": "2026-04-04T16:30:00-04:00",
-      "created": "2026-03-27T15:15:54-04:00",
-      "firstName": "Adam",
-      "lastName": "Duncan",
-      "email": "aduncan@yorku.ca",
-      "account": "aduncan@yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "VR Headsets",
-      "item_name": "Meta Quest 3",
-      "event": null,
-      "barcode": "39007054931720"
     },
     {
       "bookId": "5b59e640e1f1",
