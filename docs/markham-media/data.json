@@ -3,17 +3,17 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-28T18:26:38.815066+00:00",
+  "fetch_timestamp": "2026-03-28T19:05:47.614248+00:00",
   "date": "2026-03-28",
   "space_bookings": [
     {
       "bookId": "b577bae598d8",
       "id": 15655658,
-      "eid": 30720,
-      "cid": 7761,
+      "eid": 33193,
+      "cid": 7951,
       "lid": 3432,
-      "fromDate": "2026-03-28T14:30:00-04:00",
-      "toDate": "2026-03-28T17:00:00-04:00",
+      "fromDate": "2026-03-28T15:30:00-04:00",
+      "toDate": "2026-03-28T18:30:00-04:00",
       "created": "2026-03-26T20:42:45-04:00",
       "firstName": "Qais",
       "lastName": "Alqaisi",
@@ -21,8 +21,8 @@
       "account": "qaisalq@my.yorku.ca",
       "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Video Studios",
-      "item_name": "Video and Photo Studio (Rm 3060H)",
+      "category_name": "Large Studios",
+      "item_name": "Mixed Use Studio (Rm 3045)",
       "event": null,
       "check_in_code": "Z2K"
     }

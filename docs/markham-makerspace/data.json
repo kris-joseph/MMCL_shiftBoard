@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-28T18:26:39.275525+00:00",
+  "fetch_timestamp": "2026-03-28T19:05:48.448847+00:00",
   "date": "2026-03-28",
   "space_bookings": [
     {
@@ -309,6 +309,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
+      "event": null
+    },
+    {
+      "bookId": "10b4b95f4322",
+      "id": 15671148,
+      "eid": 30732,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-28T14:30:00-04:00",
+      "toDate": "2026-03-28T17:30:00-04:00",
+      "created": "2026-03-28T14:44:39-04:00",
+      "firstName": "ALEXANDER",
+      "lastName": "TRAN",
+      "email": "alexanderthe819th@outlook.com",
+      "account": "221375092",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #09 \"Crazy Diamond\"",
+      "event": null
+    },
+    {
+      "bookId": "390408b2e800",
+      "id": 15671151,
+      "eid": 30733,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-28T14:30:00-04:00",
+      "toDate": "2026-03-28T17:30:00-04:00",
+      "created": "2026-03-28T14:44:50-04:00",
+      "firstName": "ALEXANDER",
+      "lastName": "TRAN",
+      "email": "alexanderthe819th@outlook.com",
+      "account": "221375092",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #10 \"Silver Chariot\"",
       "event": null
     },
     {
