@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-28T16:56:47.294484+00:00",
+  "fetch_timestamp": "2026-03-28T17:24:08.187937+00:00",
   "date": "2026-03-28",
   "space_bookings": [
     {
@@ -83,25 +83,6 @@
       "event": null
     },
     {
-      "bookId": "7a054e726330",
-      "id": 15662119,
-      "eid": 30726,
-      "cid": 7245,
-      "lid": 3430,
-      "fromDate": "2026-03-28T12:30:00-04:00",
-      "toDate": "2026-03-28T13:30:00-04:00",
-      "created": "2026-03-27T13:25:15-04:00",
-      "firstName": "Shahreeb",
-      "lastName": "Rashid",
-      "email": "shahreeb@my.yorku.ca",
-      "account": "shahreeb@my.yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Makerspace",
-      "category_name": "3D Printers",
-      "item_name": "Prusa Mini #03 \"Heaven's Door\"",
-      "event": null
-    },
-    {
       "bookId": "9bd583755734",
       "id": 15664302,
       "eid": 30733,
@@ -138,6 +119,26 @@
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #09 \"Crazy Diamond\"",
       "event": null
+    },
+    {
+      "bookId": "7a054e726330",
+      "id": 15662119,
+      "eid": 30726,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-28T12:30:00-04:00",
+      "toDate": "2026-03-28T13:30:00-04:00",
+      "created": "2026-03-27T13:25:15-04:00",
+      "firstName": "Shahreeb",
+      "lastName": "Rashid",
+      "email": "shahreeb@my.yorku.ca",
+      "account": "shahreeb@my.yorku.ca",
+      "status": "Cancelled by Admin",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #03 \"Heaven's Door\"",
+      "event": null,
+      "cancelled": "2026-03-28T17:15:52+00:00"
     },
     {
       "bookId": "53c5ad4beb5d",
