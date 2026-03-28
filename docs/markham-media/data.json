@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-28T17:52:40.199346+00:00",
+  "fetch_timestamp": "2026-03-28T18:26:38.815066+00:00",
   "date": "2026-03-28",
   "space_bookings": [
     {
@@ -12,8 +12,8 @@
       "eid": 30720,
       "cid": 7761,
       "lid": 3432,
-      "fromDate": "2026-03-28T14:00:00-04:00",
-      "toDate": "2026-03-28T16:30:00-04:00",
+      "fromDate": "2026-03-28T14:30:00-04:00",
+      "toDate": "2026-03-28T17:00:00-04:00",
       "created": "2026-03-26T20:42:45-04:00",
       "firstName": "Qais",
       "lastName": "Alqaisi",
