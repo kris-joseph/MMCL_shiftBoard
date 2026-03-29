@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Makerspace - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1774811298">
+    <link rel="stylesheet" href="../static/style.css?v=1774813927">
     <meta name="description" content="Staff dashboard for Markham Makerspace showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Sunday, March 29, 2026</div>
-                <div class="last-updated">Last updated: 3:08 PM</div>
+                <div class="last-updated">Last updated: 3:52 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -65,13 +65,13 @@
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 25.0%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 50.0%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 25.0%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 50.0%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
@@ -106,6 +106,7 @@
         <span class="filters-label">Show:</span>
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Stations</button>
         <button class="filter-button" data-filter="3d-printers" onclick="filterBookings('3d-printers')">3D Printers</button>
+        <button class="filter-button" data-filter="3d-scanners" onclick="filterBookings('3d-scanners')">3D Scanners</button>
     </section>
 
     <main class="main-content">
@@ -145,7 +146,7 @@
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>In-Progress Jobs</h2>
-                <span class="section-count">4</span>
+                <span class="section-count">5</span>
             </div>
             <div class="booking-list">
                 <article class="booking-card in-progress" data-booking-id="9f12a38a5172" data-station-type="3d-printers">
@@ -173,7 +174,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">22.6 hours</span>
+                            <span class="detail-value">23.4 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -289,7 +290,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">2.0 days</span>
+                            <span class="detail-value">2.1 days</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -380,6 +381,36 @@
                     </div>
                     <div class="booking-id">ID: ab2faef4bb4d</div>
                 </article>
+                <article class="booking-card in-progress" data-booking-id="d13b0d222810" data-station-type="3d-scanners">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Revopoint Pop 3 3D Scanner</h3>
+                            <div class="booking-category">3D Scanners</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Started:</span>
+                            <span class="detail-value">Sunday, March 29, 2026 at 3:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Sunday, March 29, 2026 at 4:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">K.M. (k***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">In progress:</span>
+                            <span class="detail-value">52 minutes</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: d13b0d222810</div>
+                </article>
                 <article class="booking-card in-progress" data-booking-id="5a973a581c06" data-station-type="3d-printers">
                     <div class="booking-header">
                         <div class="booking-title">
@@ -405,7 +436,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.6 hours</span>
+                            <span class="detail-value">2.4 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -521,7 +552,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.6 hours</span>
+                            <span class="detail-value">2.4 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -722,6 +753,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1774811298"></script>
+    <script src="../static/dashboard.js?v=1774813927"></script>
 </body>
 </html>
