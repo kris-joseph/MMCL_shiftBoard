@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1774815661">
+    <link rel="stylesheet" href="../static/style.css?v=1774817691">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Sunday, March 29, 2026</div>
-                <div class="last-updated">Last updated: 4:20 PM</div>
+                <div class="last-updated">Last updated: 4:54 PM</div>
             </div>
         </div>
     </header>
@@ -123,7 +123,7 @@
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
                         <span class="hour-group-title">Still outstanding from earlier today</span>
-                        <span class="hour-group-count">1 task</span>
+                        <span class="hour-group-count">3 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
@@ -233,20 +233,6 @@ Checkout • B.S.                        </div>
                 </div> 
             </article>
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">2 PM</span>
-                        <span class="hour-group-count">2 tasks</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
                                     <article class="booking-card equipment-loan" data-booking-id="012ba4368c61" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
@@ -458,6 +444,7 @@ Checkout • P.D.                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
@@ -966,40 +953,9 @@ Due back • F.A.                        </div>
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>Patron Onsite</h2>
-                <span class="section-count">3</span>
+                <span class="section-count">2</span>
             </div>
             <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="e6ec2903f8fe" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 203K - Audio Recording Studio</div>
-                            <div class="booking-card-summary-time">2:15 PM - 4:45 PM • K.S.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">2:15 PM - 4:45 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">K.S. (k***@gmail.com)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">9KQ</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: e6ec2903f8fe</div>
-                    </div>
-                </article>
                 <article class="booking-card in-progress" data-booking-id="670a838a9546" data-booking-type="space">
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -1069,7 +1025,7 @@ Due back • F.A.                        </div>
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">15</span>
+                <span class="section-count">16</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -1099,6 +1055,28 @@ Due back • F.A.                        </div>
                                 </div>
                             </div>
                             <div class="booking-id">ID: eaab4d37a55f</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 203K - Audio Recording Studio</h3>
+                                    <div class="booking-category">Audio Recording Rooms</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:15 PM - 4:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">K.S.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: e6ec2903f8fe</div>
                         </article>
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
@@ -1437,6 +1415,6 @@ Due back • F.A.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1774815661"></script>
+    <script src="../static/dashboard.js?v=1774817691"></script>
 </body>
 </html>
