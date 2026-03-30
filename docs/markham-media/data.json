@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-30T21:33:50.281081+00:00",
+  "fetch_timestamp": "2026-03-30T22:25:35.798202+00:00",
   "date": "2026-03-30",
   "space_bookings": [
     {
@@ -573,6 +573,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007052956703"
+    },
+    {
+      "bookId": "4a87fa061bc3",
+      "id": 343943,
+      "eid": 33660,
+      "cid": 8162,
+      "lid": 3432,
+      "fromDate": "2026-03-30T17:41:04-04:00",
+      "toDate": "2026-04-06T18:30:00-04:00",
+      "created": "2026-03-30T17:41:02-04:00",
+      "firstName": "RUIYU",
+      "lastName": "HUANG",
+      "email": "huangruiyu0107@163.com",
+      "account": "5859730001046934",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Headphones",
+      "item_name": "Sony MDR-7506 Headphones",
+      "event": null,
+      "barcode": "39007054934112"
     }
   ],
   "appointments": [],
