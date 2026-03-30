@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-30T20:35:43.303178+00:00",
+  "fetch_timestamp": "2026-03-30T21:33:51.177048+00:00",
   "date": "2026-03-30",
   "space_bookings": [
     {
@@ -445,6 +445,25 @@
       "event": null
     },
     {
+      "bookId": "491f6660f364",
+      "id": 15695813,
+      "eid": 30731,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-03-30T16:30:00-04:00",
+      "toDate": "2026-03-30T17:30:00-04:00",
+      "created": "2026-03-30T16:44:51-04:00",
+      "firstName": "Mohammadparsa",
+      "lastName": "Ahangari",
+      "email": "ma77@my.yorku.ca",
+      "account": "ma77@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #08 \"Echoes\"",
+      "event": null
+    },
+    {
       "bookId": "372a7054cd1f",
       "id": 15687731,
       "eid": 35300,
@@ -501,6 +520,25 @@
       "item_name": "Prusa MK4 #01 \"Orpheus\"",
       "event": null,
       "cancelled": "2026-03-30T15:50:43+00:00"
+    },
+    {
+      "bookId": "5a890eeb28e3",
+      "id": 15695727,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-03-30T17:00:00-04:00",
+      "toDate": "2026-03-30T18:00:00-04:00",
+      "created": "2026-03-30T16:39:54-04:00",
+      "firstName": "Ashley",
+      "lastName": "Ramsewack",
+      "email": "ash520@my.yorku.ca",
+      "account": "ash520@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing & Cricut",
+      "item_name": "Cricut Cutter",
+      "event": null
     },
     {
       "bookId": "6631c475649b",
