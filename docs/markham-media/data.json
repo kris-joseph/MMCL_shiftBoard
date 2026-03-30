@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-03-30T14:22:08.580847+00:00",
+  "fetch_timestamp": "2026-03-30T15:48:41.066166+00:00",
   "date": "2026-03-30",
   "space_bookings": [
     {
@@ -39,12 +39,33 @@
       "lastName": "Pasicolan",
       "email": "marypasi@my.yorku.ca",
       "account": "marypasi@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Video Studios",
+      "item_name": "Video and Photo Studio (Rm 3060H)",
+      "event": null,
+      "check_in_code": "F8H",
+      "cancelled": "2026-03-30T14:27:37+00:00"
+    },
+    {
+      "bookId": "4c0b7e0c170a",
+      "id": 15686963,
+      "eid": 30720,
+      "cid": 7761,
+      "lid": 3432,
+      "fromDate": "2026-03-31T13:30:00-04:00",
+      "toDate": "2026-03-31T16:00:00-04:00",
+      "created": "2026-03-30T10:28:27-04:00",
+      "firstName": "Mary",
+      "lastName": "Pasicolan",
+      "email": "marypasi@my.yorku.ca",
+      "account": "marypasi@my.yorku.ca",
       "status": "Mediated Tentative",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Video Studios",
       "item_name": "Video and Photo Studio (Rm 3060H)",
       "event": null,
-      "check_in_code": "F8H"
+      "check_in_code": "M5L"
     },
     {
       "bookId": "535dbe302930",
