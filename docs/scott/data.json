@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-01T23:04:35.255365+00:00",
+  "fetch_timestamp": "2026-04-01T23:54:16.620908+00:00",
   "date": "2026-04-01",
   "space_bookings": [
     {
@@ -3064,26 +3064,6 @@
       "barcode": "39007054933346"
     },
     {
-      "bookId": "7e610c9895c5",
-      "id": 342241,
-      "eid": 34104,
-      "cid": 8138,
-      "lid": 2632,
-      "fromDate": "2026-04-02T11:00:00-04:00",
-      "toDate": "2026-04-09T17:00:00-04:00",
-      "created": "2026-03-25T12:59:39-04:00",
-      "firstName": "Anshul",
-      "lastName": "Solath",
-      "email": "anshuls4@my.yorku.ca",
-      "account": "anshuls4@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS R50-V",
-      "event": null,
-      "barcode": "39007054936158"
-    },
-    {
       "bookId": "732f51ab5930",
       "id": 342886,
       "eid": 24944,
@@ -3242,6 +3222,27 @@
       "item_name": "Meta Quest 3",
       "event": null,
       "barcode": "39007054933833"
+    },
+    {
+      "bookId": "7e610c9895c5",
+      "id": 342241,
+      "eid": 34104,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-04-02T11:00:00-04:00",
+      "toDate": "2026-04-09T17:00:00-04:00",
+      "created": "2026-03-25T12:59:39-04:00",
+      "firstName": "Anshul",
+      "lastName": "Solath",
+      "email": "anshuls4@my.yorku.ca",
+      "account": "anshuls4@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50-V",
+      "event": null,
+      "barcode": "39007054936158",
+      "cancelled": "2026-04-01T23:36:10+00:00"
     }
   ],
   "appointments": [],
