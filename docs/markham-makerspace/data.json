@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-01T15:49:42.305812+00:00",
+  "fetch_timestamp": "2026-04-01T16:43:55.064247+00:00",
   "date": "2026-04-01",
   "space_bookings": [
     {
@@ -102,6 +102,25 @@
       "event": null
     },
     {
+      "bookId": "f9ac70c9ec76",
+      "id": 15707528,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-01T12:00:00-04:00",
+      "toDate": "2026-04-01T12:30:00-04:00",
+      "created": "2026-03-31T13:00:52-04:00",
+      "firstName": "Akshar",
+      "lastName": "Jadhav",
+      "email": "aksharj8@my.yorku.ca",
+      "account": "aksharj8@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
+      "event": null
+    },
+    {
       "bookId": "ecf5fe83ba64",
       "id": 15727401,
       "eid": 35301,
@@ -137,25 +156,6 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Makerspace Room",
       "item_name": "Makerspace (Rm 3055)",
-      "event": null
-    },
-    {
-      "bookId": "f9ac70c9ec76",
-      "id": 15707528,
-      "eid": 35303,
-      "cid": 7245,
-      "lid": 3430,
-      "fromDate": "2026-04-02T10:00:00-04:00",
-      "toDate": "2026-04-02T11:00:00-04:00",
-      "created": "2026-03-31T13:00:52-04:00",
-      "firstName": "Akshar",
-      "lastName": "Jadhav",
-      "email": "aksharj8@my.yorku.ca",
-      "account": "aksharj8@my.yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Makerspace",
-      "category_name": "3D Printers",
-      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
       "event": null
     },
     {
