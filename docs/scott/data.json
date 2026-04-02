@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-02T21:42:16.479080+00:00",
+  "fetch_timestamp": "2026-04-02T22:23:25.755738+00:00",
   "date": "2026-04-02",
   "space_bookings": [
     {
@@ -1021,6 +1021,26 @@
       "cancelled": "2026-03-26T20:15:11+00:00"
     },
     {
+      "bookId": "b6e1775c0b94",
+      "id": 343724,
+      "eid": 25245,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-03-30T11:44:08-04:00",
+      "toDate": "2026-04-02T18:20:00-04:00",
+      "created": "2026-03-30T11:44:00-04:00",
+      "firstName": "Zuheila",
+      "lastName": "Samatar",
+      "email": "zsamatar@my.yorku.ca",
+      "account": "zsamatar@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Blue Yeti Nano",
+      "event": null,
+      "barcode": "39007054933171"
+    },
+    {
       "bookId": "cd6cf0e638c0",
       "id": 337231,
       "eid": 32765,
@@ -1222,26 +1242,6 @@
       "item_name": "Zoom H4n Pro",
       "event": null,
       "barcode": "39007054930094"
-    },
-    {
-      "bookId": "b6e1775c0b94",
-      "id": 343724,
-      "eid": 25245,
-      "cid": 8147,
-      "lid": 2632,
-      "fromDate": "2026-03-30T11:44:08-04:00",
-      "toDate": "2026-04-06T17:00:00-04:00",
-      "created": "2026-03-30T11:44:00-04:00",
-      "firstName": "Zuheila",
-      "lastName": "Samatar",
-      "email": "zsamatar@my.yorku.ca",
-      "account": "zsamatar@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Microphones",
-      "item_name": "Blue Yeti Nano",
-      "event": null,
-      "barcode": "39007054933171"
     },
     {
       "bookId": "a651573d42c3",
