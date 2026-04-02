@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-02T17:41:46.753688+00:00",
+  "fetch_timestamp": "2026-04-02T18:42:23.473830+00:00",
   "date": "2026-04-02",
   "space_bookings": [
     {
@@ -50,6 +50,26 @@
   ],
   "equipment_bookings": [
     {
+      "bookId": "5b59e640e1f1",
+      "id": 343275,
+      "eid": 36635,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-03-27T15:36:16-04:00",
+      "toDate": "2026-04-02T14:10:00-04:00",
+      "created": "2026-03-27T15:32:31-04:00",
+      "firstName": "Cacia",
+      "lastName": "Couture",
+      "email": "caciacouturee@gmail.com",
+      "account": "caciacouturee@gmail.com",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": " 39007052956745 "
+    },
+    {
       "bookId": "52beb781ebde",
       "id": 343202,
       "eid": 32515,
@@ -89,26 +109,6 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007054932686"
-    },
-    {
-      "bookId": "5b59e640e1f1",
-      "id": 343275,
-      "eid": 36635,
-      "cid": 7812,
-      "lid": 3432,
-      "fromDate": "2026-03-27T15:36:16-04:00",
-      "toDate": "2026-04-04T17:30:00-04:00",
-      "created": "2026-03-27T15:32:31-04:00",
-      "firstName": "Cacia",
-      "lastName": "Couture",
-      "email": "caciacouturee@gmail.com",
-      "account": "caciacouturee@gmail.com",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": " 39007052956745 "
     },
     {
       "bookId": "9d23559bca49",
