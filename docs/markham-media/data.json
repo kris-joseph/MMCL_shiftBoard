@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-02T16:45:24.805132+00:00",
+  "fetch_timestamp": "2026-04-02T17:41:46.753688+00:00",
   "date": "2026-04-02",
   "space_bookings": [
     {
@@ -269,6 +269,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931589"
+    },
+    {
+      "bookId": "a054f4d9ddb8",
+      "id": 345134,
+      "eid": 33661,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-04-02T13:31:48-04:00",
+      "toDate": "2026-04-09T18:30:00-04:00",
+      "created": "2026-04-02T13:31:46-04:00",
+      "firstName": "ZAILA XANDRINE",
+      "lastName": "TAN",
+      "email": "xani12@my.yorku.ca",
+      "account": "222114003",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932645"
     },
     {
       "bookId": "17092b235f39",
