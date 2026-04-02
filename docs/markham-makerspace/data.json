@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-02T18:42:24.061064+00:00",
+  "fetch_timestamp": "2026-04-02T19:42:13.531139+00:00",
   "date": "2026-04-02",
   "space_bookings": [
     {
@@ -66,6 +66,25 @@
         "title": "Makerspace Orientations: Stamps and Print press"
       },
       "nickname": "Makerspace Orientations: Stamps and Print press"
+    },
+    {
+      "bookId": "a23d9fc55168",
+      "id": 15745658,
+      "eid": 30725,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-02T16:00:00-04:00",
+      "toDate": "2026-04-02T17:00:00-04:00",
+      "created": "2026-04-02T15:16:26-04:00",
+      "firstName": "Tsun Hong",
+      "lastName": "Kwok",
+      "email": "harvey75@my.yorku.ca",
+      "account": "harvey75@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #02 \"Star Platinum\"",
+      "event": null
     },
     {
       "bookId": "ff45c77f5ed3",
