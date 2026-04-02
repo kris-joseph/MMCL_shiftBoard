@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-02T04:25:51.642493+00:00",
+  "fetch_timestamp": "2026-04-02T14:07:07.393747+00:00",
   "date": "2026-04-02",
   "space_bookings": [
     {
@@ -19,10 +19,29 @@
       "lastName": "Thompson",
       "email": "macie07@my.yorku.ca",
       "account": "macie07@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "89cfaabae641",
+      "id": 15738151,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-02T09:30:00-04:00",
+      "toDate": "2026-04-02T10:30:00-04:00",
+      "created": "2026-04-02T00:32:05-04:00",
+      "firstName": "Macie",
+      "lastName": "Thompson",
+      "email": "macie07@my.yorku.ca",
+      "account": "macie07@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
       "event": null
     },
     {
@@ -47,6 +66,25 @@
         "title": "Makerspace Orientations: Stamps and Print press"
       },
       "nickname": "Makerspace Orientations: Stamps and Print press"
+    },
+    {
+      "bookId": "ff45c77f5ed3",
+      "id": 15738190,
+      "eid": 30724,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-02T16:00:00-04:00",
+      "toDate": "2026-04-02T17:00:00-04:00",
+      "created": "2026-04-02T00:37:55-04:00",
+      "firstName": "Tsun Hong",
+      "lastName": "Kwok",
+      "email": "harvey75@my.yorku.ca",
+      "account": "harvey75@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #01 \"Killer Queen\"",
+      "event": null
     },
     {
       "bookId": "3f5e314829ed",
