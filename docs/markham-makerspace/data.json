@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-04T04:11:57.986494+00:00",
+  "fetch_timestamp": "2026-04-04T13:38:58.068043+00:00",
   "date": "2026-04-04",
   "space_bookings": [
     {
@@ -133,11 +133,12 @@
       "lastName": "Jakovcic",
       "email": "maryjak@yorku.ca",
       "account": "maryjak@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #01 \"Killer Queen\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-04T12:44:21+00:00"
     },
     {
       "bookId": "c5993d5a1d8b",
@@ -152,11 +153,12 @@
       "lastName": "Jakovcic",
       "email": "maryjak@yorku.ca",
       "account": "maryjak@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #02 \"Star Platinum\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-04T12:44:51+00:00"
     },
     {
       "bookId": "f3f31d761215",
@@ -285,11 +287,12 @@
       "lastName": "Jakovcic",
       "email": "maryjak@yorku.ca",
       "account": "maryjak@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #01 \"Killer Queen\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-04T12:44:21+00:00"
     },
     {
       "bookId": "c5993d5a1d8b",
@@ -304,11 +307,12 @@
       "lastName": "Jakovcic",
       "email": "maryjak@yorku.ca",
       "account": "maryjak@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #02 \"Star Platinum\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-04T12:44:51+00:00"
     },
     {
       "bookId": "f3f31d761215",
@@ -437,11 +441,12 @@
       "lastName": "Jakovcic",
       "email": "maryjak@yorku.ca",
       "account": "maryjak@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #01 \"Killer Queen\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-04T12:44:21+00:00"
     },
     {
       "bookId": "c5993d5a1d8b",
@@ -456,11 +461,12 @@
       "lastName": "Jakovcic",
       "email": "maryjak@yorku.ca",
       "account": "maryjak@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #02 \"Star Platinum\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-04T12:44:51+00:00"
     },
     {
       "bookId": "f3f31d761215",
@@ -494,11 +500,12 @@
       "lastName": "Jakovcic",
       "email": "maryjak@yorku.ca",
       "account": "maryjak@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #02 \"Star Platinum\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-04T12:44:51+00:00"
     },
     {
       "bookId": "f736d179c0c1",
@@ -532,11 +539,12 @@
       "lastName": "Jakovcic",
       "email": "maryjak@yorku.ca",
       "account": "maryjak@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #01 \"Killer Queen\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-04T12:44:21+00:00"
     },
     {
       "bookId": "54e314cae86f",
