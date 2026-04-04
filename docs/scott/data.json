@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-04T01:56:47.578241+00:00",
+  "fetch_timestamp": "2026-04-04T04:11:56.792983+00:00",
   "date": "2026-04-04",
   "space_bookings": [
     {
@@ -1058,6 +1058,26 @@
       "event": null,
       "barcode": "39007054933916",
       "cancelled": "2026-04-02T02:02:06+00:00"
+    },
+    {
+      "bookId": "6eb94d156664",
+      "id": 345353,
+      "eid": 34319,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-04-05T14:00:00-04:00",
+      "toDate": "2026-04-09T17:00:00-04:00",
+      "created": "2026-04-03T22:40:45-04:00",
+      "firstName": "Yetunde",
+      "lastName": "Ojebola-Afeyodion",
+      "email": "yojebola@my.yorku.ca",
+      "account": "yojebola@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936463"
     },
     {
       "bookId": "99c34cf23199",
