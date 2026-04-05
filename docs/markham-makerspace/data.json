@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-05T21:52:48.560029+00:00",
+  "fetch_timestamp": "2026-04-05T22:20:29.598409+00:00",
   "date": "2026-04-05",
   "space_bookings": [
     {
@@ -254,6 +254,44 @@
       "item_name": "Prusa XL #2 \"Orochi\"",
       "event": null,
       "cancelled": "2026-04-05T18:14:20+00:00"
+    },
+    {
+      "bookId": "69f43a55c28b",
+      "id": 15765166,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-06T09:30:00-04:00",
+      "toDate": "2026-04-06T12:30:00-04:00",
+      "created": "2026-04-05T18:09:14-04:00",
+      "firstName": "Jacob",
+      "lastName": "Turola",
+      "email": "jturola@yorku.ca",
+      "account": "jturola@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "ede9b6c9b205",
+      "id": 15765178,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-06T15:00:00-04:00",
+      "toDate": "2026-04-06T16:00:00-04:00",
+      "created": "2026-04-05T18:10:22-04:00",
+      "firstName": "Vanessa",
+      "lastName": "Yu",
+      "email": "van3554@my.yorku.ca",
+      "account": "van3554@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
     }
   ],
   "equipment_bookings": [],
