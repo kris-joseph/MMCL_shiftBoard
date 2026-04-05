@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-05T19:53:42.620730+00:00",
+  "fetch_timestamp": "2026-04-05T20:21:40.928313+00:00",
   "date": "2026-04-05",
   "space_bookings": [
     {
@@ -76,7 +76,7 @@
       "lastName": "Chalhoub",
       "email": "micchal@my.yorku.ca",
       "account": "micchal@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4 #01 \"Orpheus\"",
@@ -95,7 +95,7 @@
       "lastName": "Chalhoub",
       "email": "micchal@my.yorku.ca",
       "account": "micchal@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #09 \"Crazy Diamond\"",
