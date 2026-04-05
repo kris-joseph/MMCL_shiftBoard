@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-05T17:53:56.399671+00:00",
+  "fetch_timestamp": "2026-04-05T18:29:07.132597+00:00",
   "date": "2026-04-05",
   "space_bookings": [
     {
@@ -26,6 +26,25 @@
       "event": null
     },
     {
+      "bookId": "6cadac94fff4",
+      "id": 15763067,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-05T14:00:00-04:00",
+      "toDate": "2026-04-05T19:30:00-04:00",
+      "created": "2026-04-05T14:13:04-04:00",
+      "firstName": "Gareth",
+      "lastName": "Davey",
+      "email": "gad@my.yorku.ca",
+      "account": "gad@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
       "bookId": "8c3aeac79703",
       "id": 15761040,
       "eid": 35142,
@@ -38,11 +57,31 @@
       "lastName": "Davey",
       "email": "gad@my.yorku.ca",
       "account": "gad@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
+    },
+    {
+      "bookId": "7240367ceece",
+      "id": 15763058,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-05T14:00:00-04:00",
+      "toDate": "2026-04-05T19:30:00-04:00",
+      "created": "2026-04-05T14:12:06-04:00",
+      "firstName": "Gareth",
+      "lastName": "Davey",
+      "email": "gad@my.yorku.ca",
+      "account": "gad@my.yorku.ca",
+      "status": "Cancelled by Admin",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null,
+      "cancelled": "2026-04-05T18:14:20+00:00"
     }
   ],
   "equipment_bookings": [],
