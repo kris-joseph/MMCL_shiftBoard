@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-06T16:05:50.873449+00:00",
+  "fetch_timestamp": "2026-04-06T17:11:27.830130+00:00",
   "date": "2026-04-06",
   "space_bookings": [
     {
@@ -27,6 +27,26 @@
       "check_in_code": "HS5"
     },
     {
+      "bookId": "ec39c333f111",
+      "id": 15752513,
+      "eid": 19905,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-04-06T12:00:00-04:00",
+      "toDate": "2026-04-06T13:11:00-04:00",
+      "created": "2026-04-03T15:36:57-04:00",
+      "firstName": "Calvin",
+      "lastName": "Ngako",
+      "email": "ngako18@my.yorku.ca",
+      "account": "ngako18@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 203K - Audio Recording Studio",
+      "event": null,
+      "check_in_code": "2UV"
+    },
+    {
       "bookId": "8374d7d388c8",
       "id": 15763278,
       "eid": 19904,
@@ -45,26 +65,6 @@
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
       "check_in_code": "Z3B"
-    },
-    {
-      "bookId": "ec39c333f111",
-      "id": 15752513,
-      "eid": 19905,
-      "cid": 5833,
-      "lid": 2632,
-      "fromDate": "2026-04-06T12:00:00-04:00",
-      "toDate": "2026-04-06T14:30:00-04:00",
-      "created": "2026-04-03T15:36:57-04:00",
-      "firstName": "Calvin",
-      "lastName": "Ngako",
-      "email": "ngako18@my.yorku.ca",
-      "account": "ngako18@my.yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Audio Recording Rooms",
-      "item_name": "Scott 203K - Audio Recording Studio",
-      "event": null,
-      "check_in_code": "2UV"
     },
     {
       "bookId": "4d922d38e285",
@@ -231,6 +231,26 @@
       "barcode": "39007054936323"
     },
     {
+      "bookId": "8926fa2458de",
+      "id": 345035,
+      "eid": 34088,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-04-02T15:16:00-04:00",
+      "toDate": "2026-04-06T13:03:00-04:00",
+      "created": "2026-04-02T10:24:18-04:00",
+      "firstName": "Maryiam",
+      "lastName": "Boughanmi",
+      "email": "maryiamb@my.yorku.ca",
+      "account": "maryiamb@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "360\u00b0 Auto Face Tracking Mobile Phone Tripod",
+      "event": null,
+      "barcode": "39007054936075"
+    },
+    {
       "bookId": "e9f374c2a1f7",
       "id": 343233,
       "eid": 34322,
@@ -309,26 +329,6 @@
       "item_name": "Zoom H4n Pro",
       "event": null,
       "barcode": "39007054930094"
-    },
-    {
-      "bookId": "8926fa2458de",
-      "id": 345035,
-      "eid": 34088,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-04-02T15:16:00-04:00",
-      "toDate": "2026-04-06T17:00:00-04:00",
-      "created": "2026-04-02T10:24:18-04:00",
-      "firstName": "Maryiam",
-      "lastName": "Boughanmi",
-      "email": "maryiamb@my.yorku.ca",
-      "account": "maryiamb@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "360\u00b0 Auto Face Tracking Mobile Phone Tripod",
-      "event": null,
-      "barcode": "39007054936075"
     },
     {
       "bookId": "92c009358b81",
