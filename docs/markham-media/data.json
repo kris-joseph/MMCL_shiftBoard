@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-06T21:04:08.004032+00:00",
+  "fetch_timestamp": "2026-04-06T21:56:08.649501+00:00",
   "date": "2026-04-06",
   "space_bookings": [
     {
@@ -25,6 +25,26 @@
       "item_name": "Green Screen Video Studio (Rm 3060C)",
       "event": null,
       "check_in_code": "3ZM"
+    },
+    {
+      "bookId": "d5d0a6b0b5ff",
+      "id": 15777887,
+      "eid": 30701,
+      "cid": 7762,
+      "lid": 3432,
+      "fromDate": "2026-04-07T12:30:00-04:00",
+      "toDate": "2026-04-07T15:00:00-04:00",
+      "created": "2026-04-06T17:54:27-04:00",
+      "firstName": "Angelica",
+      "lastName": "Kioulmetis",
+      "email": "akilo@my.yorku.ca",
+      "account": "akilo@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Podcast Studios",
+      "item_name": "Podcast Studio #2 (Rm 3060D)",
+      "event": null,
+      "check_in_code": "B8A"
     }
   ],
   "equipment_bookings": [
@@ -208,6 +228,46 @@
       "event": null,
       "barcode": "39007054931118",
       "cancelled": "2026-03-14T03:48:59+00:00"
+    },
+    {
+      "bookId": "ef7f9c9a695f",
+      "id": 345580,
+      "eid": 36635,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-04-06T17:31:00-04:00",
+      "toDate": "2026-04-13T18:30:00-04:00",
+      "created": "2026-04-06T17:25:43-04:00",
+      "firstName": "SIMRANJITSINGH",
+      "lastName": "BAL",
+      "email": "ssbal@my.yorku.ca",
+      "account": "220092870",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": " 39007052956745 "
+    },
+    {
+      "bookId": "d5d0a6b0b5ff",
+      "id": 345582,
+      "eid": 33664,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-04-07T12:30:00-04:00",
+      "toDate": "2026-04-14T18:30:00-04:00",
+      "created": "2026-04-06T17:54:27-04:00",
+      "firstName": "Angelica",
+      "lastName": "Kioulmetis",
+      "email": "akilo@my.yorku.ca",
+      "account": "akilo@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932652"
     }
   ],
   "appointments": [],
