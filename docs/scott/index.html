@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1775495489">
+    <link rel="stylesheet" href="../static/style.css?v=1775498956">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Monday, April 06, 2026</div>
-                <div class="last-updated">Last updated: 1:11 PM</div>
+                <div class="last-updated">Last updated: 2:09 PM</div>
             </div>
         </div>
     </header>
@@ -43,36 +43,36 @@
             </div>
             <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">10</div>
+                <div class="timeline-count">11</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 20.0%;"></div>
+                <div class="timeline-bar" style="height: 18.181818181818183%;"></div>
                 <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 40.0%;"></div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 36.36363636363637%;"></div>
                 <div class="timeline-count">4</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 40.0%;"></div>
-                <div class="timeline-count">4</div>
+                <div class="timeline-bar" style="height: 27.27272727272727%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 20.0%;"></div>
+                <div class="timeline-bar" style="height: 18.181818181818183%;"></div>
                 <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 50.0%;"></div>
+                <div class="timeline-bar" style="height: 45.45454545454545%;"></div>
                 <div class="timeline-count">5</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 90.0%;"></div>
+                <div class="timeline-bar" style="height: 81.81818181818183%;"></div>
                 <div class="timeline-count">9</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
@@ -113,7 +113,7 @@
             <div class="shift-group-header">
                 <h2>Full Shift</h2>
                 <div class="booking-count">
-                    4 space bookings •
+                    3 space bookings •
                     8 equipment loans                </div>
             </div>
 
@@ -123,7 +123,7 @@
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
                         <span class="hour-group-title">Still outstanding from earlier today</span>
-                        <span class="hour-group-count">4 tasks</span>
+                        <span class="hour-group-count">5 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
@@ -545,6 +545,110 @@ Checkout • S.J.                        </div>
                 </div> 
             </article>
 
+                                    <article class="booking-card equipment-loan" data-booking-id="922eb0fee65c" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">11:00 AM</span>Canon EOS M50
+                        </div>
+                        <div class="booking-card-summary-time">
+Checkout • T.N.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKOUT NEEDED</span>
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Canon EOS M50</h3>
+                        <div class="booking-category">Cameras</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                        <span class="equipment-indicator pickup">
+                            📦 Pickup
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Checkout:</span>
+                        <span class="detail-value">11:00 AM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">T.N. (t***@my.yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Checkout</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 6
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Verify patron identity against booking record</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Confirm any required batteries are fully charged</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">Check out equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="6"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">6</span>
+                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 922eb0fee65c</div>
+
+                </div> 
+            </article>
+
                     </div>
                 </div>
             </div>
@@ -553,61 +657,12 @@ Checkout • S.J.                        </div>
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
                         <span class="hour-group-title">2 PM</span>
-                        <span class="hour-group-count">3 tasks</span>
+                        <span class="hour-group-count">2 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
                 <div class="hour-group-content collapsed">
                     <div class="booking-list">
-                                    <article class="booking-card " data-booking-id="c43740d9ce0e" data-booking-type="space">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-Scott 204 - Flex Studio
-                        </div>
-                        <div class="booking-card-summary-time">
-2:00 PM - 4:45 PM • T.O.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Scott 204 - Flex Studio</h3>
-                        <div class="booking-category">Flex Studio Spaces</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">2:00 PM - 4:45 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">T.O. (t***@yorku.ca)</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Check-in:</span>
-                        <span class="detail-value booking-id">L3A6</span>
-                    </div>
-                </div>
-
-
-                <div class="booking-id">ID: c43740d9ce0e</div>
-
-                </div> 
-            </article>
-
                                     <article class="booking-card " data-booking-id="4d922d38e285" data-booking-type="space">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
@@ -775,7 +830,7 @@ Scott 207D -  Audio Recording Booth
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
                         <span class="hour-group-title">5 PM</span>
-                        <span class="hour-group-count">4 tasks</span>
+                        <span class="hour-group-count">3 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
@@ -1072,103 +1127,6 @@ Due back • T.P.                        </div>
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="3c1d28d3819c" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>Zoom H4n Pro
-                        </div>
-                        <div class="booking-card-summary-time">
-Due back • G.K.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKIN NEEDED</span>
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Zoom H4n Pro</h3>
-                        <div class="booking-category">Audio Recorders</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                        <span class="equipment-indicator return">
-                            ↩️ Return
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Due back:</span>
-                        <span class="detail-value">5:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">G.K. (g***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Return</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 5
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Receive equipment from patron</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Check in equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 3c1d28d3819c</div>
-
-                </div> 
-            </article>
-
                     </div>
                 </div>
             </div>
@@ -1185,37 +1143,6 @@ Due back • G.K.                        </div>
                 <span class="section-count">2</span>
             </div>
             <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="8374d7d388c8" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 204 - Flex Studio</div>
-                            <div class="booking-card-summary-time">11:15 AM - 1:45 PM • I.G.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">11:15 AM - 1:45 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">I.G. (c***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">Z3B</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: 8374d7d388c8</div>
-                    </div>
-                </article>
                 <article class="booking-card in-progress" data-booking-id="c104e2813806" data-booking-type="space">
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -1247,6 +1174,37 @@ Due back • G.K.                        </div>
                         <div class="booking-id">ID: c104e2813806</div>
                     </div>
                 </article>
+                <article class="booking-card in-progress" data-booking-id="c43740d9ce0e" data-booking-type="space">
+                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                        <div class="booking-card-summary">
+                            <div class="booking-card-summary-title">Scott 204 - Flex Studio</div>
+                            <div class="booking-card-summary-time">2:00 PM - 4:45 PM • T.O.</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge badge-task">IN PROGRESS</span>
+                            <span class="badge status-confirmed">CONFIRMED</span>
+                        </div>
+                        <span class="booking-card-expand-icon">▼</span>
+                    </div>
+
+                    <div class="booking-card-content">
+                        <div class="booking-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Time:</span>
+                                <span class="detail-value">2:00 PM - 4:45 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Patron:</span>
+                                <span class="detail-value patron-info">T.O. (t***@yorku.ca)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Check-in Code:</span>
+                                <span class="detail-value">L3A6</span>
+                            </div>
+                        </div>
+                        <div class="booking-id">ID: c43740d9ce0e</div>
+                    </div>
+                </article>
             </div>
         </section>
 
@@ -1254,7 +1212,7 @@ Due back • G.K.                        </div>
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">4</span>
+                <span class="section-count">5</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -1306,6 +1264,28 @@ Due back • G.K.                        </div>
                                 </div>
                             </div>
                             <div class="booking-id">ID: ec39c333f111</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 204 - Flex Studio</h3>
+                                    <div class="booking-category">Flex Studio Spaces</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">11:15 AM - 1:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">I.G.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 8374d7d388c8</div>
                         </article>
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
@@ -1380,6 +1360,6 @@ Due back • G.K.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1775495489"></script>
+    <script src="../static/dashboard.js?v=1775498956"></script>
 </body>
 </html>
