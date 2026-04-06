@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1775514537">
+    <link rel="stylesheet" href="../static/style.css?v=1775516622">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Monday, April 06, 2026</div>
-                <div class="last-updated">Last updated: 6:28 PM</div>
+                <div class="last-updated">Last updated: 7:03 PM</div>
             </div>
         </div>
     </header>
@@ -76,7 +76,7 @@
                 <div class="timeline-count">15</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">6PM</div>
@@ -119,11 +119,10 @@
 
 
 
-
-            <div class="hour-group">
+            <div class="hour-group outstanding-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
-                        <span class="hour-group-title">5 PM</span>
+                        <span class="hour-group-title">Still outstanding from earlier today</span>
                         <span class="hour-group-count">3 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
@@ -425,6 +424,7 @@ Due back • T.P.                        </div>
                 </div>
             </div>
 
+
         </section>
 
     </main>
@@ -459,7 +459,7 @@ Due back • T.P.                        </div>
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Overdue by:</span>
-                            <span class="detail-value">1 hour</span>
+                            <span class="detail-value">2 hours</span>
                         </div>
                     </div>
                     <div class="booking-id">ID: 92c009358b81</div>
@@ -485,7 +485,7 @@ Due back • T.P.                        </div>
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Overdue by:</span>
-                            <span class="detail-value">1 hour</span>
+                            <span class="detail-value">2 hours</span>
                         </div>
                     </div>
                     <div class="booking-id">ID: 9c38f05364a7</div>
@@ -732,6 +732,6 @@ Due back • T.P.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1775514537"></script>
+    <script src="../static/dashboard.js?v=1775516622"></script>
 </body>
 </html>
