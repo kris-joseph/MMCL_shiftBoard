@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-07T17:50:07.325625+00:00",
+  "fetch_timestamp": "2026-04-07T18:48:15.916767+00:00",
   "date": "2026-04-07",
   "space_bookings": [
     {
@@ -79,12 +79,13 @@
       "lastName": "Asefzadeh",
       "email": "mona13@my.yorku.ca",
       "account": "mona13@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "VR Rooms",
       "item_name": "Scott 203G - VR/Podcasting Room",
       "event": null,
-      "check_in_code": "J5L"
+      "check_in_code": "J5L",
+      "cancelled": "2026-04-07T18:02:56+00:00"
     },
     {
       "bookId": "301fff35882d",
@@ -289,26 +290,6 @@
       "item_name": "Rode Wireless Go",
       "event": null,
       "barcode": "39007054930623"
-    },
-    {
-      "bookId": "6c918ec30a72",
-      "id": 340222,
-      "eid": 21828,
-      "cid": 8138,
-      "lid": 2632,
-      "fromDate": "2026-03-19T16:07:00-04:00",
-      "toDate": "2026-04-07T17:00:00-04:00",
-      "created": "2026-03-19T15:01:45-04:00",
-      "firstName": "Jannat",
-      "lastName": "Yaqobi",
-      "email": "jannat25@my.yorku.ca",
-      "account": "jannat25@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS M50",
-      "event": null,
-      "barcode": "39007054930250"
     },
     {
       "bookId": "2b00e3f5d72b",
@@ -731,6 +712,26 @@
       "event": null,
       "barcode": "39007054930284",
       "cancelled": "2026-03-31T23:02:06+00:00"
+    },
+    {
+      "bookId": "6c918ec30a72",
+      "id": 340222,
+      "eid": 21828,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-03-19T16:07:00-04:00",
+      "toDate": "2026-04-08T17:00:00-04:00",
+      "created": "2026-03-19T15:01:45-04:00",
+      "firstName": "Jannat",
+      "lastName": "Yaqobi",
+      "email": "jannat25@my.yorku.ca",
+      "account": "jannat25@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50",
+      "event": null,
+      "barcode": "39007054930250"
     },
     {
       "bookId": "3c1d28d3819c",
@@ -1944,6 +1945,26 @@
       "item_name": "Sennheiser HD 280 Pro",
       "event": null,
       "barcode": "39007054930490"
+    },
+    {
+      "bookId": "30a3a0dd8d07",
+      "id": 345874,
+      "eid": 21881,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-04-07T14:10:00-04:00",
+      "toDate": "2026-04-14T17:00:00-04:00",
+      "created": "2026-04-07T13:56:47-04:00",
+      "firstName": "Alexis",
+      "lastName": "Rennie",
+      "email": "alexis77@my.yorku.ca",
+      "account": "alexis77@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Blue Yeti Nano",
+      "event": null,
+      "barcode": "39007054930458"
     },
     {
       "bookId": "ac3ad88c5a08",
