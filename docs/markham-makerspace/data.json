@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-07T14:12:15.599382+00:00",
+  "fetch_timestamp": "2026-04-07T14:26:27.447665+00:00",
   "date": "2026-04-07",
   "space_bookings": [
     {
@@ -23,6 +23,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "bb8939ec3945",
+      "id": 15785987,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-07T11:30:00-04:00",
+      "toDate": "2026-04-07T16:30:00-04:00",
+      "created": "2026-04-07T10:17:25-04:00",
+      "firstName": "Alturo",
+      "lastName": "Chen",
+      "email": "altur0@yorku.ca",
+      "account": "altur0",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
+      "bookId": "bb8939ec3945",
+      "id": 15785988,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-07T11:30:00-04:00",
+      "toDate": "2026-04-07T16:30:00-04:00",
+      "created": "2026-04-07T10:17:25-04:00",
+      "firstName": "Alturo",
+      "lastName": "Chen",
+      "email": "altur0@yorku.ca",
+      "account": "altur0",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
       "event": null
     },
     {
