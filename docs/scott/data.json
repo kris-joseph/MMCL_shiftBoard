@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-07T19:50:37.739571+00:00",
+  "fetch_timestamp": "2026-04-07T20:36:36.416333+00:00",
   "date": "2026-04-07",
   "space_bookings": [
     {
@@ -74,7 +74,7 @@
       "cid": 5395,
       "lid": 2632,
       "fromDate": "2026-04-07T13:00:00-04:00",
-      "toDate": "2026-04-07T16:45:00-04:00",
+      "toDate": "2026-04-07T16:31:00-04:00",
       "created": "2026-04-07T12:32:26-04:00",
       "firstName": "Cassandra",
       "lastName": "Agbai",
