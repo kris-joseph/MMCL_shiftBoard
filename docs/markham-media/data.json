@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-08T22:03:55.681620+00:00",
+  "fetch_timestamp": "2026-04-08T23:05:10.970741+00:00",
   "date": "2026-04-08",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-04-08T12:00:00-04:00",
-      "toDate": "2026-04-08T18:00:00-04:00",
+      "toDate": "2026-04-08T18:30:00-04:00",
       "created": "2026-04-08T01:55:12-04:00",
       "firstName": "Ryan",
       "lastName": "Mpiana-Mukaya",
@@ -48,6 +48,26 @@
         "title": "Orientation to video interviewing: How to get that cinematic look!"
       },
       "nickname": "Orientation to video interviewing: How to get that cinematic look!"
+    },
+    {
+      "bookId": "343b4045dbcf",
+      "id": 15816218,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-04-09T09:30:00-04:00",
+      "toDate": "2026-04-09T12:00:00-04:00",
+      "created": "2026-04-08T18:35:03-04:00",
+      "firstName": "Ryan",
+      "lastName": "Mpiana-Mukaya",
+      "email": "ryanmp@my.yorku.ca",
+      "account": "ryanmp@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "J24U"
     },
     {
       "bookId": "ac6d3ac6cc25",
