@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1775663787">
+    <link rel="stylesheet" href="../static/style.css?v=1775667263">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Wednesday, April 08, 2026</div>
-                <div class="last-updated">Last updated: 11:56 AM</div>
+                <div class="last-updated">Last updated: 12:54 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Opening Shift</span>
                 </div>
@@ -44,7 +44,7 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">11AM</div>
@@ -116,7 +116,7 @@
             <div class="shift-group-header">
                 <h2>Opening Shift</h2>
                 <div class="booking-count">
-                    2 space bookings •
+                    0 space bookings •
                     1 equipment loan                </div>
             </div>
 
@@ -241,115 +241,6 @@ Checkout • J.J.                        </div>
                 </div>
             </div>
 
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">12 PM</span>
-                        <span class="hour-group-count">2 tasks</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card " data-booking-id="ab768a2e2c1b" data-booking-type="space">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-Editing and Music Studio #3 (Rm 3060E)
-                        </div>
-                        <div class="booking-card-summary-time">
-12:00 PM - 2:30 PM • R.M.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Editing and Music Studio #3 (Rm 3060E)</h3>
-                        <div class="booking-category">Editing Studios</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="badge shift-boundary-flag">Shift Boundary</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">12:00 PM - 2:30 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">R.M. (r***@my.yorku.ca)</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Check-in:</span>
-                        <span class="detail-value booking-id">BM3X</span>
-                    </div>
-                </div>
-
-
-                <div class="booking-id">ID: ab768a2e2c1b</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card " data-booking-id="8fd8f66429c1" data-booking-type="space">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-Mixed Use Studio (Rm 3045)
-                        </div>
-                        <div class="booking-card-summary-time">
-12:30 PM - 2:45 PM • D.D.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Mixed Use Studio (Rm 3045)</h3>
-                        <div class="booking-category">Large Studios</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="badge shift-boundary-flag">Shift Boundary</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">12:30 PM - 2:45 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">D.D. (d***@yorku.ca)</span>
-                    </div>
-                </div>
-
-
-                <div class="booking-id">ID: 8fd8f66429c1</div>
-
-                </div> 
-            </article>
-
-                    </div>
-                </div>
-            </div>
 
         </section>
         <section class="shift-group">
@@ -577,6 +468,72 @@ Due back • F.Y.                        </div>
 
     <aside class="persistent-sections">
 
+        <section class="persistent-section in-progress-section">
+            <div class="section-header">
+                <h2>Patron Onsite</h2>
+                <span class="section-count">2</span>
+            </div>
+            <div class="booking-list">
+                <article class="booking-card in-progress" data-booking-id="ab768a2e2c1b" data-booking-type="space">
+                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                        <div class="booking-card-summary">
+                            <div class="booking-card-summary-title">Editing and Music Studio #3 (Rm 3060E)</div>
+                            <div class="booking-card-summary-time">12:00 PM - 2:30 PM • R.M.</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge badge-task">IN PROGRESS</span>
+                            <span class="badge status-confirmed">CONFIRMED</span>
+                        </div>
+                        <span class="booking-card-expand-icon">▼</span>
+                    </div>
+
+                    <div class="booking-card-content">
+                        <div class="booking-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Time:</span>
+                                <span class="detail-value">12:00 PM - 2:30 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Patron:</span>
+                                <span class="detail-value patron-info">R.M. (r***@my.yorku.ca)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Check-in Code:</span>
+                                <span class="detail-value">BM3X</span>
+                            </div>
+                        </div>
+                        <div class="booking-id">ID: ab768a2e2c1b</div>
+                    </div>
+                </article>
+                <article class="booking-card in-progress" data-booking-id="8fd8f66429c1" data-booking-type="space">
+                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                        <div class="booking-card-summary">
+                            <div class="booking-card-summary-title">Mixed Use Studio (Rm 3045)</div>
+                            <div class="booking-card-summary-time">12:30 PM - 2:45 PM • D.D.</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge badge-task">IN PROGRESS</span>
+                            <span class="badge status-confirmed">CONFIRMED</span>
+                        </div>
+                        <span class="booking-card-expand-icon">▼</span>
+                    </div>
+
+                    <div class="booking-card-content">
+                        <div class="booking-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Time:</span>
+                                <span class="detail-value">12:30 PM - 2:45 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Patron:</span>
+                                <span class="detail-value patron-info">D.D. (d***@yorku.ca)</span>
+                            </div>
+                        </div>
+                        <div class="booking-id">ID: 8fd8f66429c1</div>
+                    </div>
+                </article>
+            </div>
+        </section>
 
 
         <section class="persistent-section">
@@ -621,6 +578,6 @@ Due back • F.Y.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1775663787"></script>
+    <script src="../static/dashboard.js?v=1775667263"></script>
 </body>
 </html>
