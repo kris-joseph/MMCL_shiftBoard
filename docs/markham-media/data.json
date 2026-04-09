@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-09T04:29:24.801497+00:00",
+  "fetch_timestamp": "2026-04-09T14:23:49.686731+00:00",
   "date": "2026-04-09",
   "space_bookings": [
     {
@@ -19,12 +19,34 @@
       "lastName": "Mpiana-Mukaya",
       "email": "ryanmp@my.yorku.ca",
       "account": "ryanmp@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Editing Studios",
       "item_name": "Editing and Music Studio #3 (Rm 3060E)",
       "event": null,
-      "check_in_code": "J24U"
+      "check_in_code": "J24U",
+      "cancelled": "2026-04-09T05:49:16+00:00"
+    },
+    {
+      "bookId": "d1c22efc2b06",
+      "id": 15820619,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-04-09T10:00:00-04:00",
+      "toDate": "2026-04-09T12:30:00-04:00",
+      "created": "2026-04-09T01:51:48-04:00",
+      "firstName": "Ryan",
+      "lastName": "Mpiana-Mukaya",
+      "email": "ryanmp@my.yorku.ca",
+      "account": "ryanmp@my.yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "T5QG",
+      "cancelled": "2026-04-09T14:16:05+00:00"
     },
     {
       "bookId": "64d53bbe69c4",
