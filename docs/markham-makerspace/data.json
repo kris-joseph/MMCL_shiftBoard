@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-09T18:50:38.959105+00:00",
+  "fetch_timestamp": "2026-04-09T19:58:12.808599+00:00",
   "date": "2026-04-09",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Makerspace Room",
       "item_name": "Makerspace (Rm 3055)",
+      "event": null
+    },
+    {
+      "bookId": "9e0fa3d337b8",
+      "id": 15830500,
+      "eid": 31776,
+      "cid": 7722,
+      "lid": 3430,
+      "fromDate": "2026-04-09T16:00:00-04:00",
+      "toDate": "2026-04-09T17:00:00-04:00",
+      "created": "2026-04-09T15:45:53-04:00",
+      "firstName": "Ahmedaly",
+      "lastName": "Kermali",
+      "email": "ahmeda1y@my.yorku.ca",
+      "account": "ahmeda1y@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Soldering Stations",
+      "item_name": "Soldering Station #01",
       "event": null
     }
   ],
