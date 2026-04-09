@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-09T19:58:12.121841+00:00",
+  "fetch_timestamp": "2026-04-09T20:50:15.090970+00:00",
   "date": "2026-04-09",
   "space_bookings": [
     {
@@ -55,7 +55,7 @@
       "cid": 7951,
       "lid": 3432,
       "fromDate": "2026-04-09T11:00:00-04:00",
-      "toDate": "2026-04-09T17:00:00-04:00",
+      "toDate": "2026-04-09T16:34:00-04:00",
       "created": "2026-02-19T14:20:55-05:00",
       "firstName": "David",
       "lastName": "Kwok",
