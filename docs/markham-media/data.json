@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-09T16:12:57.079379+00:00",
+  "fetch_timestamp": "2026-04-09T17:35:15.120025+00:00",
   "date": "2026-04-09",
   "space_bookings": [
     {
@@ -49,26 +49,6 @@
       "cancelled": "2026-04-09T14:16:05+00:00"
     },
     {
-      "bookId": "64d53bbe69c4",
-      "id": 15778070,
-      "eid": 30701,
-      "cid": 7762,
-      "lid": 3432,
-      "fromDate": "2026-04-09T13:00:00-04:00",
-      "toDate": "2026-04-09T15:30:00-04:00",
-      "created": "2026-04-06T18:07:06-04:00",
-      "firstName": "Angelica",
-      "lastName": "Kioulmetis",
-      "email": "akilo@my.yorku.ca",
-      "account": "akilo@my.yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Podcast Studios",
-      "item_name": "Podcast Studio #2 (Rm 3060D)",
-      "event": null,
-      "check_in_code": "VP2"
-    },
-    {
       "bookId": "ac6d3ac6cc25",
       "id": 15210039,
       "eid": 33193,
@@ -87,6 +67,26 @@
       "item_name": "Mixed Use Studio (Rm 3045)",
       "event": null,
       "check_in_code": "N2YN"
+    },
+    {
+      "bookId": "64d53bbe69c4",
+      "id": 15778070,
+      "eid": 30701,
+      "cid": 7762,
+      "lid": 3432,
+      "fromDate": "2026-04-09T13:00:00-04:00",
+      "toDate": "2026-04-09T15:30:00-04:00",
+      "created": "2026-04-06T18:07:06-04:00",
+      "firstName": "Angelica",
+      "lastName": "Kioulmetis",
+      "email": "akilo@my.yorku.ca",
+      "account": "akilo@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Podcast Studios",
+      "item_name": "Podcast Studio #2 (Rm 3060D)",
+      "event": null,
+      "check_in_code": "VP2"
     }
   ],
   "equipment_bookings": [
