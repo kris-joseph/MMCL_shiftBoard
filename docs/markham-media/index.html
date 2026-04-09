@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1775770717">
+    <link rel="stylesheet" href="../static/style.css?v=1775773919">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Thursday, April 09, 2026</div>
-                <div class="last-updated">Last updated: 5:38 PM</div>
+                <div class="last-updated">Last updated: 6:31 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -74,7 +74,7 @@
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">5PM</div>
@@ -146,6 +146,40 @@
     <aside class="persistent-sections">
 
 
+        <section class="persistent-section overdue-section">
+            <div class="section-header">
+                <h2>Overdue Items</h2>
+                <span class="section-count">1</span>
+            </div>
+            <div class="booking-list">
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Insta360 x4 (8K Action Cam)</h3>
+                            <div class="booking-category">360 Cameras</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Thursday, April 09, 2026 at 6:30 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">P.J. (p***@yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: 17092b235f39</div>
+                </article>
+            </div>
+        </section>
 
         <section class="persistent-section">
             <div class="section-header">
@@ -232,6 +266,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1775770717"></script>
+    <script src="../static/dashboard.js?v=1775773919"></script>
 </body>
 </html>
