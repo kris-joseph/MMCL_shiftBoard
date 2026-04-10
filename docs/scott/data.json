@@ -3,10 +3,30 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-10T15:11:47.463267+00:00",
+  "fetch_timestamp": "2026-04-10T16:11:35.626923+00:00",
   "date": "2026-04-10",
   "space_bookings": [],
   "equipment_bookings": [
+    {
+      "bookId": "5a5bed5f6de5",
+      "id": 347013,
+      "eid": 21818,
+      "cid": 5661,
+      "lid": 2632,
+      "fromDate": "2026-04-10T11:41:00-04:00",
+      "toDate": "2026-04-11T17:00:00-04:00",
+      "created": "2026-04-10T11:37:34-04:00",
+      "firstName": "Kris",
+      "lastName": "Joseph",
+      "email": "kjo@yorku.ca",
+      "account": "kjo@yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 2 (128 GB), VR Headset & Controllers",
+      "event": null,
+      "barcode": "39007054930201"
+    },
     {
       "bookId": "bb588474b2d6",
       "id": 345429,
@@ -1435,6 +1455,27 @@
       "category_name": "Classrooms",
       "item_name": "SMIC Screening Room",
       "event": null
+    },
+    {
+      "bookId": "dd70cb7ebc07",
+      "id": 15839795,
+      "eid": 26820,
+      "cid": 7468,
+      "lid": 3458,
+      "fromDate": "2026-04-10T14:00:00-04:00",
+      "toDate": "2026-04-10T16:00:00-04:00",
+      "created": "2026-04-10T11:16:46-04:00",
+      "firstName": "Kris",
+      "lastName": "Joseph",
+      "email": "kjo@yorku.ca",
+      "account": "kjo@yorku.ca",
+      "status": "Cancelled by Admin",
+      "location_name": "Scott Library Staff Spaces and Classrooms",
+      "category_name": "Classrooms",
+      "item_name": "Scott 206 - Demo Space",
+      "event": null,
+      "cancelled": "2026-04-10T15:29:11+00:00",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZBPmj5AABH34X_zHuIQZyVVKGzvHhAAAZBPrwgAAA="
     }
   ]
 }
