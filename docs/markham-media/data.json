@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-10T04:43:31.678579+00:00",
+  "fetch_timestamp": "2026-04-10T14:02:21.469279+00:00",
   "date": "2026-04-10",
   "space_bookings": [],
   "equipment_bookings": [
@@ -167,6 +167,26 @@
       "item_name": "Crucial X10 SSD Drive",
       "event": null,
       "barcode": "39007052957214"
+    },
+    {
+      "bookId": "fa8030c10e39",
+      "id": 346935,
+      "eid": 32554,
+      "cid": 7832,
+      "lid": 3432,
+      "fromDate": "2026-04-10T09:45:49-04:00",
+      "toDate": "2026-04-17T23:59:00-04:00",
+      "created": "2026-04-10T09:45:48-04:00",
+      "firstName": "SHINGO",
+      "lastName": "ABETA",
+      "email": "shingoa@my.yorku.ca",
+      "account": "5859730001025115",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Lenses",
+      "item_name": "Canon RF 85mm",
+      "event": null,
+      "barcode": "39007054930987"
     },
     {
       "bookId": "b450f15bdc53",
