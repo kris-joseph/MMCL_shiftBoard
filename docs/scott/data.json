@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-12T17:26:37.173061+00:00",
+  "fetch_timestamp": "2026-04-12T17:58:58.364788+00:00",
   "date": "2026-04-12",
   "space_bookings": [
     {
@@ -59,7 +59,7 @@
       "lastName": "Corbette-Hampton",
       "email": "cholivia@my.yorku.ca",
       "account": "cholivia@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Audio Recording Rooms",
       "item_name": "Scott 203K - Audio Recording Studio",
