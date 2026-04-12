@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-12T15:58:54.017314+00:00",
+  "fetch_timestamp": "2026-04-12T16:40:01.632547+00:00",
   "date": "2026-04-12",
   "space_bookings": [
     {
@@ -1718,6 +1718,26 @@
       "item_name": "Meta Quest 3",
       "event": null,
       "barcode": "39007054933866"
+    },
+    {
+      "bookId": "cbea484afbfb",
+      "id": 347306,
+      "eid": 25245,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-04-12T14:00:00-04:00",
+      "toDate": "2026-04-19T19:00:00-04:00",
+      "created": "2026-04-12T12:28:30-04:00",
+      "firstName": "Benedict",
+      "lastName": "Cruz",
+      "email": "isola@my.yorku.ca",
+      "account": "isola@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Blue Yeti Nano",
+      "event": null,
+      "barcode": "39007054933171"
     },
     {
       "bookId": "b7bcdedfb28b",
