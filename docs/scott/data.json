@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-12T17:58:58.364788+00:00",
+  "fetch_timestamp": "2026-04-12T18:52:14.053917+00:00",
   "date": "2026-04-12",
   "space_bookings": [
     {
@@ -47,6 +47,28 @@
       "check_in_code": "S9F"
     },
     {
+      "bookId": "b9323f494665",
+      "id": 15862284,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-04-12T15:00:00-04:00",
+      "toDate": "2026-04-12T18:45:00-04:00",
+      "created": "2026-04-12T14:37:23-04:00",
+      "firstName": "Cassandra",
+      "lastName": "Agbai",
+      "email": "ngozi360@my.yorku.ca",
+      "account": "ngozi360@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32116,
+      "seat_name": "Workstation 4 (Mac Studio)",
+      "check_in_code": "J6U"
+    },
+    {
       "bookId": "b3c1e96c28f4",
       "id": 15848178,
       "eid": 19905,
@@ -59,12 +81,13 @@
       "lastName": "Corbette-Hampton",
       "email": "cholivia@my.yorku.ca",
       "account": "cholivia@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Audio Recording Rooms",
       "item_name": "Scott 203K - Audio Recording Studio",
       "event": null,
-      "check_in_code": "F8J"
+      "check_in_code": "F8J",
+      "cancelled": "2026-04-12T18:01:44+00:00"
     },
     {
       "bookId": "3c735ff5c5c0",
@@ -85,6 +108,26 @@
       "item_name": "Scott 203G - VR/Podcasting Room",
       "event": null,
       "check_in_code": "D9K4"
+    },
+    {
+      "bookId": "f9b13ab68be0",
+      "id": 15861745,
+      "eid": 19905,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-04-13T11:15:00-04:00",
+      "toDate": "2026-04-13T13:45:00-04:00",
+      "created": "2026-04-12T14:01:36-04:00",
+      "firstName": "Olivia",
+      "lastName": "Corbette-Hampton",
+      "email": "cholivia@my.yorku.ca",
+      "account": "cholivia@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 203K - Audio Recording Studio",
+      "event": null,
+      "check_in_code": "J4TN"
     },
     {
       "bookId": "34ac428ffd3a",
@@ -697,26 +740,6 @@
       "barcode": "39007054936562"
     },
     {
-      "bookId": "3dfba1c016c7",
-      "id": 346911,
-      "eid": 34322,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-04-12T14:00:00-04:00",
-      "toDate": "2026-04-14T17:00:00-04:00",
-      "created": "2026-04-10T07:51:51-04:00",
-      "firstName": "Brook",
-      "lastName": "Briones-Convicto",
-      "email": "broobrco@my.yorku.ca",
-      "account": "broobrco@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": "39007054936489"
-    },
-    {
       "bookId": "29295b5476f6",
       "id": 338355,
       "eid": 28530,
@@ -895,6 +918,26 @@
       "item_name": "Manfrotto BeFree Advanced, Travel Tripod",
       "event": null,
       "barcode": "39007054933395"
+    },
+    {
+      "bookId": "3dfba1c016c7",
+      "id": 346911,
+      "eid": 34322,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-04-12T14:10:00-04:00",
+      "toDate": "2026-04-14T17:00:00-04:00",
+      "created": "2026-04-10T07:51:51-04:00",
+      "firstName": "Brook",
+      "lastName": "Briones-Convicto",
+      "email": "broobrco@my.yorku.ca",
+      "account": "broobrco@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936489"
     },
     {
       "bookId": "ac3ad88c5a08",

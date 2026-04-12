@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-12T17:58:59.315294+00:00",
+  "fetch_timestamp": "2026-04-12T18:52:14.801315+00:00",
   "date": "2026-04-12",
   "space_bookings": [
     {
@@ -19,12 +19,13 @@
       "lastName": "Alqaisi",
       "email": "qaisalq@my.yorku.ca",
       "account": "qaisalq@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by System",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Large Studios",
       "item_name": "Mixed Use Studio (Rm 3045)",
       "event": null,
-      "check_in_code": "A2E"
+      "check_in_code": "A2E",
+      "cancelled": "2026-04-12T18:16:05+00:00"
     },
     {
       "bookId": "63ed8faea40c",
@@ -32,7 +33,7 @@
       "eid": 33193,
       "cid": 7951,
       "lid": 3432,
-      "fromDate": "2026-04-12T16:00:00-04:00",
+      "fromDate": "2026-04-12T14:30:00-04:00",
       "toDate": "2026-04-12T18:30:00-04:00",
       "created": "2026-04-09T23:41:29-04:00",
       "firstName": "Qais",
@@ -288,6 +289,26 @@
       "item_name": "Meta Quest 3",
       "event": null,
       "barcode": "39007054931803"
+    },
+    {
+      "bookId": "d88802c34a81",
+      "id": 347328,
+      "eid": 33665,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-04-12T14:41:17-04:00",
+      "toDate": "2026-04-19T18:30:00-04:00",
+      "created": "2026-04-12T14:41:15-04:00",
+      "firstName": "QAIS",
+      "lastName": "ALQAISI",
+      "email": "qaisalq@my.yorku.ca",
+      "account": "220721312",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932686"
     },
     {
       "bookId": "b450f15bdc53",
