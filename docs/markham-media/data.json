@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-13T16:53:46.355366+00:00",
+  "fetch_timestamp": "2026-04-13T17:52:28.736468+00:00",
   "date": "2026-04-13",
   "space_bookings": [
     {
@@ -25,6 +25,46 @@
       "item_name": "Editing and Music Studio #2 (Rm 3060F)",
       "event": null,
       "check_in_code": "M9G"
+    },
+    {
+      "bookId": "72d131316467",
+      "id": 15875818,
+      "eid": 30701,
+      "cid": 7762,
+      "lid": 3432,
+      "fromDate": "2026-04-13T14:00:00-04:00",
+      "toDate": "2026-04-13T16:30:00-04:00",
+      "created": "2026-04-13T13:13:16-04:00",
+      "firstName": "Perry-Anne",
+      "lastName": "Lupyrypa",
+      "email": "perrya@yorku.ca",
+      "account": "perrya@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Podcast Studios",
+      "item_name": "Podcast Studio #2 (Rm 3060D)",
+      "event": null,
+      "check_in_code": "5FU"
+    },
+    {
+      "bookId": "f0e7a0c336a6",
+      "id": 15876774,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-04-13T14:00:00-04:00",
+      "toDate": "2026-04-13T16:00:00-04:00",
+      "created": "2026-04-13T13:48:34-04:00",
+      "firstName": "Tharuk",
+      "lastName": "Ranasinghe",
+      "email": "tharuk99@my.yorku.ca",
+      "account": "tharuk99@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "F3HF"
     }
   ],
   "equipment_bookings": [
