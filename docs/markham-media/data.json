@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-13T17:52:28.736468+00:00",
+  "fetch_timestamp": "2026-04-13T19:00:56.096280+00:00",
   "date": "2026-04-13",
   "space_bookings": [
     {
@@ -39,12 +39,13 @@
       "lastName": "Lupyrypa",
       "email": "perrya@yorku.ca",
       "account": "perrya@yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by System",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Podcast Studios",
       "item_name": "Podcast Studio #2 (Rm 3060D)",
       "event": null,
-      "check_in_code": "5FU"
+      "check_in_code": "5FU",
+      "cancelled": "2026-04-13T18:16:05+00:00"
     },
     {
       "bookId": "f0e7a0c336a6",
