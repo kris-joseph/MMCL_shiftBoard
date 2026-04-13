@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-13T21:11:56.334768+00:00",
+  "fetch_timestamp": "2026-04-13T22:06:40.618631+00:00",
   "date": "2026-04-13",
   "space_bookings": [
     {
@@ -118,6 +118,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
+      "event": null
+    },
+    {
+      "bookId": "e8066dc52262",
+      "id": 15881361,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-13T18:00:00-04:00",
+      "toDate": "2026-04-13T21:00:00-04:00",
+      "created": "2026-04-13T17:21:18-04:00",
+      "firstName": "Perry",
+      "lastName": "Lupyrypa",
+      "email": "plupyrypa@gmail.com",
+      "account": "plupyrypa@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
       "event": null
     },
     {
