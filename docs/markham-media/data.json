@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-14T16:02:06.394816+00:00",
+  "fetch_timestamp": "2026-04-14T17:39:13.672436+00:00",
   "date": "2026-04-14",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7762,
       "lid": 3432,
       "fromDate": "2026-04-14T11:30:00-04:00",
-      "toDate": "2026-04-14T14:00:00-04:00",
+      "toDate": "2026-04-14T12:30:00-04:00",
       "created": "2026-04-14T11:17:28-04:00",
       "firstName": "PERRY-ANNE",
       "lastName": "LUPYRYPA",
@@ -47,6 +47,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931613"
+    },
+    {
+      "bookId": "b4fda7af1875",
+      "id": 347950,
+      "eid": 33665,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-04-14T11:18:47-04:00",
+      "toDate": "2026-04-14T12:31:00-04:00",
+      "created": "2026-04-14T11:18:44-04:00",
+      "firstName": "PERRY-ANNE",
+      "lastName": "LUPYRYPA",
+      "email": "plupyrypa@gmail.com",
+      "account": "5859730001047808",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932686"
     },
     {
       "bookId": "d5d0a6b0b5ff",
@@ -268,26 +288,6 @@
       "item_name": "Sony MDR-7506 Headphones",
       "event": null,
       "barcode": "39007054934112"
-    },
-    {
-      "bookId": "b4fda7af1875",
-      "id": 347950,
-      "eid": 33665,
-      "cid": 8161,
-      "lid": 3432,
-      "fromDate": "2026-04-14T11:18:47-04:00",
-      "toDate": "2026-04-21T18:30:00-04:00",
-      "created": "2026-04-14T11:18:44-04:00",
-      "firstName": "PERRY-ANNE",
-      "lastName": "LUPYRYPA",
-      "email": "plupyrypa@gmail.com",
-      "account": "5859730001047808",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Microphones",
-      "item_name": "Rode Wireless Pro II",
-      "event": null,
-      "barcode": "39007054932686"
     },
     {
       "bookId": "2488cca0d01d",
