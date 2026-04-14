@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-14T04:41:48.186952+00:00",
+  "fetch_timestamp": "2026-04-14T14:21:39.389081+00:00",
   "date": "2026-04-14",
   "space_bookings": [
     {
@@ -212,6 +212,46 @@
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "a8f301f3f593",
+      "id": 347891,
+      "eid": 21621,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-04-14T11:00:00-04:00",
+      "toDate": "2026-04-14T17:00:00-04:00",
+      "created": "2026-04-14T09:12:01-04:00",
+      "firstName": "Eunice Yun Sze",
+      "lastName": "Neo",
+      "email": "en14ys@yorku.ca",
+      "account": "en14ys@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50",
+      "event": null,
+      "barcode": "39007054930235"
+    },
+    {
+      "bookId": "a8f301f3f593",
+      "id": 347892,
+      "eid": 22828,
+      "cid": 8149,
+      "lid": 2632,
+      "fromDate": "2026-04-14T11:00:00-04:00",
+      "toDate": "2026-04-14T17:00:00-04:00",
+      "created": "2026-04-14T09:12:01-04:00",
+      "firstName": "Eunice Yun Sze",
+      "lastName": "Neo",
+      "email": "en14ys@yorku.ca",
+      "account": "en14ys@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Tripods",
+      "item_name": "MeFoto RoadTrip Air, Tripod & Selfie Stick",
+      "event": null,
+      "barcode": "39007054930722"
+    },
     {
       "bookId": "29295b5476f6",
       "id": 338355,
@@ -1884,6 +1924,25 @@
       "location_name": "Scott Library Staff Spaces and Classrooms",
       "category_name": "Staff Meeting Rooms",
       "item_name": "Scott 503 - Meeting Room",
+      "event": null
+    },
+    {
+      "bookId": "501cfc80f465",
+      "id": 15887628,
+      "eid": 32791,
+      "cid": 6572,
+      "lid": 3458,
+      "fromDate": "2026-04-14T09:00:00-04:00",
+      "toDate": "2026-04-14T14:00:00-04:00",
+      "created": "2026-04-14T08:48:50-04:00",
+      "firstName": "Rohan",
+      "lastName": "Mahabir",
+      "email": "rmahabir@yorku.ca",
+      "account": "rmahabir@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Staff Spaces and Classrooms",
+      "category_name": "Staff Meeting Rooms",
+      "item_name": "Scott 108C - Meeting Room",
       "event": null
     },
     {
