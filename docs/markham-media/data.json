@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-14T21:11:42.444878+00:00",
+  "fetch_timestamp": "2026-04-14T22:08:50.381250+00:00",
   "date": "2026-04-14",
   "space_bookings": [
     {
@@ -33,7 +33,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-04-14T15:30:00-04:00",
-      "toDate": "2026-04-14T18:00:00-04:00",
+      "toDate": "2026-04-14T17:35:00-04:00",
       "created": "2026-04-14T15:34:40-04:00",
       "firstName": "VANSH HARESH",
       "lastName": "GAGWANI",

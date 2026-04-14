@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1776201103">
+    <link rel="stylesheet" href="../static/style.css?v=1776204531">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Tuesday, April 14, 2026</div>
-                <div class="last-updated">Last updated: 5:11 PM</div>
+                <div class="last-updated">Last updated: 6:08 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -74,14 +74,14 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 25.0%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 50.0%;"></div>
-                <div class="timeline-count">2</div>
+                <div class="timeline-bar" style="height: 25.0%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">6PM</div>
             </div>
             <div class="timeline-hour ">
@@ -145,51 +145,12 @@
 
     <aside class="persistent-sections">
 
-        <section class="persistent-section in-progress-section">
-            <div class="section-header">
-                <h2>Patron Onsite</h2>
-                <span class="section-count">1</span>
-            </div>
-            <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="916b2af204d1" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Editing and Music Studio #1 (Rm 3060G)</div>
-                            <div class="booking-card-summary-time">3:30 PM - 6:00 PM • V.G.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">3:30 PM - 6:00 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">V.G. (v***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">F89C</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: 916b2af204d1</div>
-                    </div>
-                </article>
-            </div>
-        </section>
 
 
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">3</span>
+                <span class="section-count">4</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -219,6 +180,28 @@
                                 </div>
                             </div>
                             <div class="booking-id">ID: 90da40d4a404</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Editing and Music Studio #1 (Rm 3060G)</h3>
+                                    <div class="booking-category">Editing Studios</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">3:30 PM - 5:35 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">V.G.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 916b2af204d1</div>
                         </article>
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
@@ -293,6 +276,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1776201103"></script>
+    <script src="../static/dashboard.js?v=1776204531"></script>
 </body>
 </html>
