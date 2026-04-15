@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-15T14:26:27.353621+00:00",
+  "fetch_timestamp": "2026-04-15T15:45:03.673709+00:00",
   "date": "2026-04-15",
   "space_bookings": [
     {
@@ -42,6 +42,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "b72bacd94721",
+      "id": 15905034,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-15T11:30:00-04:00",
+      "toDate": "2026-04-15T19:30:00-04:00",
+      "created": "2026-04-15T11:29:59-04:00",
+      "firstName": "jacob",
+      "lastName": "turola",
+      "email": "jturola@yorku.ca",
+      "account": "jturola@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "809c331df96a",
+      "id": 15904393,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-15T10:30:00-04:00",
+      "toDate": "2026-04-16T04:30:00-04:00",
+      "created": "2026-04-15T10:54:38-04:00",
+      "firstName": "Mojoyinola",
+      "lastName": "Salisu",
+      "email": "mojo28@my.yorku.ca",
+      "account": "mojo28@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
       "event": null
     },
     {
