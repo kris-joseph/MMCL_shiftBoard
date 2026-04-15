@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-15T00:04:05.778145+00:00",
+  "fetch_timestamp": "2026-04-15T02:10:48.727279+00:00",
   "date": "2026-04-15",
   "space_bookings": [
     {
@@ -1300,26 +1300,6 @@
       "barcode": "39007054930482"
     },
     {
-      "bookId": "f885dcef0959",
-      "id": 348045,
-      "eid": 27866,
-      "cid": 8147,
-      "lid": 2632,
-      "fromDate": "2026-04-14T14:00:00-04:00",
-      "toDate": "2026-04-21T17:00:00-04:00",
-      "created": "2026-04-14T13:50:51-04:00",
-      "firstName": "Rachel",
-      "lastName": "Leveille",
-      "email": "rachel3@my.yorku.ca",
-      "account": "rachel3@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Microphones",
-      "item_name": "Power DeWise Lavalier Microphone",
-      "event": null,
-      "barcode": "39007054933775"
-    },
-    {
       "bookId": "29295b5476f6",
       "id": 338355,
       "eid": 28530,
@@ -1660,6 +1640,27 @@
       "event": null,
       "barcode": "39007054936612",
       "cancelled": "2026-04-14T23:02:06+00:00"
+    },
+    {
+      "bookId": "f885dcef0959",
+      "id": 348045,
+      "eid": 27866,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-04-14T14:00:00-04:00",
+      "toDate": "2026-04-21T17:00:00-04:00",
+      "created": "2026-04-14T13:50:51-04:00",
+      "firstName": "Rachel",
+      "lastName": "Leveille",
+      "email": "rachel3@my.yorku.ca",
+      "account": "rachel3@my.yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Power DeWise Lavalier Microphone",
+      "event": null,
+      "barcode": "39007054933775",
+      "cancelled": "2026-04-15T02:02:06+00:00"
     },
     {
       "bookId": "e60372e238c2",
