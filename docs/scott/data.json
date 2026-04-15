@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-15T22:07:23.695963+00:00",
+  "fetch_timestamp": "2026-04-15T23:07:09.516452+00:00",
   "date": "2026-04-15",
   "space_bookings": [
     {
@@ -1706,26 +1706,6 @@
       "cancelled": "2026-04-15T02:02:06+00:00"
     },
     {
-      "bookId": "e60372e238c2",
-      "id": 345298,
-      "eid": 34322,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-04-15T11:00:00-04:00",
-      "toDate": "2026-04-22T17:00:00-04:00",
-      "created": "2026-04-03T09:51:48-04:00",
-      "firstName": "Yetunde",
-      "lastName": "Ojebola-Afeyodion",
-      "email": "yojebola@my.yorku.ca",
-      "account": "yojebola@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": "39007054936489"
-    },
-    {
       "bookId": "1369f423585d",
       "id": 348440,
       "eid": 34096,
@@ -1784,6 +1764,27 @@
       "item_name": "Canon RF-S 10-18mm",
       "event": null,
       "barcode": "39007054931670"
+    },
+    {
+      "bookId": "e60372e238c2",
+      "id": 345298,
+      "eid": 34322,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-04-15T11:00:00-04:00",
+      "toDate": "2026-04-22T17:00:00-04:00",
+      "created": "2026-04-03T09:51:48-04:00",
+      "firstName": "Yetunde",
+      "lastName": "Ojebola-Afeyodion",
+      "email": "yojebola@my.yorku.ca",
+      "account": "yojebola@my.yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936489",
+      "cancelled": "2026-04-15T23:02:07+00:00"
     },
     {
       "bookId": "20513a26ee22",
