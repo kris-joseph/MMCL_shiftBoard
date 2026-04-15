@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-15T20:12:29.857864+00:00",
+  "fetch_timestamp": "2026-04-15T21:11:27.351558+00:00",
   "date": "2026-04-15",
   "space_bookings": [
     {
@@ -76,11 +76,12 @@
       "lastName": "Josep",
       "email": "kjo@yorku.ca",
       "account": "kjo@yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "Resin 3D Printers",
       "item_name": "Elegoo Mars 5 Ultra \"Phobos\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-15T20:21:04+00:00"
     },
     {
       "bookId": "809c331df96a",
