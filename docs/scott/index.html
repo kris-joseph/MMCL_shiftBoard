@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1776267904">
+    <link rel="stylesheet" href="../static/style.css?v=1776271997">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Wednesday, April 15, 2026</div>
-                <div class="last-updated">Last updated: 11:45 AM</div>
+                <div class="last-updated">Last updated: 12:53 PM</div>
             </div>
         </div>
     </header>
@@ -41,14 +41,14 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 52.94117647058824%;"></div>
-                <div class="timeline-count">9</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 47.05882352941176%;"></div>
+                <div class="timeline-count">8</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+                <div class="timeline-bar" style="height: 11.76470588235294%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour ">
@@ -57,18 +57,18 @@
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 17.647058823529413%;"></div>
-                <div class="timeline-count">3</div>
+                <div class="timeline-bar" style="height: 11.76470588235294%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">2PM</div>
-            </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 29.411764705882355%;"></div>
-                <div class="timeline-count">5</div>
-                <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour ">
                 <div class="timeline-bar" style="height: 35.294117647058826%;"></div>
                 <div class="timeline-count">6</div>
+                <div class="timeline-hour-label">3PM</div>
+            </div>
+            <div class="timeline-hour ">
+                <div class="timeline-bar" style="height: 41.17647058823529%;"></div>
+                <div class="timeline-count">7</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
@@ -1711,11 +1711,11 @@ Due back • E.A.                        </div>
                         <div class="booking-id">ID: a213b31e9423</div>
                     </div>
                 </article>
-                <article class="booking-card in-progress" data-booking-id="4e01a0a39a35" data-booking-type="space">
+                <article class="booking-card in-progress" data-booking-id="62672b78bfb3" data-booking-type="space">
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 204 - Flex Studio</div>
-                            <div class="booking-card-summary-time">11:15 AM - 2:15 PM • S.B.</div>
+                            <div class="booking-card-summary-title">Scott 207 - Editing Lab</div>
+                            <div class="booking-card-summary-time">12:15 PM - 4:15 PM • N.A.</div>
                         </div>
                         <div class="booking-badges">
                             <span class="badge badge-task">IN PROGRESS</span>
@@ -1728,18 +1728,18 @@ Due back • E.A.                        </div>
                         <div class="booking-details">
                             <div class="detail-row">
                                 <span class="detail-label">Time:</span>
-                                <span class="detail-value">11:15 AM - 2:15 PM</span>
+                                <span class="detail-value">12:15 PM - 4:15 PM</span>
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">S.B. (s***@my.yorku.ca)</span>
+                                <span class="detail-value patron-info">N.A. (n***@my.yorku.ca)</span>
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">TR7</span>
+                                <span class="detail-value">A6B7</span>
                             </div>
                         </div>
-                        <div class="booking-id">ID: 4e01a0a39a35</div>
+                        <div class="booking-id">ID: 62672b78bfb3</div>
                     </div>
                 </article>
             </div>
@@ -1749,7 +1749,7 @@ Due back • E.A.                        </div>
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">0</span>
+                <span class="section-count">1</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -1757,8 +1757,29 @@ Due back • E.A.                        </div>
                     <span class="collapse-icon">▼</span>
                 </button>
                 <div id="completed-collapse" class="collapse-content">
-                    <div class="empty-state">
-                        <div class="empty-state-message">No completed bookings today</div>
+                    <div class="booking-list" style="margin-top: var(--spacing-md);">
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Blue Yeti Nano</h3>
+                                    <div class="booking-category">Microphones</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">3:34 PM - 12:38 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">B.C.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: cbea484afbfb</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -1788,6 +1809,6 @@ Due back • E.A.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1776267904"></script>
+    <script src="../static/dashboard.js?v=1776271997"></script>
 </body>
 </html>
