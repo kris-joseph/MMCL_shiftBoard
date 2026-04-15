@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-15T21:11:26.964230+00:00",
+  "fetch_timestamp": "2026-04-15T22:07:24.395474+00:00",
   "date": "2026-04-15",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-04-15T16:00:00-04:00",
-      "toDate": "2026-04-15T18:30:00-04:00",
+      "toDate": "2026-04-15T17:19:00-04:00",
       "created": "2026-04-15T09:41:21-04:00",
       "firstName": "Jefferson",
       "lastName": "Chen",
