@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-15T19:18:52.357853+00:00",
+  "fetch_timestamp": "2026-04-15T20:12:29.857864+00:00",
   "date": "2026-04-15",
   "space_bookings": [
     {
@@ -61,6 +61,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "7a5bb22ffdc5",
+      "id": 15910417,
+      "eid": 33249,
+      "cid": 7971,
+      "lid": 3430,
+      "fromDate": "2026-04-15T16:00:00-04:00",
+      "toDate": "2026-04-15T23:00:00-04:00",
+      "created": "2026-04-15T15:59:22-04:00",
+      "firstName": "Kris",
+      "lastName": "Josep",
+      "email": "kjo@yorku.ca",
+      "account": "kjo@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Resin 3D Printers",
+      "item_name": "Elegoo Mars 5 Ultra \"Phobos\"",
       "event": null
     },
     {
