@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-16T14:48:45.865458+00:00",
+  "fetch_timestamp": "2026-04-16T16:16:00.956313+00:00",
   "date": "2026-04-16",
   "space_bookings": [
     {
@@ -25,6 +25,28 @@
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
       "check_in_code": "F4C6"
+    },
+    {
+      "bookId": "5a0ce9dada08",
+      "id": 15918968,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-04-16T12:30:00-04:00",
+      "toDate": "2026-04-16T17:00:00-04:00",
+      "created": "2026-04-16T10:58:10-04:00",
+      "firstName": "Cassandra",
+      "lastName": "Agbai",
+      "email": "ngozi360@my.yorku.ca",
+      "account": "ngozi360@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32116,
+      "seat_name": "Workstation 4 (Mac Studio)",
+      "check_in_code": "4YF"
     }
   ],
   "equipment_bookings": [
@@ -1583,26 +1605,6 @@
       "barcode": "39007054933387"
     },
     {
-      "bookId": "6a709f2b72f6",
-      "id": 347602,
-      "eid": 31563,
-      "cid": 8292,
-      "lid": 2632,
-      "fromDate": "2026-04-16T11:00:00-04:00",
-      "toDate": "2026-04-23T17:00:00-04:00",
-      "created": "2026-04-13T12:11:47-04:00",
-      "firstName": "Mustafa Abdiaziz",
-      "lastName": "Mohamud",
-      "email": "mufasa10@my.yorku.ca",
-      "account": "mufasa10@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "RODE Microphones",
-      "item_name": "Rode Wireless ME Dual Ultra-compact Wireless Microphone",
-      "event": null,
-      "barcode": "39007054932140"
-    },
-    {
       "bookId": "5b48c078a61c",
       "id": 348017,
       "eid": 21986,
@@ -1641,6 +1643,26 @@
       "item_name": "Portable LED Light Kit (2 Panel)",
       "event": null,
       "barcode": "39007054936125"
+    },
+    {
+      "bookId": "1f7dde76fd56",
+      "id": 348604,
+      "eid": 35841,
+      "cid": 8291,
+      "lid": 2632,
+      "fromDate": "2026-04-16T11:00:00-04:00",
+      "toDate": "2026-04-23T17:00:00-04:00",
+      "created": "2026-04-16T11:46:28-04:00",
+      "firstName": "Jaskirat",
+      "lastName": "Singh",
+      "email": "jas0411@my.yorku.ca",
+      "account": "jas0411@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "360 Cameras",
+      "item_name": "Insta360 X5 (8K Action Camera)",
+      "event": null,
+      "barcode": "39007054936620"
     },
     {
       "bookId": "86db1561185b",
@@ -1725,6 +1747,27 @@
       "event": null,
       "barcode": "39007054930623",
       "cancelled": "2026-04-13T21:53:25+00:00"
+    },
+    {
+      "bookId": "6a709f2b72f6",
+      "id": 347602,
+      "eid": 31563,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-04-16T11:00:00-04:00",
+      "toDate": "2026-04-23T17:00:00-04:00",
+      "created": "2026-04-13T12:11:47-04:00",
+      "firstName": "Mustafa Abdiaziz",
+      "lastName": "Mohamud",
+      "email": "mufasa10@my.yorku.ca",
+      "account": "mufasa10@my.yorku.ca",
+      "status": "Cancelled by Admin",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "RODE Microphones",
+      "item_name": "Rode Wireless ME Dual Ultra-compact Wireless Microphone",
+      "event": null,
+      "barcode": "39007054932140",
+      "cancelled": "2026-04-16T15:07:13+00:00"
     },
     {
       "bookId": "80f3ab31c428",
