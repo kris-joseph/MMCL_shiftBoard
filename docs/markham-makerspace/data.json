@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-17T17:40:23.858747+00:00",
+  "fetch_timestamp": "2026-04-17T18:43:32.334197+00:00",
   "date": "2026-04-17",
   "space_bookings": [
     {
@@ -42,6 +42,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Sewing & Cricut",
       "item_name": "Cricut Cutter",
+      "event": null
+    },
+    {
+      "bookId": "d404549903dc",
+      "id": 15935021,
+      "eid": 30726,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-17T14:00:00-04:00",
+      "toDate": "2026-04-17T16:30:00-04:00",
+      "created": "2026-04-17T14:04:13-04:00",
+      "firstName": "Saieda",
+      "lastName": "Begum",
+      "email": "muntahab@my.yorku.ca",
+      "account": "muntahab@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #03 \"Heaven's Door\"",
       "event": null
     },
     {
@@ -99,6 +118,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "95b8a40440bc",
+      "id": 15934885,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-17T13:30:00-04:00",
+      "toDate": "2026-04-17T18:30:00-04:00",
+      "created": "2026-04-17T13:54:52-04:00",
+      "firstName": "Sarika",
+      "lastName": "Patel",
+      "email": "spatel05@yorku.ca",
+      "account": "spatel05@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
       "event": null
     },
     {
