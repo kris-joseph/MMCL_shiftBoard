@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-17T19:52:06.673637+00:00",
+  "fetch_timestamp": "2026-04-17T20:35:37.635423+00:00",
   "date": "2026-04-17",
   "space_bookings": [
     {
@@ -92,6 +92,26 @@
   ],
   "equipment_bookings": [
     {
+      "bookId": "db865a04f3f7",
+      "id": 347144,
+      "eid": 32512,
+      "cid": 7827,
+      "lid": 3432,
+      "fromDate": "2026-04-11T13:56:00-04:00",
+      "toDate": "2026-04-17T16:27:00-04:00",
+      "created": "2026-04-10T16:10:57-04:00",
+      "firstName": "John",
+      "lastName": "Edwards",
+      "email": "jedwards@my.yorku.ca",
+      "account": "jedwards@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054931803"
+    },
+    {
       "bookId": "fa8030c10e39",
       "id": 346935,
       "eid": 32554,
@@ -150,26 +170,6 @@
       "item_name": "Zoom F3",
       "event": null,
       "barcode": "39007054931985"
-    },
-    {
-      "bookId": "db865a04f3f7",
-      "id": 347144,
-      "eid": 32512,
-      "cid": 7827,
-      "lid": 3432,
-      "fromDate": "2026-04-11T13:56:00-04:00",
-      "toDate": "2026-04-18T17:30:00-04:00",
-      "created": "2026-04-10T16:10:57-04:00",
-      "firstName": "John",
-      "lastName": "Edwards",
-      "email": "jedwards@my.yorku.ca",
-      "account": "jedwards@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "VR Headsets",
-      "item_name": "Meta Quest 3",
-      "event": null,
-      "barcode": "39007054931803"
     },
     {
       "bookId": "392493245a15",
