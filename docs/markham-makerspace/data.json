@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-17T04:45:29.255715+00:00",
+  "fetch_timestamp": "2026-04-17T14:06:23.860271+00:00",
   "date": "2026-04-17",
   "space_bookings": [
     {
@@ -23,6 +23,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Sewing & Cricut",
       "item_name": "Cricut Cutter",
+      "event": null
+    },
+    {
+      "bookId": "720d4522f7bb",
+      "id": 15931111,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-17T09:30:00-04:00",
+      "toDate": "2026-04-17T18:30:00-04:00",
+      "created": "2026-04-17T09:38:35-04:00",
+      "firstName": "Mira",
+      "lastName": "kopanarov",
+      "email": "mira.kopanarov@gmail.com",
+      "account": "mira.kopanarov@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
+    },
+    {
+      "bookId": "6ac09c1e5794",
+      "id": 15931151,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-17T09:30:00-04:00",
+      "toDate": "2026-04-17T18:30:00-04:00",
+      "created": "2026-04-17T09:44:16-04:00",
+      "firstName": "Mira",
+      "lastName": "kopanarov",
+      "email": "mira.kopanarov@gmail.com",
+      "account": "mira.kopanarov@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
       "event": null
     }
   ],

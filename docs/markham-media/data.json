@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-17T04:45:28.835460+00:00",
+  "fetch_timestamp": "2026-04-17T14:06:23.471320+00:00",
   "date": "2026-04-17",
   "space_bookings": [
     {
@@ -19,12 +19,33 @@
       "lastName": "Wu",
       "email": "susanw4@yorku.ca",
       "account": "susanw4",
+      "status": "Cancelled by System",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Large Studios",
+      "item_name": "Mixed Use Studio (Rm 3045)",
+      "event": null,
+      "check_in_code": "L5V",
+      "cancelled": "2026-04-17T13:46:05+00:00"
+    },
+    {
+      "bookId": "69bcc3877d90",
+      "id": 15931181,
+      "eid": 33193,
+      "cid": 7951,
+      "lid": 3432,
+      "fromDate": "2026-04-17T10:00:00-04:00",
+      "toDate": "2026-04-17T12:30:00-04:00",
+      "created": "2026-04-17T09:48:03-04:00",
+      "firstName": "Susan",
+      "lastName": "Wu",
+      "email": "susanw4@yorku.ca",
+      "account": "susanw4",
       "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Large Studios",
       "item_name": "Mixed Use Studio (Rm 3045)",
       "event": null,
-      "check_in_code": "L5V"
+      "check_in_code": "X7DX"
     },
     {
       "bookId": "37b06baddaf8",
