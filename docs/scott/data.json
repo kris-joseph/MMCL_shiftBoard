@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-19T23:01:43.786247+00:00",
+  "fetch_timestamp": "2026-04-19T23:58:34.505120+00:00",
   "date": "2026-04-19",
   "space_bookings": [
     {
@@ -2238,7 +2238,7 @@
     {
       "bookId": "5b635e218aaf",
       "id": 348825,
-      "eid": 28528,
+      "eid": 28509,
       "cid": 5661,
       "lid": 2632,
       "fromDate": "2026-04-20T11:00:00-04:00",
@@ -2253,7 +2253,7 @@
       "category_name": "VR Headsets",
       "item_name": "Meta Quest 3",
       "event": null,
-      "barcode": "39007054933866"
+      "barcode": "39007054933841"
     },
     {
       "bookId": "70b61420c41f",
