@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-19T18:50:11.409221+00:00",
+  "fetch_timestamp": "2026-04-19T19:34:50.914903+00:00",
   "date": "2026-04-19",
   "space_bookings": [
     {
@@ -91,6 +91,26 @@
       "item_name": "Meta Quest 3",
       "event": null,
       "barcode": "39007054933866"
+    },
+    {
+      "bookId": "0a05dface8c7",
+      "id": 348662,
+      "eid": 24949,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-04-16T14:58:00-04:00",
+      "toDate": "2026-04-19T15:21:00-04:00",
+      "created": "2026-04-16T13:39:13-04:00",
+      "firstName": "Hector Fernando",
+      "lastName": "Jimenez Sanabia",
+      "email": "hectyjs1@my.yorku.ca",
+      "account": "hectyjs1@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50 Mark II",
+      "event": null,
+      "barcode": "39007054933049"
     },
     {
       "bookId": "2d2af2709416",
@@ -211,26 +231,6 @@
       "item_name": "Canon RF-S 55-210mm",
       "event": null,
       "barcode": "39007054932306"
-    },
-    {
-      "bookId": "0a05dface8c7",
-      "id": 348662,
-      "eid": 24949,
-      "cid": 8138,
-      "lid": 2632,
-      "fromDate": "2026-04-16T14:58:00-04:00",
-      "toDate": "2026-04-19T19:00:00-04:00",
-      "created": "2026-04-16T13:39:13-04:00",
-      "firstName": "Hector Fernando",
-      "lastName": "Jimenez Sanabia",
-      "email": "hectyjs1@my.yorku.ca",
-      "account": "hectyjs1@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS M50 Mark II",
-      "event": null,
-      "barcode": "39007054933049"
     },
     {
       "bookId": "44b57e035f02",
