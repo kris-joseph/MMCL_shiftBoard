@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1776637567">
+    <link rel="stylesheet" href="../static/style.css?v=1776639706">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Sunday, April 19, 2026</div>
-                <div class="last-updated">Last updated: 6:26 PM</div>
+                <div class="last-updated">Last updated: 7:01 PM</div>
             </div>
         </div>
     </header>
@@ -52,8 +52,8 @@
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 7.142857142857142%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 28.57142857142857%;"></div>
+                <div class="timeline-count">4</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour past">
@@ -76,14 +76,14 @@
                 <div class="timeline-count">5</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 14.285714285714285%;"></div>
-                <div class="timeline-count">2</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 42.857142857142854%;"></div>
+                <div class="timeline-count">6</div>
                 <div class="timeline-hour-label">6PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 85.71428571428571%;"></div>
-                <div class="timeline-count">12</div>
+                <div class="timeline-bar" style="height: 78.57142857142857%;"></div>
+                <div class="timeline-count">11</div>
                 <div class="timeline-hour-label">7PM</div>
             </div>
             <div class="timeline-hour ">
@@ -114,7 +114,7 @@
                 <h2>Full Shift</h2>
                 <div class="booking-count">
                     0 space bookings •
-                    4 equipment loans                </div>
+                    3 equipment loans                </div>
             </div>
 
 
@@ -241,7 +241,7 @@ Checkout • T.T.                        </div>
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
                         <span class="hour-group-title">7 PM</span>
-                        <span class="hour-group-count">3 tasks</span>
+                        <span class="hour-group-count">2 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
@@ -441,103 +441,6 @@ Due back • D.R.                        </div>
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="3ee2d51b4086" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">7:00 PM</span>Canon RF-S 55-210mm
-                        </div>
-                        <div class="booking-card-summary-time">
-Due back • F.H.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKIN NEEDED</span>
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Canon RF-S 55-210mm</h3>
-                        <div class="booking-category">Camera Lenses</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                        <span class="equipment-indicator return">
-                            ↩️ Return
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Due back:</span>
-                        <span class="detail-value">7:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">F.H. (f***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Return</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 5
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Receive equipment from patron</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Check in equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 3ee2d51b4086</div>
-
-                </div> 
-            </article>
-
                     </div>
                 </div>
             </div>
@@ -548,51 +451,228 @@ Due back • F.H.                        </div>
 
     <aside class="persistent-sections">
 
-        <section class="persistent-section in-progress-section">
+
+        <section class="persistent-section overdue-section">
             <div class="section-header">
-                <h2>Patron Onsite</h2>
-                <span class="section-count">1</span>
+                <h2>Overdue Items</h2>
+                <span class="section-count">8</span>
             </div>
             <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="14264d73a6e9" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 207 - Editing Lab</div>
-                            <div class="booking-card-summary-time">2:00 PM - 6:45 PM • C.A.</div>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Sigma RF-S 18-50mm F2.8 DC DN</h3>
+                            <div class="booking-category">Camera Lenses</div>
                         </div>
                         <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
+                            <span class="badge status-tentative">OVERDUE</span>
                         </div>
-                        <span class="booking-card-expand-icon">▼</span>
                     </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">2:00 PM - 6:45 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">C.A. (n***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">XS2</span>
-                            </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Sunday, April 19, 2026 at 7:00 PM</span>
                         </div>
-                        <div class="booking-id">ID: 14264d73a6e9</div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">F.H. (f***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
                     </div>
+                    <div class="booking-id">ID: 44b57e035f02</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Zoom H6</h3>
+                            <div class="booking-category">Audio Recorders</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Sunday, April 19, 2026 at 7:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">O.C. (c***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: 58db328ccacc</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Saramonic UwMic9 Kit 2</h3>
+                            <div class="booking-category">Microphones</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Sunday, April 19, 2026 at 7:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">O.C. (c***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: 58db328ccacc</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Canon EOS M50 Mark II</h3>
+                            <div class="booking-category">Cameras</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Sunday, April 19, 2026 at 7:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">F.B. (f***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: b7bcdedfb28b</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>MeFoto RoadTrip Air, Tripod &amp; Selfie Stick</h3>
+                            <div class="booking-category">Tripods</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Sunday, April 19, 2026 at 7:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">F.B. (f***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: b7bcdedfb28b</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Canon EOS M50 Mark II</h3>
+                            <div class="booking-category">Cameras</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Sunday, April 19, 2026 at 7:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">S.A. (c***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: 958d3b9b837d</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Rode Wireless Pro</h3>
+                            <div class="booking-category">RODE Microphones</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Sunday, April 19, 2026 at 7:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">I.K. (i***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: e105a33a7805</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Zoom Podtrak P4</h3>
+                            <div class="booking-category">Audio Mixers</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Sunday, April 19, 2026 at 7:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">D.R. (f***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: dcc34f3632b2</div>
                 </article>
             </div>
         </section>
 
-
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">5</span>
+                <span class="section-count">10</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -601,6 +681,28 @@ Due back • F.H.                        </div>
                 </button>
                 <div id="completed-collapse" class="collapse-content">
                     <div class="booking-list" style="margin-top: var(--spacing-md);">
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 207 - Editing Lab</h3>
+                                    <div class="booking-category">Computer Labs</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:00 PM - 6:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">C.A.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 14264d73a6e9</div>
+                        </article>
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
                                 <div class="booking-title">
@@ -711,6 +813,94 @@ Due back • F.H.                        </div>
                             </div>
                             <div class="booking-id">ID: d5ce6192e576</div>
                         </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Canon RF-S 55-210mm</h3>
+                                    <div class="booking-category">Camera Lenses</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">1:38 PM - 6:36 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">F.H.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 3ee2d51b4086</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Canon EOS R50-V</h3>
+                                    <div class="booking-category">Cameras</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">1:38 PM - 6:36 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">F.H.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 2a9c08982e91</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Manfrotto BeFree Advanced, Travel Tripod</h3>
+                                    <div class="booking-category">Tripods</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">1:38 PM - 6:36 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">F.H.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 47f488269827</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Rode Wireless Pro</h3>
+                                    <div class="booking-category">RODE Microphones</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">1:38 PM - 6:36 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">F.H.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 320497c6b134</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -740,6 +930,6 @@ Due back • F.H.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1776637567"></script>
+    <script src="../static/dashboard.js?v=1776639706"></script>
 </body>
 </html>
