@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-19T04:46:55.903921+00:00",
+  "fetch_timestamp": "2026-04-19T13:46:02.153823+00:00",
   "date": "2026-04-19",
   "space_bookings": [
     {
@@ -1671,26 +1671,6 @@
       "barcode": "39007054936562"
     },
     {
-      "bookId": "5e2699b099e6",
-      "id": 348795,
-      "eid": 25984,
-      "cid": 8142,
-      "lid": 2632,
-      "fromDate": "2026-04-19T14:00:00-04:00",
-      "toDate": "2026-04-26T19:00:00-04:00",
-      "created": "2026-04-16T23:15:31-04:00",
-      "firstName": "Saieda",
-      "lastName": "Begum",
-      "email": "muntahab@my.yorku.ca",
-      "account": "muntahab@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Lenses",
-      "item_name": "Canon EF-M 55-200 mm",
-      "event": null,
-      "barcode": "39007054933262"
-    },
-    {
       "bookId": "c2c2a1ff908a",
       "id": 342914,
       "eid": 34126,
@@ -1729,6 +1709,27 @@
       "item_name": "Canon RF 35mm",
       "event": null,
       "barcode": "39007054932405"
+    },
+    {
+      "bookId": "5e2699b099e6",
+      "id": 348795,
+      "eid": 25984,
+      "cid": 8142,
+      "lid": 2632,
+      "fromDate": "2026-04-19T14:00:00-04:00",
+      "toDate": "2026-04-26T19:00:00-04:00",
+      "created": "2026-04-16T23:15:31-04:00",
+      "firstName": "Saieda",
+      "lastName": "Begum",
+      "email": "muntahab@my.yorku.ca",
+      "account": "muntahab@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Lenses",
+      "item_name": "Canon EF-M 55-200 mm",
+      "event": null,
+      "barcode": "39007054933262",
+      "cancelled": "2026-04-19T06:44:46+00:00"
     },
     {
       "bookId": "02b8f11033b9",
