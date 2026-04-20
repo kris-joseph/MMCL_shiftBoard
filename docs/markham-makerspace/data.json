@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-20T18:52:02.866461+00:00",
+  "fetch_timestamp": "2026-04-20T19:54:57.558189+00:00",
   "date": "2026-04-20",
   "space_bookings": [
     {
@@ -238,6 +238,25 @@
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
       "event": null,
       "cancelled": "2026-04-20T18:27:25+00:00"
+    },
+    {
+      "bookId": "a9e403f36b18",
+      "id": 15962301,
+      "eid": 31776,
+      "cid": 7722,
+      "lid": 3430,
+      "fromDate": "2026-04-20T15:00:00-04:00",
+      "toDate": "2026-04-20T16:00:00-04:00",
+      "created": "2026-04-20T15:21:00-04:00",
+      "firstName": "Navid",
+      "lastName": "Mohaghegh",
+      "email": "navidmo@yorku.ca",
+      "account": "navidmo@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Soldering Stations",
+      "item_name": "Soldering Station #01",
+      "event": null
     },
     {
       "bookId": "c75930ceb33d",
