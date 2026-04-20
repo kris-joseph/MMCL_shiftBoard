@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-20T02:27:28.084177+00:00",
+  "fetch_timestamp": "2026-04-20T04:54:07.038674+00:00",
   "date": "2026-04-20",
   "space_bookings": [
     {
@@ -1867,26 +1867,6 @@
       "barcode": "39007054932371"
     },
     {
-      "bookId": "5b635e218aaf",
-      "id": 348825,
-      "eid": 28509,
-      "cid": 5661,
-      "lid": 2632,
-      "fromDate": "2026-04-20T11:00:00-04:00",
-      "toDate": "2026-04-27T17:00:00-04:00",
-      "created": "2026-04-17T09:14:26-04:00",
-      "firstName": "Rufson",
-      "lastName": "Mamun",
-      "email": "rufm@my.yorku.ca",
-      "account": "rufm@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "VR Headsets",
-      "item_name": "Meta Quest 3",
-      "event": null,
-      "barcode": "39007054933841"
-    },
-    {
       "bookId": "70b61420c41f",
       "id": 349219,
       "eid": 29567,
@@ -1925,6 +1905,27 @@
       "item_name": "Canon RF-S 55-210mm",
       "event": null,
       "barcode": "39007054931662"
+    },
+    {
+      "bookId": "5b635e218aaf",
+      "id": 348825,
+      "eid": 28509,
+      "cid": 5661,
+      "lid": 2632,
+      "fromDate": "2026-04-20T11:00:00-04:00",
+      "toDate": "2026-04-27T17:00:00-04:00",
+      "created": "2026-04-17T09:14:26-04:00",
+      "firstName": "Rufson",
+      "lastName": "Mamun",
+      "email": "rufm@my.yorku.ca",
+      "account": "rufm@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054933841",
+      "cancelled": "2026-04-20T03:24:03+00:00"
     },
     {
       "bookId": "d38b6b5add62",
