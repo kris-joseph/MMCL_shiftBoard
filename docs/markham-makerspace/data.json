@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-20T17:50:52.672861+00:00",
+  "fetch_timestamp": "2026-04-20T18:52:02.866461+00:00",
   "date": "2026-04-20",
   "space_bookings": [
     {
@@ -19,11 +19,12 @@
       "lastName": "Sheikh Rabiei",
       "email": "routch@my.yorku.ca",
       "account": "routch@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-20T18:27:18+00:00"
     },
     {
       "bookId": "7d7a2a31a600",
@@ -38,11 +39,12 @@
       "lastName": "Sheikh Rabiei",
       "email": "routch@my.yorku.ca",
       "account": "routch@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-20T18:27:25+00:00"
     },
     {
       "bookId": "914f3b152fd1",
@@ -178,6 +180,26 @@
       "event": null
     },
     {
+      "bookId": "c75930ceb33d",
+      "id": 15961294,
+      "eid": 30728,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-20T14:00:00-04:00",
+      "toDate": "2026-04-20T15:00:00-04:00",
+      "created": "2026-04-20T14:08:12-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Cancelled by Admin",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #05 \"Golden Wind\"",
+      "event": null,
+      "cancelled": "2026-04-20T18:27:42+00:00"
+    },
+    {
       "bookId": "189068e3cffa",
       "id": 15960346,
       "eid": 35303,
@@ -190,11 +212,12 @@
       "lastName": "Sheikh Rabiei",
       "email": "routch@my.yorku.ca",
       "account": "routch@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-20T18:27:18+00:00"
     },
     {
       "bookId": "7d7a2a31a600",
@@ -209,11 +232,32 @@
       "lastName": "Sheikh Rabiei",
       "email": "routch@my.yorku.ca",
       "account": "routch@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-20T18:27:25+00:00"
+    },
+    {
+      "bookId": "c75930ceb33d",
+      "id": 15961295,
+      "eid": 30728,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-20T15:30:00-04:00",
+      "toDate": "2026-04-20T16:30:00-04:00",
+      "created": "2026-04-20T14:08:12-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Cancelled by Admin",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #05 \"Golden Wind\"",
+      "event": null,
+      "cancelled": "2026-04-20T18:27:42+00:00"
     },
     {
       "bookId": "189068e3cffa",
@@ -228,11 +272,12 @@
       "lastName": "Sheikh Rabiei",
       "email": "routch@my.yorku.ca",
       "account": "routch@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-20T18:27:18+00:00"
     },
     {
       "bookId": "7d7a2a31a600",
@@ -247,11 +292,32 @@
       "lastName": "Sheikh Rabiei",
       "email": "routch@my.yorku.ca",
       "account": "routch@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-20T18:27:25+00:00"
+    },
+    {
+      "bookId": "c75930ceb33d",
+      "id": 15961296,
+      "eid": 30728,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-20T17:00:00-04:00",
+      "toDate": "2026-04-20T18:00:00-04:00",
+      "created": "2026-04-20T14:08:12-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Cancelled by Admin",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #05 \"Golden Wind\"",
+      "event": null,
+      "cancelled": "2026-04-20T18:27:42+00:00"
     },
     {
       "bookId": "395561e816b3",
@@ -308,6 +374,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
+    },
+    {
+      "bookId": "ce247f519812",
+      "id": 15961693,
+      "eid": 30731,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-20T15:00:00-04:00",
+      "toDate": "2026-04-20T18:30:00-04:00",
+      "created": "2026-04-20T14:37:16-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #08 \"Echoes\"",
+      "event": null
+    },
+    {
+      "bookId": "c464512d12f1",
+      "id": 15961711,
+      "eid": 30729,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-20T15:00:00-04:00",
+      "toDate": "2026-04-20T18:30:00-04:00",
+      "created": "2026-04-20T14:38:20-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #06 \"King Crimson\"",
       "event": null
     },
     {
