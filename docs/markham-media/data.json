@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-20T20:36:19.481863+00:00",
+  "fetch_timestamp": "2026-04-20T21:37:55.482759+00:00",
   "date": "2026-04-20",
   "space_bookings": [
     {
@@ -19,7 +19,7 @@
       "lastName": "GAGWANI",
       "email": "vansh270@my.yorku.ca",
       "account": "5859730001017044",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Editing Studios",
       "item_name": "Editing and Music Studio #2 (Rm 3060F)",
