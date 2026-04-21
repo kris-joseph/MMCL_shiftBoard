@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-21T22:04:33.510754+00:00",
+  "fetch_timestamp": "2026-04-21T23:02:57.880070+00:00",
   "date": "2026-04-21",
   "space_bookings": [
     {
@@ -2095,26 +2095,6 @@
       "cancelled": "2026-04-20T23:02:06+00:00"
     },
     {
-      "bookId": "c416bf69c77b",
-      "id": 349373,
-      "eid": 34317,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-04-21T11:00:00-04:00",
-      "toDate": "2026-04-28T17:00:00-04:00",
-      "created": "2026-04-20T11:59:57-04:00",
-      "firstName": "Oluwabuolakunmi",
-      "lastName": "Fateye",
-      "email": "buolaf@my.yorku.ca",
-      "account": "buolaf@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": "39007054936604"
-    },
-    {
       "bookId": "d38b6b5add62",
       "id": 325706,
       "eid": 28558,
@@ -2414,6 +2394,27 @@
       "event": null,
       "barcode": "39007054936463",
       "cancelled": "2026-04-13T14:09:57+00:00"
+    },
+    {
+      "bookId": "c416bf69c77b",
+      "id": 349373,
+      "eid": 34317,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-04-21T11:00:00-04:00",
+      "toDate": "2026-04-28T17:00:00-04:00",
+      "created": "2026-04-20T11:59:57-04:00",
+      "firstName": "Oluwabuolakunmi",
+      "lastName": "Fateye",
+      "email": "buolaf@my.yorku.ca",
+      "account": "buolaf@my.yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936604",
+      "cancelled": "2026-04-21T23:02:07+00:00"
     },
     {
       "bookId": "75e81ef5e11b",
