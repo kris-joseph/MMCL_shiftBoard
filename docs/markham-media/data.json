@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-21T18:57:32.515867+00:00",
+  "fetch_timestamp": "2026-04-21T20:00:40.459728+00:00",
   "date": "2026-04-21",
   "space_bookings": [
     {
@@ -309,6 +309,26 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007054932652"
+    },
+    {
+      "bookId": "f0534ed6e399",
+      "id": 349719,
+      "eid": 36515,
+      "cid": 7832,
+      "lid": 3432,
+      "fromDate": "2026-04-21T15:13:50-04:00",
+      "toDate": "2026-04-28T18:30:00-04:00",
+      "created": "2026-04-21T15:13:48-04:00",
+      "firstName": "BURCU",
+      "lastName": "YURDAKUL",
+      "email": "burcu1@yorku.ca",
+      "account": "102131047",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Lenses",
+      "item_name": "Sigma RF 18mm-55mm",
+      "event": null,
+      "barcode": "39007052956802"
     },
     {
       "bookId": "b450f15bdc53",
