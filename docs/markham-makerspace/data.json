@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-21T17:52:15.949110+00:00",
+  "fetch_timestamp": "2026-04-21T18:57:32.809746+00:00",
   "date": "2026-04-21",
   "space_bookings": [
     {
@@ -121,6 +121,44 @@
       "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
       "event": null,
       "cancelled": "2026-04-21T14:40:17+00:00"
+    },
+    {
+      "bookId": "469d9cfb3bfe",
+      "id": 15973049,
+      "eid": 30732,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-21T15:00:00-04:00",
+      "toDate": "2026-04-21T18:30:00-04:00",
+      "created": "2026-04-21T14:57:23-04:00",
+      "firstName": "Ivor",
+      "lastName": "Anand",
+      "email": "ivor15@my.yorku.ca",
+      "account": "ivor15@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #09 \"Crazy Diamond\"",
+      "event": null
+    },
+    {
+      "bookId": "469d9cfb3bfe",
+      "id": 15973050,
+      "eid": 30733,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-21T15:00:00-04:00",
+      "toDate": "2026-04-21T18:30:00-04:00",
+      "created": "2026-04-21T14:57:23-04:00",
+      "firstName": "Ivor",
+      "lastName": "Anand",
+      "email": "ivor15@my.yorku.ca",
+      "account": "ivor15@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #10 \"Silver Chariot\"",
+      "event": null
     },
     {
       "bookId": "a1cc7ced2283",
