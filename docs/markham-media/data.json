@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-21T14:29:26.240660+00:00",
+  "fetch_timestamp": "2026-04-21T15:52:24.089576+00:00",
   "date": "2026-04-21",
   "space_bookings": [
     {
@@ -48,6 +48,26 @@
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "7a75f5379ff2",
+      "id": 349202,
+      "eid": 33665,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-04-19T15:27:04-04:00",
+      "toDate": "2026-04-21T11:07:00-04:00",
+      "created": "2026-04-19T15:27:03-04:00",
+      "firstName": "ETHAN",
+      "lastName": "RAM",
+      "email": "ethanram110@gmail.com",
+      "account": "29007016682933",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932686"
+    },
     {
       "bookId": "25c0f1857544",
       "id": 346778,
@@ -211,26 +231,6 @@
       "barcode": "39007054931597"
     },
     {
-      "bookId": "7a75f5379ff2",
-      "id": 349202,
-      "eid": 33665,
-      "cid": 8161,
-      "lid": 3432,
-      "fromDate": "2026-04-19T15:27:04-04:00",
-      "toDate": "2026-04-26T18:30:00-04:00",
-      "created": "2026-04-19T15:27:03-04:00",
-      "firstName": "ETHAN",
-      "lastName": "RAM",
-      "email": "ethanram110@gmail.com",
-      "account": "29007016682933",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Microphones",
-      "item_name": "Rode Wireless Pro II",
-      "event": null,
-      "barcode": "39007054932686"
-    },
-    {
       "bookId": "0e17e9ba16e2",
       "id": 349449,
       "eid": 36635,
@@ -289,6 +289,26 @@
       "item_name": "SmallRig Tripod",
       "event": null,
       "barcode": "39007054933981"
+    },
+    {
+      "bookId": "8949d272f115",
+      "id": 349621,
+      "eid": 33664,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-04-21T11:03:16-04:00",
+      "toDate": "2026-04-28T18:30:00-04:00",
+      "created": "2026-04-21T11:03:14-04:00",
+      "firstName": "SEAN",
+      "lastName": "SWEENEY",
+      "email": "ssweeney@yorku.ca",
+      "account": "102133093",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932652"
     },
     {
       "bookId": "b450f15bdc53",

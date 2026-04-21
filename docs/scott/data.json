@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-21T14:29:24.970727+00:00",
+  "fetch_timestamp": "2026-04-21T15:52:23.230595+00:00",
   "date": "2026-04-21",
   "space_bookings": [
     {
@@ -19,12 +19,13 @@
       "lastName": "Khurelbaatar",
       "email": "bolor@my.yorku.ca",
       "account": "bolor@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by System",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Flex Studio Spaces",
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
-      "check_in_code": "A3RD"
+      "check_in_code": "A3RD",
+      "cancelled": "2026-04-21T15:46:05+00:00"
     },
     {
       "bookId": "c5085ca5ff05",
@@ -273,6 +274,26 @@
       "event": null,
       "barcode": "39007054933775",
       "cancelled": "2026-04-15T02:02:06+00:00"
+    },
+    {
+      "bookId": "76e5733c7323",
+      "id": 349612,
+      "eid": 29563,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-04-22T11:00:00-04:00",
+      "toDate": "2026-04-22T17:00:00-04:00",
+      "created": "2026-04-21T10:36:52-04:00",
+      "firstName": "Alessia",
+      "lastName": "Bozzoli",
+      "email": "abozzoli@my.yorku.ca",
+      "account": "abozzoli@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931357"
     },
     {
       "bookId": "4b432715ed3e",
@@ -1950,26 +1971,6 @@
       "barcode": "39007054933916"
     },
     {
-      "bookId": "e9e01421ebad",
-      "id": 343972,
-      "eid": 34085,
-      "cid": 8291,
-      "lid": 2632,
-      "fromDate": "2026-04-21T11:00:00-04:00",
-      "toDate": "2026-04-28T17:00:00-04:00",
-      "created": "2026-03-30T20:26:48-04:00",
-      "firstName": "Josiah",
-      "lastName": "Neven",
-      "email": "jneven@my.yorku.ca",
-      "account": "jneven@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "360 Cameras",
-      "item_name": "Insta360 X4 (8K Action Cam)",
-      "event": null,
-      "barcode": "39007054936026"
-    },
-    {
       "bookId": "fbbf6c4f2f4c",
       "id": 349065,
       "eid": 24203,
@@ -2188,6 +2189,26 @@
       "item_name": "Meta Quest 3",
       "event": null,
       "barcode": "39007054933866"
+    },
+    {
+      "bookId": "e9e01421ebad",
+      "id": 343972,
+      "eid": 34085,
+      "cid": 8291,
+      "lid": 2632,
+      "fromDate": "2026-04-21T11:30:00-04:00",
+      "toDate": "2026-04-28T17:00:00-04:00",
+      "created": "2026-03-30T20:26:48-04:00",
+      "firstName": "Josiah",
+      "lastName": "Neven",
+      "email": "jneven@my.yorku.ca",
+      "account": "jneven@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "360 Cameras",
+      "item_name": "Insta360 X4 (8K Action Cam)",
+      "event": null,
+      "barcode": "39007054936026"
     },
     {
       "bookId": "409c1b61b235",
