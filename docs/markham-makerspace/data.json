@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-22T17:52:44.615497+00:00",
+  "fetch_timestamp": "2026-04-22T18:59:02.969825+00:00",
   "date": "2026-04-22",
   "space_bookings": [
     {
@@ -121,6 +121,25 @@
       "event": null
     },
     {
+      "bookId": "ccc4825e9e46",
+      "id": 15978685,
+      "eid": 30724,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-22T09:30:00-04:00",
+      "toDate": "2026-04-22T14:30:00-04:00",
+      "created": "2026-04-22T09:53:59-04:00",
+      "firstName": "Jacob",
+      "lastName": "Turola",
+      "email": "jturola@yorku.ca",
+      "account": "jturola@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #01 \"Killer Queen\"",
+      "event": null
+    },
+    {
       "bookId": "6eeb50ed053c",
       "id": 15978901,
       "eid": 35142,
@@ -213,25 +232,6 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4 #01 \"Orpheus\"",
-      "event": null
-    },
-    {
-      "bookId": "ccc4825e9e46",
-      "id": 15978685,
-      "eid": 30724,
-      "cid": 7245,
-      "lid": 3430,
-      "fromDate": "2026-04-22T09:30:00-04:00",
-      "toDate": "2026-04-22T18:30:00-04:00",
-      "created": "2026-04-22T09:53:59-04:00",
-      "firstName": "Jacob",
-      "lastName": "Turola",
-      "email": "jturola@yorku.ca",
-      "account": "jturola@yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Makerspace",
-      "category_name": "3D Printers",
-      "item_name": "Prusa Mini #01 \"Killer Queen\"",
       "event": null
     },
     {
@@ -552,11 +552,12 @@
       "lastName": "Nguyen",
       "email": "andrew57@my.yorku.ca",
       "account": "andrew57@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-04-22T17:59:23+00:00"
     }
   ],
   "equipment_bookings": [],
