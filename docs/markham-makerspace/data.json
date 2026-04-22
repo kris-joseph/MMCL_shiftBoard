@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-22T20:05:47.075977+00:00",
+  "fetch_timestamp": "2026-04-22T21:12:52.621047+00:00",
   "date": "2026-04-22",
   "space_bookings": [
     {
@@ -213,25 +213,6 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
-      "event": null
-    },
-    {
-      "bookId": "06e3bb165dd5",
-      "id": 15981083,
-      "eid": 30735,
-      "cid": 7245,
-      "lid": 3430,
-      "fromDate": "2026-04-22T13:00:00-04:00",
-      "toDate": "2026-04-22T18:30:00-04:00",
-      "created": "2026-04-22T13:31:54-04:00",
-      "firstName": "Yasamin",
-      "lastName": "Kheirkhahan",
-      "email": "yasamin3@my.yorku.ca",
-      "account": "yasamin3@my.yorku.ca",
-      "status": "Mediated Tentative",
-      "location_name": "Markham Library Makerspace",
-      "category_name": "3D Printers",
-      "item_name": "Prusa MK4 #01 \"Orpheus\"",
       "event": null
     },
     {
@@ -479,6 +460,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
+      "event": null
+    },
+    {
+      "bookId": "06e3bb165dd5",
+      "id": 15981083,
+      "eid": 30735,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-22T13:00:00-04:00",
+      "toDate": "2026-04-22T18:30:00-04:00",
+      "created": "2026-04-22T13:31:54-04:00",
+      "firstName": "Yasamin",
+      "lastName": "Kheirkhahan",
+      "email": "yasamin3@my.yorku.ca",
+      "account": "yasamin3@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4 #01 \"Orpheus\"",
       "event": null
     },
     {
