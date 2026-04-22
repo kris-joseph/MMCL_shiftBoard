@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-22T16:49:00.252220+00:00",
+  "fetch_timestamp": "2026-04-22T17:52:44.394786+00:00",
   "date": "2026-04-22",
   "space_bookings": [
     {
@@ -247,6 +247,26 @@
       "item_name": "Crucial X10 SSD Drive",
       "event": null,
       "barcode": "39007052957214"
+    },
+    {
+      "bookId": "b7d7bb1ad2cd",
+      "id": 349921,
+      "eid": 33665,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-04-22T13:12:00-04:00",
+      "toDate": "2026-04-29T16:00:00-04:00",
+      "created": "2026-04-22T13:12:39-04:00",
+      "firstName": "LAUREN",
+      "lastName": "PATRICK",
+      "email": "laurenpatrick724@gmail.com",
+      "account": "5859730001052934",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932686"
     },
     {
       "bookId": "d6077bfbc954",
