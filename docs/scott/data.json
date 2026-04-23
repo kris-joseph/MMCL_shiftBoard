@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-23T00:06:25.561069+00:00",
+  "fetch_timestamp": "2026-04-23T02:25:27.556725+00:00",
   "date": "2026-04-23",
   "space_bookings": [
     {
@@ -697,6 +697,26 @@
       "item_name": "Canon EOS R50-V",
       "event": null,
       "barcode": "39007054936158"
+    },
+    {
+      "bookId": "7d9e7112aac4",
+      "id": 350061,
+      "eid": 29563,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-04-23T11:00:00-04:00",
+      "toDate": "2026-04-26T19:00:00-04:00",
+      "created": "2026-04-22T21:52:38-04:00",
+      "firstName": "Rufson",
+      "lastName": "Mamun",
+      "email": "rufm@my.yorku.ca",
+      "account": "rufm@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931357"
     },
     {
       "bookId": "c2c2a1ff908a",
@@ -2588,6 +2608,26 @@
       "item_name": "Insta360 One R (4K Edition), 4K Wide-Angle Camera",
       "event": null,
       "barcode": "39007054930425"
+    },
+    {
+      "bookId": "deca95775f62",
+      "id": 350060,
+      "eid": 24227,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-04-23T11:00:00-04:00",
+      "toDate": "2026-04-30T17:00:00-04:00",
+      "created": "2026-04-22T21:49:54-04:00",
+      "firstName": "Gozdegul",
+      "lastName": "Mamaloglu",
+      "email": "gozdegul@my.yorku.ca",
+      "account": "gozdegul@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Shure SM58",
+      "event": null,
+      "barcode": "39007054932165"
     },
     {
       "bookId": "a5bae68a5b39",
