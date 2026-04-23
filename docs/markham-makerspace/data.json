@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-23T02:25:28.783559+00:00",
+  "fetch_timestamp": "2026-04-23T04:46:59.299413+00:00",
   "date": "2026-04-23",
   "space_bookings": [
     {
@@ -81,6 +81,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #01 \"Killer Queen\"",
+      "event": null
+    },
+    {
+      "bookId": "9c638e412c9e",
+      "id": 15986323,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-23T09:30:00-04:00",
+      "toDate": "2026-04-23T18:30:00-04:00",
+      "created": "2026-04-22T23:20:40-04:00",
+      "firstName": "Andrew",
+      "lastName": "Nguyen",
+      "email": "andrew57@my.yorku.ca",
+      "account": "andrew57@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
       "event": null
     },
     {
