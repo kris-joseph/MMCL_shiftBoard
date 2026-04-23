@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-23T19:47:16.345795+00:00",
+  "fetch_timestamp": "2026-04-23T20:43:00.407146+00:00",
   "date": "2026-04-23",
   "space_bookings": [
     {
@@ -424,6 +424,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4 #01 \"Orpheus\"",
+      "event": null
+    },
+    {
+      "bookId": "9435456f4991",
+      "id": 15993527,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-04-23T16:30:00-04:00",
+      "toDate": "2026-04-23T18:30:00-04:00",
+      "created": "2026-04-23T16:34:21-04:00",
+      "firstName": "ANDREW",
+      "lastName": "NGUYEN",
+      "email": "andy.aqn57@gmail.com",
+      "account": "214120265",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
       "event": null
     },
     {
