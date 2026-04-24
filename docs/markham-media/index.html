@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1777055820">
+    <link rel="stylesheet" href="../static/style.css?v=1777059820">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Friday, April 24, 2026</div>
-                <div class="last-updated">Last updated: 2:36 PM</div>
+                <div class="last-updated">Last updated: 3:43 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -59,9 +59,9 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 14.285714285714285%;"></div>
-                <div class="timeline-count">1</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 57.14285714285714%;"></div>
+                <div class="timeline-count">4</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour ">
@@ -70,8 +70,8 @@
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 42.857142857142854%;"></div>
-                <div class="timeline-count">3</div>
+                <div class="timeline-bar" style="height: 85.71428571428571%;"></div>
+                <div class="timeline-count">6</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
@@ -148,7 +148,7 @@
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>Patron Onsite</h2>
-                <span class="section-count">2</span>
+                <span class="section-count">3</span>
             </div>
             <div class="booking-list">
                 <article class="booking-card in-progress" data-booking-id="40dd42e9bc67" data-booking-type="space">
@@ -211,6 +211,37 @@
                             </div>
                         </div>
                         <div class="booking-id">ID: bf0002d1d6a5</div>
+                    </div>
+                </article>
+                <article class="booking-card in-progress" data-booking-id="8db3b8023f35" data-booking-type="space">
+                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                        <div class="booking-card-summary">
+                            <div class="booking-card-summary-title">Podcast Studio #2 (Rm 3060D)</div>
+                            <div class="booking-card-summary-time">2:30 PM - 4:30 PM • M.E.</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge badge-task">IN PROGRESS</span>
+                            <span class="badge status-confirmed">CONFIRMED</span>
+                        </div>
+                        <span class="booking-card-expand-icon">▼</span>
+                    </div>
+
+                    <div class="booking-card-content">
+                        <div class="booking-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Time:</span>
+                                <span class="detail-value">2:30 PM - 4:30 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Patron:</span>
+                                <span class="detail-value patron-info">M.E. (m***@my.yorku.ca)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Check-in Code:</span>
+                                <span class="detail-value">KJ3B</span>
+                            </div>
+                        </div>
+                        <div class="booking-id">ID: 8db3b8023f35</div>
                     </div>
                 </article>
             </div>
@@ -346,6 +377,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1777055820"></script>
+    <script src="../static/dashboard.js?v=1777059820"></script>
 </body>
 </html>
