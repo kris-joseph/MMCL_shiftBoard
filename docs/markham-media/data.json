@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-24T14:16:25.647416+00:00",
+  "fetch_timestamp": "2026-04-24T14:28:05.302646+00:00",
   "date": "2026-04-24",
   "space_bookings": [
     {
@@ -26,6 +26,27 @@
       "event": null,
       "check_in_code": "HW9",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZJ0TgnAAA="
+    },
+    {
+      "bookId": "bf0002d1d6a5",
+      "id": 15997851,
+      "eid": 30721,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-04-24T10:30:00-04:00",
+      "toDate": "2026-04-24T16:30:00-04:00",
+      "created": "2026-04-24T10:20:53-04:00",
+      "firstName": "VANSH HARESH",
+      "lastName": "GAGWANI",
+      "email": "vansh270@my.yorku.ca",
+      "account": "221302393",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #1 (Rm 3060G)",
+      "event": null,
+      "check_in_code": "H5T",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpuAABH34X_zHuIQZyVVKGzvHhAAAZJ0UAQAAA="
     },
     {
       "bookId": "b0b456a9d2d8",
