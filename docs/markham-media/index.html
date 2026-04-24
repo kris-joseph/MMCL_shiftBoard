@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1777006277">
+    <link rel="stylesheet" href="../static/style.css?v=1777040186">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Friday, April 24, 2026</div>
-                <div class="last-updated">Last updated: 12:51 AM</div>
+                <div class="last-updated">Last updated: 10:16 AM</div>
                 <div class="shift-info">
                     <span class="shift-label">Opening Shift</span>
                 </div>
@@ -29,18 +29,18 @@
         <h2>Staff Activity Timeline</h2>
         <p class="timeline-description">Shows hourly staff transactions (booking starts and ends requiring setup, teardown, checkout, or checkin)</p>
         <div class="timeline">
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">8AM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 40.0%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">9AM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 100.0%;"></div>
+                <div class="timeline-bar" style="height: 60.0%;"></div>
                 <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
@@ -71,7 +71,7 @@
             </div>
             <div class="timeline-hour ">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">3</div>
+                <div class="timeline-count">5</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
@@ -126,7 +126,7 @@
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
-                        <span class="hour-group-title">12 AM</span>
+                        <span class="hour-group-title">9 AM</span>
                         <span class="hour-group-count">1 task</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
@@ -138,7 +138,7 @@
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">12:00 AM</span>DJI Osmo Pocket 3
+<span class="task-time-prominent">9:30 AM</span>DJI Osmo Pocket 3
                         </div>
                         <div class="booking-card-summary-time">
 Checkout • V.G.                        </div>
@@ -172,7 +172,7 @@ Checkout • V.G.                        </div>
                 <div class="booking-details">
                     <div class="detail-row">
                         <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">12:00 AM</span>
+                        <span class="detail-value">9:30 AM</span>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
@@ -568,6 +568,45 @@ Due back • E.A.                        </div>
 
     <aside class="persistent-sections">
 
+        <section class="persistent-section in-progress-section">
+            <div class="section-header">
+                <h2>Patron Onsite</h2>
+                <span class="section-count">1</span>
+            </div>
+            <div class="booking-list">
+                <article class="booking-card in-progress" data-booking-id="40dd42e9bc67" data-booking-type="space">
+                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                        <div class="booking-card-summary">
+                            <div class="booking-card-summary-title">Video and Photo Studio (Rm 3060H)</div>
+                            <div class="booking-card-summary-time">9:30 AM - 4:30 PM • S.S.</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge badge-task">IN PROGRESS</span>
+                            <span class="badge status-confirmed">CONFIRMED</span>
+                        </div>
+                        <span class="booking-card-expand-icon">▼</span>
+                    </div>
+
+                    <div class="booking-card-content">
+                        <div class="booking-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Time:</span>
+                                <span class="detail-value">9:30 AM - 4:30 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Patron:</span>
+                                <span class="detail-value patron-info">S.S. (s***@yorku.ca)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Check-in Code:</span>
+                                <span class="detail-value">HW9</span>
+                            </div>
+                        </div>
+                        <div class="booking-id">ID: 40dd42e9bc67</div>
+                    </div>
+                </article>
+            </div>
+        </section>
 
 
         <section class="persistent-section">
@@ -612,6 +651,6 @@ Due back • E.A.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1777006277"></script>
+    <script src="../static/dashboard.js?v=1777040186"></script>
 </body>
 </html>
