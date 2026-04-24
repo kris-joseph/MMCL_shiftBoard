@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-24T21:39:02.151233+00:00",
+  "fetch_timestamp": "2026-04-24T22:32:04.556151+00:00",
   "date": "2026-04-24",
   "space_bookings": [
     {
@@ -68,6 +68,27 @@
       "event": null,
       "check_in_code": "KJ3B",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpxAABH34X_zHuIQZyVVKGzvHhAAAZJ0TBFAAA="
+    },
+    {
+      "bookId": "9e2e224b517f",
+      "id": 16001661,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-04-25T13:00:00-04:00",
+      "toDate": "2026-04-25T15:30:00-04:00",
+      "created": "2026-04-24T17:47:32-04:00",
+      "firstName": "Huanrui",
+      "lastName": "Cao",
+      "email": "saikoro@my.yorku.ca",
+      "account": "saikoro@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "R6V",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZJ0TQ0AAA="
     },
     {
       "bookId": "b0b456a9d2d8",
