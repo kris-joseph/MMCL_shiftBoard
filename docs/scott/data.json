@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-24T15:45:53.686991+00:00",
+  "fetch_timestamp": "2026-04-24T16:44:18.792769+00:00",
   "date": "2026-04-24",
   "space_bookings": [],
   "equipment_bookings": [
@@ -1338,7 +1338,7 @@
     {
       "bookId": "dfffb9faee3d",
       "id": 349912,
-      "eid": 31837,
+      "eid": 31838,
       "cid": 8148,
       "lid": 2632,
       "fromDate": "2026-04-22T13:31:00-04:00",
@@ -1353,7 +1353,7 @@
       "category_name": "Stands, Poles, and Mounts",
       "item_name": "Mobile Phone Selfie Stick",
       "event": null,
-      "barcode": "39007054932231"
+      "barcode": "39007054932223"
     },
     {
       "bookId": "dfffb9faee3d",
