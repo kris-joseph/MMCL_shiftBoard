@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-24T17:42:43.782627+00:00",
+  "fetch_timestamp": "2026-04-24T18:36:59.553006+00:00",
   "date": "2026-04-24",
   "space_bookings": [
     {
@@ -130,6 +130,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931597"
+    },
+    {
+      "bookId": "5f2e8740540a",
+      "id": 274642,
+      "eid": 32523,
+      "cid": 7830,
+      "lid": 3432,
+      "fromDate": "2025-09-04T09:53:00-04:00",
+      "toDate": "2026-04-24T14:19:00-04:00",
+      "created": "2025-09-04T09:53:54-04:00",
+      "firstName": "Sean",
+      "lastName": "Sweeney",
+      "email": "ssweeney@yorku.ca",
+      "account": "ssweeney@yorku.ca",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Tripods",
+      "item_name": "SmallRig Tripod",
+      "event": null,
+      "barcode": "39007054934013"
     },
     {
       "bookId": "0e17e9ba16e2",
@@ -432,26 +452,6 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007054932702"
-    },
-    {
-      "bookId": "5f2e8740540a",
-      "id": 274642,
-      "eid": 32523,
-      "cid": 7830,
-      "lid": 3432,
-      "fromDate": "2025-09-04T09:53:00-04:00",
-      "toDate": "2026-06-01T23:59:00-04:00",
-      "created": "2025-09-04T09:53:54-04:00",
-      "firstName": "Sean",
-      "lastName": "Sweeney",
-      "email": "ssweeney@yorku.ca",
-      "account": "ssweeney@yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Tripods",
-      "item_name": "SmallRig Tripod",
-      "event": null,
-      "barcode": "39007054934013"
     },
     {
       "bookId": "f2c89776caf8",
