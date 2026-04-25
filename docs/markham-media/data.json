@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-25T18:36:11.496283+00:00",
+  "fetch_timestamp": "2026-04-25T19:37:34.616413+00:00",
   "date": "2026-04-25",
   "space_bookings": [
     {
@@ -28,6 +28,27 @@
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZJ0TQ0AAA="
     },
     {
+      "bookId": "04c8d9fa0911",
+      "id": 16003979,
+      "eid": 30720,
+      "cid": 7761,
+      "lid": 3432,
+      "fromDate": "2026-04-25T15:00:00-04:00",
+      "toDate": "2026-04-25T16:30:00-04:00",
+      "created": "2026-04-25T15:03:23-04:00",
+      "firstName": "Andrew",
+      "lastName": "Muchiri",
+      "email": "drumuch@my.yorku.ca",
+      "account": "drumuch@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Video Studios",
+      "item_name": "Video and Photo Studio (Rm 3060H)",
+      "event": null,
+      "check_in_code": "5CG",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZLKij3AAA="
+    },
+    {
       "bookId": "b0b456a9d2d8",
       "id": 15993311,
       "eid": 30720,
@@ -40,12 +61,13 @@
       "lastName": "Muchiri",
       "email": "drumuch@my.yorku.ca",
       "account": "drumuch@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by System",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Video Studios",
       "item_name": "Video and Photo Studio (Rm 3060H)",
       "event": null,
       "check_in_code": "2BZ",
+      "cancelled": "2026-04-25T18:46:04+00:00",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZJ0TgmAAA="
     }
   ],
