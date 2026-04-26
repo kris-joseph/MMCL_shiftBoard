@@ -3,29 +3,9 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-25T23:28:45.620701+00:00",
-  "date": "2026-04-25",
-  "space_bookings": [
-    {
-      "bookId": "c1ed0232dc1e",
-      "id": 15822697,
-      "eid": 31933,
-      "cid": 7767,
-      "lid": 3430,
-      "fromDate": "2026-04-25T11:00:00-04:00",
-      "toDate": "2026-04-25T17:30:00-04:00",
-      "created": "2026-04-09T09:31:33-04:00",
-      "firstName": "Jacob",
-      "lastName": "Turola",
-      "email": "jturola@yorku.ca",
-      "account": "jturola@yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Makerspace",
-      "category_name": "Makerspace Room",
-      "item_name": "Makerspace (Rm 3055)",
-      "event": null
-    }
-  ],
+  "fetch_timestamp": "2026-04-26T00:02:57.023691+00:00",
+  "date": "2026-04-26",
+  "space_bookings": [],
   "equipment_bookings": [],
   "appointments": [],
   "teaching_events": []
