@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-04-27T19:03:43.964518+00:00",
+  "fetch_timestamp": "2026-04-27T20:36:50.881397+00:00",
   "date": "2026-04-27",
   "space_bookings": [
     {
@@ -50,6 +50,26 @@
   ],
   "equipment_bookings": [
     {
+      "bookId": "0e17e9ba16e2",
+      "id": 349449,
+      "eid": 36635,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-04-20T14:30:51-04:00",
+      "toDate": "2026-04-27T15:58:00-04:00",
+      "created": "2026-04-20T14:30:50-04:00",
+      "firstName": "SIMRANJITSINGH",
+      "lastName": "BAL",
+      "email": "ssbal@my.yorku.ca",
+      "account": "29007017053590",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": " 39007052956745 "
+    },
+    {
       "bookId": "392493245a15",
       "id": 347781,
       "eid": 36743,
@@ -88,26 +108,6 @@
       "item_name": "SmallRig Tripod",
       "event": null,
       "barcode": "39007054933981"
-    },
-    {
-      "bookId": "0e17e9ba16e2",
-      "id": 349449,
-      "eid": 36635,
-      "cid": 7812,
-      "lid": 3432,
-      "fromDate": "2026-04-20T14:30:51-04:00",
-      "toDate": "2026-04-27T16:00:00-04:00",
-      "created": "2026-04-20T14:30:50-04:00",
-      "firstName": "SIMRANJITSINGH",
-      "lastName": "BAL",
-      "email": "ssbal@my.yorku.ca",
-      "account": "29007017053590",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": " 39007052956745 "
     },
     {
       "bookId": "8949d272f115",
@@ -330,6 +330,26 @@
       "event": null,
       "barcode": " 39007052956844 ",
       "cancelled": "2026-04-23T16:52:07+00:00"
+    },
+    {
+      "bookId": "0d4add802d8c",
+      "id": 350715,
+      "eid": 36635,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-04-27T16:00:09-04:00",
+      "toDate": "2026-05-04T23:59:00-04:00",
+      "created": "2026-04-27T16:00:07-04:00",
+      "firstName": "SIMRANJITSINGH",
+      "lastName": "BAL",
+      "email": "ssbal@my.yorku.ca",
+      "account": "29007017053590",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": " 39007052956745 "
     },
     {
       "bookId": "f9a6cfb27063",
