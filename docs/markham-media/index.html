@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1777326345">
+    <link rel="stylesheet" href="../static/style.css?v=1777329634">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Monday, April 27, 2026</div>
-                <div class="last-updated">Last updated: 5:45 PM</div>
+                <div class="last-updated">Last updated: 6:40 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -74,7 +74,7 @@
                 <div class="timeline-count">5</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">5PM</div>
@@ -136,11 +136,10 @@
 
 
 
-
-            <div class="hour-group">
+            <div class="hour-group outstanding-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
-                        <span class="hour-group-title">4 PM</span>
+                        <span class="hour-group-title">Still outstanding from earlier today</span>
                         <span class="hour-group-count">2 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
@@ -346,6 +345,7 @@ Due back • D.D.                        </div>
                 </div>
             </div>
 
+
         </section>
 
     </main>
@@ -461,6 +461,6 @@ Due back • D.D.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1777326345"></script>
+    <script src="../static/dashboard.js?v=1777329634"></script>
 </body>
 </html>
