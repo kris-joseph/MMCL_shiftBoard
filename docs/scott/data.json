@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-28T02:39:58.460324+00:00",
+  "fetch_timestamp": "2026-04-28T05:26:24.276717+00:00",
   "date": "2026-04-28",
   "space_bookings": [
     {
@@ -2621,6 +2621,26 @@
       "category_name": "Classrooms",
       "item_name": "Scott 530 - Computer Classroom",
       "event": null
+    },
+    {
+      "bookId": "617e90606ad7",
+      "id": 16013587,
+      "eid": 32791,
+      "cid": 6572,
+      "lid": 3458,
+      "fromDate": "2026-04-28T15:00:00-04:00",
+      "toDate": "2026-04-28T17:00:00-04:00",
+      "created": "2026-04-27T22:50:03-04:00",
+      "firstName": "Minglu",
+      "lastName": "Wang",
+      "email": "mingluwa@yorku.ca",
+      "account": "mingluwa@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Staff Spaces and Classrooms",
+      "category_name": "Staff Meeting Rooms",
+      "item_name": "Scott 108C - Meeting Room",
+      "event": null,
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp8AABH34X_zHuIQZyVVKGzvHhAAAZMC0anAAA="
     },
     {
       "bookId": "cd6f524be8af",
