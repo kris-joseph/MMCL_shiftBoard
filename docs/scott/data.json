@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-29T18:09:56.449132+00:00",
+  "fetch_timestamp": "2026-04-29T19:58:25.416897+00:00",
   "date": "2026-04-29",
   "space_bookings": [
     {
@@ -1685,26 +1685,6 @@
       "cancelled": "2026-04-27T23:02:06+00:00"
     },
     {
-      "bookId": "2127d5846c6f",
-      "id": 351115,
-      "eid": 29176,
-      "cid": 8146,
-      "lid": 2632,
-      "fromDate": "2026-04-29T11:00:00-04:00",
-      "toDate": "2026-05-05T17:00:00-04:00",
-      "created": "2026-04-28T17:15:43-04:00",
-      "firstName": "Faith",
-      "lastName": "De Quintal",
-      "email": "faithdq@my.yorku.ca",
-      "account": "faithdq@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Lighting",
-      "item_name": "Neewer Lighting Kit Without Softboxes",
-      "event": null,
-      "barcode": "39007054933759"
-    },
-    {
       "bookId": "c9f272a5625e",
       "id": 348753,
       "eid": 34073,
@@ -1943,6 +1923,26 @@
       "item_name": "Novation Launchkey Mini MK3",
       "event": null,
       "barcode": " 39007054931480"
+    },
+    {
+      "bookId": "2127d5846c6f",
+      "id": 351115,
+      "eid": 29176,
+      "cid": 8146,
+      "lid": 2632,
+      "fromDate": "2026-04-29T15:15:00-04:00",
+      "toDate": "2026-05-05T17:00:00-04:00",
+      "created": "2026-04-28T17:15:43-04:00",
+      "firstName": "Faith",
+      "lastName": "De Quintal",
+      "email": "faithdq@my.yorku.ca",
+      "account": "faithdq@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Lighting",
+      "item_name": "Neewer Lighting Kit Without Softboxes",
+      "event": null,
+      "barcode": "39007054933759"
     },
     {
       "bookId": "4588872cb96f",
