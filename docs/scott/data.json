@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-04-29T05:22:03.627793+00:00",
+  "fetch_timestamp": "2026-04-29T14:55:55.127855+00:00",
   "date": "2026-04-29",
   "space_bookings": [
     {
@@ -2214,6 +2214,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931357"
+    },
+    {
+      "bookId": "877f5f8284f5",
+      "id": 351160,
+      "eid": 29581,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-04-30T11:00:00-04:00",
+      "toDate": "2026-05-07T17:00:00-04:00",
+      "created": "2026-04-29T09:36:38-04:00",
+      "firstName": "Joe",
+      "lastName": "Twum-Antwi",
+      "email": "joe25@my.yorku.ca",
+      "account": "joe25@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless Pro",
+      "event": null,
+      "barcode": "39007054933957"
     },
     {
       "bookId": "fd9a13be3e87",
