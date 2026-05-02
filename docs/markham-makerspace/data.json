@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-02T14:05:16.574111+00:00",
+  "fetch_timestamp": "2026-05-02T15:09:20.897281+00:00",
   "date": "2026-05-02",
   "space_bookings": [
     {
@@ -57,7 +57,7 @@
       "lastName": "Yuan",
       "email": "lanayuan@yorku.ca",
       "account": "lanayuan@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
