@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-02T16:05:52.180559+00:00",
+  "fetch_timestamp": "2026-05-02T17:11:23.648905+00:00",
   "date": "2026-05-02",
   "space_bookings": [
     {
@@ -50,8 +50,8 @@
       "eid": 35301,
       "cid": 7245,
       "lid": 3430,
-      "fromDate": "2026-05-02T16:00:00-04:00",
-      "toDate": "2026-05-02T17:00:00-04:00",
+      "fromDate": "2026-05-02T12:00:00-04:00",
+      "toDate": "2026-05-02T17:40:00-04:00",
       "created": "2026-05-01T13:21:07-04:00",
       "firstName": "Jiaqi",
       "lastName": "Yuan",
@@ -61,6 +61,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
+    },
+    {
+      "bookId": "d4279447d4e6",
+      "id": 16036956,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-05-02T12:00:00-04:00",
+      "toDate": "2026-05-03T13:00:00-04:00",
+      "created": "2026-05-02T12:10:06-04:00",
+      "firstName": "ALEXANDRA",
+      "lastName": "TARASSOVA",
+      "email": "sasha.tarassova01@gmail.com",
+      "account": "217121476",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
       "event": null
     }
   ],
