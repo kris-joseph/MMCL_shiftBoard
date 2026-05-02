@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-02T17:11:23.061201+00:00",
+  "fetch_timestamp": "2026-05-02T18:06:32.861517+00:00",
   "date": "2026-05-02",
   "space_bookings": [],
   "equipment_bookings": [
@@ -169,6 +169,26 @@
       "barcode": "39007052956703"
     },
     {
+      "bookId": "29c5da02ddf8",
+      "id": 351528,
+      "eid": 32508,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-05-02T14:05:00-04:00",
+      "toDate": "2026-05-09T17:30:00-04:00",
+      "created": "2026-05-01T00:12:26-04:00",
+      "firstName": "Elaine",
+      "lastName": "Nguyen",
+      "email": "emt2nguy@my.yorku.ca",
+      "account": "emt2nguy@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931589"
+    },
+    {
       "bookId": "48c2914e2387",
       "id": 351635,
       "eid": 33665,
@@ -188,26 +208,6 @@
       "event": null,
       "barcode": "39007054932686",
       "cancelled": "2026-05-01T18:43:51+00:00"
-    },
-    {
-      "bookId": "29c5da02ddf8",
-      "id": 351528,
-      "eid": 32508,
-      "cid": 7828,
-      "lid": 3432,
-      "fromDate": "2026-05-02T11:30:00-04:00",
-      "toDate": "2026-05-09T17:30:00-04:00",
-      "created": "2026-05-01T00:12:26-04:00",
-      "firstName": "Elaine",
-      "lastName": "Nguyen",
-      "email": "emt2nguy@my.yorku.ca",
-      "account": "emt2nguy@my.yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS R50",
-      "event": null,
-      "barcode": "39007054931589"
     },
     {
       "bookId": "f9a6cfb27063",
