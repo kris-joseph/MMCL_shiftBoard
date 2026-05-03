@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-03T17:12:30.903144+00:00",
+  "fetch_timestamp": "2026-05-03T18:08:06.242466+00:00",
   "date": "2026-05-03",
   "space_bookings": [
     {
@@ -45,6 +45,44 @@
       "event": null
     },
     {
+      "bookId": "41d493d509aa",
+      "id": 16038080,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-05-04T10:30:00-04:00",
+      "toDate": "2026-05-04T16:00:00-04:00",
+      "created": "2026-05-03T13:52:49-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
+    },
+    {
+      "bookId": "22fda14f37d8",
+      "id": 16038057,
+      "eid": 37118,
+      "cid": 8633,
+      "lid": 3430,
+      "fromDate": "2026-05-04T14:45:00-04:00",
+      "toDate": "2026-05-04T16:45:00-04:00",
+      "created": "2026-05-03T13:43:08-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Laser Cutters",
+      "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
       "bookId": "93cfd091c39c",
       "id": 16037206,
       "eid": 37118,
@@ -57,11 +95,12 @@
       "lastName": "Sheikh Rabiei",
       "email": "routch@my.yorku.ca",
       "account": "routch@my.yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
-      "event": null
+      "event": null,
+      "cancelled": "2026-05-03T17:35:24+00:00"
     }
   ],
   "equipment_bookings": [],
