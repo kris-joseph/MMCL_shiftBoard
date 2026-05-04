@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-04T14:55:56.566686+00:00",
+  "fetch_timestamp": "2026-05-04T15:03:50.128165+00:00",
   "date": "2026-05-04",
   "space_bookings": [
     {
@@ -29,6 +29,26 @@
   ],
   "equipment_bookings": [
     {
+      "bookId": "9c272a1e387d",
+      "id": 350883,
+      "eid": 32676,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-04-28T12:23:00-04:00",
+      "toDate": "2026-05-04T11:01:00-04:00",
+      "created": "2026-04-28T12:13:29-04:00",
+      "firstName": "Benedict",
+      "lastName": "Cruz",
+      "email": "isola@my.yorku.ca",
+      "account": "isola@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Audio Technica USB Microphone",
+      "event": null,
+      "barcode": "39007054932504"
+    },
+    {
       "bookId": "0d4add802d8c",
       "id": 350715,
       "eid": 36635,
@@ -47,26 +67,6 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956745 "
-    },
-    {
-      "bookId": "9c272a1e387d",
-      "id": 350883,
-      "eid": 32676,
-      "cid": 8161,
-      "lid": 3432,
-      "fromDate": "2026-04-28T12:23:00-04:00",
-      "toDate": "2026-05-05T16:00:00-04:00",
-      "created": "2026-04-28T12:13:29-04:00",
-      "firstName": "Benedict",
-      "lastName": "Cruz",
-      "email": "isola@my.yorku.ca",
-      "account": "isola@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Microphones",
-      "item_name": "Audio Technica USB Microphone",
-      "event": null,
-      "barcode": "39007054932504"
     },
     {
       "bookId": "475a901f2882",
