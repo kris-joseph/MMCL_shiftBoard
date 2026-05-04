@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-04T05:29:49.831157+00:00",
+  "fetch_timestamp": "2026-05-04T14:55:56.566686+00:00",
   "date": "2026-05-04",
   "space_bookings": [
     {
@@ -34,8 +34,8 @@
       "eid": 36635,
       "cid": 7812,
       "lid": 3432,
-      "fromDate": "2026-04-27T16:00:09-04:00",
-      "toDate": "2026-05-04T23:59:00-04:00",
+      "fromDate": "2026-04-27T16:00:00-04:00",
+      "toDate": "2026-05-04T16:00:00-04:00",
       "created": "2026-04-27T16:00:07-04:00",
       "firstName": "SIMRANJITSINGH",
       "lastName": "BAL",
