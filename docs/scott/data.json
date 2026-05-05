@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-05T20:01:51.110108+00:00",
+  "fetch_timestamp": "2026-05-05T21:31:57.658094+00:00",
   "date": "2026-05-05",
   "space_bookings": [
     {
@@ -274,6 +274,26 @@
       "barcode": "39007054933759"
     },
     {
+      "bookId": "76db14b272d5",
+      "id": 349187,
+      "eid": 34323,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-04-29T11:17:00-04:00",
+      "toDate": "2026-05-05T16:51:00-04:00",
+      "created": "2026-04-19T14:04:54-04:00",
+      "firstName": "Wadiee",
+      "lastName": "Ayyoub",
+      "email": "wadi98@my.yorku.ca",
+      "account": "wadi98@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI RS 4 Mini Gimbal",
+      "event": null,
+      "barcode": "39007054936497"
+    },
+    {
       "bookId": "4588872cb96f",
       "id": 350154,
       "eid": 34125,
@@ -413,26 +433,6 @@
       "item_name": "SmallRig Mini Tripod",
       "event": null,
       "barcode": "39007054933734"
-    },
-    {
-      "bookId": "76db14b272d5",
-      "id": 349187,
-      "eid": 34323,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-04-29T11:17:00-04:00",
-      "toDate": "2026-05-06T17:00:00-04:00",
-      "created": "2026-04-19T14:04:54-04:00",
-      "firstName": "Wadiee",
-      "lastName": "Ayyoub",
-      "email": "wadi98@my.yorku.ca",
-      "account": "wadi98@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI RS 4 Mini Gimbal",
-      "event": null,
-      "barcode": "39007054936497"
     },
     {
       "bookId": "b96fb81063cd",
@@ -1573,6 +1573,26 @@
       "item_name": "Novation Launchkey Mini MK3",
       "event": null,
       "barcode": "  39007054931498"
+    },
+    {
+      "bookId": "aa8801bcff0c",
+      "id": 352178,
+      "eid": 29567,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-05-06T11:00:00-04:00",
+      "toDate": "2026-05-12T17:00:00-04:00",
+      "created": "2026-05-05T16:33:57-04:00",
+      "firstName": "Micah",
+      "lastName": "Garcia",
+      "email": "micahmay@my.yorku.ca",
+      "account": "micahmay@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054933965"
     },
     {
       "bookId": "c9f272a5625e",
