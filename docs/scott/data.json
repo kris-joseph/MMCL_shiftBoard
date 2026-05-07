@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-07T05:27:02.474607+00:00",
+  "fetch_timestamp": "2026-05-07T15:16:55.165147+00:00",
   "date": "2026-05-07",
   "space_bookings": [
     {
@@ -19,32 +19,12 @@
       "lastName": "Nurmukhamedova",
       "email": "sofiya7n@my.yorku.ca",
       "account": "sofiya7n@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Audio Recording Rooms",
       "item_name": "Scott 207C - Audio Recording Booth",
       "event": null,
       "check_in_code": "Z5MV"
-    },
-    {
-      "bookId": "e8b8440ec81b",
-      "id": 16002804,
-      "eid": 32502,
-      "cid": 5833,
-      "lid": 2632,
-      "fromDate": "2026-05-07T12:00:00-04:00",
-      "toDate": "2026-05-07T14:30:00-04:00",
-      "created": "2026-04-25T05:44:23-04:00",
-      "firstName": "Victory",
-      "lastName": "Umoeya",
-      "email": "vumoeya@my.yorku.ca",
-      "account": "vumoeya@my.yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Audio Recording Rooms",
-      "item_name": "Scott 207D -  Audio Recording Booth",
-      "event": null,
-      "check_in_code": "N35"
     },
     {
       "bookId": "bcf3040c8d60",
@@ -65,6 +45,27 @@
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
       "check_in_code": "DM95"
+    },
+    {
+      "bookId": "e8b8440ec81b",
+      "id": 16002804,
+      "eid": 32502,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-05-07T12:00:00-04:00",
+      "toDate": "2026-05-07T14:30:00-04:00",
+      "created": "2026-04-25T05:44:23-04:00",
+      "firstName": "Victory",
+      "lastName": "Umoeya",
+      "email": "vumoeya@my.yorku.ca",
+      "account": "vumoeya@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 207D -  Audio Recording Booth",
+      "event": null,
+      "check_in_code": "N35",
+      "cancelled": "2026-05-07T12:10:03+00:00"
     },
     {
       "bookId": "e81a1ece224d",
@@ -151,7 +152,7 @@
     {
       "bookId": "ae4adcde4477",
       "id": 351442,
-      "eid": 22739,
+      "eid": 29580,
       "cid": 8292,
       "lid": 2632,
       "fromDate": "2026-05-07T11:00:00-04:00",
@@ -164,9 +165,9 @@
       "status": "Confirmed",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Wireless Microphones",
-      "item_name": "Rode Wireless Go",
+      "item_name": "Rode Wireless Pro",
       "event": null,
-      "barcode": "39007054930623"
+      "barcode": "39007054933940"
     },
     {
       "bookId": "ae4adcde4477",
@@ -1492,6 +1493,26 @@
       "barcode": "39007054933759"
     },
     {
+      "bookId": "4a42a0f881c4",
+      "id": 351308,
+      "eid": 22830,
+      "cid": 8149,
+      "lid": 2632,
+      "fromDate": "2026-04-29T16:01:00-04:00",
+      "toDate": "2026-05-13T17:00:00-04:00",
+      "created": "2026-04-29T16:00:55-04:00",
+      "firstName": "MATT",
+      "lastName": "COLE",
+      "email": "mattcole@yorku.ca",
+      "account": "29007019150417",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Tripods",
+      "item_name": "MeFoto RoadTrip Air, Tripod & Selfie Stick",
+      "event": null,
+      "barcode": "39007054930557"
+    },
+    {
       "bookId": "e79c8ef8a088",
       "id": 351309,
       "eid": 34321,
@@ -1730,6 +1751,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931464"
+    },
+    {
+      "bookId": "b6b74d95a80a",
+      "id": 352450,
+      "eid": 29581,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-05-07T11:00:00-04:00",
+      "toDate": "2026-05-14T17:00:00-04:00",
+      "created": "2026-05-07T08:24:22-04:00",
+      "firstName": "Banja",
+      "lastName": "Phiri",
+      "email": "banjap@my.yorku.ca",
+      "account": "banjap@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless Pro",
+      "event": null,
+      "barcode": "39007054933957"
     },
     {
       "bookId": "5ab2afc07ad6",
