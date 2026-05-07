@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-07T17:13:25.153713+00:00",
+  "fetch_timestamp": "2026-05-07T19:10:29.849847+00:00",
   "date": "2026-05-07",
   "space_bookings": [
     {
@@ -93,27 +93,6 @@
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZSSD3LAAA="
     },
     {
-      "bookId": "d15a40598edb",
-      "id": 16055930,
-      "eid": 30720,
-      "cid": 7761,
-      "lid": 3432,
-      "fromDate": "2026-05-07T14:30:00-04:00",
-      "toDate": "2026-05-07T16:00:00-04:00",
-      "created": "2026-05-07T03:33:46-04:00",
-      "firstName": "Artemis",
-      "lastName": "Fallahkhoshghalb",
-      "email": "arti8686@my.yorku.ca",
-      "account": "arti8686@my.yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Video Studios",
-      "item_name": "Video and Photo Studio (Rm 3060H)",
-      "event": null,
-      "check_in_code": "62A",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZSSD3QAAA="
-    },
-    {
       "bookId": "2ffa72f8c0ca",
       "id": 16048056,
       "eid": 30720,
@@ -134,6 +113,28 @@
       "check_in_code": "T95",
       "cancelled": "2026-05-07T07:31:00+00:00",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZRk7OpAAA="
+    },
+    {
+      "bookId": "d15a40598edb",
+      "id": 16055930,
+      "eid": 30720,
+      "cid": 7761,
+      "lid": 3432,
+      "fromDate": "2026-05-07T14:30:00-04:00",
+      "toDate": "2026-05-07T16:00:00-04:00",
+      "created": "2026-05-07T03:33:46-04:00",
+      "firstName": "Artemis",
+      "lastName": "Fallahkhoshghalb",
+      "email": "arti8686@my.yorku.ca",
+      "account": "arti8686@my.yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Video Studios",
+      "item_name": "Video and Photo Studio (Rm 3060H)",
+      "event": null,
+      "check_in_code": "62A",
+      "cancelled": "2026-05-07T18:46:05+00:00",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZSSD3QAAA="
     }
   ],
   "equipment_bookings": [
@@ -438,6 +439,26 @@
       "item_name": "55mm ND Filter",
       "event": null,
       "barcode": "39007054935556"
+    },
+    {
+      "bookId": "2b75b0715908",
+      "id": 352541,
+      "eid": 36641,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-05-07T13:52:55-04:00",
+      "toDate": "2026-05-14T16:00:00-04:00",
+      "created": "2026-05-07T13:51:32-04:00",
+      "firstName": "ANAHITA",
+      "lastName": "SINGH",
+      "email": "anahita6@my.yorku.ca",
+      "account": "5859730000805418",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": " 39007052956737 "
     },
     {
       "bookId": "d882d11a293d",
