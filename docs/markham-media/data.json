@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-08T19:03:31.540911+00:00",
+  "fetch_timestamp": "2026-05-08T20:32:12.507718+00:00",
   "date": "2026-05-08",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-05-08T15:00:00-04:00",
-      "toDate": "2026-05-08T16:00:00-04:00",
+      "toDate": "2026-05-08T15:45:00-04:00",
       "created": "2026-05-08T14:47:44-04:00",
       "firstName": "VANSH HARESH",
       "lastName": "GAGWANI",
@@ -25,7 +25,7 @@
       "item_name": "Editing and Music Studio #2 (Rm 3060F)",
       "event": null,
       "check_in_code": "2UN",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpvAABH34X_zHuIQZyVVKGzvHhAAAZTqmQJAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpvAABH34X_zHuIQZyVVKGzvHhAAAZTqmQMAAA="
     },
     {
       "bookId": "5a1c7c75cefe",
