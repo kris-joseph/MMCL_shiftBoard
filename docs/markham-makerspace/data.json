@@ -3,9 +3,29 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-09T16:13:32.259774+00:00",
+  "fetch_timestamp": "2026-05-09T17:26:53.131119+00:00",
   "date": "2026-05-09",
-  "space_bookings": [],
+  "space_bookings": [
+    {
+      "bookId": "91a01465c09e",
+      "id": 16065320,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-05-09T13:00:00-04:00",
+      "toDate": "2026-05-09T14:00:00-04:00",
+      "created": "2026-05-09T13:10:46-04:00",
+      "firstName": "Lana",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    }
+  ],
   "equipment_bookings": [],
   "appointments": [],
   "teaching_events": []
