@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-09T05:17:26.942720+00:00",
+  "fetch_timestamp": "2026-05-09T14:04:20.965389+00:00",
   "date": "2026-05-09",
   "space_bookings": [
     {
@@ -433,6 +433,26 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007054932686"
+    },
+    {
+      "bookId": "566f4e6b381a",
+      "id": 352901,
+      "eid": 32554,
+      "cid": 7832,
+      "lid": 3432,
+      "fromDate": "2026-05-09T08:25:44-04:00",
+      "toDate": "2026-05-16T17:00:00-04:00",
+      "created": "2026-05-09T08:25:43-04:00",
+      "firstName": "SEAN",
+      "lastName": "SWEENEY",
+      "email": "ssweeney@yorku.ca",
+      "account": "5859730001037090",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Lenses",
+      "item_name": "Canon RF 85mm",
+      "event": null,
+      "barcode": "39007054930987"
     },
     {
       "bookId": "055d760c4a27",
