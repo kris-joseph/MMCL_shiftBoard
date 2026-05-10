@@ -3,9 +3,30 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-10T05:32:52.250778+00:00",
+  "fetch_timestamp": "2026-05-10T14:05:57.187315+00:00",
   "date": "2026-05-10",
-  "space_bookings": [],
+  "space_bookings": [
+    {
+      "bookId": "768e56c01382",
+      "id": 16065942,
+      "eid": 32502,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-05-11T11:15:00-04:00",
+      "toDate": "2026-05-11T13:45:00-04:00",
+      "created": "2026-05-10T02:04:06-04:00",
+      "firstName": "Michael",
+      "lastName": "Dyer",
+      "email": "mike1825@my.yorku.ca",
+      "account": "mike1825@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 207D -  Audio Recording Booth",
+      "event": null,
+      "check_in_code": "2JUU"
+    }
+  ],
   "equipment_bookings": [
     {
       "bookId": "029f2cf3e9ae",
