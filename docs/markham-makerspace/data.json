@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-10T20:37:26.678513+00:00",
+  "fetch_timestamp": "2026-05-10T21:38:30.277667+00:00",
   "date": "2026-05-10",
   "space_bookings": [
     {
@@ -194,6 +194,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #03 \"Heaven's Door\"",
+      "event": null
+    },
+    {
+      "bookId": "ddc7d5efb7cd",
+      "id": 16066563,
+      "eid": 37118,
+      "cid": 8633,
+      "lid": 3430,
+      "fromDate": "2026-05-11T14:45:00-04:00",
+      "toDate": "2026-05-11T16:45:00-04:00",
+      "created": "2026-05-10T16:53:00-04:00",
+      "firstName": "Ivor",
+      "lastName": "Anand",
+      "email": "ivor15@my.yorku.ca",
+      "account": "ivor15@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Laser Cutters",
+      "item_name": "Aeon Mira 9",
       "event": null
     },
     {
