@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-11T02:51:22.468080+00:00",
+  "fetch_timestamp": "2026-05-11T05:53:58.408376+00:00",
   "date": "2026-05-11",
   "space_bookings": [
     {
@@ -1668,6 +1668,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007054936463"
+    },
+    {
+      "bookId": "0e8ba1c6964c",
+      "id": 353001,
+      "eid": 25986,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-05-12T11:00:00-04:00",
+      "toDate": "2026-05-19T17:00:00-04:00",
+      "created": "2026-05-10T22:58:07-04:00",
+      "firstName": "Rujeevan",
+      "lastName": "Surendran",
+      "email": "rujee11@my.yorku.ca",
+      "account": "rujee11@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Mobile 6, Gimbal for Smartphones",
+      "event": null,
+      "barcode": "39007054933288"
     },
     {
       "bookId": "a5bae68a5b39",
