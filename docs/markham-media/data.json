@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-11T15:52:13.706591+00:00",
+  "fetch_timestamp": "2026-05-11T17:48:58.222207+00:00",
   "date": "2026-05-11",
   "space_bookings": [],
   "equipment_bookings": [
@@ -310,6 +310,26 @@
       "item_name": "Sigma RF 18mm-55mm",
       "event": null,
       "barcode": "39007052956802"
+    },
+    {
+      "bookId": "4105059c8e6f",
+      "id": 353105,
+      "eid": 32509,
+      "cid": 8306,
+      "lid": 3432,
+      "fromDate": "2026-05-11T13:16:00-04:00",
+      "toDate": "2026-05-15T15:00:00-04:00",
+      "created": "2026-05-11T12:47:14-04:00",
+      "firstName": "Utkarsh",
+      "lastName": "Pamneja",
+      "email": "the12th@my.yorku.ca",
+      "account": "the12th@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "360 Cameras",
+      "item_name": "Insta360 x4 (8K Action Cam)",
+      "event": null,
+      "barcode": "39007054931092"
     },
     {
       "bookId": "c0466aa52ef9",
