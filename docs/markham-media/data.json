@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-11T17:48:58.222207+00:00",
+  "fetch_timestamp": "2026-05-11T19:27:05.041972+00:00",
   "date": "2026-05-11",
   "space_bookings": [],
   "equipment_bookings": [
@@ -252,26 +252,6 @@
       "cancelled": "2026-05-08T04:02:06+00:00"
     },
     {
-      "bookId": "103c7f9a1871",
-      "id": 353027,
-      "eid": 32185,
-      "cid": 7812,
-      "lid": 3432,
-      "fromDate": "2026-05-11T09:30:00-04:00",
-      "toDate": "2026-05-15T15:00:00-04:00",
-      "created": "2026-05-11T09:19:39-04:00",
-      "firstName": "Ajitha",
-      "lastName": "Prabhakaran",
-      "email": "ajithap@my.yorku.ca",
-      "account": "ajithap@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": "39007054931134"
-    },
-    {
       "bookId": "4f41e26ae95d",
       "id": 352406,
       "eid": 36689,
@@ -310,6 +290,26 @@
       "item_name": "Sigma RF 18mm-55mm",
       "event": null,
       "barcode": "39007052956802"
+    },
+    {
+      "bookId": "103c7f9a1871",
+      "id": 353027,
+      "eid": 32185,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-05-11T14:20:00-04:00",
+      "toDate": "2026-05-15T15:00:00-04:00",
+      "created": "2026-05-11T09:19:39-04:00",
+      "firstName": "Ajitha",
+      "lastName": "Prabhakaran",
+      "email": "ajithap@my.yorku.ca",
+      "account": "ajithap@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054931134"
     },
     {
       "bookId": "4105059c8e6f",
