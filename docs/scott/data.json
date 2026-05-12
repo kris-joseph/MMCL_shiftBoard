@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-12T19:27:25.937131+00:00",
+  "fetch_timestamp": "2026-05-12T20:57:59.669717+00:00",
   "date": "2026-05-12",
   "space_bookings": [
     {
@@ -375,6 +375,46 @@
       "barcode": "39007054933882"
     },
     {
+      "bookId": "2c4464480229",
+      "id": 353507,
+      "eid": 35840,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-05-12T15:49:39-04:00",
+      "toDate": "2026-05-12T16:11:00-04:00",
+      "created": "2026-05-12T15:48:56-04:00",
+      "firstName": "WADE",
+      "lastName": "AYYOUB",
+      "email": "wadi98@my.yorku.ca",
+      "account": "215651706",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode GO (Gen 3)",
+      "event": null,
+      "barcode": "39007054936570"
+    },
+    {
+      "bookId": "e0beb0850642",
+      "id": 353509,
+      "eid": 21827,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-05-12T15:52:41-04:00",
+      "toDate": "2026-05-12T16:11:00-04:00",
+      "created": "2026-05-12T15:51:29-04:00",
+      "firstName": "WADE",
+      "lastName": "AYYOUB",
+      "email": "wadi98@my.yorku.ca",
+      "account": "215651706",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50",
+      "event": null,
+      "barcode": "39007054930243"
+    },
+    {
       "bookId": "814cae86609d",
       "id": 351109,
       "eid": 29774,
@@ -598,7 +638,7 @@
     {
       "bookId": "63cf11404719",
       "id": 352505,
-      "eid": 28526,
+      "eid": 28530,
       "cid": 5661,
       "lid": 2632,
       "fromDate": "2026-05-13T11:00:00-04:00",
@@ -613,7 +653,7 @@
       "category_name": "VR Headsets",
       "item_name": "Meta Quest 3",
       "event": null,
-      "barcode": "39007054933833"
+      "barcode": "39007054933882"
     },
     {
       "bookId": "63cf11404719",
