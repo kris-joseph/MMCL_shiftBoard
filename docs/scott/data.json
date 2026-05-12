@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-12T01:15:57.647089+00:00",
+  "fetch_timestamp": "2026-05-12T02:43:25.513544+00:00",
   "date": "2026-05-12",
   "space_bookings": [
     {
@@ -89,26 +89,6 @@
       "item_name": "Novation Launchkey Mini MK3",
       "event": null,
       "barcode": " 39007054931480"
-    },
-    {
-      "bookId": "fd9a13be3e87",
-      "id": 351111,
-      "eid": 21663,
-      "cid": 8144,
-      "lid": 2632,
-      "fromDate": "2026-04-28T17:02:00-04:00",
-      "toDate": "2026-05-12T17:00:00-04:00",
-      "created": "2026-04-28T17:00:09-04:00",
-      "firstName": "TIMI",
-      "lastName": "OLAJONLU",
-      "email": "timmyola@my.yorku.ca",
-      "account": "5859730001068696",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Headphones",
-      "item_name": "Sennheiser HD 280 Pro",
-      "event": null,
-      "barcode": "39007054930490"
     },
     {
       "bookId": "0accfc9c6513",
@@ -1557,6 +1537,26 @@
       "item_name": "DJI RS 4 Mini Gimbal",
       "event": null,
       "barcode": "39007054936497"
+    },
+    {
+      "bookId": "fd9a13be3e87",
+      "id": 351111,
+      "eid": 21663,
+      "cid": 8144,
+      "lid": 2632,
+      "fromDate": "2026-04-28T17:02:00-04:00",
+      "toDate": "2026-05-25T17:00:00-04:00",
+      "created": "2026-04-28T17:00:09-04:00",
+      "firstName": "TIMI",
+      "lastName": "OLAJONLU",
+      "email": "timmyola@my.yorku.ca",
+      "account": "5859730001068696",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Headphones",
+      "item_name": "Sennheiser HD 280 Pro",
+      "event": null,
+      "barcode": "39007054930490"
     },
     {
       "bookId": "f2f1c561a398",
