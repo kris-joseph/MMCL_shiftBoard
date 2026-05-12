@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-12T22:09:59.620032+00:00",
+  "fetch_timestamp": "2026-05-12T23:33:42.947716+00:00",
   "date": "2026-05-12",
   "space_bookings": [
     {
@@ -1423,26 +1423,6 @@
       "barcode": "39007054933890"
     },
     {
-      "bookId": "d0d7964163e6",
-      "id": 351815,
-      "eid": 34319,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-05-12T11:00:00-04:00",
-      "toDate": "2026-05-19T17:00:00-04:00",
-      "created": "2026-05-03T22:53:21-04:00",
-      "firstName": "Kelechi",
-      "lastName": "Onyemachi",
-      "email": "kelexk5@my.yorku.ca",
-      "account": "kelexk5@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": "39007054936463"
-    },
-    {
       "bookId": "683baa5f4869",
       "id": 349521,
       "eid": 31910,
@@ -1761,6 +1741,27 @@
       "item_name": "Meta Quest 2 (256 GB), VR Headset & Controllers",
       "event": null,
       "barcode": "39007054933221"
+    },
+    {
+      "bookId": "d0d7964163e6",
+      "id": 351815,
+      "eid": 34319,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-05-12T11:00:00-04:00",
+      "toDate": "2026-05-19T17:00:00-04:00",
+      "created": "2026-05-03T22:53:21-04:00",
+      "firstName": "Kelechi",
+      "lastName": "Onyemachi",
+      "email": "kelexk5@my.yorku.ca",
+      "account": "kelexk5@my.yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936463",
+      "cancelled": "2026-05-12T23:02:07+00:00"
     },
     {
       "bookId": "91703c47df4c",
