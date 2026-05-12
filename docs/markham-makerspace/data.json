@@ -3,9 +3,28 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-12T05:34:11.106666+00:00",
+  "fetch_timestamp": "2026-05-12T15:31:45.280442+00:00",
   "date": "2026-05-12",
   "space_bookings": [
+    {
+      "bookId": "585d7daaada0",
+      "id": 16073976,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-05-12T10:00:00-04:00",
+      "toDate": "2026-05-12T12:00:00-04:00",
+      "created": "2026-05-12T09:26:58-04:00",
+      "firstName": "Lana",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
     {
       "bookId": "84a0fe2e2440",
       "id": 16055321,
@@ -23,6 +42,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "2e27d5445439",
+      "id": 16074725,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-05-12T11:00:00-04:00",
+      "toDate": "2026-05-12T13:30:00-04:00",
+      "created": "2026-05-12T11:22:32-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
       "event": null
     },
     {
@@ -45,6 +83,25 @@
       "event": null
     },
     {
+      "bookId": "ba926c50009f",
+      "id": 16074129,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-05-12T14:00:00-04:00",
+      "toDate": "2026-05-12T17:00:00-04:00",
+      "created": "2026-05-12T09:53:04-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing & Cricut",
+      "item_name": "Cricut Cutter",
+      "event": null
+    },
+    {
       "bookId": "0ec21b136824",
       "id": 16064468,
       "eid": 35301,
@@ -57,11 +114,12 @@
       "lastName": "Yuan",
       "email": "jiaqi.yuan2@gmail.com",
       "account": "jiaqi.yuan2@gmail.com",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-05-12T13:26:20+00:00"
     },
     {
       "bookId": "51bd2405a2e5",
