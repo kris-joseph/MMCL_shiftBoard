@@ -3,9 +3,31 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-12T23:33:44.403417+00:00",
-  "date": "2026-05-12",
-  "space_bookings": [],
+  "fetch_timestamp": "2026-05-13T02:48:53.194485+00:00",
+  "date": "2026-05-13",
+  "space_bookings": [
+    {
+      "bookId": "15649205bc5e",
+      "id": 16076200,
+      "eid": 30720,
+      "cid": 7761,
+      "lid": 3432,
+      "fromDate": "2026-05-14T15:00:00-04:00",
+      "toDate": "2026-05-14T16:00:00-04:00",
+      "created": "2026-05-12T13:24:15-04:00",
+      "firstName": "Ali Raza",
+      "lastName": "Jagani",
+      "email": "aliraza2@my.yorku.ca",
+      "account": "aliraza2@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Video Studios",
+      "item_name": "Video and Photo Studio (Rm 3060H)",
+      "event": null,
+      "check_in_code": "B82",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZWLCfmAAA="
+    }
+  ],
   "equipment_bookings": [
     {
       "bookId": "c75a8cec0655",
