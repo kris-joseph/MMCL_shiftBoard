@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-14T19:14:49.646475+00:00",
+  "fetch_timestamp": "2026-05-14T20:50:36.887214+00:00",
   "date": "2026-05-14",
   "space_bookings": [
     {
@@ -286,7 +286,7 @@
       "lastName": "Lupyrypa",
       "email": "perrya@yorku.ca",
       "account": "perrya@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
@@ -324,7 +324,7 @@
       "lastName": "Lupyrypa",
       "email": "perrya@yorku.ca",
       "account": "perrya@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
