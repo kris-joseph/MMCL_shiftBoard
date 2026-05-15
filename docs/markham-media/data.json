@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-15T15:08:50.094748+00:00",
+  "fetch_timestamp": "2026-05-15T17:06:51.899260+00:00",
   "date": "2026-05-15",
   "space_bookings": [
     {
@@ -19,13 +19,35 @@
       "lastName": "Rattan",
       "email": "ishmeetr@my.yorku.ca",
       "account": "ishmeetr@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by System",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Editing Studios",
       "item_name": "Editing and Music Studio #2 (Rm 3060F)",
       "event": null,
       "check_in_code": "6F38",
+      "cancelled": "2026-05-15T15:16:04+00:00",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpvAABH34X_zHuIQZyVVKGzvHhAAAZXLA_gAAA="
+    },
+    {
+      "bookId": "be685787801a",
+      "id": 16090050,
+      "eid": 30722,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-05-15T11:30:00-04:00",
+      "toDate": "2026-05-15T14:00:00-04:00",
+      "created": "2026-05-15T11:22:55-04:00",
+      "firstName": "Ishmeet",
+      "lastName": "Rattan",
+      "email": "ishmeetr@my.yorku.ca",
+      "account": "ishmeetr@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #2 (Rm 3060F)",
+      "event": null,
+      "check_in_code": "F638",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpvAABH34X_zHuIQZyVVKGzvHhAAAZXLA_jAAA="
     }
   ],
   "equipment_bookings": [
@@ -282,12 +304,13 @@
       "lastName": "GUEVARRA",
       "email": "gvincent@yorku.ca",
       "account": "102132681",
-      "status": "Mediated Approved",
+      "status": "Cancelled by System",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Cameras",
       "item_name": "Canon EOS R50",
       "event": null,
-      "barcode": "39007054931613"
+      "barcode": "39007054931613",
+      "cancelled": "2026-05-15T16:02:06+00:00"
     },
     {
       "bookId": "bc5963ec8cfb",
@@ -302,12 +325,13 @@
       "lastName": "GUEVARRA",
       "email": "gvincent@yorku.ca",
       "account": "102132681",
-      "status": "Mediated Approved",
+      "status": "Cancelled by System",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Tripods",
       "item_name": "Joby HandyPod 2 kit",
       "event": null,
-      "barcode": "39007054934039"
+      "barcode": "39007054934039",
+      "cancelled": "2026-05-15T16:02:06+00:00"
     },
     {
       "bookId": "377a5f48d709",
