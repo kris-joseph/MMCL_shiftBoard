@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1779040140">
+    <link rel="stylesheet" href="../static/style.css?v=1779044013">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Sunday, May 17, 2026</div>
-                <div class="last-updated">Last updated: 1:48 PM</div>
+                <div class="last-updated">Last updated: 2:53 PM</div>
             </div>
         </div>
     </header>
@@ -51,14 +51,14 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 0%;"></div>
+                <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour ">
@@ -72,8 +72,8 @@
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 0%;"></div>
+                <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
             <div class="timeline-hour ">
@@ -113,76 +113,15 @@
             <div class="shift-group-header">
                 <h2>Full Shift</h2>
                 <div class="booking-count">
-                    1 space booking •
+                    0 space bookings •
                     0 equipment loans                </div>
             </div>
 
 
-
-
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">2 PM</span>
-                        <span class="hour-group-count">1 task</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card " data-booking-id="c35ee7abd1b0" data-booking-type="space">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-Scott 204 - Flex Studio
-                        </div>
-                        <div class="booking-card-summary-time">
-2:15 PM - 5:15 PM • C.B.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Scott 204 - Flex Studio</h3>
-                        <div class="booking-category">Flex Studio Spaces</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">2:15 PM - 5:15 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">C.B. (c***@my.yorku.ca)</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Check-in:</span>
-                        <span class="detail-value booking-id">3B5M</span>
-                    </div>
-                </div>
-
-
-                <div class="booking-id">ID: c35ee7abd1b0</div>
-
-                </div> 
-            </article>
-
-                    </div>
-                </div>
+            <div class="empty-state">
+                <div class="empty-state-icon">📭</div>
+                <div class="empty-state-message">No bookings for this shift</div>
             </div>
-
         </section>
 
     </main>
@@ -233,6 +172,6 @@ Scott 204 - Flex Studio
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1779040140"></script>
+    <script src="../static/dashboard.js?v=1779044013"></script>
 </body>
 </html>
