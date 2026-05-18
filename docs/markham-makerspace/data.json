@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-18T21:43:06.745475+00:00",
+  "fetch_timestamp": "2026-05-18T22:48:49.399727+00:00",
   "date": "2026-05-18",
   "space_bookings": [
     {
@@ -209,11 +209,12 @@
       "lastName": "Sheikh Rabiei",
       "email": "routch@my.yorku.ca",
       "account": "routch@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4 #01 \"Orpheus\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-05-18T22:10:23+00:00"
     },
     {
       "bookId": "6164076fa496",
@@ -228,11 +229,12 @@
       "lastName": "Sheikh Rabiei",
       "email": "routch@my.yorku.ca",
       "account": "routch@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4 #02 \"Eurydice\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-05-18T22:10:20+00:00"
     }
   ],
   "equipment_bookings": [],
