@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-19T16:13:34.838176+00:00",
+  "fetch_timestamp": "2026-05-19T18:19:29.496501+00:00",
   "date": "2026-05-19",
   "space_bookings": [
     {
@@ -159,6 +159,25 @@
       "event": null
     },
     {
+      "bookId": "cb8af58b8764",
+      "id": 16099998,
+      "eid": 30729,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-05-19T14:00:00-04:00",
+      "toDate": "2026-05-19T16:00:00-04:00",
+      "created": "2026-05-19T14:10:48-04:00",
+      "firstName": "Sarika",
+      "lastName": "Patel",
+      "email": "spatel05@yorku.ca",
+      "account": "spatel05@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #06 \"King Crimson\"",
+      "event": null
+    },
+    {
       "bookId": "3831fa42f951",
       "id": 16095306,
       "eid": 30735,
@@ -310,6 +329,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "bdc3cbb357ca",
+      "id": 16099983,
+      "eid": 33126,
+      "cid": 7897,
+      "lid": 3430,
+      "fromDate": "2026-05-20T14:30:00-04:00",
+      "toDate": "2026-05-20T15:30:00-04:00",
+      "created": "2026-05-19T14:09:02-04:00",
+      "firstName": "Biswaprakash",
+      "lastName": "Nayak",
+      "email": "biswa06@my.yorku.ca",
+      "account": "biswa06@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Scanners",
+      "item_name": "Revopoint Pop 3 3D Scanner",
       "event": null
     }
   ],
