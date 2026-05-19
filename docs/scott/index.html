@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1779221409">
+    <link rel="stylesheet" href="../static/style.css?v=1779227501">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Tuesday, May 19, 2026</div>
-                <div class="last-updated">Last updated: 4:10 PM</div>
+                <div class="last-updated">Last updated: 5:51 PM</div>
             </div>
         </div>
     </header>
@@ -42,38 +42,38 @@
                 <div class="timeline-hour-label">10AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 64.86486486486487%;"></div>
+                <div class="timeline-bar" style="height: 55.81395348837209%;"></div>
                 <div class="timeline-count">24</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 48.64864864864865%;"></div>
+                <div class="timeline-bar" style="height: 41.86046511627907%;"></div>
                 <div class="timeline-count">18</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 27.027027027027028%;"></div>
+                <div class="timeline-bar" style="height: 23.25581395348837%;"></div>
                 <div class="timeline-count">10</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 51.35135135135135%;"></div>
+                <div class="timeline-bar" style="height: 44.18604651162791%;"></div>
                 <div class="timeline-count">19</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 75.67567567567568%;"></div>
+                <div class="timeline-bar" style="height: 65.11627906976744%;"></div>
                 <div class="timeline-count">28</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 21.62162162162162%;"></div>
-                <div class="timeline-count">8</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 23.25581395348837%;"></div>
+                <div class="timeline-count">10</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">37</div>
+                <div class="timeline-count">43</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
             <div class="timeline-hour ">
@@ -1276,51 +1276,72 @@ Due back • F.A.                        </div>
 
     <aside class="persistent-sections">
 
-        <section class="persistent-section in-progress-section">
+
+        <section class="persistent-section overdue-section">
             <div class="section-header">
-                <h2>Patron Onsite</h2>
-                <span class="section-count">1</span>
+                <h2>Overdue Items</h2>
+                <span class="section-count">2</span>
             </div>
             <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="a71b63557a0a" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 207C - Audio Recording Booth</div>
-                            <div class="booking-card-summary-time">2:00 PM - 4:30 PM • I.G.</div>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Canon RF 35mm</h3>
+                            <div class="booking-category">Camera Lenses</div>
                         </div>
                         <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
+                            <span class="badge status-tentative">OVERDUE</span>
                         </div>
-                        <span class="booking-card-expand-icon">▼</span>
                     </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">2:00 PM - 4:30 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">I.G. (i***@yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">X9B</span>
-                            </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Tuesday, May 19, 2026 at 5:00 PM</span>
                         </div>
-                        <div class="booking-id">ID: a71b63557a0a</div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">J.S. (j***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
                     </div>
+                    <div class="booking-id">ID: 69e0e147effe</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>DJI Osmo Pocket 3</h3>
+                            <div class="booking-category">Camera Stabilizers</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Tuesday, May 19, 2026 at 5:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">K.O. (k***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: d0d7964163e6</div>
                 </article>
             </div>
         </section>
 
-
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">40</span>
+                <span class="section-count">41</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -1394,6 +1415,28 @@ Due back • F.A.                        </div>
                                 </div>
                             </div>
                             <div class="booking-id">ID: 884227df7996</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 207C - Audio Recording Booth</h3>
+                                    <div class="booking-category">Audio Recording Rooms</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:00 PM - 4:30 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">I.G.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: a71b63557a0a</div>
                         </article>
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
@@ -2238,6 +2281,6 @@ Due back • F.A.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1779221409"></script>
+    <script src="../static/dashboard.js?v=1779227501"></script>
 </body>
 </html>
