@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-19T02:54:58.927016+00:00",
+  "fetch_timestamp": "2026-05-19T06:01:35.044657+00:00",
   "date": "2026-05-19",
   "space_bookings": [
     {
@@ -19,14 +19,15 @@
       "lastName": "Zoya",
       "email": "zoshi@yorku.ca",
       "account": "zoshi@yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by User",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Computer Labs",
       "item_name": "Scott 207 - Editing Lab",
       "event": null,
       "seat_id": 32112,
       "seat_name": "Workstation 2 (Dell G7 with Adobe CC)",
-      "check_in_code": "G9M"
+      "check_in_code": "G9M",
+      "cancelled": "2026-05-19T05:12:10+00:00"
     },
     {
       "bookId": "4e01a0a39a35",
@@ -2499,6 +2500,26 @@
       "item_name": "Rode GO (Gen 3)",
       "event": null,
       "barcode": "39007054936570"
+    },
+    {
+      "bookId": "40e44e992854",
+      "id": 354197,
+      "eid": 34086,
+      "cid": 8291,
+      "lid": 2632,
+      "fromDate": "2026-05-19T11:00:00-04:00",
+      "toDate": "2026-05-26T17:00:00-04:00",
+      "created": "2026-05-19T00:45:18-04:00",
+      "firstName": "Mathew Raymond",
+      "lastName": "Da Silva",
+      "email": "mathewd@yorku.ca",
+      "account": "mathewd@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "360 Cameras",
+      "item_name": "Insta360 X4 (8K Action Cam)",
+      "event": null,
+      "barcode": "39007054936059"
     },
     {
       "bookId": "f2f1c561a398",
