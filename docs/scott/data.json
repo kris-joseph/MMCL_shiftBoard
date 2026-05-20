@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-20T20:56:35.837549+00:00",
+  "fetch_timestamp": "2026-05-20T22:21:11.932744+00:00",
   "date": "2026-05-20",
   "space_bookings": [
     {
@@ -1220,26 +1220,6 @@
       "barcode": "39007054936760"
     },
     {
-      "bookId": "d5225297c211",
-      "id": 354141,
-      "eid": 34319,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-05-20T11:00:00-04:00",
-      "toDate": "2026-05-25T17:00:00-04:00",
-      "created": "2026-05-17T03:45:27-04:00",
-      "firstName": "Samantha",
-      "lastName": "Egba",
-      "email": "sampop03@my.yorku.ca",
-      "account": "sampop03@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": "39007054936463"
-    },
-    {
       "bookId": "340e7bd64629",
       "id": 352396,
       "eid": 35841,
@@ -1258,6 +1238,26 @@
       "item_name": "Insta360 X5 (8K Action Camera)",
       "event": null,
       "barcode": "39007054936620"
+    },
+    {
+      "bookId": "d5225297c211",
+      "id": 354141,
+      "eid": 34319,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-05-20T16:58:00-04:00",
+      "toDate": "2026-05-25T17:00:00-04:00",
+      "created": "2026-05-17T03:45:27-04:00",
+      "firstName": "Samantha",
+      "lastName": "Egba",
+      "email": "sampop03@my.yorku.ca",
+      "account": "sampop03@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936463"
     },
     {
       "bookId": "40f42ade7ce5",
