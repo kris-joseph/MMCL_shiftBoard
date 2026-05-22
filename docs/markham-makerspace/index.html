@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Makerspace - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1779464638">
+    <link rel="stylesheet" href="../static/style.css?v=1779471829">
     <meta name="description" content="Staff dashboard for Markham Makerspace showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,9 +17,9 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Friday, May 22, 2026</div>
-                <div class="last-updated">Last updated: 11:43 AM</div>
+                <div class="last-updated">Last updated: 1:43 PM</div>
                 <div class="shift-info">
-                    <span class="shift-label">Opening Shift</span>
+                    <span class="shift-label">Closing Shift</span>
                 </div>
             </div>
         </div>
@@ -44,12 +44,12 @@
                 <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
                 <div class="timeline-count">6</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 50.0%;"></div>
                 <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">12PM</div>
@@ -107,7 +107,6 @@
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Stations</button>
         <button class="filter-button" data-filter="3d-printers" onclick="filterBookings('3d-printers')">3D Printers</button>
         <button class="filter-button" data-filter="laser-cutters" onclick="filterBookings('laser-cutters')">Laser Cutters</button>
-        <button class="filter-button" data-filter="sewing,-textiles-and-vinyl" onclick="filterBookings('sewing,-textiles-and-vinyl')">Sewing, Textiles and Vinyl</button>
     </section>
 
     <main class="main-content">
@@ -117,73 +116,14 @@
             <div class="shift-group-header">
                 <h2>Opening Shift</h2>
                 <div class="booking-count">
-                    1 workstation booking                </div>
+                    0 workstation bookings                </div>
             </div>
 
 
-
-
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">12 PM</span>
-                        <span class="hour-group-count">1 task</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card workstation" data-booking-id="6a9d71bed3a6" data-station-type="laser-cutters">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">Aeon Mira 9</div>
-                        <div class="booking-card-summary-time">12:45 PM - 2:45 PM • A.P.</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Aeon Mira 9</h3>
-                        <div class="booking-category">Laser Cutters</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="badge shift-boundary-flag">Shift Boundary</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">12:45 PM - 2:45 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">A.P. (a***@yorku.ca)</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Duration:</span>
-                        <span class="detail-value">2.0 hours</span>
-                    </div>
-                </div>
-
-
-                <div class="booking-id">ID: 6a9d71bed3a6</div>
-
-                </div> 
-            </article>
-
-                    </div>
-                </div>
+            <div class="empty-state">
+                <div class="empty-state-icon">📭</div>
+                <div class="empty-state-message">No bookings for this shift</div>
             </div>
-
         </section>
         <section class="shift-group">
             <div class="shift-group-header">
@@ -264,80 +204,10 @@
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>In-Progress Jobs</h2>
-                <span class="section-count">8</span>
+                <span class="section-count">7</span>
             </div>
             <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="b93cab84a0ba" data-station-type="sewing,-textiles-and-vinyl">
-                    <div class="booking-header">
-                        <div class="booking-title">
-                            <h3>Bernette 35 #01 &#34;Giorgio&#34;</h3>
-                            <div class="booking-category">Sewing, Textiles and Vinyl</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
-                        </div>
-                    </div>
-                    <div class="booking-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Started:</span>
-                            <span class="detail-value">Friday, May 22, 2026 at 11:30 AM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Due:</span>
-                            <span class="detail-value">Friday, May 22, 2026 at 12:30 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Patron:</span>
-                            <span class="detail-value patron-info">I.G. (i***@yorku.ca)</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">In progress:</span>
-                            <span class="detail-value">13 minutes</span>
-                        </div>
-                    </div>
-                    <div class="workflow-panel">
-                        <div class="workflow-header">
-                            <span class="workflow-title">Station Setup</span>
-                            <span class="workflow-progress">
-                                <span class="workflow-step-counter">0</span> / 3
-                            </span>
-                        </div>
-                        <div class="workflow-inline-progress">
-                            <div class="workflow-inline-progress-fill"></div>
-                        </div>
-                        <ol class="workflow-steps">
-                            <li class="workflow-step ">
-                                <input type="checkbox" class="step-checkbox"
-                                       data-step="1"
-                                       onchange="onStepChecked(this)">
-                                <span class="step-number">1</span>
-                                <span class="step-description">
-                                    Confirm patron has completed sewing machine orientation
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <input type="checkbox" class="step-checkbox"
-                                       data-step="2"
-                                       onchange="onStepChecked(this)">
-                                <span class="step-number">2</span>
-                                <span class="step-description">
-                                    Verify machine is threaded and ready for use
-                                </span>
-                            </li>
-                            <li class="workflow-step ">
-                                <input type="checkbox" class="step-checkbox"
-                                       data-step="3"
-                                       onchange="onStepChecked(this)">
-                                <span class="step-number">3</span>
-                                <span class="step-description">
-                                    Provide brief usage reminder and safety guidelines
-                                </span>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="booking-id">ID: b93cab84a0ba</div>
-                </article>
-                <article class="booking-card in-progress" data-booking-id="eeaaab527ef9" data-station-type="laser-cutters">
+                <article class="booking-card in-progress" data-booking-id="6a9d71bed3a6" data-station-type="laser-cutters">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>Aeon Mira 9</h3>
@@ -350,11 +220,11 @@
                     <div class="booking-details">
                         <div class="detail-row">
                             <span class="detail-label">Started:</span>
-                            <span class="detail-value">Friday, May 22, 2026 at 10:45 AM</span>
+                            <span class="detail-value">Friday, May 22, 2026 at 12:45 PM</span>
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Due:</span>
-                            <span class="detail-value">Friday, May 22, 2026 at 12:45 PM</span>
+                            <span class="detail-value">Friday, May 22, 2026 at 2:45 PM</span>
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Patron:</span>
@@ -365,7 +235,7 @@
                             <span class="detail-value">58 minutes</span>
                         </div>
                     </div>
-                    <div class="booking-id">ID: eeaaab527ef9</div>
+                    <div class="booking-id">ID: 6a9d71bed3a6</div>
                 </article>
                 <article class="booking-card in-progress" data-booking-id="86793d4f9fb7" data-station-type="3d-printers">
                     <div class="booking-header">
@@ -392,7 +262,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.7 hours</span>
+                            <span class="detail-value">3.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -508,7 +378,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">43 minutes</span>
+                            <span class="detail-value">2.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -624,7 +494,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">43 minutes</span>
+                            <span class="detail-value">2.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -740,7 +610,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">43 minutes</span>
+                            <span class="detail-value">2.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -856,7 +726,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">2.2 hours</span>
+                            <span class="detail-value">4.2 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -972,7 +842,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">2.2 hours</span>
+                            <span class="detail-value">4.2 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -1069,7 +939,7 @@
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">2</span>
+                <span class="section-count">4</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -1122,6 +992,50 @@
                             </div>
                             <div class="booking-id">ID: 8546a7c722bf</div>
                         </article>
+                        <article class="booking-card">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Bernette 35 #01 &#34;Giorgio&#34;</h3>
+                                    <div class="booking-category">Sewing, Textiles and Vinyl</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">11:30 AM - 12:30 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">I.G.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: b93cab84a0ba</div>
+                        </article>
+                        <article class="booking-card">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Aeon Mira 9</h3>
+                                    <div class="booking-category">Laser Cutters</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">10:45 AM - 12:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">A.P.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: eeaaab527ef9</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -1151,6 +1065,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1779464638"></script>
+    <script src="../static/dashboard.js?v=1779471829"></script>
 </body>
 </html>
