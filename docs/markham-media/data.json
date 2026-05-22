@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-22T19:22:34.615053+00:00",
+  "fetch_timestamp": "2026-05-22T20:52:16.423697+00:00",
   "date": "2026-05-22",
   "space_bookings": [
     {
@@ -453,6 +453,26 @@
       "item_name": "67mm ND Filter",
       "event": null,
       "barcode": "39007054935606"
+    },
+    {
+      "bookId": "25f0d5012b33",
+      "id": 357951,
+      "eid": 32185,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-05-23T11:00:00-04:00",
+      "toDate": "2026-05-30T16:30:00-04:00",
+      "created": "2026-05-22T15:44:37-04:00",
+      "firstName": "Khanh",
+      "lastName": "Nguyen Le",
+      "email": "khanh84@my.yorku.ca",
+      "account": "khanh84@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054931134"
     },
     {
       "bookId": "f9a6cfb27063",
