@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-22T15:39:40.576487+00:00",
+  "fetch_timestamp": "2026-05-22T15:43:57.606368+00:00",
   "date": "2026-05-22",
   "space_bookings": [
     {
@@ -32,7 +32,7 @@
       "cid": 7245,
       "lid": 3430,
       "fromDate": "2026-05-22T11:00:00-04:00",
-      "toDate": "2026-05-22T12:00:00-04:00",
+      "toDate": "2026-05-22T11:39:00-04:00",
       "created": "2026-05-22T11:13:15-04:00",
       "firstName": "Mahdi",
       "lastName": "Kamal",
