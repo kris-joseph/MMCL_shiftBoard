@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-23T17:54:32.335882+00:00",
+  "fetch_timestamp": "2026-05-23T18:55:25.266656+00:00",
   "date": "2026-05-23",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7761,
       "lid": 3432,
       "fromDate": "2026-05-23T12:00:00-04:00",
-      "toDate": "2026-05-23T14:30:00-04:00",
+      "toDate": "2026-05-23T15:30:00-04:00",
       "created": "2026-05-19T16:49:18-04:00",
       "firstName": "Tonna",
       "lastName": "Okoye",
@@ -25,7 +25,7 @@
       "item_name": "Video and Photo Studio (Rm 3060H)",
       "event": null,
       "check_in_code": "Q5C",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZalGYfAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZdiUitAAA="
     }
   ],
   "equipment_bookings": [
@@ -335,7 +335,7 @@
     {
       "bookId": "25f0d5012b33",
       "id": 357951,
-      "eid": 32185,
+      "eid": 32186,
       "cid": 7812,
       "lid": 3432,
       "fromDate": "2026-05-23T11:00:00-04:00",
@@ -350,7 +350,7 @@
       "category_name": "Camera Stabilizers",
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
-      "barcode": "39007054931134"
+      "barcode": "39007054931142"
     },
     {
       "bookId": "f9a6cfb27063",
