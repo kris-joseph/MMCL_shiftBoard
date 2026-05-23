@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-23T18:55:25.266656+00:00",
+  "fetch_timestamp": "2026-05-23T20:01:30.230759+00:00",
   "date": "2026-05-23",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7761,
       "lid": 3432,
       "fromDate": "2026-05-23T12:00:00-04:00",
-      "toDate": "2026-05-23T15:30:00-04:00",
+      "toDate": "2026-05-23T15:12:00-04:00",
       "created": "2026-05-19T16:49:18-04:00",
       "firstName": "Tonna",
       "lastName": "Okoye",
@@ -25,7 +25,7 @@
       "item_name": "Video and Photo Studio (Rm 3060H)",
       "event": null,
       "check_in_code": "Q5C",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZdiUitAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZdiUiwAAA="
     }
   ],
   "equipment_bookings": [
@@ -48,6 +48,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007052956752"
+    },
+    {
+      "bookId": "1c18e67b528a",
+      "id": 357849,
+      "eid": 34114,
+      "cid": 7832,
+      "lid": 3432,
+      "fromDate": "2026-05-22T10:26:22-04:00",
+      "toDate": "2026-05-23T15:22:00-04:00",
+      "created": "2026-05-22T10:26:21-04:00",
+      "firstName": "SEAN",
+      "lastName": "SWEENEY",
+      "email": "ssweeney@yorku.ca",
+      "account": "5859730001037090",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Lenses",
+      "item_name": "67mm ND Filter",
+      "event": null,
+      "barcode": "39007054935606"
     },
     {
       "bookId": "bcd6dbac12f0",
@@ -313,44 +333,24 @@
       "barcode": "39007054932686"
     },
     {
-      "bookId": "1c18e67b528a",
-      "id": 357849,
-      "eid": 34114,
-      "cid": 7832,
-      "lid": 3432,
-      "fromDate": "2026-05-22T10:26:22-04:00",
-      "toDate": "2026-05-29T23:59:00-04:00",
-      "created": "2026-05-22T10:26:21-04:00",
-      "firstName": "SEAN",
-      "lastName": "SWEENEY",
-      "email": "ssweeney@yorku.ca",
-      "account": "5859730001037090",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Camera Lenses",
-      "item_name": "67mm ND Filter",
-      "event": null,
-      "barcode": "39007054935606"
-    },
-    {
       "bookId": "25f0d5012b33",
       "id": 357951,
-      "eid": 32186,
+      "eid": 36637,
       "cid": 7812,
       "lid": 3432,
-      "fromDate": "2026-05-23T11:00:00-04:00",
+      "fromDate": "2026-05-23T14:59:00-04:00",
       "toDate": "2026-05-30T16:30:00-04:00",
       "created": "2026-05-22T15:44:37-04:00",
       "firstName": "Khanh",
       "lastName": "Nguyen Le",
       "email": "khanh84@my.yorku.ca",
       "account": "khanh84@my.yorku.ca",
-      "status": "Confirmed",
+      "status": "Checked Out",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Camera Stabilizers",
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
-      "barcode": "39007054931142"
+      "barcode": " 39007052956711 "
     },
     {
       "bookId": "f9a6cfb27063",
