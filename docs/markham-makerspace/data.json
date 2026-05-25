@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-25T18:58:34.705198+00:00",
+  "fetch_timestamp": "2026-05-25T20:22:02.995248+00:00",
   "date": "2026-05-25",
   "space_bookings": [
     {
@@ -532,6 +532,26 @@
       "item_name": "Aeon Mira 9",
       "event": null,
       "cancelled": "2026-05-25T18:21:53+00:00"
+    },
+    {
+      "bookId": "b1e52d5b9a80",
+      "id": 16126361,
+      "eid": 37118,
+      "cid": 8633,
+      "lid": 3430,
+      "fromDate": "2026-05-26T10:45:00-04:00",
+      "toDate": "2026-05-26T12:45:00-04:00",
+      "created": "2026-05-25T15:23:13-04:00",
+      "firstName": "Elsa",
+      "lastName": "Hashemi",
+      "email": "elsahash82@gmail.com",
+      "account": "elsahash82@gmail.com",
+      "status": "Cancelled by User",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Laser Cutters",
+      "item_name": "Aeon Mira 9",
+      "event": null,
+      "cancelled": "2026-05-25T19:31:52+00:00"
     },
     {
       "bookId": "bbef486fce6d",
