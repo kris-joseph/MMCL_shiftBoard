@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-26T19:12:43.263897+00:00",
+  "fetch_timestamp": "2026-05-26T21:08:11.046816+00:00",
   "date": "2026-05-26",
   "space_bookings": [
     {
@@ -394,6 +394,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4 #01 \"Orpheus\"",
+      "event": null
+    },
+    {
+      "bookId": "ab2e39a3bdfc",
+      "id": 16132352,
+      "eid": 30730,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-05-26T15:30:00-04:00",
+      "toDate": "2026-05-26T16:30:00-04:00",
+      "created": "2026-05-26T15:28:32-04:00",
+      "firstName": "JESSE",
+      "lastName": "TSANG",
+      "email": "jessextsang@gmail.com",
+      "account": "221355870",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #07 \"The Hand\"",
       "event": null
     },
     {
