@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-26T02:51:51.449731+00:00",
+  "fetch_timestamp": "2026-05-26T06:01:24.528117+00:00",
   "date": "2026-05-26",
   "space_bookings": [
     {
@@ -2115,6 +2115,26 @@
       "item_name": "Audio-Technica AT2005USB",
       "event": null,
       "barcode": "39007054931449"
+    },
+    {
+      "bookId": "7d74c688bf4a",
+      "id": 358369,
+      "eid": 34319,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-05-26T11:00:00-04:00",
+      "toDate": "2026-06-02T17:00:00-04:00",
+      "created": "2026-05-25T23:40:03-04:00",
+      "firstName": "Nityam",
+      "lastName": "Goyal",
+      "email": "nityum@my.yorku.ca",
+      "account": "nityum@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936463"
     },
     {
       "bookId": "9ff6307e0686",
