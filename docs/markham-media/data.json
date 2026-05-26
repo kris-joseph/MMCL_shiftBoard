@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-26T06:01:25.741824+00:00",
+  "fetch_timestamp": "2026-05-26T16:30:00.898466+00:00",
   "date": "2026-05-26",
   "space_bookings": [],
   "equipment_bookings": [
@@ -308,7 +308,7 @@
       "category_name": "Microphones",
       "item_name": "Rode Wireless Pro II",
       "event": null,
-      "barcode": "39007054932694"
+      "barcode": "39007054932652"
     },
     {
       "bookId": "b336150dd2ae",
