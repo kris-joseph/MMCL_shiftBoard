@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-28T16:46:40.996521+00:00",
+  "fetch_timestamp": "2026-05-28T19:32:32.334876+00:00",
   "date": "2026-05-28",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "652e0527a4ad",
+      "id": 16141123,
+      "eid": 31769,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-05-28T14:00:00-04:00",
+      "toDate": "2026-05-28T15:30:00-04:00",
+      "created": "2026-05-28T13:07:51-04:00",
+      "firstName": "Prachi",
+      "lastName": "Sadhwani",
+      "email": "prachi19@my.yorku.ca",
+      "account": "prachi19@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Bernette 35 #04 \"Kate\"",
       "event": null
     },
     {
