@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-28T19:32:32.122647+00:00",
+  "fetch_timestamp": "2026-05-28T21:49:28.175138+00:00",
   "date": "2026-05-28",
   "space_bookings": [
     {
@@ -91,6 +91,27 @@
       "check_in_code": "R2R",
       "cancelled": "2026-05-28T17:16:04+00:00",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp1AABH34X_zHuIQZyVVKGzvHhAAAZgAS4wAAA="
+    },
+    {
+      "bookId": "bd7894bd2bea",
+      "id": 16142459,
+      "eid": 33193,
+      "cid": 7951,
+      "lid": 3432,
+      "fromDate": "2026-05-29T12:00:00-04:00",
+      "toDate": "2026-05-29T16:00:00-04:00",
+      "created": "2026-05-28T16:13:27-04:00",
+      "firstName": "QAIS",
+      "lastName": "ALQAISI",
+      "email": "qaisalq@my.yorku.ca",
+      "account": "220721312",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Large Studios",
+      "item_name": "Mixed Use Studio (Rm 3045)",
+      "event": null,
+      "check_in_code": "D4C",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp1AABH34X_zHuIQZyVVKGzvHhAAAZgwlBNAAA="
     }
   ],
   "equipment_bookings": [
@@ -236,6 +257,26 @@
       "event": null,
       "barcode": "39007054931126",
       "cancelled": "2026-05-22T01:32:05+00:00"
+    },
+    {
+      "bookId": "2251c167f360",
+      "id": 359007,
+      "eid": 33662,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-05-28T14:39:22-04:00",
+      "toDate": "2026-05-28T16:39:00-04:00",
+      "created": "2026-05-28T14:39:21-04:00",
+      "firstName": "QAIS",
+      "lastName": "ALQAISI",
+      "email": "qaisalq@my.yorku.ca",
+      "account": "220721312",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932652"
     },
     {
       "bookId": "6acad9566c34",
@@ -717,26 +758,6 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956729 "
-    },
-    {
-      "bookId": "2251c167f360",
-      "id": 359007,
-      "eid": 33662,
-      "cid": 8161,
-      "lid": 3432,
-      "fromDate": "2026-05-28T14:39:22-04:00",
-      "toDate": "2026-06-04T23:59:00-04:00",
-      "created": "2026-05-28T14:39:21-04:00",
-      "firstName": "QAIS",
-      "lastName": "ALQAISI",
-      "email": "qaisalq@my.yorku.ca",
-      "account": "220721312",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Microphones",
-      "item_name": "Rode Wireless Pro II",
-      "event": null,
-      "barcode": "39007054932652"
     },
     {
       "bookId": "601cd70136b2",
