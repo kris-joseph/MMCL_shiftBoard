@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-05-28T02:50:39.402838+00:00",
+  "fetch_timestamp": "2026-05-28T06:05:52.691319+00:00",
   "date": "2026-05-28",
   "space_bookings": [
     {
@@ -2055,6 +2055,26 @@
       "item_name": "Sigma RF-S 10-18mm F2.8 DC DN",
       "event": null,
       "barcode": "39007054936331"
+    },
+    {
+      "bookId": "77cf0387a432",
+      "id": 358850,
+      "eid": 34085,
+      "cid": 8291,
+      "lid": 2632,
+      "fromDate": "2026-05-28T11:00:00-04:00",
+      "toDate": "2026-06-03T17:00:00-04:00",
+      "created": "2026-05-27T22:56:02-04:00",
+      "firstName": "Huanrui",
+      "lastName": "Cao",
+      "email": "saikoro@my.yorku.ca",
+      "account": "saikoro@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "360 Cameras",
+      "item_name": "Insta360 X4 (8K Action Cam)",
+      "event": null,
+      "barcode": "39007054936026"
     },
     {
       "bookId": "c63978e1677c",
