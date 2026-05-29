@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-05-29T16:27:47.935699+00:00",
+  "fetch_timestamp": "2026-05-29T16:35:42.887588+00:00",
   "date": "2026-05-29",
   "space_bookings": [
     {
@@ -73,6 +73,26 @@
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "d92cfb7d7ab7",
+      "id": 358708,
+      "eid": 36983,
+      "cid": 8613,
+      "lid": 3432,
+      "fromDate": "2026-05-27T11:56:17-04:00",
+      "toDate": "2026-05-29T12:25:00-04:00",
+      "created": "2026-05-27T11:56:15-04:00",
+      "firstName": "ALEXANDRA",
+      "lastName": "TARASSOVA",
+      "email": "sasha.tarassova01@gmail.com",
+      "account": "217121476",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "SSD Drives",
+      "item_name": "Crucial X10 SSD Drive",
+      "event": null,
+      "barcode": "39007052957297"
+    },
     {
       "bookId": "6acad9566c34",
       "id": 357869,
@@ -415,26 +435,6 @@
       "cancelled": "2026-05-28T13:19:27+00:00"
     },
     {
-      "bookId": "d92cfb7d7ab7",
-      "id": 358708,
-      "eid": 36983,
-      "cid": 8613,
-      "lid": 3432,
-      "fromDate": "2026-05-27T11:56:17-04:00",
-      "toDate": "2026-06-03T23:59:00-04:00",
-      "created": "2026-05-27T11:56:15-04:00",
-      "firstName": "ALEXANDRA",
-      "lastName": "TARASSOVA",
-      "email": "sasha.tarassova01@gmail.com",
-      "account": "217121476",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "SSD Drives",
-      "item_name": "Crucial X10 SSD Drive",
-      "event": null,
-      "barcode": "39007052957297"
-    },
-    {
       "bookId": "30b5725fcb28",
       "id": 357651,
       "eid": 32503,
@@ -595,6 +595,26 @@
       "item_name": "Canon EOS R50V",
       "event": null,
       "barcode": "39007052957040"
+    },
+    {
+      "bookId": "23fb698e0add",
+      "id": 359180,
+      "eid": 32558,
+      "cid": 7830,
+      "lid": 3432,
+      "fromDate": "2026-05-29T12:28:45-04:00",
+      "toDate": "2026-06-05T23:59:00-04:00",
+      "created": "2026-05-29T12:28:43-04:00",
+      "firstName": "SHINGO",
+      "lastName": "ABETA",
+      "email": "shingoa@my.yorku.ca",
+      "account": "215771132",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Tripods",
+      "item_name": "Joby HandyPod 2 kit",
+      "event": null,
+      "barcode": "39007054934062"
     },
     {
       "bookId": "10d12f49e0d5",
