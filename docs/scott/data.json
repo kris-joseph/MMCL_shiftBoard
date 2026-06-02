@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-02T01:42:21.974099+00:00",
+  "fetch_timestamp": "2026-06-02T03:39:16.160138+00:00",
   "date": "2026-06-02",
   "space_bookings": [
     {
@@ -1898,26 +1898,6 @@
       "barcode": "39007054936695"
     },
     {
-      "bookId": "938713e7eb0b",
-      "id": 359381,
-      "eid": 22750,
-      "cid": 8292,
-      "lid": 2632,
-      "fromDate": "2026-06-02T11:00:00-04:00",
-      "toDate": "2026-06-09T17:00:00-04:00",
-      "created": "2026-05-31T15:10:52-04:00",
-      "firstName": "Sarah",
-      "lastName": "Campbell",
-      "email": "scampb@yorku.ca",
-      "account": "scampb@yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Wireless Microphones",
-      "item_name": "Rode Wireless Go",
-      "event": null,
-      "barcode": "39007054930714"
-    },
-    {
       "bookId": "9ff6307e0686",
       "id": 352467,
       "eid": 21621,
@@ -2016,6 +1996,27 @@
       "item_name": "Canon EF-M 55-200 mm",
       "event": null,
       "barcode": "39007054933254"
+    },
+    {
+      "bookId": "938713e7eb0b",
+      "id": 359381,
+      "eid": 22750,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-06-02T11:00:00-04:00",
+      "toDate": "2026-06-09T17:00:00-04:00",
+      "created": "2026-05-31T15:10:52-04:00",
+      "firstName": "Sarah",
+      "lastName": "Campbell",
+      "email": "scampb@yorku.ca",
+      "account": "scampb@yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless Go",
+      "event": null,
+      "barcode": "39007054930714",
+      "cancelled": "2026-06-02T03:38:47+00:00"
     },
     {
       "bookId": "f2f1c561a398",
