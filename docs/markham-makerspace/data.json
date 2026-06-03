@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-03T17:55:56.153809+00:00",
+  "fetch_timestamp": "2026-06-03T20:47:47.736499+00:00",
   "date": "2026-06-03",
   "space_bookings": [
     {
@@ -83,6 +83,25 @@
       "event": null
     },
     {
+      "bookId": "88b8f17d707e",
+      "id": 16171183,
+      "eid": 30728,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-03T15:00:00-04:00",
+      "toDate": "2026-06-03T16:25:00-04:00",
+      "created": "2026-06-03T14:08:48-04:00",
+      "firstName": "Tim",
+      "lastName": "Marshall",
+      "email": "timmar33@my.yorku.ca",
+      "account": "timmar33@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #05 \"Golden Wind\"",
+      "event": null
+    },
+    {
       "bookId": "0aa0ea5849af",
       "id": 16166689,
       "eid": 35302,
@@ -99,6 +118,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "c083c874e8fc",
+      "id": 16171458,
+      "eid": 35452,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-03T14:30:00-04:00",
+      "toDate": "2026-06-04T01:20:00-04:00",
+      "created": "2026-06-03T14:45:21-04:00",
+      "firstName": "Genny",
+      "lastName": "Jon",
+      "email": "gennyjon@yorku.ca",
+      "account": "gennyjon@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #4 \"Striker Eureka\"",
       "event": null
     },
     {
