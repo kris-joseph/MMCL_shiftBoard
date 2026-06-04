@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1780606431">
+    <link rel="stylesheet" href="../static/style.css?v=1780611333">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Thursday, June 04, 2026</div>
-                <div class="last-updated">Last updated: 4:53 PM</div>
+                <div class="last-updated">Last updated: 6:15 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -69,12 +69,12 @@
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
                 <div class="timeline-count">9</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 11.11111111111111%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">5PM</div>
@@ -136,11 +136,10 @@
 
 
 
-
-            <div class="hour-group">
+            <div class="hour-group outstanding-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
-                        <span class="hour-group-title">4 PM</span>
+                        <span class="hour-group-title">Still outstanding from earlier today</span>
                         <span class="hour-group-count">3 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
@@ -442,6 +441,7 @@ Due back • T.O.                        </div>
                 </div>
             </div>
 
+
         </section>
 
     </main>
@@ -476,7 +476,7 @@ Due back • T.O.                        </div>
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Overdue by:</span>
-                            <span class="detail-value">Less than 1 hour</span>
+                            <span class="detail-value">2 hours</span>
                         </div>
                     </div>
                     <div class="booking-id">ID: e07c930fba5f</div>
@@ -657,6 +657,6 @@ Due back • T.O.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1780606431"></script>
+    <script src="../static/dashboard.js?v=1780611333"></script>
 </body>
 </html>
