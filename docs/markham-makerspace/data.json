@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-04T18:32:41.325918+00:00",
+  "fetch_timestamp": "2026-06-04T20:53:51.049974+00:00",
   "date": "2026-06-04",
   "space_bookings": [
     {
@@ -47,7 +47,7 @@
     {
       "bookId": "47767a9011a6",
       "id": 16174488,
-      "eid": 35142,
+      "eid": 35303,
       "cid": 7245,
       "lid": 3430,
       "fromDate": "2026-06-04T14:00:00-04:00",
@@ -60,7 +60,7 @@
       "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
-      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
       "event": null
     },
     {
@@ -102,6 +102,25 @@
       "event": null
     },
     {
+      "bookId": "d9f93c86d755",
+      "id": 16178221,
+      "eid": 30736,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-04T14:30:00-04:00",
+      "toDate": "2026-06-05T05:30:00-04:00",
+      "created": "2026-06-04T14:53:07-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4 #02 \"Eurydice\"",
+      "event": null
+    },
+    {
       "bookId": "a825f61b4af5",
       "id": 16177844,
       "eid": 35301,
@@ -114,7 +133,7 @@
       "lastName": "Galendez",
       "email": "ianmg@yorku.ca",
       "account": "ianmg@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
