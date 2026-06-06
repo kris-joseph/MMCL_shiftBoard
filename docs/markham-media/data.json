@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-06T16:58:59.508646+00:00",
+  "fetch_timestamp": "2026-06-06T18:05:40.461149+00:00",
   "date": "2026-06-06",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7761,
       "lid": 3432,
       "fromDate": "2026-06-06T11:00:00-04:00",
-      "toDate": "2026-06-06T13:30:00-04:00",
+      "toDate": "2026-06-06T13:10:00-04:00",
       "created": "2026-06-02T16:12:46-04:00",
       "firstName": "Sadia Tasnim",
       "lastName": "Sneha",
@@ -25,7 +25,7 @@
       "item_name": "Video and Photo Studio (Rm 3060H)",
       "event": null,
       "check_in_code": "E4VB",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZjxUFOAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZmY98jAAA="
     }
   ],
   "equipment_bookings": [
@@ -422,12 +422,13 @@
       "lastName": "Ramai",
       "email": "oof@my.yorku.ca",
       "account": "oof@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Tripods",
       "item_name": "SmallRig Tripod",
       "event": null,
-      "barcode": "39007054933973"
+      "barcode": "39007054933973",
+      "cancelled": "2026-06-06T17:21:26+00:00"
     },
     {
       "bookId": "10d12f49e0d5",
