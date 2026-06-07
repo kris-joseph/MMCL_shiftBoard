@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-07T14:46:19.072671+00:00",
+  "fetch_timestamp": "2026-06-07T16:06:14.700256+00:00",
   "date": "2026-06-07",
   "space_bookings": [
     {
@@ -1821,12 +1821,13 @@
       "lastName": "Mehr",
       "email": "amnamehr@my.yorku.ca",
       "account": "amnamehr@my.yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by User",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "VR Headsets",
       "item_name": "Meta Quest 3",
       "event": null,
-      "barcode": "39007054933882"
+      "barcode": "39007054933882",
+      "cancelled": "2026-06-07T15:26:46+00:00"
     },
     {
       "bookId": "f2f1c561a398",
