@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-08T01:37:48.109888+00:00",
+  "fetch_timestamp": "2026-06-08T03:40:54.449823+00:00",
   "date": "2026-06-08",
   "space_bookings": [
     {
@@ -66,6 +66,26 @@
       "event": null,
       "check_in_code": "B2FR",
       "cancelled": "2026-06-04T15:39:58+00:00"
+    },
+    {
+      "bookId": "506718438b88",
+      "id": 16187663,
+      "eid": 19905,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-06-08T14:00:00-04:00",
+      "toDate": "2026-06-08T16:30:00-04:00",
+      "created": "2026-06-07T23:09:05-04:00",
+      "firstName": "Calvin",
+      "lastName": "Ngako",
+      "email": "ngako18@my.yorku.ca",
+      "account": "ngako18@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 203K - Audio Recording Studio",
+      "event": null,
+      "check_in_code": "6FG"
     },
     {
       "bookId": "71ba56082798",
