@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-09T02:49:54.520326+00:00",
+  "fetch_timestamp": "2026-06-09T06:04:06.868181+00:00",
   "date": "2026-06-09",
   "space_bookings": [
     {
@@ -661,6 +661,26 @@
       "barcode": "39007054936174"
     },
     {
+      "bookId": "ec24f0016c02",
+      "id": 361140,
+      "eid": 24949,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-06-09T11:00:00-04:00",
+      "toDate": "2026-06-11T17:00:00-04:00",
+      "created": "2026-06-09T00:26:49-04:00",
+      "firstName": "Ganiru",
+      "lastName": "Nwosu",
+      "email": "nwosusg@my.yorku.ca",
+      "account": "nwosusg@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50 Mark II",
+      "event": null,
+      "barcode": "39007054933049"
+    },
+    {
       "bookId": "5dc3aa4472e3",
       "id": 353927,
       "eid": 34323,
@@ -920,6 +940,26 @@
       "item_name": "Canon RF-S 10-18mm",
       "event": null,
       "barcode": "39007054931563"
+    },
+    {
+      "bookId": "ec24f0016c02",
+      "id": 361141,
+      "eid": 24951,
+      "cid": 8142,
+      "lid": 2632,
+      "fromDate": "2026-06-09T11:00:00-04:00",
+      "toDate": "2026-06-15T17:00:00-04:00",
+      "created": "2026-06-09T00:26:49-04:00",
+      "firstName": "Ganiru",
+      "lastName": "Nwosu",
+      "email": "nwosusg@my.yorku.ca",
+      "account": "nwosusg@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Lenses",
+      "item_name": "Canon EF-M 32 mm",
+      "event": null,
+      "barcode": "39007054933064"
     },
     {
       "bookId": "57615ab9019d",
@@ -1669,6 +1709,26 @@
       "item_name": "Rode VideoMic GO",
       "event": null,
       "barcode": "39007054936372"
+    },
+    {
+      "bookId": "ec24f0016c02",
+      "id": 361142,
+      "eid": 35840,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-06-09T11:00:00-04:00",
+      "toDate": "2026-06-16T17:00:00-04:00",
+      "created": "2026-06-09T00:26:49-04:00",
+      "firstName": "Ganiru",
+      "lastName": "Nwosu",
+      "email": "nwosusg@my.yorku.ca",
+      "account": "nwosusg@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode GO (Gen 3)",
+      "event": null,
+      "barcode": "39007054936570"
     },
     {
       "bookId": "f2f1c561a398",
