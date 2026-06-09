@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-09T06:04:06.868181+00:00",
+  "fetch_timestamp": "2026-06-09T15:43:38.022289+00:00",
   "date": "2026-06-09",
   "space_bookings": [
     {
@@ -1671,26 +1671,6 @@
       "barcode": "39007054936737"
     },
     {
-      "bookId": "30f6810351a1",
-      "id": 360669,
-      "eid": 37346,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-06-09T11:00:00-04:00",
-      "toDate": "2026-06-16T17:00:00-04:00",
-      "created": "2026-06-06T19:53:27-04:00",
-      "firstName": "Kris",
-      "lastName": "Joseph",
-      "email": "kjo@yorku.ca",
-      "account": "kjo@yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Mobile 7p",
-      "event": null,
-      "barcode": "39007054936711"
-    },
-    {
       "bookId": "686012a97020",
       "id": 360680,
       "eid": 34156,
@@ -1729,6 +1709,26 @@
       "item_name": "Rode GO (Gen 3)",
       "event": null,
       "barcode": "39007054936570"
+    },
+    {
+      "bookId": "30f6810351a1",
+      "id": 360669,
+      "eid": 37346,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-06-09T11:18:00-04:00",
+      "toDate": "2026-06-16T17:00:00-04:00",
+      "created": "2026-06-06T19:53:27-04:00",
+      "firstName": "Kris",
+      "lastName": "Joseph",
+      "email": "kjo@yorku.ca",
+      "account": "kjo@yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Mobile 7p",
+      "event": null,
+      "barcode": "39007054936711"
     },
     {
       "bookId": "f2f1c561a398",
