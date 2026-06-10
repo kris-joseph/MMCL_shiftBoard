@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-10T16:29:00.354050+00:00",
+  "fetch_timestamp": "2026-06-10T19:10:04.825447+00:00",
   "date": "2026-06-10",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-06-10T13:00:00-04:00",
-      "toDate": "2026-06-10T15:30:00-04:00",
+      "toDate": "2026-06-10T14:38:00-04:00",
       "created": "2026-06-05T16:30:07-04:00",
       "firstName": "Cletus",
       "lastName": "Chow",
@@ -25,7 +25,7 @@
       "item_name": "Editing and Music Studio #3 (Rm 3060E)",
       "event": null,
       "check_in_code": "N7R",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZl_kXPAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZo5iF0AAA="
     }
   ],
   "equipment_bookings": [
@@ -452,6 +452,26 @@
       "barcode": "39007054935549"
     },
     {
+      "bookId": "f4c6d4fe2b24",
+      "id": 361558,
+      "eid": 32508,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-06-10T13:10:50-04:00",
+      "toDate": "2026-06-17T23:59:00-04:00",
+      "created": "2026-06-10T13:10:47-04:00",
+      "firstName": "SARIKA",
+      "lastName": "PATEL",
+      "email": "sarikap@my.yorku.ca",
+      "account": "216463242",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931589"
+    },
+    {
       "bookId": "fabe28a69afd",
       "id": 361338,
       "eid": 36635,
@@ -492,6 +512,26 @@
       "barcode": "39007054931142"
     },
     {
+      "bookId": "6f8aa03dc561",
+      "id": 361470,
+      "eid": 32505,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-06-11T09:30:00-04:00",
+      "toDate": "2026-06-18T16:00:00-04:00",
+      "created": "2026-06-10T09:54:44-04:00",
+      "firstName": "Elika",
+      "lastName": "Shahraji",
+      "email": "elikasha@yorku.ca",
+      "account": "elikasha@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931613"
+    },
+    {
       "bookId": "4d63a1632b19",
       "id": 361508,
       "eid": 32504,
@@ -504,7 +544,7 @@
       "lastName": "Mohammed",
       "email": "safa05@my.yorku.ca",
       "account": "safa05@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Cameras",
       "item_name": "Canon EOS R50",
@@ -524,7 +564,7 @@
       "lastName": "Mohammed",
       "email": "safa05@my.yorku.ca",
       "account": "safa05@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Tripods",
       "item_name": "SmallRig Tripod",
@@ -544,32 +584,12 @@
       "lastName": "Mohammed",
       "email": "safa05@my.yorku.ca",
       "account": "safa05@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Tripods",
       "item_name": "Joby HandyPod 2 kit",
       "event": null,
       "barcode": "39007054934039"
-    },
-    {
-      "bookId": "6f8aa03dc561",
-      "id": 361470,
-      "eid": 32505,
-      "cid": 7828,
-      "lid": 3432,
-      "fromDate": "2026-06-11T09:30:00-04:00",
-      "toDate": "2026-06-18T16:00:00-04:00",
-      "created": "2026-06-10T09:54:44-04:00",
-      "firstName": "Elika",
-      "lastName": "Shahraji",
-      "email": "elikasha@yorku.ca",
-      "account": "elikasha@yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS R50",
-      "event": null,
-      "barcode": "39007054931613"
     },
     {
       "bookId": "9645513400a2",
