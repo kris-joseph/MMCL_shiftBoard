@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-10T06:18:01.068848+00:00",
+  "fetch_timestamp": "2026-06-10T16:25:01.208818+00:00",
   "date": "2026-06-10",
   "space_bookings": [
     {
@@ -2041,6 +2041,26 @@
       "item_name": "Canon RF 50mm",
       "event": null,
       "barcode": "39007054931530"
+    },
+    {
+      "bookId": "4a63927b5bd4",
+      "id": 361506,
+      "eid": 24956,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-06-10T12:01:00-04:00",
+      "toDate": "2026-06-18T17:00:00-04:00",
+      "created": "2026-06-10T11:37:47-04:00",
+      "firstName": "Peyman",
+      "lastName": "Naeemi",
+      "email": "peyman91@yorku.ca",
+      "account": "peyman91@yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Insta360 One R (4K Edition), 4K Wide-Angle Camera",
+      "event": null,
+      "barcode": "39007054933114"
     },
     {
       "bookId": "e8774d327cd5",
