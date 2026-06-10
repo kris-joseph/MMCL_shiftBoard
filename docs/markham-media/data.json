@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-10T19:10:04.825447+00:00",
+  "fetch_timestamp": "2026-06-10T21:32:52.528126+00:00",
   "date": "2026-06-10",
   "space_bookings": [
     {
@@ -108,6 +108,26 @@
       "item_name": "Joby HandyPod 2 kit",
       "event": null,
       "barcode": "39007054934054"
+    },
+    {
+      "bookId": "f4c6d4fe2b24",
+      "id": 361558,
+      "eid": 32508,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-06-10T13:10:50-04:00",
+      "toDate": "2026-06-10T16:19:00-04:00",
+      "created": "2026-06-10T13:10:47-04:00",
+      "firstName": "SARIKA",
+      "lastName": "PATEL",
+      "email": "sarikap@my.yorku.ca",
+      "account": "216463242",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931589"
     },
     {
       "bookId": "fb702169aea1",
@@ -450,26 +470,6 @@
       "item_name": "55mm ND Filter",
       "event": null,
       "barcode": "39007054935549"
-    },
-    {
-      "bookId": "f4c6d4fe2b24",
-      "id": 361558,
-      "eid": 32508,
-      "cid": 7828,
-      "lid": 3432,
-      "fromDate": "2026-06-10T13:10:50-04:00",
-      "toDate": "2026-06-17T23:59:00-04:00",
-      "created": "2026-06-10T13:10:47-04:00",
-      "firstName": "SARIKA",
-      "lastName": "PATEL",
-      "email": "sarikap@my.yorku.ca",
-      "account": "216463242",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS R50",
-      "event": null,
-      "barcode": "39007054931589"
     },
     {
       "bookId": "fabe28a69afd",
