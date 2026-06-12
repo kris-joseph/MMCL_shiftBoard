@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-12T18:21:58.577403+00:00",
+  "fetch_timestamp": "2026-06-12T20:32:18.802997+00:00",
   "date": "2026-06-12",
   "space_bookings": [
     {
@@ -102,6 +102,25 @@
       "event": null
     },
     {
+      "bookId": "149155f265ce",
+      "id": 16217032,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-12T15:00:00-04:00",
+      "toDate": "2026-06-12T16:44:00-04:00",
+      "created": "2026-06-12T14:58:58-04:00",
+      "firstName": "MOHAMMAD AREF",
+      "lastName": "NASIRI",
+      "email": "m.aref.nasiri@gmail.com",
+      "account": "221711437",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
+      "event": null
+    },
+    {
       "bookId": "2a251bab35e3",
       "id": 16180550,
       "eid": 37118,
@@ -152,7 +171,7 @@
       "lastName": "Galendez",
       "email": "ianmg@yorku.ca",
       "account": "ianmg@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
@@ -171,7 +190,7 @@
       "lastName": "Galendez",
       "email": "ianmg@yorku.ca",
       "account": "ianmg@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
