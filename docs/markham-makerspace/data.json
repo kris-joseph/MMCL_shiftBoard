@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-12T06:28:23.470978+00:00",
+  "fetch_timestamp": "2026-06-12T15:52:55.218705+00:00",
   "date": "2026-06-12",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "49b3e3ccab9a",
+      "id": 16214690,
+      "eid": 31776,
+      "cid": 7722,
+      "lid": 3430,
+      "fromDate": "2026-06-12T11:00:00-04:00",
+      "toDate": "2026-06-12T13:00:00-04:00",
+      "created": "2026-06-12T10:50:54-04:00",
+      "firstName": "Shaun",
+      "lastName": "Fernando",
+      "email": "shaunfer@my.yorku.ca",
+      "account": "shaunfer@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Soldering Stations",
+      "item_name": "Soldering Station #01",
       "event": null
     },
     {
