@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-13T19:07:24.547232+00:00",
+  "fetch_timestamp": "2026-06-13T20:44:16.145791+00:00",
   "date": "2026-06-13",
   "space_bookings": [
     {
@@ -120,6 +120,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "6e978800e798",
+      "id": 16219573,
+      "eid": 30726,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-13T15:00:00-04:00",
+      "toDate": "2026-06-13T17:40:00-04:00",
+      "created": "2026-06-13T15:25:46-04:00",
+      "firstName": "Farah",
+      "lastName": "Baliki",
+      "email": "fbaliki@my.yorku.ca",
+      "account": "fbaliki@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #03 \"Heaven's Door\"",
       "event": null
     }
   ],
