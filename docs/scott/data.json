@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-14T20:03:12.264767+00:00",
+  "fetch_timestamp": "2026-06-14T21:47:57.766765+00:00",
   "date": "2026-06-14",
   "space_bookings": [
     {
@@ -60,12 +60,13 @@
       "lastName": "Behaeiry",
       "email": "susub@my.yorku.ca",
       "account": "susub@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "VR Rooms",
       "item_name": "Scott 203C - VR/Podcasting Room",
       "event": null,
-      "check_in_code": "S5E"
+      "check_in_code": "S5E",
+      "cancelled": "2026-06-14T21:35:11+00:00"
     },
     {
       "bookId": "9212f3af259d",
