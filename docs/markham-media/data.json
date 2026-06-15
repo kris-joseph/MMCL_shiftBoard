@@ -3,9 +3,32 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-15T17:59:11.072344+00:00",
+  "fetch_timestamp": "2026-06-15T20:45:01.186468+00:00",
   "date": "2026-06-15",
-  "space_bookings": [],
+  "space_bookings": [
+    {
+      "bookId": "be4b94a6ff98",
+      "id": 16225012,
+      "eid": 30701,
+      "cid": 7762,
+      "lid": 3432,
+      "fromDate": "2026-06-16T13:00:00-04:00",
+      "toDate": "2026-06-16T15:30:00-04:00",
+      "created": "2026-06-15T14:28:49-04:00",
+      "firstName": "VINURSHAN",
+      "lastName": "SELVARATNAM",
+      "email": "vinu29@yorku.ca",
+      "account": "5859730000582038",
+      "status": "Cancelled by Admin",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Podcast Studios",
+      "item_name": "Podcast Studio #2 (Rm 3060D)",
+      "event": null,
+      "check_in_code": "U72",
+      "cancelled": "2026-06-15T18:57:21+00:00",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpxAABH34X_zHuIQZyVVKGzvHhAAAZsAQ59AAA="
+    }
+  ],
   "equipment_bookings": [
     {
       "bookId": "70e1a1296d5b",

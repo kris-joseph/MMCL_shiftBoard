@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-15T17:59:11.415256+00:00",
+  "fetch_timestamp": "2026-06-15T20:45:01.571885+00:00",
   "date": "2026-06-15",
   "space_bookings": [
     {
@@ -137,6 +137,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
+    },
+    {
+      "bookId": "6d5b6a1265cd",
+      "id": 16225313,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-16T09:30:00-04:00",
+      "toDate": "2026-06-16T10:30:00-04:00",
+      "created": "2026-06-15T15:05:59-04:00",
+      "firstName": "Cindy",
+      "lastName": "Sun",
+      "email": "cindyhs@yorku.ca",
+      "account": "cindyhs@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
+      "bookId": "6d5b6a1265cd",
+      "id": 16225314,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-16T11:00:00-04:00",
+      "toDate": "2026-06-16T12:00:00-04:00",
+      "created": "2026-06-15T15:05:59-04:00",
+      "firstName": "Cindy",
+      "lastName": "Sun",
+      "email": "cindyhs@yorku.ca",
+      "account": "cindyhs@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
     }
   ],
