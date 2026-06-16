@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-16T07:20:52.936642+00:00",
+  "fetch_timestamp": "2026-06-16T17:37:43.389809+00:00",
   "date": "2026-06-16",
   "space_bookings": [
     {
@@ -415,6 +415,26 @@
       "barcode": "39007052961109"
     },
     {
+      "bookId": "31ce13f293d4",
+      "id": 362499,
+      "eid": 33681,
+      "cid": 8041,
+      "lid": 3432,
+      "fromDate": "2026-06-16T10:31:35-04:00",
+      "toDate": "2026-06-19T16:00:00-04:00",
+      "created": "2026-06-16T10:31:33-04:00",
+      "firstName": "Aria",
+      "lastName": "Baharlooie",
+      "email": "mbuni834@my.yorku.ca",
+      "account": "mbuni834@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Stands, Poles, and Mounts",
+      "item_name": "C-Stand",
+      "event": null,
+      "barcode": "39007054934237"
+    },
+    {
       "bookId": "1c16cfdcbe78",
       "id": 361909,
       "eid": 32186,
@@ -433,6 +453,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007054931142"
+    },
+    {
+      "bookId": "70e1a1296d5b",
+      "id": 359477,
+      "eid": 36981,
+      "cid": 8613,
+      "lid": 3432,
+      "fromDate": "2026-06-01T09:46:00-04:00",
+      "toDate": "2026-06-22T16:00:00-04:00",
+      "created": "2026-06-01T09:46:34-04:00",
+      "firstName": "DAVID",
+      "lastName": "KWOK",
+      "email": "davekwok@yorku.ca",
+      "account": "davekwok@yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "SSD Drives",
+      "item_name": "Crucial X10 SSD Drive",
+      "event": null,
+      "barcode": "39007052957271"
     },
     {
       "bookId": "9645513400a2",
