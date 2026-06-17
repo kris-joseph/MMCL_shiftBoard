@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-17T19:16:21.367178+00:00",
+  "fetch_timestamp": "2026-06-17T21:26:15.592296+00:00",
   "date": "2026-06-17",
   "space_bookings": [
     {
@@ -31,6 +31,25 @@
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAZQ6LBEAAA="
     },
     {
+      "bookId": "b6c84f32a529",
+      "id": 16236667,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-17T15:30:00-04:00",
+      "toDate": "2026-06-17T16:30:00-04:00",
+      "created": "2026-06-17T15:21:44-04:00",
+      "firstName": "Mohamed Aref",
+      "lastName": "Nasiri",
+      "email": "aref123@my.yorku.ca",
+      "account": "aref123@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
       "bookId": "1dda98ee4201",
       "id": 16224318,
       "eid": 35452,
@@ -47,6 +66,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
+      "event": null
+    },
+    {
+      "bookId": "41e813c13817",
+      "id": 16236688,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-06-18T11:00:00-04:00",
+      "toDate": "2026-06-18T12:00:00-04:00",
+      "created": "2026-06-17T15:23:46-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Cricut Cutter",
       "event": null
     },
     {
