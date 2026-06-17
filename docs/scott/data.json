@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-17T16:26:44.885919+00:00",
+  "fetch_timestamp": "2026-06-17T16:31:46.468929+00:00",
   "date": "2026-06-17",
   "space_bookings": [
     {
@@ -780,26 +780,6 @@
       "cancelled": "2026-06-15T14:35:40+00:00"
     },
     {
-      "bookId": "769daaa50336",
-      "id": 362708,
-      "eid": 25986,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-06-17T11:00:00-04:00",
-      "toDate": "2026-06-22T17:00:00-04:00",
-      "created": "2026-06-17T11:08:25-04:00",
-      "firstName": "Vinh",
-      "lastName": "Tran",
-      "email": "tranvinh@my.yorku.ca",
-      "account": "tranvinh@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Mobile 6, Gimbal for Smartphones",
-      "event": null,
-      "barcode": "39007054933288"
-    },
-    {
       "bookId": "14e070698a0b",
       "id": 352468,
       "eid": 21621,
@@ -1378,6 +1358,26 @@
       "item_name": "K&F ND Filter, 52mm",
       "event": null,
       "barcode": "39007054936414"
+    },
+    {
+      "bookId": "769daaa50336",
+      "id": 362708,
+      "eid": 25986,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-06-17T12:28:00-04:00",
+      "toDate": "2026-06-22T17:00:00-04:00",
+      "created": "2026-06-17T11:08:25-04:00",
+      "firstName": "Vinh",
+      "lastName": "Tran",
+      "email": "tranvinh@my.yorku.ca",
+      "account": "tranvinh@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Mobile 6, Gimbal for Smartphones",
+      "event": null,
+      "barcode": "39007054933288"
     },
     {
       "bookId": "2c35b9173c64",
