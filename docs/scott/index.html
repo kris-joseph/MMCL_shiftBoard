@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1781654934">
+    <link rel="stylesheet" href="../static/style.css?v=1781668143">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Wednesday, June 17, 2026</div>
-                <div class="last-updated">Last updated: 8:08 PM</div>
+                <div class="last-updated">Last updated: 11:49 PM</div>
             </div>
         </div>
     </header>
@@ -47,13 +47,13 @@
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+                <div class="timeline-bar" style="height: 11.11111111111111%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 22.22222222222222%;"></div>
-                <div class="timeline-count">2</div>
+                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour past">
@@ -86,12 +86,12 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">7PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">8PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">9PM</div>
@@ -114,7 +114,7 @@
             <div class="shift-group-header">
                 <h2>Full Shift</h2>
                 <div class="booking-count">
-                    1 space booking •
+                    2 space bookings •
                     9 equipment loans • 1 teaching event                </div>
             </div>
 
@@ -914,6 +914,68 @@ Scott 204 - Flex Studio
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
+                        <span class="hour-group-title">12 PM</span>
+                        <span class="hour-group-count">1 task</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card " data-booking-id="05910ff1c8ee" data-booking-type="space">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+Scott 207C - Audio Recording Booth
+                        </div>
+                        <div class="booking-card-summary-time">
+12:00 PM - 1:30 PM • I.A.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-tentative">TENTATIVE</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Scott 207C - Audio Recording Booth</h3>
+                        <div class="booking-category">Audio Recording Rooms</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-tentative">TENTATIVE</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">12:00 PM - 1:30 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">I.A. (i***@my.yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Check-in:</span>
+                        <span class="detail-value booking-id">7Q4</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: 05910ff1c8ee</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
                         <span class="hour-group-title">2 PM</span>
                         <span class="hour-group-count">1 task</span>
                     </div>
@@ -1228,6 +1290,6 @@ Due back • S.M.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1781654934"></script>
+    <script src="../static/dashboard.js?v=1781668143"></script>
 </body>
 </html>
