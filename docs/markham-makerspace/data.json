@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-18T06:46:31.420480+00:00",
+  "fetch_timestamp": "2026-06-18T16:05:01.217968+00:00",
   "date": "2026-06-18",
   "space_bookings": [
     {
@@ -19,11 +19,12 @@
       "lastName": "Amankwah",
       "email": "sovreign@my.yorku.ca",
       "account": "sovreign@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-06-18T12:35:56+00:00"
     },
     {
       "bookId": "41e813c13817",
@@ -61,6 +62,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "0fbf2cea990f",
+      "id": 16240691,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-18T11:30:00-04:00",
+      "toDate": "2026-06-18T16:30:00-04:00",
+      "created": "2026-06-18T11:41:59-04:00",
+      "firstName": "Jacob",
+      "lastName": "Turola",
+      "email": "jturola@yorku.ca",
+      "account": "jturola@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
+    },
+    {
+      "bookId": "0fbf2cea990f",
+      "id": 16240692,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-18T11:30:00-04:00",
+      "toDate": "2026-06-18T16:30:00-04:00",
+      "created": "2026-06-18T11:41:59-04:00",
+      "firstName": "Jacob",
+      "lastName": "Turola",
+      "email": "jturola@yorku.ca",
+      "account": "jturola@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
       "event": null
     },
     {
