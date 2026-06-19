@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-19T15:55:19.920396+00:00",
+  "fetch_timestamp": "2026-06-19T17:47:22.503342+00:00",
   "date": "2026-06-19",
   "space_bookings": [],
   "equipment_bookings": [
@@ -1552,7 +1552,7 @@
     {
       "bookId": "3cd513268ac2",
       "id": 363005,
-      "eid": 34156,
+      "eid": 34157,
       "cid": 8292,
       "lid": 2632,
       "fromDate": "2026-06-18T16:56:00-04:00",
@@ -1567,7 +1567,7 @@
       "category_name": "Wireless Microphones",
       "item_name": "Rode VideoMic GO",
       "event": null,
-      "barcode": "39007054936372"
+      "barcode": "39007054936315"
     },
     {
       "bookId": "e13bb1627526",
