@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-20T06:15:19.036904+00:00",
+  "fetch_timestamp": "2026-06-20T14:55:05.314481+00:00",
   "date": "2026-06-20",
   "space_bookings": [
     {
@@ -19,13 +19,35 @@
       "lastName": "Chan",
       "email": "sdychan@yorku.ca",
       "account": "sdychan@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Editing Studios",
       "item_name": "Editing and Music Studio #3 (Rm 3060E)",
       "event": null,
       "check_in_code": "3CQ",
+      "cancelled": "2026-06-20T14:28:47+00:00",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZuVblbAAA="
+    },
+    {
+      "bookId": "434c315a4479",
+      "id": 16247329,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-06-20T12:30:00-04:00",
+      "toDate": "2026-06-20T15:00:00-04:00",
+      "created": "2026-06-20T10:29:39-04:00",
+      "firstName": "Sandy",
+      "lastName": "Chan",
+      "email": "sdychan@yorku.ca",
+      "account": "sdychan@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "Y5WL",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZuVbleAAA="
     }
   ],
   "equipment_bookings": [
