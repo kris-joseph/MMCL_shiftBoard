@@ -3,9 +3,31 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-21T22:59:37.008558+00:00",
-  "date": "2026-06-21",
-  "space_bookings": [],
+  "fetch_timestamp": "2026-06-22T00:13:22.091031+00:00",
+  "date": "2026-06-22",
+  "space_bookings": [
+    {
+      "bookId": "9d64ec715213",
+      "id": 16245276,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-06-23T11:00:00-04:00",
+      "toDate": "2026-06-23T13:30:00-04:00",
+      "created": "2026-06-19T12:11:11-04:00",
+      "firstName": "Cletus",
+      "lastName": "Chow",
+      "email": "cletus28@my.yorku.ca",
+      "account": "cletus28@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "M4C",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZuVblXAAA="
+    }
+  ],
   "equipment_bookings": [
     {
       "bookId": "70e1a1296d5b",
