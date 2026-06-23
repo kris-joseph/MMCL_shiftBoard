@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-23T02:54:29.911611+00:00",
+  "fetch_timestamp": "2026-06-23T06:01:22.901000+00:00",
   "date": "2026-06-23",
   "space_bookings": [
     {
@@ -1626,6 +1626,26 @@
       "item_name": "Canon EF-M 55-200 mm",
       "event": null,
       "barcode": "39007054933262"
+    },
+    {
+      "bookId": "9a4a33fbe230",
+      "id": 363482,
+      "eid": 34319,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-06-24T11:00:00-04:00",
+      "toDate": "2026-06-30T17:00:00-04:00",
+      "created": "2026-06-22T23:01:53-04:00",
+      "firstName": "Siyeong",
+      "lastName": "Jeong",
+      "email": "tldud042@my.yorku.ca",
+      "account": "tldud042@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936463"
     },
     {
       "bookId": "f2f1c561a398",
