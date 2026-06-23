@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-23T19:49:05.293478+00:00",
+  "fetch_timestamp": "2026-06-23T21:23:30.023915+00:00",
   "date": "2026-06-23",
   "space_bookings": [
     {
@@ -111,6 +111,48 @@
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
       "check_in_code": "Q2J"
+    },
+    {
+      "bookId": "4c7d2482defd",
+      "id": 16258391,
+      "eid": 19904,
+      "cid": 6842,
+      "lid": 2632,
+      "fromDate": "2026-06-23T17:00:00-04:00",
+      "toDate": "2026-06-23T17:45:00-04:00",
+      "created": "2026-06-23T17:08:40-04:00",
+      "firstName": "IAN",
+      "lastName": "GALENDEZ",
+      "email": "chrismg@my.yorku.ca",
+      "account": "218282798",
+      "status": "Mediated Approved",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Flex Studio Spaces",
+      "item_name": "Scott 204 - Flex Studio",
+      "event": null,
+      "check_in_code": "X2R"
+    },
+    {
+      "bookId": "0a638b0bddbb",
+      "id": 16258028,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-06-23T17:00:00-04:00",
+      "toDate": "2026-06-23T21:00:00-04:00",
+      "created": "2026-06-23T16:01:16-04:00",
+      "firstName": "WADE",
+      "lastName": "AYYOUB",
+      "email": "wadi98@my.yorku.ca",
+      "account": "215651706",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32116,
+      "seat_name": "Workstation 4 (Mac Studio)",
+      "check_in_code": "SF7"
     },
     {
       "bookId": "4e01a0a39a35",
@@ -1575,7 +1617,7 @@
     {
       "bookId": "282da48ea4e2",
       "id": 363348,
-      "eid": 31911,
+      "eid": 24950,
       "cid": 8138,
       "lid": 2632,
       "fromDate": "2026-06-24T11:00:00-04:00",
@@ -1588,14 +1630,14 @@
       "status": "Confirmed",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Cameras",
-      "item_name": "Canon EOS R50",
+      "item_name": "Canon EOS M50 Mark II",
       "event": null,
-      "barcode": "39007054932256"
+      "barcode": "39007054933056"
     },
     {
       "bookId": "282da48ea4e2",
       "id": 363349,
-      "eid": 29570,
+      "eid": 25983,
       "cid": 8142,
       "lid": 2632,
       "fromDate": "2026-06-24T11:00:00-04:00",
@@ -1608,9 +1650,9 @@
       "status": "Confirmed",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Camera Lenses",
-      "item_name": "Canon RF-S 55-210mm",
+      "item_name": "Canon EF-M 55-200 mm",
       "event": null,
-      "barcode": "39007054931647"
+      "barcode": "39007054933254"
     },
     {
       "bookId": "9a4a33fbe230",
@@ -1691,26 +1733,6 @@
       "item_name": "Ulanzi Mini LED Light, VL49 RBG",
       "event": null,
       "barcode": "39007054932371"
-    },
-    {
-      "bookId": "fe2175295cb4",
-      "id": 363676,
-      "eid": 29580,
-      "cid": 8292,
-      "lid": 2632,
-      "fromDate": "2026-06-23T12:00:00-04:00",
-      "toDate": "2026-06-30T17:00:00-04:00",
-      "created": "2026-06-23T15:41:41-04:00",
-      "firstName": "ARIAN",
-      "lastName": "TAYAREI",
-      "email": "ariantay@my.yorku.ca",
-      "account": "29007019242825",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Wireless Microphones",
-      "item_name": "Rode Wireless Pro",
-      "event": null,
-      "barcode": "39007054933940"
     },
     {
       "bookId": "f2f1c561a398",
@@ -1911,6 +1933,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054933965"
+    },
+    {
+      "bookId": "fe2175295cb4",
+      "id": 363676,
+      "eid": 29580,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-06-23T15:52:00-04:00",
+      "toDate": "2026-06-30T17:00:00-04:00",
+      "created": "2026-06-23T15:41:41-04:00",
+      "firstName": "ARIAN",
+      "lastName": "TAYAREI",
+      "email": "ariantay@my.yorku.ca",
+      "account": "29007019242825",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless Pro",
+      "event": null,
+      "barcode": "39007054933940"
     },
     {
       "bookId": "ad873d5364e6",
