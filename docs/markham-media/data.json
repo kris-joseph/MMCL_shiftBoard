@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-25T02:54:44.979906+00:00",
+  "fetch_timestamp": "2026-06-25T06:00:36.961247+00:00",
   "date": "2026-06-25",
   "space_bookings": [
     {
@@ -290,6 +290,26 @@
       "item_name": "SmallRig Tripod",
       "event": null,
       "barcode": "39007054933981"
+    },
+    {
+      "bookId": "1db0d6eeb1f0",
+      "id": 363996,
+      "eid": 32537,
+      "cid": 7831,
+      "lid": 3432,
+      "fromDate": "2026-06-25T09:30:00-04:00",
+      "toDate": "2026-07-02T16:00:00-04:00",
+      "created": "2026-06-25T00:24:58-04:00",
+      "firstName": "Utkarsh",
+      "lastName": "Pamneja",
+      "email": "the12th@my.yorku.ca",
+      "account": "the12th@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Audio Recorders",
+      "item_name": "Zoom H1e",
+      "event": null,
+      "barcode": "39007054931993"
     },
     {
       "bookId": "3f90f04accc4",
