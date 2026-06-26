@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Makerspace - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1782431326">
+    <link rel="stylesheet" href="../static/style.css?v=1782444232">
     <meta name="description" content="Staff dashboard for Markham Makerspace showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -16,8 +16,8 @@
                 <div class="service-type">Makerspace</div>
             </div>
             <div class="header-meta">
-                <div class="current-date">Thursday, June 25, 2026</div>
-                <div class="last-updated">Last updated: 7:48 PM</div>
+                <div class="current-date">Friday, June 26, 2026</div>
+                <div class="last-updated">Last updated: 11:23 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -35,23 +35,23 @@
                 <div class="timeline-hour-label">8AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 100.0%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">9AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
+                <div class="timeline-bar" style="height: 50.0%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 66.66666666666666%;"></div>
-                <div class="timeline-count">2</div>
+                <div class="timeline-bar" style="height: 0%;"></div>
+                <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 100.0%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour past">
@@ -60,18 +60,18 @@
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 66.66666666666666%;"></div>
+                <div class="timeline-bar" style="height: 100.0%;"></div>
                 <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+                <div class="timeline-bar" style="height: 100.0%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">3</div>
+                <div class="timeline-bar" style="height: 50.0%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour past">
@@ -84,17 +84,17 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">6PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">7PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">8PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">9PM</div>
@@ -105,6 +105,8 @@
     <section class="filters-section">
         <span class="filters-label">Show:</span>
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Stations</button>
+        <button class="filter-button" data-filter="3d-printers" onclick="filterBookings('3d-printers')">3D Printers</button>
+        <button class="filter-button" data-filter="laser-cutters" onclick="filterBookings('laser-cutters')">Laser Cutters</button>
     </section>
 
     <main class="main-content">
@@ -114,27 +116,482 @@
             <div class="shift-group-header">
                 <h2>Opening Shift</h2>
                 <div class="booking-count">
-                    0 workstation bookings                </div>
+                    4 workstation bookings                </div>
             </div>
 
 
-            <div class="empty-state">
-                <div class="empty-state-icon">📭</div>
-                <div class="empty-state-message">No bookings for this shift</div>
+
+
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">9 AM</span>
+                        <span class="hour-group-count">2 tasks</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card workstation" data-booking-id="ce4e7c72ccd1" data-station-type="3d-printers">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">Prusa XL #3 &#34;Scylla&#34;</div>
+                        <div class="booking-card-summary-time">9:30 AM - 3:00 PM • S.C.</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Prusa XL #3 &#34;Scylla&#34;</h3>
+                        <div class="booking-category">3D Printers</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                        <span class="badge shift-boundary-flag">Shift Boundary</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">9:30 AM - 3:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">S.C. (s***@yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Duration:</span>
+                        <span class="detail-value">5.5 hours</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">FDM 3D Print Job</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 8
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">
+                                Confirm patron has completed FDM orientation training
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">
+                                Receive file from patron; load into slicer software
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">
+                                Slice file; check for errors, supports, and infill; review and agree settings with patron
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">
+                                Provide estimated print duration and material cost to patron
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">
+                                Update booking duration in LibCal to match slicer estimate
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="6"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">6</span>
+                            <span class="step-description">
+                                Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="7"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">7</span>
+                            <span class="step-description">
+                                Send sliced file to printer; start print job
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="8"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">8</span>
+                            <span class="step-description">
+                                Monitor print in progress
+                                <br><em>Phase 2: Live countdown timer</em>
+                            </span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: ce4e7c72ccd1</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card workstation" data-booking-id="806c25ee3445" data-station-type="3d-printers">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">Prusa XL #2 &#34;Orochi&#34;</div>
+                        <div class="booking-card-summary-time">9:30 AM - 3:00 PM • I.G.</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Prusa XL #2 &#34;Orochi&#34;</h3>
+                        <div class="booking-category">3D Printers</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                        <span class="badge shift-boundary-flag">Shift Boundary</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">9:30 AM - 3:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">I.G. (i***@yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Duration:</span>
+                        <span class="detail-value">5.5 hours</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">FDM 3D Print Job</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 8
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">
+                                Confirm patron has completed FDM orientation training
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">
+                                Receive file from patron; load into slicer software
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">
+                                Slice file; check for errors, supports, and infill; review and agree settings with patron
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">
+                                Provide estimated print duration and material cost to patron
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">
+                                Update booking duration in LibCal to match slicer estimate
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="6"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">6</span>
+                            <span class="step-description">
+                                Set up printer: load filament, clean and level bed. For multicolour (AMS): load all required colours
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="7"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">7</span>
+                            <span class="step-description">
+                                Send sliced file to printer; start print job
+                            </span>
+                        </li>
+                        <li class="workflow-step ">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="8"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">8</span>
+                            <span class="step-description">
+                                Monitor print in progress
+                                <br><em>Phase 2: Live countdown timer</em>
+                            </span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 806c25ee3445</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
             </div>
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">10 AM</span>
+                        <span class="hour-group-count">1 task</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card workstation" data-booking-id="987619ccf058" data-station-type="laser-cutters">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">Aeon Mira 9</div>
+                        <div class="booking-card-summary-time">10:45 AM - 12:45 PM • S.C.</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Aeon Mira 9</h3>
+                        <div class="booking-category">Laser Cutters</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">10:45 AM - 12:45 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">S.C. (s***@yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Duration:</span>
+                        <span class="detail-value">2.0 hours</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: 987619ccf058</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">12 PM</span>
+                        <span class="hour-group-count">1 task</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card workstation" data-booking-id="ae8196b25412" data-station-type="laser-cutters">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">Aeon Mira 9</div>
+                        <div class="booking-card-summary-time">12:45 PM - 2:45 PM • S.C.</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Aeon Mira 9</h3>
+                        <div class="booking-category">Laser Cutters</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                        <span class="badge shift-boundary-flag">Shift Boundary</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">12:45 PM - 2:45 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">S.C. (s***@yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Duration:</span>
+                        <span class="detail-value">2.0 hours</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: ae8196b25412</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
+            </div>
+
         </section>
         <section class="shift-group">
             <div class="shift-group-header">
                 <h2>Closing Shift</h2>
                 <div class="booking-count">
-                    0 workstation bookings                </div>
+                    1 workstation booking                </div>
             </div>
 
 
-            <div class="empty-state">
-                <div class="empty-state-icon">📭</div>
-                <div class="empty-state-message">No bookings for this shift</div>
+
+
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">2 PM</span>
+                        <span class="hour-group-count">1 task</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card workstation" data-booking-id="c5171f5ef4df" data-station-type="laser-cutters">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">Aeon Mira 9</div>
+                        <div class="booking-card-summary-time">2:45 PM - 4:45 PM • S.C.</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Aeon Mira 9</h3>
+                        <div class="booking-category">Laser Cutters</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">2:45 PM - 4:45 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">S.C. (s***@yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Duration:</span>
+                        <span class="detail-value">2.0 hours</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: c5171f5ef4df</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
             </div>
+
         </section>
 
     </main>
@@ -145,7 +602,7 @@
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">4</span>
+                <span class="section-count">0</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -153,95 +610,8 @@
                     <span class="collapse-icon">▼</span>
                 </button>
                 <div id="completed-collapse" class="collapse-content">
-                    <div class="booking-list" style="margin-top: var(--spacing-md);">
-                        <article class="booking-card">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Aeon Mira 9</h3>
-                                    <div class="booking-category">Laser Cutters</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">12:45 PM - 2:45 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">S.C.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 6914e9be5b05</div>
-                        </article>
-                        <article class="booking-card">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Prusa XL #2 &#34;Orochi&#34;</h3>
-                                    <div class="booking-category">3D Printers</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">11:30 AM - 4:30 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">J.T.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 44edba002576</div>
-                        </article>
-                        <article class="booking-card">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Prusa XL #3 &#34;Scylla&#34;</h3>
-                                    <div class="booking-category">3D Printers</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">11:30 AM - 4:30 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">J.T.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 44edba002576</div>
-                        </article>
-                        <article class="booking-card">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Aeon Mira 9</h3>
-                                    <div class="booking-category">Laser Cutters</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">2:45 PM - 4:45 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">S.C.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 6a2385c4ba63</div>
-                        </article>
+                    <div class="empty-state">
+                        <div class="empty-state-message">No completed bookings today</div>
                     </div>
                 </div>
             </div>
@@ -271,6 +641,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1782431326"></script>
+    <script src="../static/dashboard.js?v=1782444232"></script>
 </body>
 </html>
