@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-26T17:12:34.087846+00:00",
+  "fetch_timestamp": "2026-06-26T19:13:49.101284+00:00",
   "date": "2026-06-26",
   "space_bookings": [
     {
@@ -349,6 +349,26 @@
       "item_name": "Canon EOS M50",
       "event": null,
       "barcode": "39007054930276"
+    },
+    {
+      "bookId": "bf772f9c61cf",
+      "id": 364285,
+      "eid": 32764,
+      "cid": 8146,
+      "lid": 2632,
+      "fromDate": "2026-06-26T15:05:23-04:00",
+      "toDate": "2026-06-29T17:00:00-04:00",
+      "created": "2026-06-26T15:02:16-04:00",
+      "firstName": "BLAKE",
+      "lastName": "SUTHERLAND",
+      "email": "blake06@my.yorku.ca",
+      "account": "5859730001022646",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Lighting",
+      "item_name": "Neewer Ring Light",
+      "event": null,
+      "barcode": "39007054932280"
     },
     {
       "bookId": "b5dc0f6f3d38",
