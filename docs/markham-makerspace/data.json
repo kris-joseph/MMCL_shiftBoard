@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-26T15:19:21.763974+00:00",
+  "fetch_timestamp": "2026-06-26T17:12:35.192835+00:00",
   "date": "2026-06-26",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "9d4d60c5ecb9",
+      "id": 16269507,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-26T13:00:00-04:00",
+      "toDate": "2026-06-26T14:00:00-04:00",
+      "created": "2026-06-26T12:52:46-04:00",
+      "firstName": "Jun",
+      "lastName": "Wang",
+      "email": "jun0623@my.yorku.ca",
+      "account": "jun0623@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
     },
     {
