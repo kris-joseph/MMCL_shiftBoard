@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-27T15:45:37.669717+00:00",
+  "fetch_timestamp": "2026-06-27T16:56:34.240054+00:00",
   "date": "2026-06-27",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "9969fcdf0073",
+      "id": 16271156,
+      "eid": 30733,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-06-27T11:30:00-04:00",
+      "toDate": "2026-06-27T16:30:00-04:00",
+      "created": "2026-06-27T11:49:15-04:00",
+      "firstName": "SHINGO",
+      "lastName": "ABETA",
+      "email": "shingoa@my.yorku.ca",
+      "account": "215771132",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #10 \"Silver Chariot\"",
       "event": null
     }
   ],
