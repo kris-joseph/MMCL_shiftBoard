@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-29T16:26:48.806410+00:00",
+  "fetch_timestamp": "2026-06-29T16:32:52.453165+00:00",
   "date": "2026-06-29",
   "space_bookings": [
     {
@@ -25,6 +25,28 @@
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
       "check_in_code": "8TL"
+    },
+    {
+      "bookId": "549202cb81cd",
+      "id": 16273877,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-06-29T12:45:00-04:00",
+      "toDate": "2026-06-29T13:45:00-04:00",
+      "created": "2026-06-29T12:27:42-04:00",
+      "firstName": "Wade",
+      "lastName": "Ayyoub",
+      "email": "wadi98@my.yorku.ca",
+      "account": "wadi98@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32113,
+      "seat_name": "Workstation 5 (Mac Studio)",
+      "check_in_code": "UG4"
     },
     {
       "bookId": "879dee4c10b4",
@@ -2348,26 +2370,6 @@
       "barcode": "39007054936505"
     },
     {
-      "bookId": "f0c9107cddbc",
-      "id": 364242,
-      "eid": 34085,
-      "cid": 8291,
-      "lid": 2632,
-      "fromDate": "2026-06-29T11:00:00-04:00",
-      "toDate": "2026-07-06T17:00:00-04:00",
-      "created": "2026-06-26T11:38:01-04:00",
-      "firstName": "Alyson",
-      "lastName": "Steele",
-      "email": "asteele@my.yorku.ca",
-      "account": "asteele@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "360 Cameras",
-      "item_name": "Insta360 X4 (8K Action Cam)",
-      "event": null,
-      "barcode": "39007054936026"
-    },
-    {
       "bookId": "ba71960a26f4",
       "id": 364395,
       "eid": 22828,
@@ -2466,6 +2468,26 @@
       "item_name": "Insta360 One R (4K Edition), 4K Wide-Angle Camera",
       "event": null,
       "barcode": "39007054933114"
+    },
+    {
+      "bookId": "f0c9107cddbc",
+      "id": 364242,
+      "eid": 34085,
+      "cid": 8291,
+      "lid": 2632,
+      "fromDate": "2026-06-29T12:26:00-04:00",
+      "toDate": "2026-07-06T17:00:00-04:00",
+      "created": "2026-06-26T11:38:01-04:00",
+      "firstName": "Alyson",
+      "lastName": "Steele",
+      "email": "asteele@my.yorku.ca",
+      "account": "asteele@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "360 Cameras",
+      "item_name": "Insta360 X4 (8K Action Cam)",
+      "event": null,
+      "barcode": "39007054936026"
     },
     {
       "bookId": "fd159b48bb06",
