@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-06-29T16:32:53.773119+00:00",
+  "fetch_timestamp": "2026-06-29T18:58:39.052948+00:00",
   "date": "2026-06-29",
   "space_bookings": [
     {
@@ -29,6 +29,26 @@
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "62de73b9aa0f",
+      "id": 363416,
+      "eid": 32676,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-06-22T15:07:00-04:00",
+      "toDate": "2026-06-29T12:46:00-04:00",
+      "created": "2026-06-22T15:04:28-04:00",
+      "firstName": "Benedict",
+      "lastName": "Cruz",
+      "email": "isola@my.yorku.ca",
+      "account": "isola@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Audio Technica USB Microphone",
+      "event": null,
+      "barcode": "39007054932504"
+    },
     {
       "bookId": "0a15215bb8af",
       "id": 363414,
@@ -68,26 +88,6 @@
       "item_name": "SmallRig Tripod",
       "event": null,
       "barcode": "39007054933999"
-    },
-    {
-      "bookId": "62de73b9aa0f",
-      "id": 363416,
-      "eid": 32676,
-      "cid": 8161,
-      "lid": 3432,
-      "fromDate": "2026-06-22T15:07:00-04:00",
-      "toDate": "2026-06-29T16:00:00-04:00",
-      "created": "2026-06-22T15:04:28-04:00",
-      "firstName": "Benedict",
-      "lastName": "Cruz",
-      "email": "isola@my.yorku.ca",
-      "account": "isola@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Microphones",
-      "item_name": "Audio Technica USB Microphone",
-      "event": null,
-      "barcode": "39007054932504"
     },
     {
       "bookId": "b4baee8b13d1",
