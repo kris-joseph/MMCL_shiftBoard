@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-06-30T15:17:45.030227+00:00",
+  "fetch_timestamp": "2026-06-30T15:22:03.689940+00:00",
   "date": "2026-06-30",
   "space_bookings": [
     {
@@ -170,6 +170,26 @@
       "item_name": "Canon RF-S 55-210mm",
       "event": null,
       "barcode": "39007054932306"
+    },
+    {
+      "bookId": "442e13228ba8",
+      "id": 363888,
+      "eid": 31564,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-06-24T16:02:00-04:00",
+      "toDate": "2026-06-30T11:16:00-04:00",
+      "created": "2026-06-24T15:57:44-04:00",
+      "firstName": "BILL",
+      "lastName": "NGUYEN",
+      "email": "billnhat@my.yorku.ca",
+      "account": "5859730001025281",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless ME Dual Ultra-compact Wireless Microphone",
+      "event": null,
+      "barcode": "39007054932157"
     },
     {
       "bookId": "8daec6e2ee31",
@@ -731,26 +751,6 @@
       "item_name": "Power DeWise Lavalier Microphone",
       "event": null,
       "barcode": "39007054933791"
-    },
-    {
-      "bookId": "442e13228ba8",
-      "id": 363888,
-      "eid": 31564,
-      "cid": 8292,
-      "lid": 2632,
-      "fromDate": "2026-06-24T16:02:00-04:00",
-      "toDate": "2026-07-01T17:00:00-04:00",
-      "created": "2026-06-24T15:57:44-04:00",
-      "firstName": "BILL",
-      "lastName": "NGUYEN",
-      "email": "billnhat@my.yorku.ca",
-      "account": "5859730001025281",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Wireless Microphones",
-      "item_name": "Rode Wireless ME Dual Ultra-compact Wireless Microphone",
-      "event": null,
-      "barcode": "39007054932157"
     },
     {
       "bookId": "13087ce725c4",
@@ -2122,6 +2122,26 @@
       "item_name": "Meta Quest 3",
       "event": null,
       "barcode": "39007054936695"
+    },
+    {
+      "bookId": "d93799734b2b",
+      "id": 364678,
+      "eid": 31564,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-06-30T11:18:00-04:00",
+      "toDate": "2026-07-07T17:00:00-04:00",
+      "created": "2026-06-30T11:17:00-04:00",
+      "firstName": "BILL",
+      "lastName": "NGUYEN",
+      "email": "billnhat@my.yorku.ca",
+      "account": "5859730001025281",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless ME Dual Ultra-compact Wireless Microphone",
+      "event": null,
+      "barcode": "39007054932157"
     },
     {
       "bookId": "92684ae6951c",
