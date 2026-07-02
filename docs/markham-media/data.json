@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-02T15:04:49.894184+00:00",
+  "fetch_timestamp": "2026-07-02T17:08:08.327848+00:00",
   "date": "2026-07-02",
   "space_bookings": [
     {
@@ -19,7 +19,7 @@
       "lastName": "Pawa",
       "email": "dpawa@my.yorku.ca",
       "account": "dpawa@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Video Studios",
       "item_name": "Video and Photo Studio (Rm 3060H)",
@@ -29,6 +29,26 @@
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "ed4c92ef0712",
+      "id": 359568,
+      "eid": 32527,
+      "cid": 7831,
+      "lid": 3432,
+      "fromDate": "2026-06-01T12:47:15-04:00",
+      "toDate": "2026-07-02T12:35:00-04:00",
+      "created": "2026-06-01T12:46:25-04:00",
+      "firstName": "EMMA",
+      "lastName": "DOYLE-HOUGHTON",
+      "email": "emma452@my.yorku.ca",
+      "account": "5859730001001490",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Audio Recorders",
+      "item_name": "Zoom H1e",
+      "event": null,
+      "barcode": "39007054932033"
+    },
     {
       "bookId": "3f90f04accc4",
       "id": 363279,
@@ -128,26 +148,6 @@
       "item_name": "Zoom H1e",
       "event": null,
       "barcode": "39007054931845"
-    },
-    {
-      "bookId": "ed4c92ef0712",
-      "id": 359568,
-      "eid": 32527,
-      "cid": 7831,
-      "lid": 3432,
-      "fromDate": "2026-06-01T12:47:15-04:00",
-      "toDate": "2026-07-02T17:00:00-04:00",
-      "created": "2026-06-01T12:46:25-04:00",
-      "firstName": "EMMA",
-      "lastName": "DOYLE-HOUGHTON",
-      "email": "emma452@my.yorku.ca",
-      "account": "5859730001001490",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Audio Recorders",
-      "item_name": "Zoom H1e",
-      "event": null,
-      "barcode": "39007054932033"
     },
     {
       "bookId": "957b13fdac0e",
