@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-03T15:01:15.231788+00:00",
+  "fetch_timestamp": "2026-07-03T16:50:22.652298+00:00",
   "date": "2026-07-03",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7761,
       "lid": 3432,
       "fromDate": "2026-07-03T11:00:00-04:00",
-      "toDate": "2026-07-03T13:30:00-04:00",
+      "toDate": "2026-07-03T16:00:00-04:00",
       "created": "2026-07-01T22:12:03-04:00",
       "firstName": "Dev",
       "lastName": "Pawa",
@@ -25,7 +25,7 @@
       "item_name": "Video and Photo Studio (Rm 3060H)",
       "event": null,
       "check_in_code": "4HC",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZ3BZvNAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZ34JLLAAA="
     },
     {
       "bookId": "ad23e4ede330",
@@ -110,6 +110,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956711 "
+    },
+    {
+      "bookId": "f60016362544",
+      "id": 364996,
+      "eid": 32554,
+      "cid": 7832,
+      "lid": 3432,
+      "fromDate": "2026-07-03T09:15:01-04:00",
+      "toDate": "2026-07-03T12:28:00-04:00",
+      "created": "2026-07-03T09:14:58-04:00",
+      "firstName": "SHINGO",
+      "lastName": "ABETA",
+      "email": "shingoa@my.yorku.ca",
+      "account": "5859730001025115",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Lenses",
+      "item_name": "Canon RF 85mm",
+      "event": null,
+      "barcode": "39007054930987"
     },
     {
       "bookId": "858307e73c1a",
@@ -437,24 +457,24 @@
       "barcode": "39007054933981"
     },
     {
-      "bookId": "f60016362544",
-      "id": 364996,
-      "eid": 32554,
-      "cid": 7832,
+      "bookId": "d88538e688fb",
+      "id": 365019,
+      "eid": 33661,
+      "cid": 8161,
       "lid": 3432,
-      "fromDate": "2026-07-03T09:15:01-04:00",
+      "fromDate": "2026-07-03T11:22:32-04:00",
       "toDate": "2026-07-10T16:00:00-04:00",
-      "created": "2026-07-03T09:14:58-04:00",
-      "firstName": "SHINGO",
-      "lastName": "ABETA",
-      "email": "shingoa@my.yorku.ca",
-      "account": "5859730001025115",
+      "created": "2026-07-03T11:22:31-04:00",
+      "firstName": "DEV",
+      "lastName": "PAWA",
+      "email": "dpawa@my.yorku.ca",
+      "account": "5859730001072941",
       "status": "Checked Out",
       "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Camera Lenses",
-      "item_name": "Canon RF 85mm",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
       "event": null,
-      "barcode": "39007054930987"
+      "barcode": "39007052961109"
     },
     {
       "bookId": "cc97068bbb2e",
