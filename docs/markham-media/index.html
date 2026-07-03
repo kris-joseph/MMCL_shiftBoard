@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1783102039">
+    <link rel="stylesheet" href="../static/style.css?v=1783108534">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Friday, July 03, 2026</div>
-                <div class="last-updated">Last updated: 2:07 PM</div>
+                <div class="last-updated">Last updated: 3:55 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -59,9 +59,9 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour ">
@@ -70,8 +70,8 @@
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">3</div>
+                <div class="timeline-bar" style="height: 66.66666666666666%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
@@ -255,51 +255,46 @@ Due back • N.P.                        </div>
 
     <aside class="persistent-sections">
 
-        <section class="persistent-section in-progress-section">
+
+        <section class="persistent-section overdue-section">
             <div class="section-header">
-                <h2>Patron Onsite</h2>
+                <h2>Overdue Items</h2>
                 <span class="section-count">1</span>
             </div>
             <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="3543725221b9" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Video and Photo Studio (Rm 3060H)</div>
-                            <div class="booking-card-summary-time">11:00 AM - 4:00 PM • D.P.</div>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>DJI Osmo Pocket 3</h3>
+                            <div class="booking-category">Camera Stabilizers</div>
                         </div>
                         <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
+                            <span class="badge status-tentative">OVERDUE</span>
                         </div>
-                        <span class="booking-card-expand-icon">▼</span>
                     </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">11:00 AM - 4:00 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">D.P. (d***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">4HC</span>
-                            </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Friday, July 03, 2026 at 3:00 PM</span>
                         </div>
-                        <div class="booking-id">ID: 3543725221b9</div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">K.N. (k***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
                     </div>
+                    <div class="booking-id">ID: 858307e73c1a</div>
                 </article>
             </div>
         </section>
 
-
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">3</span>
+                <span class="section-count">4</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -308,6 +303,28 @@ Due back • N.P.                        </div>
                 </button>
                 <div id="completed-collapse" class="collapse-content">
                     <div class="booking-list" style="margin-top: var(--spacing-md);">
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Video and Photo Studio (Rm 3060H)</h3>
+                                    <div class="booking-category">Video Studios</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">11:00 AM - 2:07 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">D.P.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 3543725221b9</div>
+                        </article>
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
                                 <div class="booking-title">
@@ -403,6 +420,6 @@ Due back • N.P.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1783102039"></script>
+    <script src="../static/dashboard.js?v=1783108534"></script>
 </body>
 </html>
