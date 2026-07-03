@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-03T16:50:23.317978+00:00",
+  "fetch_timestamp": "2026-07-03T18:07:18.648639+00:00",
   "date": "2026-07-03",
   "space_bookings": [
     {
@@ -384,6 +384,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "42646dc5e54c",
+      "id": 16289964,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-04T12:00:00-04:00",
+      "toDate": "2026-07-04T13:00:00-04:00",
+      "created": "2026-07-03T12:58:40-04:00",
+      "firstName": "Jun",
+      "lastName": "Wang",
+      "email": "jun0623@my.yorku.ca",
+      "account": "jun0623@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
       "event": null
     },
     {
