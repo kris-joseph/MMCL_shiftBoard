@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-03T19:55:33.512633+00:00",
+  "fetch_timestamp": "2026-07-03T20:53:04.620557+00:00",
   "date": "2026-07-03",
   "space_bookings": [
     {
@@ -165,7 +165,7 @@
       "lastName": "PEDARI",
       "email": "pedari83@my.yorku.ca",
       "account": "5859730001040346",
-      "status": "Checked Out",
+      "status": "Checked In",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Cameras",
       "item_name": "Canon EOS R50",

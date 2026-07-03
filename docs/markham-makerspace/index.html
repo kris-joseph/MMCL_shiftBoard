@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Makerspace - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1783108534">
+    <link rel="stylesheet" href="../static/style.css?v=1783111985">
     <meta name="description" content="Staff dashboard for Markham Makerspace showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Friday, July 03, 2026</div>
-                <div class="last-updated">Last updated: 3:55 PM</div>
+                <div class="last-updated">Last updated: 4:53 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="timeline-count">7</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
                 <div class="timeline-count">11</div>
                 <div class="timeline-hour-label">3PM</div>
@@ -105,7 +105,6 @@
     <section class="filters-section">
         <span class="filters-label">Show:</span>
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Stations</button>
-        <button class="filter-button" data-filter="laser-cutters" onclick="filterBookings('laser-cutters')">Laser Cutters</button>
     </section>
 
     <main class="main-content">
@@ -142,49 +141,11 @@
 
     <aside class="persistent-sections">
 
-        <section class="persistent-section in-progress-section">
-            <div class="section-header">
-                <h2>In-Progress Jobs</h2>
-                <span class="section-count">1</span>
-            </div>
-            <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="963a3606c395" data-station-type="laser-cutters">
-                    <div class="booking-header">
-                        <div class="booking-title">
-                            <h3>Aeon Mira 9</h3>
-                            <div class="booking-category">Laser Cutters</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
-                        </div>
-                    </div>
-                    <div class="booking-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Started:</span>
-                            <span class="detail-value">Friday, July 03, 2026 at 2:45 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Due:</span>
-                            <span class="detail-value">Friday, July 03, 2026 at 4:45 PM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Patron:</span>
-                            <span class="detail-value patron-info">S.C. (s***@yorku.ca)</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.2 hours</span>
-                        </div>
-                    </div>
-                    <div class="booking-id">ID: 963a3606c395</div>
-                </article>
-            </div>
-        </section>
 
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">19</span>
+                <span class="section-count">20</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -611,6 +572,28 @@
                             </div>
                             <div class="booking-id">ID: 5c15871e2ff7</div>
                         </article>
+                        <article class="booking-card">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Aeon Mira 9</h3>
+                                    <div class="booking-category">Laser Cutters</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:45 PM - 4:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">S.C.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 963a3606c395</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -640,6 +623,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1783108534"></script>
+    <script src="../static/dashboard.js?v=1783111985"></script>
 </body>
 </html>
