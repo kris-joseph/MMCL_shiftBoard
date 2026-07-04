@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-04T17:55:59.730043+00:00",
+  "fetch_timestamp": "2026-07-04T18:58:25.012300+00:00",
   "date": "2026-07-04",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-07-04T12:00:00-04:00",
-      "toDate": "2026-07-04T14:30:00-04:00",
+      "toDate": "2026-07-04T14:13:00-04:00",
       "created": "2026-07-01T13:38:01-04:00",
       "firstName": "Sandy",
       "lastName": "Chan",
@@ -25,7 +25,7 @@
       "item_name": "Editing and Music Studio #3 (Rm 3060E)",
       "event": null,
       "check_in_code": "SC6",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZ3BUXbAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZ34P_yAAA="
     },
     {
       "bookId": "d7054829736d",
