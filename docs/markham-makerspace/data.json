@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-04T15:38:19.634961+00:00",
+  "fetch_timestamp": "2026-07-04T16:53:24.547663+00:00",
   "date": "2026-07-04",
   "space_bookings": [
     {
@@ -19,7 +19,7 @@
       "lastName": "Wang",
       "email": "jun0623@my.yorku.ca",
       "account": "jun0623@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
@@ -38,7 +38,7 @@
       "lastName": "Wang",
       "email": "jun0623@my.yorku.ca",
       "account": "jun0623@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
