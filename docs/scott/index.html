@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1783369155">
+    <link rel="stylesheet" href="../static/style.css?v=1783374731">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Monday, July 06, 2026</div>
-                <div class="last-updated">Last updated: 4:19 PM</div>
+                <div class="last-updated">Last updated: 5:52 PM</div>
             </div>
         </div>
     </header>
@@ -66,14 +66,14 @@
                 <div class="timeline-count">16</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 56.25%;"></div>
-                <div class="timeline-count">9</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 62.5%;"></div>
+                <div class="timeline-count">10</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 81.25%;"></div>
-                <div class="timeline-count">13</div>
+                <div class="timeline-bar" style="height: 87.5%;"></div>
+                <div class="timeline-count">14</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
             <div class="timeline-hour ">
@@ -335,6 +335,66 @@ Due back • D.P.                        </div>
     <aside class="persistent-sections">
 
 
+        <section class="persistent-section overdue-section">
+            <div class="section-header">
+                <h2>Overdue Items</h2>
+                <span class="section-count">2</span>
+            </div>
+            <div class="booking-list">
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Neewer Ring Light</h3>
+                            <div class="booking-category">Lighting</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Monday, July 06, 2026 at 5:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">B.S. (b***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: fd159b48bb06</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Canon EOS M50</h3>
+                            <div class="booking-category">Cameras</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Monday, July 06, 2026 at 5:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">J.T. (j***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">Less than 1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: 9e88efce87cb</div>
+                </article>
+            </div>
+        </section>
 
         <section class="persistent-section">
             <div class="section-header">
@@ -971,6 +1031,6 @@ Due back • D.P.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1783369155"></script>
+    <script src="../static/dashboard.js?v=1783374731"></script>
 </body>
 </html>
