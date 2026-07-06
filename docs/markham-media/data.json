@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-06T16:11:48.052689+00:00",
+  "fetch_timestamp": "2026-07-06T18:23:45.680703+00:00",
   "date": "2026-07-06",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7761,
       "lid": 3432,
       "fromDate": "2026-07-06T10:00:00-04:00",
-      "toDate": "2026-07-06T12:30:00-04:00",
+      "toDate": "2026-07-06T12:23:00-04:00",
       "created": "2026-07-06T10:03:03-04:00",
       "firstName": "Maximus",
       "lastName": "Mondesir",
@@ -25,28 +25,7 @@
       "item_name": "Green Screen Video Studio (Rm 3060C)",
       "event": null,
       "check_in_code": "Z24",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpyAABH34X_zHuIQZyVVKGzvHhAAAZ34a6pAAA="
-    },
-    {
-      "bookId": "8759c2a81e60",
-      "id": 16294242,
-      "eid": 30723,
-      "cid": 7467,
-      "lid": 3432,
-      "fromDate": "2026-07-06T11:00:00-04:00",
-      "toDate": "2026-07-06T13:00:00-04:00",
-      "created": "2026-07-05T13:28:59-04:00",
-      "firstName": "Sandy",
-      "lastName": "Chan",
-      "email": "sdychan@yorku.ca",
-      "account": "sdychan@yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Editing Studios",
-      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
-      "event": null,
-      "check_in_code": "96R",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZ34P_2AAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpyAABH34X_zHuIQZyVVKGzvHhAAAZ34a6sAAA="
     },
     {
       "bookId": "6c2beac808e9",
@@ -68,6 +47,27 @@
       "event": null,
       "check_in_code": "4RY",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp1AABH34X_zHuIQZyVVKGzvHhAAAZ34PkxAAA="
+    },
+    {
+      "bookId": "8759c2a81e60",
+      "id": 16294242,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-07-06T11:00:00-04:00",
+      "toDate": "2026-07-06T16:00:00-04:00",
+      "created": "2026-07-05T13:28:59-04:00",
+      "firstName": "Sandy",
+      "lastName": "Chan",
+      "email": "sdychan@yorku.ca",
+      "account": "sdychan@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "96R",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZ34P_5AAA="
     }
   ],
   "equipment_bookings": [
@@ -353,6 +353,26 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007052961117"
+    },
+    {
+      "bookId": "2f0353a67481",
+      "id": 365340,
+      "eid": 33662,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-07-06T12:44:31-04:00",
+      "toDate": "2026-07-13T16:00:00-04:00",
+      "created": "2026-07-06T12:44:30-04:00",
+      "firstName": "QAIS",
+      "lastName": "ALQAISI",
+      "email": "qaisalq@my.yorku.ca",
+      "account": "220721312",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932652"
     },
     {
       "bookId": "cc97068bbb2e",
