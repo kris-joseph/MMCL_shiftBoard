@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-06T02:53:02.432373+00:00",
+  "fetch_timestamp": "2026-07-06T06:22:12.362535+00:00",
   "date": "2026-07-06",
   "space_bookings": [
     {
@@ -1273,6 +1273,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007054936562"
+    },
+    {
+      "bookId": "7d4a6f001e34",
+      "id": 365160,
+      "eid": 29581,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-07-06T11:00:00-04:00",
+      "toDate": "2026-07-13T17:00:00-04:00",
+      "created": "2026-07-06T00:37:09-04:00",
+      "firstName": "Ted",
+      "lastName": "Belke",
+      "email": "tbelke@yorku.ca",
+      "account": "tbelke@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless Pro",
+      "event": null,
+      "barcode": "39007054933957"
     },
     {
       "bookId": "ae1c316053cb",
