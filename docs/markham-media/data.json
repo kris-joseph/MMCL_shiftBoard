@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-07T19:40:25.445417+00:00",
+  "fetch_timestamp": "2026-07-07T21:14:27.476018+00:00",
   "date": "2026-07-07",
   "space_bookings": [
     {
@@ -171,6 +171,26 @@
       "barcode": "39007054933981"
     },
     {
+      "bookId": "f1c9627766e4",
+      "id": 365539,
+      "eid": 34967,
+      "cid": 8259,
+      "lid": 3432,
+      "fromDate": "2026-07-07T10:56:51-04:00",
+      "toDate": "2026-07-07T16:07:00-04:00",
+      "created": "2026-07-07T10:56:25-04:00",
+      "firstName": "LORETTA",
+      "lastName": "LAM",
+      "email": "lorivalet@gmail.com",
+      "account": "220291118",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Lighting",
+      "item_name": "Neewer 660 Pro II light panel kit",
+      "event": null,
+      "barcode": "39007054934260"
+    },
+    {
       "bookId": "32d00bc420ce",
       "id": 364224,
       "eid": 32512,
@@ -229,26 +249,6 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007052961117"
-    },
-    {
-      "bookId": "f1c9627766e4",
-      "id": 365539,
-      "eid": 34967,
-      "cid": 8259,
-      "lid": 3432,
-      "fromDate": "2026-07-07T10:56:51-04:00",
-      "toDate": "2026-07-14T16:00:00-04:00",
-      "created": "2026-07-07T10:56:25-04:00",
-      "firstName": "LORETTA",
-      "lastName": "LAM",
-      "email": "lorivalet@gmail.com",
-      "account": "220291118",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Lighting",
-      "item_name": "Neewer 660 Pro II light panel kit",
-      "event": null,
-      "barcode": "39007054934260"
     },
     {
       "bookId": "d0b7f81a131b",
