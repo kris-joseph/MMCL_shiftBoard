@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-08T05:15:55.531792+00:00",
+  "fetch_timestamp": "2026-07-08T14:59:09.714029+00:00",
   "date": "2026-07-08",
   "space_bookings": [
     {
@@ -772,6 +772,26 @@
       "item_name": "DJI Mic 3",
       "event": null,
       "barcode": "39007054936737"
+    },
+    {
+      "bookId": "dbfd976b49c6",
+      "id": 365661,
+      "eid": 37339,
+      "cid": 8146,
+      "lid": 2632,
+      "fromDate": "2026-07-08T11:00:00-04:00",
+      "toDate": "2026-07-14T17:00:00-04:00",
+      "created": "2026-07-08T06:41:44-04:00",
+      "firstName": "Faisal",
+      "lastName": "Ba Mohres",
+      "email": "faibam@my.yorku.ca",
+      "account": "faibam@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Lighting",
+      "item_name": "Neewer RGB 2 Panel Light Kit",
+      "event": null,
+      "barcode": "39007054936646"
     },
     {
       "bookId": "d93799734b2b",
