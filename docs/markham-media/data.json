@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-08T14:59:11.026936+00:00",
+  "fetch_timestamp": "2026-07-08T15:08:35.353285+00:00",
   "date": "2026-07-08",
   "space_bookings": [
     {
@@ -170,6 +170,26 @@
       "item_name": "55mm ND Filter",
       "event": null,
       "barcode": "39007054935556"
+    },
+    {
+      "bookId": "24c157fb2eba",
+      "id": 365709,
+      "eid": 34967,
+      "cid": 8259,
+      "lid": 3432,
+      "fromDate": "2026-07-08T10:59:36-04:00",
+      "toDate": "2026-07-15T04:00:00-04:00",
+      "created": "2026-07-08T10:59:33-04:00",
+      "firstName": "SHINGO",
+      "lastName": "ABETA",
+      "email": "shingoa@my.yorku.ca",
+      "account": "5859730001025115",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Lighting",
+      "item_name": "Neewer 660 Pro II light panel kit",
+      "event": null,
+      "barcode": "39007054934260"
     },
     {
       "bookId": "6dda22097424",
