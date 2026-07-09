@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-09T06:03:55.732643+00:00",
+  "fetch_timestamp": "2026-07-09T15:45:07.508072+00:00",
   "date": "2026-07-09",
   "space_bookings": [
     {
@@ -40,7 +40,7 @@
       "lastName": "Shahraji",
       "email": "elikash5@my.yorku.ca",
       "account": "elikash5@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Video Studios",
       "item_name": "Video and Photo Studio (Rm 3060H)",

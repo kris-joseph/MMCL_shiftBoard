@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-09T06:03:54.757425+00:00",
+  "fetch_timestamp": "2026-07-09T15:45:06.709831+00:00",
   "date": "2026-07-09",
   "space_bookings": [
     {
@@ -26,6 +26,28 @@
       "event": null,
       "check_in_code": "X6N",
       "cancelled": "2026-07-08T15:18:08+00:00"
+    },
+    {
+      "bookId": "2fc3aeb2027f",
+      "id": 16311188,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-07-09T11:15:00-04:00",
+      "toDate": "2026-07-09T14:00:00-04:00",
+      "created": "2026-07-09T11:14:39-04:00",
+      "firstName": "WADE",
+      "lastName": "AYYOUB",
+      "email": "wadi98@my.yorku.ca",
+      "account": "215651706",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32116,
+      "seat_name": "Workstation 4 (Mac Studio)",
+      "check_in_code": "Q8B"
     },
     {
       "bookId": "7c743c86d652",
@@ -1216,6 +1238,26 @@
       "barcode": "39007054933049"
     },
     {
+      "bookId": "c3defc1ebb01",
+      "id": 365880,
+      "eid": 24950,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-07-09T11:20:00-04:00",
+      "toDate": "2026-07-16T17:00:00-04:00",
+      "created": "2026-07-09T11:20:54-04:00",
+      "firstName": "WADE",
+      "lastName": "AYYOUB",
+      "email": "wadi98@my.yorku.ca",
+      "account": "215651706",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50 Mark II",
+      "event": null,
+      "barcode": "39007054933056"
+    },
+    {
       "bookId": "b31055f27c35",
       "id": 365773,
       "eid": 34127,
@@ -1318,6 +1360,26 @@
       "event": null
     },
     {
+      "bookId": "bbd8371cfc4b",
+      "id": 16311109,
+      "eid": 32791,
+      "cid": 6572,
+      "lid": 3458,
+      "fromDate": "2026-07-09T11:00:00-04:00",
+      "toDate": "2026-07-09T12:00:00-04:00",
+      "created": "2026-07-09T10:59:51-04:00",
+      "firstName": "Rohan",
+      "lastName": "Mahabir",
+      "email": "rmahabir@yorku.ca",
+      "account": "rmahabir@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Staff Spaces and Classrooms",
+      "category_name": "Staff Meeting Rooms",
+      "item_name": "Scott 108C - Meeting Room",
+      "event": null,
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp8AABH34X_zHuIQZyVVKGzvHhAAAZ8gT0-AAA="
+    },
+    {
       "bookId": "265f7e8738d0",
       "id": 16222699,
       "eid": 32792,
@@ -1336,6 +1398,26 @@
       "item_name": "Scott 503 - Meeting Room",
       "event": null,
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp6AABH34X_zHuIQZyVVKGzvHhAAAZsANj_AAA="
+    },
+    {
+      "bookId": "848832a60637",
+      "id": 16311043,
+      "eid": 32791,
+      "cid": 6572,
+      "lid": 3458,
+      "fromDate": "2026-07-09T13:00:00-04:00",
+      "toDate": "2026-07-09T14:00:00-04:00",
+      "created": "2026-07-09T10:50:28-04:00",
+      "firstName": "Carly",
+      "lastName": "Shantz",
+      "email": "cjshantz@yorku.ca",
+      "account": "cjshantz@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Staff Spaces and Classrooms",
+      "category_name": "Staff Meeting Rooms",
+      "item_name": "Scott 108C - Meeting Room",
+      "event": null,
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp8AABH34X_zHuIQZyVVKGzvHhAAAZ8gT0_AAA="
     }
   ]
 }
