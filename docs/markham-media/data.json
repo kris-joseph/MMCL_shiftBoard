@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-09T19:21:35.897067+00:00",
+  "fetch_timestamp": "2026-07-09T20:59:28.192349+00:00",
   "date": "2026-07-09",
   "space_bookings": [
     {
@@ -34,7 +34,7 @@
       "cid": 7761,
       "lid": 3432,
       "fromDate": "2026-07-09T14:30:00-04:00",
-      "toDate": "2026-07-09T16:00:00-04:00",
+      "toDate": "2026-07-09T15:42:00-04:00",
       "created": "2026-07-08T21:37:52-04:00",
       "firstName": "Elika",
       "lastName": "Shahraji",
@@ -46,7 +46,7 @@
       "item_name": "Video and Photo Studio (Rm 3060H)",
       "event": null,
       "check_in_code": "N2W",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZ34JLRAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAZ8gXtQAAA="
     },
     {
       "bookId": "f6990c5f0725",
@@ -90,6 +90,26 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007052961109"
+    },
+    {
+      "bookId": "deb88058858c",
+      "id": 365944,
+      "eid": 33662,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-07-09T14:28:21-04:00",
+      "toDate": "2026-07-09T15:41:00-04:00",
+      "created": "2026-07-09T14:28:20-04:00",
+      "firstName": "Elika",
+      "lastName": "Shahraji",
+      "email": "elikash5@my.yorku.ca",
+      "account": "elikash5@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007054932652"
     },
     {
       "bookId": "32d00bc420ce",
@@ -211,26 +231,6 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956760 "
-    },
-    {
-      "bookId": "deb88058858c",
-      "id": 365944,
-      "eid": 33662,
-      "cid": 8161,
-      "lid": 3432,
-      "fromDate": "2026-07-09T14:28:21-04:00",
-      "toDate": "2026-07-16T23:59:00-04:00",
-      "created": "2026-07-09T14:28:20-04:00",
-      "firstName": "Elika",
-      "lastName": "Shahraji",
-      "email": "elikash5@my.yorku.ca",
-      "account": "elikash5@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Microphones",
-      "item_name": "Rode Wireless Pro II",
-      "event": null,
-      "barcode": "39007054932652"
     },
     {
       "bookId": "a3e45a3ec122",

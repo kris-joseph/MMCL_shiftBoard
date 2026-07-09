@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1783624896">
+    <link rel="stylesheet" href="../static/style.css?v=1783630768">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Thursday, July 09, 2026</div>
-                <div class="last-updated">Last updated: 3:21 PM</div>
+                <div class="last-updated">Last updated: 4:59 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -64,14 +64,14 @@
                 <div class="timeline-count">5</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 20.0%;"></div>
-                <div class="timeline-count">1</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 60.0%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 80.0%;"></div>
-                <div class="timeline-count">4</div>
+                <div class="timeline-bar" style="height: 60.0%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
@@ -145,82 +145,12 @@
 
     <aside class="persistent-sections">
 
-        <section class="persistent-section in-progress-section">
-            <div class="section-header">
-                <h2>Patron Onsite</h2>
-                <span class="section-count">2</span>
-            </div>
-            <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="d19c6801da34" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Video and Photo Studio (Rm 3060H)</div>
-                            <div class="booking-card-summary-time">2:30 PM - 4:00 PM • E.S.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">2:30 PM - 4:00 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">E.S. (e***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">N2W</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: d19c6801da34</div>
-                    </div>
-                </article>
-                <article class="booking-card in-progress" data-booking-id="f6990c5f0725" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Editing and Music Studio #3 (Rm 3060E)</div>
-                            <div class="booking-card-summary-time">3:00 PM - 4:00 PM • S.C.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">3:00 PM - 4:00 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">S.C. (s***@yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">8MA</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: f6990c5f0725</div>
-                    </div>
-                </article>
-            </div>
-        </section>
 
 
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">2</span>
+                <span class="section-count">5</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -254,6 +184,50 @@
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
                                 <div class="booking-title">
+                                    <h3>Video and Photo Studio (Rm 3060H)</h3>
+                                    <div class="booking-category">Video Studios</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:30 PM - 3:42 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">E.S.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: d19c6801da34</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Editing and Music Studio #3 (Rm 3060E)</h3>
+                                    <div class="booking-category">Editing Studios</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">3:00 PM - 4:00 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">S.C.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: f6990c5f0725</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
                                     <h3>Rode Wireless Pro II</h3>
                                     <div class="booking-category">Microphones</div>
                                 </div>
@@ -272,6 +246,28 @@
                                 </div>
                             </div>
                             <div class="booking-id">ID: d88538e688fb</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Rode Wireless Pro II</h3>
+                                    <div class="booking-category">Microphones</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:28 PM - 3:41 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">E.S.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: deb88058858c</div>
                         </article>
                     </div>
                 </div>
@@ -302,6 +298,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1783624896"></script>
+    <script src="../static/dashboard.js?v=1783630768"></script>
 </body>
 </html>
