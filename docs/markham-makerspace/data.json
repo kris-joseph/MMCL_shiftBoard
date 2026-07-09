@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-09T15:45:07.902209+00:00",
+  "fetch_timestamp": "2026-07-09T15:52:15.961556+00:00",
   "date": "2026-07-09",
   "space_bookings": [
     {
@@ -196,6 +196,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Scanners",
       "item_name": "Revopoint Pop 3 3D Scanner",
+      "event": null
+    },
+    {
+      "bookId": "6074c314c233",
+      "id": 16311499,
+      "eid": 30736,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-09T11:30:00-04:00",
+      "toDate": "2026-07-09T16:00:00-04:00",
+      "created": "2026-07-09T11:51:56-04:00",
+      "firstName": "Jun",
+      "lastName": "Wang",
+      "email": "jun0623@my.yorku.ca",
+      "account": "jun0623@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4S #02 \"Eurydice\"",
       "event": null
     },
     {
