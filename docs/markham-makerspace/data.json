@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-10T05:57:52.222956+00:00",
+  "fetch_timestamp": "2026-07-10T15:18:08.969664+00:00",
   "date": "2026-07-10",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "7bceb515513f",
+      "id": 16315823,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-10T11:00:00-04:00",
+      "toDate": "2026-07-10T13:00:00-04:00",
+      "created": "2026-07-10T10:58:11-04:00",
+      "firstName": "jacob",
+      "lastName": "turola",
+      "email": "jturola@yorku.ca",
+      "account": "jturola@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
       "event": null
     },
     {
@@ -64,6 +83,25 @@
       "event": null
     },
     {
+      "bookId": "46fa5bd4fe01",
+      "id": 16315366,
+      "eid": 30730,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-10T09:30:00-04:00",
+      "toDate": "2026-07-10T16:30:00-04:00",
+      "created": "2026-07-10T08:50:07-04:00",
+      "firstName": "Jacob",
+      "lastName": "Turola",
+      "email": "jturola@yorku.ca",
+      "account": "jturola@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #07 \"The Hand\"",
+      "event": null
+    },
+    {
       "bookId": "07f34c5c5ec5",
       "id": 16292351,
       "eid": 37118,
@@ -80,6 +118,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "a2f001181873",
+      "id": 16315495,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-10T09:30:00-04:00",
+      "toDate": "2026-07-10T18:30:00-04:00",
+      "created": "2026-07-10T09:44:37-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
       "event": null
     },
     {
