@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-13T19:11:07.547352+00:00",
+  "fetch_timestamp": "2026-07-13T20:36:25.560937+00:00",
   "date": "2026-07-13",
   "space_bookings": [
     {
@@ -75,7 +75,7 @@
       "cid": 5833,
       "lid": 2632,
       "fromDate": "2026-07-13T15:00:00-04:00",
-      "toDate": "2026-07-13T16:45:00-04:00",
+      "toDate": "2026-07-13T16:20:00-04:00",
       "created": "2026-07-13T14:58:59-04:00",
       "firstName": "DUVALIER",
       "lastName": "REID",
@@ -251,6 +251,26 @@
       "barcode": "39007054930458"
     },
     {
+      "bookId": "bd016d840ec1",
+      "id": 364832,
+      "eid": 34319,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-07-02T15:51:00-04:00",
+      "toDate": "2026-07-13T15:55:00-04:00",
+      "created": "2026-07-01T19:19:43-04:00",
+      "firstName": "Khanh",
+      "lastName": "Nguyen Le",
+      "email": "khanh84@my.yorku.ca",
+      "account": "khanh84@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936463"
+    },
+    {
       "bookId": "1411a9e05ed2",
       "id": 358059,
       "eid": 34105,
@@ -269,26 +289,6 @@
       "item_name": "Canon EOS R50-V",
       "event": null,
       "barcode": "39007054936141"
-    },
-    {
-      "bookId": "bd016d840ec1",
-      "id": 364832,
-      "eid": 34319,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-07-02T15:51:00-04:00",
-      "toDate": "2026-07-13T17:00:00-04:00",
-      "created": "2026-07-01T19:19:43-04:00",
-      "firstName": "Khanh",
-      "lastName": "Nguyen Le",
-      "email": "khanh84@my.yorku.ca",
-      "account": "khanh84@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": "39007054936463"
     },
     {
       "bookId": "0dcb2ddbf54c",
