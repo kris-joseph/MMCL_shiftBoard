@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Makerspace - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1783964869">
+    <link rel="stylesheet" href="../static/style.css?v=1783969870">
     <meta name="description" content="Staff dashboard for Markham Makerspace showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Monday, July 13, 2026</div>
-                <div class="last-updated">Last updated: 1:47 PM</div>
+                <div class="last-updated">Last updated: 3:11 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -54,12 +54,12 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 11.11111111111111%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 11.11111111111111%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">2PM</div>
@@ -129,72 +129,14 @@
             <div class="shift-group-header">
                 <h2>Closing Shift</h2>
                 <div class="booking-count">
-                    1 workstation booking                </div>
+                    0 workstation bookings                </div>
             </div>
 
 
-
-
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">2 PM</span>
-                        <span class="hour-group-count">1 task</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card workstation" data-booking-id="0e5e1f26a1f9" data-station-type="laser-cutters">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">Aeon Mira 9</div>
-                        <div class="booking-card-summary-time">2:45 PM - 4:45 PM • C.L.</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Aeon Mira 9</h3>
-                        <div class="booking-category">Laser Cutters</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">2:45 PM - 4:45 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">C.L. (l***@my.yorku.ca)</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Duration:</span>
-                        <span class="detail-value">2.0 hours</span>
-                    </div>
-                </div>
-
-
-                <div class="booking-id">ID: 0e5e1f26a1f9</div>
-
-                </div> 
-            </article>
-
-                    </div>
-                </div>
+            <div class="empty-state">
+                <div class="empty-state-icon">📭</div>
+                <div class="empty-state-message">No bookings for this shift</div>
             </div>
-
         </section>
 
     </main>
@@ -204,7 +146,7 @@
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>In-Progress Jobs</h2>
-                <span class="section-count">8</span>
+                <span class="section-count">9</span>
             </div>
             <div class="booking-list">
                 <article class="booking-card in-progress" data-booking-id="6ce0c8efe871" data-station-type="3d-printers">
@@ -232,7 +174,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.3 hours</span>
+                            <span class="detail-value">5.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -348,7 +290,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.3 hours</span>
+                            <span class="detail-value">5.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -439,6 +381,36 @@
                     </div>
                     <div class="booking-id">ID: 6ce0c8efe871</div>
                 </article>
+                <article class="booking-card in-progress" data-booking-id="0e5e1f26a1f9" data-station-type="laser-cutters">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Aeon Mira 9</h3>
+                            <div class="booking-category">Laser Cutters</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge" style="background-color: var(--bright-blue); color: var(--white);">IN PROGRESS</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Started:</span>
+                            <span class="detail-value">Monday, July 13, 2026 at 2:45 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Monday, July 13, 2026 at 4:45 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">C.L. (l***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">In progress:</span>
+                            <span class="detail-value">26 minutes</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: 0e5e1f26a1f9</div>
+                </article>
                 <article class="booking-card in-progress" data-booking-id="75fd3a808416" data-station-type="3d-printers">
                     <div class="booking-header">
                         <div class="booking-title">
@@ -464,7 +436,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.3 hours</span>
+                            <span class="detail-value">5.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -580,7 +552,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.3 hours</span>
+                            <span class="detail-value">5.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -696,7 +668,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.3 hours</span>
+                            <span class="detail-value">5.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -812,7 +784,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.3 hours</span>
+                            <span class="detail-value">5.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -928,7 +900,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.3 hours</span>
+                            <span class="detail-value">5.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -1044,7 +1016,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">4.3 hours</span>
+                            <span class="detail-value">5.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -1201,6 +1173,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1783964869"></script>
+    <script src="../static/dashboard.js?v=1783969870"></script>
 </body>
 </html>
