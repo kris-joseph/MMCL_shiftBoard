@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-13T15:38:00.273975+00:00",
+  "fetch_timestamp": "2026-07-13T17:47:48.132524+00:00",
   "date": "2026-07-13",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-07-13T12:00:00-04:00",
-      "toDate": "2026-07-13T14:00:00-04:00",
+      "toDate": "2026-07-13T13:37:00-04:00",
       "created": "2026-07-13T06:16:57-04:00",
       "firstName": "Sandy",
       "lastName": "Chan",
@@ -25,7 +25,7 @@
       "item_name": "Editing and Music Studio #3 (Rm 3060E)",
       "event": null,
       "check_in_code": "Z6X",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZ_ni0rAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAZ_ni0uAAA="
     }
   ],
   "equipment_bookings": [
@@ -309,6 +309,27 @@
       "item_name": "SmallRig Tripod",
       "event": null,
       "barcode": "39007054933973"
+    },
+    {
+      "bookId": "f24595d3f489",
+      "id": 366464,
+      "eid": 33091,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-07-13T09:30:00-04:00",
+      "toDate": "2026-07-20T16:00:00-04:00",
+      "created": "2026-07-13T13:05:13-04:00",
+      "firstName": "Sadia Tasnim",
+      "lastName": "Sneha",
+      "email": "sadiats@yorku.ca",
+      "account": "sadiats@yorku.ca",
+      "status": "Cancelled by Admin",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode M5",
+      "event": null,
+      "barcode": "39007054932553",
+      "cancelled": "2026-07-13T17:43:44+00:00"
     },
     {
       "bookId": "cc97068bbb2e",
