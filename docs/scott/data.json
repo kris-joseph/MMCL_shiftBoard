@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-13T22:44:24.934887+00:00",
+  "fetch_timestamp": "2026-07-13T23:42:46.341389+00:00",
   "date": "2026-07-13",
   "space_bookings": [
     {
@@ -1235,26 +1235,6 @@
       "barcode": "39007054936695"
     },
     {
-      "bookId": "0ae61ce61991",
-      "id": 366478,
-      "eid": 24944,
-      "cid": 8138,
-      "lid": 2632,
-      "fromDate": "2026-07-13T11:00:00-04:00",
-      "toDate": "2026-07-20T17:00:00-04:00",
-      "created": "2026-07-13T13:46:45-04:00",
-      "firstName": "Amarachukwu",
-      "lastName": "Aliozor",
-      "email": "amaali@my.yorku.ca",
-      "account": "amaali@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS M50 Mark II",
-      "event": null,
-      "barcode": "39007054933015"
-    },
-    {
       "bookId": "f4fd17967eb7",
       "id": 366541,
       "eid": 26107,
@@ -1735,6 +1715,27 @@
       "event": null,
       "barcode": "39007054932132",
       "cancelled": "2026-07-13T21:05:57+00:00"
+    },
+    {
+      "bookId": "0ae61ce61991",
+      "id": 366478,
+      "eid": 24944,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-07-13T11:00:00-04:00",
+      "toDate": "2026-07-20T17:00:00-04:00",
+      "created": "2026-07-13T13:46:45-04:00",
+      "firstName": "Amarachukwu",
+      "lastName": "Aliozor",
+      "email": "amaali@my.yorku.ca",
+      "account": "amaali@my.yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50 Mark II",
+      "event": null,
+      "barcode": "39007054933015",
+      "cancelled": "2026-07-13T23:02:05+00:00"
     },
     {
       "bookId": "c7e3ced9b413",
