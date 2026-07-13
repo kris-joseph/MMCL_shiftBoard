@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-13T02:29:01.277610+00:00",
+  "fetch_timestamp": "2026-07-13T05:31:12.037770+00:00",
   "date": "2026-07-13",
   "space_bookings": [
     {
@@ -19,11 +19,12 @@
       "lastName": "Baoyu",
       "email": "yanen@my.yorku.ca",
       "account": "yanen@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-07-13T03:21:12+00:00"
     },
     {
       "bookId": "0e5e1f26a1f9",
@@ -42,6 +43,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "67e75919c632",
+      "id": 16319877,
+      "eid": 35452,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-14T10:30:00-04:00",
+      "toDate": "2026-07-14T15:00:00-04:00",
+      "created": "2026-07-12T23:22:28-04:00",
+      "firstName": "Yanen",
+      "lastName": "Baoyu",
+      "email": "yanen@my.yorku.ca",
+      "account": "yanen@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #4 \"Striker Eureka\"",
       "event": null
     }
   ],
