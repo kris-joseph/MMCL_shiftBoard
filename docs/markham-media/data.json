@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-14T14:41:42.190560+00:00",
+  "fetch_timestamp": "2026-07-14T16:07:33.693318+00:00",
   "date": "2026-07-14",
   "space_bookings": [],
   "equipment_bookings": [
@@ -328,6 +328,26 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007054932652"
+    },
+    {
+      "bookId": "ecc1f411f3a7",
+      "id": 366618,
+      "eid": 36514,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-07-14T11:01:00-04:00",
+      "toDate": "2026-07-21T16:00:00-04:00",
+      "created": "2026-07-14T11:01:24-04:00",
+      "firstName": "Ted",
+      "lastName": "Belke",
+      "email": "tbelke@yorku.ca",
+      "account": "tbelke@yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007052956752"
     },
     {
       "bookId": "da4236766c14",
