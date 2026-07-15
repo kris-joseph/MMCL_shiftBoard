@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-15T14:41:14.227261+00:00",
+  "fetch_timestamp": "2026-07-15T16:12:42.301900+00:00",
   "date": "2026-07-15",
   "space_bookings": [
     {
@@ -120,6 +120,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
+      "event": null
+    },
+    {
+      "bookId": "2e63d28c2c82",
+      "id": 16333961,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-15T10:30:00-04:00",
+      "toDate": "2026-07-15T18:30:00-04:00",
+      "created": "2026-07-15T11:22:16-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
+    },
+    {
+      "bookId": "792b05243fd8",
+      "id": 16333966,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-15T10:30:00-04:00",
+      "toDate": "2026-07-15T18:30:00-04:00",
+      "created": "2026-07-15T11:22:39-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
     },
     {
