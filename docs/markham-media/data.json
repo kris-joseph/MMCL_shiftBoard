@@ -3,9 +3,31 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-15T17:43:05.779573+00:00",
+  "fetch_timestamp": "2026-07-15T18:54:32.547065+00:00",
   "date": "2026-07-15",
-  "space_bookings": [],
+  "space_bookings": [
+    {
+      "bookId": "fe95ac77d2ca",
+      "id": 16335214,
+      "eid": 33193,
+      "cid": 7951,
+      "lid": 3432,
+      "fromDate": "2026-07-16T09:00:00-04:00",
+      "toDate": "2026-07-16T16:00:00-04:00",
+      "created": "2026-07-15T14:11:49-04:00",
+      "firstName": "Adam",
+      "lastName": "Duncan",
+      "email": "aduncan@yorku.ca",
+      "account": "aduncan@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Large Studios",
+      "item_name": "Mixed Use Studio (Rm 3045)",
+      "event": null,
+      "check_in_code": "G48",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp1AABH34X_zHuIQZyVVKGzvHhAAAZ-uc7pAAA="
+    }
+  ],
   "equipment_bookings": [
     {
       "bookId": "6dda22097424",
