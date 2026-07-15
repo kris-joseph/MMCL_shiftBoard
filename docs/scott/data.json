@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-15T22:27:43.782168+00:00",
+  "fetch_timestamp": "2026-07-15T23:27:17.416177+00:00",
   "date": "2026-07-15",
   "space_bookings": [
     {
@@ -385,12 +385,13 @@
       "lastName": "Daley",
       "email": "sdaley7@yorku.ca",
       "account": "sdaley7@yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by System",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "In-House",
       "item_name": "Speaker System",
       "event": null,
-      "barcode": ""
+      "barcode": "",
+      "cancelled": "2026-07-15T23:02:05+00:00"
     },
     {
       "bookId": "7a40112864c8",
