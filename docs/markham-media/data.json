@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-16T00:54:31.577687+00:00",
+  "fetch_timestamp": "2026-07-16T02:20:26.049798+00:00",
   "date": "2026-07-16",
   "space_bookings": [
     {
@@ -249,26 +249,6 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007052956752"
-    },
-    {
-      "bookId": "8791cbe12f77",
-      "id": 366442,
-      "eid": 35698,
-      "cid": 8259,
-      "lid": 3432,
-      "fromDate": "2026-07-15T09:30:00-04:00",
-      "toDate": "2026-07-22T16:00:00-04:00",
-      "created": "2026-07-13T12:14:42-04:00",
-      "firstName": "Adam",
-      "lastName": "Duncan",
-      "email": "aduncan@yorku.ca",
-      "account": "aduncan@yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Lighting",
-      "item_name": "Neewer 660 Pro II light Panel Kit",
-      "event": null,
-      "barcode": "39007054935739"
     },
     {
       "bookId": "8791cbe12f77",
@@ -590,6 +570,27 @@
       "event": null,
       "barcode": "39007054934260",
       "cancelled": "2026-07-15T13:11:30+00:00"
+    },
+    {
+      "bookId": "8791cbe12f77",
+      "id": 366442,
+      "eid": 35698,
+      "cid": 8259,
+      "lid": 3432,
+      "fromDate": "2026-07-15T09:30:00-04:00",
+      "toDate": "2026-07-22T16:00:00-04:00",
+      "created": "2026-07-13T12:14:42-04:00",
+      "firstName": "Adam",
+      "lastName": "Duncan",
+      "email": "aduncan@yorku.ca",
+      "account": "aduncan@yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Lighting",
+      "item_name": "Neewer 660 Pro II light Panel Kit",
+      "event": null,
+      "barcode": "39007054935739",
+      "cancelled": "2026-07-16T01:32:05+00:00"
     },
     {
       "bookId": "4d81a608ba0d",
