@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-16T22:48:39.967898+00:00",
+  "fetch_timestamp": "2026-07-16T23:49:35.323027+00:00",
   "date": "2026-07-16",
   "space_bookings": [
     {
@@ -1529,26 +1529,6 @@
       "cancelled": "2026-07-14T20:22:59+00:00"
     },
     {
-      "bookId": "5874b884f1c2",
-      "id": 366670,
-      "eid": 25243,
-      "cid": 8147,
-      "lid": 2632,
-      "fromDate": "2026-07-16T11:00:00-04:00",
-      "toDate": "2026-07-23T17:00:00-04:00",
-      "created": "2026-07-14T14:39:12-04:00",
-      "firstName": "UJJWAL",
-      "lastName": "KATHURIA",
-      "email": "ukat@my.yorku.ca",
-      "account": "5859730001071373",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Microphones",
-      "item_name": "Blue Yeti Nano",
-      "event": null,
-      "barcode": "39007054933155"
-    },
-    {
       "bookId": "bbd43c491410",
       "id": 365857,
       "eid": 35841,
@@ -1929,6 +1909,27 @@
       "event": null,
       "barcode": "39007054936307",
       "cancelled": "2026-07-16T15:55:28+00:00"
+    },
+    {
+      "bookId": "5874b884f1c2",
+      "id": 366670,
+      "eid": 25243,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-07-16T11:00:00-04:00",
+      "toDate": "2026-07-23T17:00:00-04:00",
+      "created": "2026-07-14T14:39:12-04:00",
+      "firstName": "UJJWAL",
+      "lastName": "KATHURIA",
+      "email": "ukat@my.yorku.ca",
+      "account": "5859730001071373",
+      "status": "Cancelled by System",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Blue Yeti Nano",
+      "event": null,
+      "barcode": "39007054933155",
+      "cancelled": "2026-07-16T23:02:06+00:00"
     },
     {
       "bookId": "c2679649329c",
