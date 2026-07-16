@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-16T17:43:36.677666+00:00",
+  "fetch_timestamp": "2026-07-16T18:54:59.738194+00:00",
   "date": "2026-07-16",
   "space_bookings": [
     {
@@ -387,7 +387,7 @@
       "status": "Checked Out",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Camera Lenses",
-      "item_name": "Sigma RF 18mm-55mm",
+      "item_name": "Sigma RF 18mm-50mm",
       "event": null,
       "barcode": " 39007052956794 "
     },
@@ -649,7 +649,7 @@
       "status": "Checked Out",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Camera Lenses",
-      "item_name": "Sigma RF 18mm-55mm",
+      "item_name": "Sigma RF 18mm-50mm",
       "event": null,
       "barcode": "39007052956802"
     },
