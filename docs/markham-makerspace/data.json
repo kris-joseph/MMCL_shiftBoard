@@ -3,9 +3,47 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-16T04:55:11.101227+00:00",
+  "fetch_timestamp": "2026-07-16T14:36:07.610003+00:00",
   "date": "2026-07-16",
   "space_bookings": [
+    {
+      "bookId": "74c453b74061",
+      "id": 16338065,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-16T09:30:00-04:00",
+      "toDate": "2026-07-16T16:00:00-04:00",
+      "created": "2026-07-16T10:31:19-04:00",
+      "firstName": "Sarika",
+      "lastName": "Patel",
+      "email": "spatel05@yorku.ca",
+      "account": "spatel05@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
+    },
+    {
+      "bookId": "74c453b74061",
+      "id": 16338066,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-16T09:30:00-04:00",
+      "toDate": "2026-07-16T16:00:00-04:00",
+      "created": "2026-07-16T10:31:19-04:00",
+      "firstName": "Sarika",
+      "lastName": "Patel",
+      "email": "spatel05@yorku.ca",
+      "account": "spatel05@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
     {
       "bookId": "c4aadc3663ea",
       "id": 16294013,
@@ -46,6 +84,25 @@
       "event": null
     },
     {
+      "bookId": "23566ce735f9",
+      "id": 16337627,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-16T09:30:00-04:00",
+      "toDate": "2026-07-16T18:30:00-04:00",
+      "created": "2026-07-16T09:24:05-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
       "bookId": "f88914884ece",
       "id": 16317649,
       "eid": 37118,
@@ -58,11 +115,12 @@
       "lastName": "Chan",
       "email": "sdychan@yorku.ca",
       "account": "sdychan@yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
-      "event": null
+      "event": null,
+      "cancelled": "2026-07-16T12:07:27+00:00"
     },
     {
       "bookId": "4cdf12a72328",
@@ -77,11 +135,12 @@
       "lastName": "Chan",
       "email": "sdychan@yorku.ca",
       "account": "sdychan@yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
-      "event": null
+      "event": null,
+      "cancelled": "2026-07-16T12:07:50+00:00"
     },
     {
       "bookId": "a4c28305ac7a",
@@ -96,11 +155,12 @@
       "lastName": "Chan",
       "email": "sdychan@yorku.ca",
       "account": "sdychan@yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
-      "event": null
+      "event": null,
+      "cancelled": "2026-07-16T12:07:45+00:00"
     }
   ],
   "equipment_bookings": [],

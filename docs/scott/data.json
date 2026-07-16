@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-16T04:55:09.932233+00:00",
+  "fetch_timestamp": "2026-07-16T14:36:05.611014+00:00",
   "date": "2026-07-16",
   "space_bookings": [
     {
@@ -39,7 +39,7 @@
       "lastName": "Beheiry",
       "email": "susub@my.yorku.ca",
       "account": "susub@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "VR Rooms",
       "item_name": "Scott 203C - VR/Podcasting Room",
@@ -1806,6 +1806,26 @@
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp6AABH34X_zHuIQZyVVKGzvHhAAAZsANj-AAA="
     },
     {
+      "bookId": "62f391791924",
+      "id": 16337325,
+      "eid": 32791,
+      "cid": 6572,
+      "lid": 3458,
+      "fromDate": "2026-07-16T14:00:00-04:00",
+      "toDate": "2026-07-16T15:00:00-04:00",
+      "created": "2026-07-16T08:34:36-04:00",
+      "firstName": "Rohan",
+      "lastName": "Mahabir",
+      "email": "rmahabir@yorku.ca",
+      "account": "rmahabir@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Staff Spaces and Classrooms",
+      "category_name": "Staff Meeting Rooms",
+      "item_name": "Scott 108C - Meeting Room",
+      "event": null,
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp8AABH34X_zHuIQZyVVKGzvHhAAAaA6UhyAAA="
+    },
+    {
       "bookId": "ad10586b03bd",
       "id": 16323385,
       "eid": 32792,
@@ -1824,6 +1844,26 @@
       "item_name": "Scott 503 - Meeting Room",
       "event": null,
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp6AABH34X_zHuIQZyVVKGzvHhAAAZ_nnW6AAA="
+    },
+    {
+      "bookId": "9930027ea3d4",
+      "id": 16337185,
+      "eid": 32791,
+      "cid": 6572,
+      "lid": 3458,
+      "fromDate": "2026-07-17T14:00:00-04:00",
+      "toDate": "2026-07-17T15:30:00-04:00",
+      "created": "2026-07-16T07:52:00-04:00",
+      "firstName": "Rohan",
+      "lastName": "Mahabir",
+      "email": "rmahabir@yorku.ca",
+      "account": "rmahabir@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Staff Spaces and Classrooms",
+      "category_name": "Staff Meeting Rooms",
+      "item_name": "Scott 108C - Meeting Room",
+      "event": null,
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp8AABH34X_zHuIQZyVVKGzvHhAAAaA6UhxAAA="
     }
   ]
 }
