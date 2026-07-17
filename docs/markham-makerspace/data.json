@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-17T14:24:38.790538+00:00",
+  "fetch_timestamp": "2026-07-17T15:52:00.091126+00:00",
   "date": "2026-07-17",
   "space_bookings": [
     {
@@ -45,6 +45,25 @@
       "item_name": "Aeon Mira 9",
       "event": null,
       "cancelled": "2026-07-16T12:07:50+00:00"
+    },
+    {
+      "bookId": "f952f1c5773d",
+      "id": 16342329,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-17T10:30:00-04:00",
+      "toDate": "2026-07-17T16:00:00-04:00",
+      "created": "2026-07-17T10:43:18-04:00",
+      "firstName": "Sarika",
+      "lastName": "Patel",
+      "email": "spatel05@yorku.ca",
+      "account": "spatel05@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
     },
     {
       "bookId": "f96173b45e1e",
