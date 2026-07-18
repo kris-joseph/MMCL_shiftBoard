@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-18T16:25:13.866236+00:00",
+  "fetch_timestamp": "2026-07-18T17:27:32.974322+00:00",
   "date": "2026-07-18",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "56a41d5b7a59",
+      "id": 16345769,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-07-18T13:30:00-04:00",
+      "toDate": "2026-07-18T14:30:00-04:00",
+      "created": "2026-07-18T13:15:55-04:00",
+      "firstName": "Sandy",
+      "lastName": "Chan",
+      "email": "sdychan@yorku.ca",
+      "account": "sdychan@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Cricut Cutter",
       "event": null
     },
     {
