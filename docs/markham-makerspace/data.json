@@ -3,9 +3,29 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-18T02:07:41.688460+00:00",
+  "fetch_timestamp": "2026-07-18T04:43:44.809021+00:00",
   "date": "2026-07-18",
-  "space_bookings": [],
+  "space_bookings": [
+    {
+      "bookId": "ea1f73813dd2",
+      "id": 16345475,
+      "eid": 37118,
+      "cid": 8633,
+      "lid": 3430,
+      "fromDate": "2026-07-18T10:15:00-04:00",
+      "toDate": "2026-07-18T12:15:00-04:00",
+      "created": "2026-07-18T00:05:00-04:00",
+      "firstName": "James Andrew",
+      "lastName": "Smith",
+      "email": "drsmith@yorku.ca",
+      "account": "drsmith@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Laser Cutters",
+      "item_name": "Aeon Mira 9",
+      "event": null
+    }
+  ],
   "equipment_bookings": [],
   "appointments": [],
   "teaching_events": []
