@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-21T19:02:45.375413+00:00",
+  "fetch_timestamp": "2026-07-21T20:40:03.280495+00:00",
   "date": "2026-07-21",
   "space_bookings": [
     {
@@ -156,6 +156,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "ac9abb0be56a",
+      "id": 16356771,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-22T09:30:00-04:00",
+      "toDate": "2026-07-22T16:00:00-04:00",
+      "created": "2026-07-21T16:32:56-04:00",
+      "firstName": "Sarika",
+      "lastName": "Patel",
+      "email": "spatel05@yorku.ca",
+      "account": "spatel05@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
       "event": null
     }
   ],
