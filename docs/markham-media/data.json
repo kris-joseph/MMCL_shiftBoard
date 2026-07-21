@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-21T20:40:02.965358+00:00",
+  "fetch_timestamp": "2026-07-21T21:54:26.110659+00:00",
   "date": "2026-07-21",
   "space_bookings": [
     {
@@ -26,6 +26,27 @@
       "event": null,
       "check_in_code": "K69X",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAaEWLdyAAA="
+    },
+    {
+      "bookId": "606177a0c412",
+      "id": 16356972,
+      "eid": 30701,
+      "cid": 7762,
+      "lid": 3432,
+      "fromDate": "2026-07-22T12:00:00-04:00",
+      "toDate": "2026-07-22T14:30:00-04:00",
+      "created": "2026-07-21T17:03:11-04:00",
+      "firstName": "Faraz",
+      "lastName": "Ahmed",
+      "email": "fahmed06@my.yorku.ca",
+      "account": "fahmed06@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Podcast Studios",
+      "item_name": "Podcast Studio #2 (Rm 3060D)",
+      "event": null,
+      "check_in_code": "M4E",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpxAABH34X_zHuIQZyVVKGzvHhAAAaEWULfAAA="
     }
   ],
   "equipment_bookings": [
