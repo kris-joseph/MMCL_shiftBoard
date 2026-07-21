@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-21T14:54:44.265704+00:00",
+  "fetch_timestamp": "2026-07-21T16:15:14.094961+00:00",
   "date": "2026-07-21",
   "space_bookings": [
     {
@@ -99,6 +99,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
+    },
+    {
+      "bookId": "01d8350354b9",
+      "id": 16354388,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-21T10:30:00-04:00",
+      "toDate": "2026-07-21T16:00:00-04:00",
+      "created": "2026-07-21T11:19:14-04:00",
+      "firstName": "Sarika",
+      "lastName": "Patel",
+      "email": "spatel05@yorku.ca",
+      "account": "spatel05@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
       "event": null
     },
     {
