@@ -3,30 +3,9 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-21T23:47:35.619409+00:00",
-  "date": "2026-07-21",
+  "fetch_timestamp": "2026-07-22T02:22:15.933874+00:00",
+  "date": "2026-07-22",
   "space_bookings": [
-    {
-      "bookId": "11230c271a08",
-      "id": 16353950,
-      "eid": 30723,
-      "cid": 7467,
-      "lid": 3432,
-      "fromDate": "2026-07-21T12:00:00-04:00",
-      "toDate": "2026-07-21T13:00:00-04:00",
-      "created": "2026-07-21T10:02:21-04:00",
-      "firstName": "Pierce",
-      "lastName": "Mossman",
-      "email": "piercem@my.yorku.ca",
-      "account": "piercem@my.yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Editing Studios",
-      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
-      "event": null,
-      "check_in_code": "K69X",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAaEWLdyAAA="
-    },
     {
       "bookId": "606177a0c412",
       "id": 16356972,
@@ -206,12 +185,13 @@
       "lastName": "Vu",
       "email": "collin05@my.yorku.ca",
       "account": "collin05@my.yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by System",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Camera Stabilizers",
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
-      "barcode": "39007054931142"
+      "barcode": "39007054931142",
+      "cancelled": "2026-07-22T01:32:06+00:00"
     },
     {
       "bookId": "e91e39d4ada8",
