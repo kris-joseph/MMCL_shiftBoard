@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-22T17:46:30.180398+00:00",
+  "fetch_timestamp": "2026-07-22T18:56:39.686251+00:00",
   "date": "2026-07-22",
   "space_bookings": [
     {
@@ -1707,7 +1707,7 @@
     {
       "bookId": "1557850247a9",
       "id": 367495,
-      "eid": 24950,
+      "eid": 21830,
       "cid": 8138,
       "lid": 2632,
       "fromDate": "2026-07-22T15:00:00-04:00",
@@ -1720,9 +1720,9 @@
       "status": "Confirmed",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Cameras",
-      "item_name": "Canon EOS M50 Mark II",
+      "item_name": "Canon EOS M50",
       "event": null,
-      "barcode": "39007054933056"
+      "barcode": "39007054930276"
     },
     {
       "bookId": "1557850247a9",
