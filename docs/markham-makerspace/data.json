@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-23T14:52:41.589274+00:00",
+  "fetch_timestamp": "2026-07-23T15:01:26.645449+00:00",
   "date": "2026-07-23",
   "space_bookings": [
     {
@@ -25,6 +25,25 @@
       "item_name": "Soldering Station #01",
       "event": null,
       "cancelled": "2026-07-23T14:51:45+00:00"
+    },
+    {
+      "bookId": "09099b106f2d",
+      "id": 16364414,
+      "eid": 31776,
+      "cid": 7722,
+      "lid": 3430,
+      "fromDate": "2026-07-23T11:30:00-04:00",
+      "toDate": "2026-07-23T12:30:00-04:00",
+      "created": "2026-07-23T10:53:08-04:00",
+      "firstName": "Yunke",
+      "lastName": "Chen",
+      "email": "yunkeche@my.yorku.ca",
+      "account": "yunkeche@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Soldering Stations",
+      "item_name": "Soldering Station #01",
+      "event": null
     },
     {
       "bookId": "0b9c890d8e82",
