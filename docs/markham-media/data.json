@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-23T16:52:48.101625+00:00",
+  "fetch_timestamp": "2026-07-23T18:06:48.919082+00:00",
   "date": "2026-07-23",
   "space_bookings": [
     {
@@ -171,6 +171,27 @@
       "item_name": "Crucial X10 SSD Drive",
       "event": null,
       "barcode": "39007052957263"
+    },
+    {
+      "bookId": "16576c58b37e",
+      "id": 367998,
+      "eid": 33660,
+      "cid": 8162,
+      "lid": 3432,
+      "fromDate": "2026-07-23T13:00:00-04:00",
+      "toDate": "2026-07-30T16:00:00-04:00",
+      "created": "2026-07-23T12:54:39-04:00",
+      "firstName": "JIAQI",
+      "lastName": "YUAN",
+      "email": "lanayuan@yorku.ca",
+      "account": "5859730001023571",
+      "status": "Cancelled by Admin",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Headphones",
+      "item_name": "Sony MDR-7506 Headphones",
+      "event": null,
+      "barcode": "39007054934112",
+      "cancelled": "2026-07-23T16:58:38+00:00"
     },
     {
       "bookId": "5aad6d58aba2",
