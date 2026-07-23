@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-23T05:19:11.381999+00:00",
+  "fetch_timestamp": "2026-07-23T14:52:40.173062+00:00",
   "date": "2026-07-23",
   "space_bookings": [
     {
@@ -551,6 +551,26 @@
       "item_name": "Saramonic UwMic9 Kit 2",
       "event": null,
       "barcode": "39007054930730"
+    },
+    {
+      "bookId": "956b3b2d3c00",
+      "id": 367945,
+      "eid": 24949,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-07-23T11:00:00-04:00",
+      "toDate": "2026-07-27T17:00:00-04:00",
+      "created": "2026-07-23T09:12:49-04:00",
+      "firstName": "Iman",
+      "lastName": "Kafashan",
+      "email": "atash1@yorku.ca",
+      "account": "atash1@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50 Mark II",
+      "event": null,
+      "barcode": "39007054933049"
     },
     {
       "bookId": "7970750cba15",
