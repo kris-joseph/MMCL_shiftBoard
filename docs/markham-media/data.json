@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-24T17:56:54.347707+00:00",
+  "fetch_timestamp": "2026-07-24T19:17:08.278575+00:00",
   "date": "2026-07-24",
   "space_bookings": [
     {
@@ -40,12 +40,13 @@
       "lastName": "Muchiri",
       "email": "drumuch@my.yorku.ca",
       "account": "drumuch@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Video Studios",
       "item_name": "Video and Photo Studio (Rm 3060H)",
       "event": null,
       "check_in_code": "V4C7",
+      "cancelled": "2026-07-24T18:05:03+00:00",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAaBxULWAAA="
     }
   ],

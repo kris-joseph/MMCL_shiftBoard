@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-24T17:56:54.691774+00:00",
+  "fetch_timestamp": "2026-07-24T19:17:08.980668+00:00",
   "date": "2026-07-24",
   "space_bookings": [
     {
@@ -61,6 +61,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "da203afc9ead",
+      "id": 16369449,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-24T14:00:00-04:00",
+      "toDate": "2026-07-24T15:00:00-04:00",
+      "created": "2026-07-24T14:03:25-04:00",
+      "firstName": "Ian",
+      "lastName": "Galendez",
+      "email": "ianmg@yorku.ca",
+      "account": "ianmg@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
+    },
+    {
+      "bookId": "f1d8e1680dd7",
+      "id": 16369719,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-24T15:00:00-04:00",
+      "toDate": "2026-07-24T16:00:00-04:00",
+      "created": "2026-07-24T15:10:00-04:00",
+      "firstName": "Ian",
+      "lastName": "Galendez",
+      "email": "ianmg@yorku.ca",
+      "account": "ianmg@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
     },
     {
@@ -160,6 +198,25 @@
       "event": null
     },
     {
+      "bookId": "6e919ec66bc2",
+      "id": 16369508,
+      "eid": 30735,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-25T11:00:00-04:00",
+      "toDate": "2026-07-25T12:00:00-04:00",
+      "created": "2026-07-24T14:17:45-04:00",
+      "firstName": "Carlo",
+      "lastName": "Preza",
+      "email": "jcpreza@yorku.ca",
+      "account": "jcpreza@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4S #01 \"Orpheus\"",
+      "event": null
+    },
+    {
       "bookId": "0292e1d14dd7",
       "id": 16363611,
       "eid": 37118,
@@ -210,11 +267,12 @@
       "lastName": "TARASSOVA",
       "email": "sasha.tarassova01@gmail.com",
       "account": "217121476",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #3 \"Scylla\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-07-24T17:57:39+00:00"
     }
   ],
   "equipment_bookings": [],
