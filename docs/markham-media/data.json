@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-24T02:24:44.006279+00:00",
+  "fetch_timestamp": "2026-07-24T05:15:25.260284+00:00",
   "date": "2026-07-24",
   "space_bookings": [
     {
@@ -271,6 +271,26 @@
       "item_name": "Insta360 x4 (8K Action Cam)",
       "event": null,
       "barcode": "39007054931092"
+    },
+    {
+      "bookId": "9487f10bc499",
+      "id": 368084,
+      "eid": 32503,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-07-24T09:30:00-04:00",
+      "toDate": "2026-07-31T16:00:00-04:00",
+      "created": "2026-07-23T22:50:59-04:00",
+      "firstName": "Elika",
+      "lastName": "Shahraji",
+      "email": "elikasha@yorku.ca",
+      "account": "elikasha@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931639"
     },
     {
       "bookId": "cc97068bbb2e",
