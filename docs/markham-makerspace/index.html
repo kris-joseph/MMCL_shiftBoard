@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Makerspace - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1784993744">
+    <link rel="stylesheet" href="../static/style.css?v=1784997856">
     <meta name="description" content="Staff dashboard for Markham Makerspace showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Saturday, July 25, 2026</div>
-                <div class="last-updated">Last updated: 11:35 AM</div>
+                <div class="last-updated">Last updated: 12:44 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Opening Shift</span>
                 </div>
@@ -44,9 +44,9 @@
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
-                <div class="timeline-count">1</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 66.66666666666666%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour ">
@@ -60,8 +60,8 @@
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 66.66666666666666%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour ">
@@ -116,73 +116,14 @@
             <div class="shift-group-header">
                 <h2>Opening Shift</h2>
                 <div class="booking-count">
-                    1 workstation booking                </div>
+                    0 workstation bookings                </div>
             </div>
 
 
-
-
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">12 PM</span>
-                        <span class="hour-group-count">1 task</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card workstation" data-booking-id="79123c228bbe" data-station-type="laser-cutters">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">Aeon Mira 9</div>
-                        <div class="booking-card-summary-time">12:15 PM - 2:15 PM • S.C.</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Aeon Mira 9</h3>
-                        <div class="booking-category">Laser Cutters</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="badge shift-boundary-flag">Shift Boundary</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">12:15 PM - 2:15 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">S.C. (s***@yorku.ca)</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Duration:</span>
-                        <span class="detail-value">2.0 hours</span>
-                    </div>
-                </div>
-
-
-                <div class="booking-id">ID: 79123c228bbe</div>
-
-                </div> 
-            </article>
-
-                    </div>
-                </div>
+            <div class="empty-state">
+                <div class="empty-state-icon">📭</div>
+                <div class="empty-state-message">No bookings for this shift</div>
             </div>
-
         </section>
         <section class="shift-group">
             <div class="shift-group-header">
@@ -225,7 +166,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Due:</span>
-                            <span class="detail-value">Saturday, July 25, 2026 at 12:00 PM</span>
+                            <span class="detail-value">Saturday, July 25, 2026 at 2:00 PM</span>
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Patron:</span>
@@ -233,7 +174,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">35 minutes</span>
+                            <span class="detail-value">1.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -324,7 +265,7 @@
                     </div>
                     <div class="booking-id">ID: 6e919ec66bc2</div>
                 </article>
-                <article class="booking-card in-progress" data-booking-id="0292e1d14dd7" data-station-type="laser-cutters">
+                <article class="booking-card in-progress" data-booking-id="79123c228bbe" data-station-type="laser-cutters">
                     <div class="booking-header">
                         <div class="booking-title">
                             <h3>Aeon Mira 9</h3>
@@ -337,11 +278,11 @@
                     <div class="booking-details">
                         <div class="detail-row">
                             <span class="detail-label">Started:</span>
-                            <span class="detail-value">Saturday, July 25, 2026 at 10:15 AM</span>
+                            <span class="detail-value">Saturday, July 25, 2026 at 12:15 PM</span>
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Due:</span>
-                            <span class="detail-value">Saturday, July 25, 2026 at 12:15 PM</span>
+                            <span class="detail-value">Saturday, July 25, 2026 at 2:15 PM</span>
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">Patron:</span>
@@ -349,10 +290,10 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.3 hours</span>
+                            <span class="detail-value">29 minutes</span>
                         </div>
                     </div>
-                    <div class="booking-id">ID: 0292e1d14dd7</div>
+                    <div class="booking-id">ID: 79123c228bbe</div>
                 </article>
             </div>
         </section>
@@ -360,7 +301,7 @@
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">0</span>
+                <span class="section-count">2</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -368,8 +309,51 @@
                     <span class="collapse-icon">▼</span>
                 </button>
                 <div id="completed-collapse" class="collapse-content">
-                    <div class="empty-state">
-                        <div class="empty-state-message">No completed bookings today</div>
+                    <div class="booking-list" style="margin-top: var(--spacing-md);">
+                        <article class="booking-card">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Prusa MK4S #02 &#34;Eurydice&#34;</h3>
+                                    <div class="booking-category">3D Printers</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">11:00 AM - 12:00 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">C.P.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 8516b338273e</div>
+                        </article>
+                        <article class="booking-card">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Aeon Mira 9</h3>
+                                    <div class="booking-category">Laser Cutters</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">10:15 AM - 12:15 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">S.C.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 0292e1d14dd7</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -399,6 +383,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1784993744"></script>
+    <script src="../static/dashboard.js?v=1784997856"></script>
 </body>
 </html>

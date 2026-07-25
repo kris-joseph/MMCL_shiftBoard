@@ -3,18 +3,18 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-25T15:35:43.779532+00:00",
+  "fetch_timestamp": "2026-07-25T16:44:15.887557+00:00",
   "date": "2026-07-25",
   "space_bookings": [
     {
-      "bookId": "6e919ec66bc2",
-      "id": 16369508,
-      "eid": 30735,
+      "bookId": "8516b338273e",
+      "id": 16371395,
+      "eid": 30736,
       "cid": 7245,
       "lid": 3430,
       "fromDate": "2026-07-25T11:00:00-04:00",
       "toDate": "2026-07-25T12:00:00-04:00",
-      "created": "2026-07-24T14:17:45-04:00",
+      "created": "2026-07-25T11:57:28-04:00",
       "firstName": "Carlo",
       "lastName": "Preza",
       "email": "jcpreza@yorku.ca",
@@ -22,7 +22,7 @@
       "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
-      "item_name": "Prusa MK4S #01 \"Orpheus\"",
+      "item_name": "Prusa MK4S #02 \"Eurydice\"",
       "event": null
     },
     {
@@ -42,6 +42,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "6e919ec66bc2",
+      "id": 16369508,
+      "eid": 30735,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-07-25T11:00:00-04:00",
+      "toDate": "2026-07-25T14:00:00-04:00",
+      "created": "2026-07-24T14:17:45-04:00",
+      "firstName": "Carlo",
+      "lastName": "Preza",
+      "email": "jcpreza@yorku.ca",
+      "account": "jcpreza@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4S #01 \"Orpheus\"",
       "event": null
     },
     {
