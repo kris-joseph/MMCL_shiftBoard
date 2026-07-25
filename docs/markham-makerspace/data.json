@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-25T17:50:31.262418+00:00",
+  "fetch_timestamp": "2026-07-25T18:52:01.832768+00:00",
   "date": "2026-07-25",
   "space_bookings": [
     {
@@ -101,6 +101,25 @@
       "item_name": "Prusa XL #3 \"Scylla\"",
       "event": null,
       "cancelled": "2026-07-24T17:57:39+00:00"
+    },
+    {
+      "bookId": "c311a341a01b",
+      "id": 16371716,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-07-25T15:00:00-04:00",
+      "toDate": "2026-07-25T16:30:00-04:00",
+      "created": "2026-07-25T14:34:51-04:00",
+      "firstName": "Sandy",
+      "lastName": "Chan",
+      "email": "sdychan@yorku.ca",
+      "account": "sdychan@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Cricut Cutter",
+      "event": null
     },
     {
       "bookId": "8516b338273e",
