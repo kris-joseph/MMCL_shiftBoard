@@ -3,8 +3,8 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-25T23:26:33.102472+00:00",
-  "date": "2026-07-25",
+  "fetch_timestamp": "2026-07-26T01:05:01.688853+00:00",
+  "date": "2026-07-26",
   "space_bookings": [
     {
       "bookId": "c35ee7abd1b0",
@@ -26,6 +26,26 @@
       "event": null,
       "check_in_code": "3B5M",
       "cancelled": "2026-06-04T20:54:26+00:00"
+    },
+    {
+      "bookId": "01ee951dc4c3",
+      "id": 16316963,
+      "eid": 19904,
+      "cid": 6842,
+      "lid": 2632,
+      "fromDate": "2026-07-27T13:00:00-04:00",
+      "toDate": "2026-07-27T15:30:00-04:00",
+      "created": "2026-07-10T15:21:08-04:00",
+      "firstName": "Hamid",
+      "lastName": "Arian",
+      "email": "harian@yorku.ca",
+      "account": "harian@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Flex Studio Spaces",
+      "item_name": "Scott 204 - Flex Studio",
+      "event": null,
+      "check_in_code": "MX6"
     }
   ],
   "equipment_bookings": [
@@ -1200,6 +1220,26 @@
       "cancelled": "2026-07-22T20:51:04+00:00"
     },
     {
+      "bookId": "19abae4de4bd",
+      "id": 368179,
+      "eid": 34125,
+      "cid": 8142,
+      "lid": 2632,
+      "fromDate": "2026-07-27T11:00:00-04:00",
+      "toDate": "2026-07-30T17:00:00-04:00",
+      "created": "2026-07-24T13:03:46-04:00",
+      "firstName": "WADE",
+      "lastName": "AYYOUB",
+      "email": "wadi98@my.yorku.ca",
+      "account": "215651706",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Lenses",
+      "item_name": "Sigma RF-S 10-18mm F2.8 DC DN",
+      "event": null,
+      "barcode": "39007054936331"
+    },
+    {
       "bookId": "3e8e853fa149",
       "id": 364780,
       "eid": 34104,
@@ -1601,6 +1641,26 @@
       "barcode": "39007054933395"
     },
     {
+      "bookId": "d338249d3855",
+      "id": 367883,
+      "eid": 22742,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-07-27T11:00:00-04:00",
+      "toDate": "2026-08-03T17:00:00-04:00",
+      "created": "2026-07-22T14:59:49-04:00",
+      "firstName": "AHMAD",
+      "lastName": "MALI",
+      "email": "ahmadm03@my.yorku.ca",
+      "account": "29007022837343",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless Go",
+      "event": null,
+      "barcode": "39007054930656"
+    },
+    {
       "bookId": "b27bc24b83cf",
       "id": 367067,
       "eid": 34319,
@@ -1619,6 +1679,27 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007054936463"
+    },
+    {
+      "bookId": "b5b6f7dccbba",
+      "id": 366660,
+      "eid": 29563,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-07-27T11:00:00-04:00",
+      "toDate": "2026-08-03T17:00:00-04:00",
+      "created": "2026-07-14T14:09:13-04:00",
+      "firstName": "CREDA",
+      "lastName": "MOSERI",
+      "email": "creda27@my.yorku.ca",
+      "account": "5859730001020101",
+      "status": "Cancelled by Admin",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931357",
+      "cancelled": "2026-07-14T18:11:16+00:00"
     },
     {
       "bookId": "98dd788bfb6e",
@@ -1763,5 +1844,26 @@
     }
   ],
   "appointments": [],
-  "teaching_events": []
+  "teaching_events": [
+    {
+      "bookId": "06805d825324",
+      "id": 16310892,
+      "eid": 32792,
+      "cid": 6572,
+      "lid": 3458,
+      "fromDate": "2026-07-27T13:00:00-04:00",
+      "toDate": "2026-07-27T15:30:00-04:00",
+      "created": "2026-07-09T10:06:02-04:00",
+      "firstName": "Carly",
+      "lastName": "Shantz",
+      "email": "cjshantz@yorku.ca",
+      "account": "cjshantz@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Staff Spaces and Classrooms",
+      "category_name": "Staff Meeting Rooms",
+      "item_name": "Scott 503 - Meeting Room",
+      "event": null,
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp6AABH34X_zHuIQZyVVKGzvHhAAAZ8gSNRAAA="
+    }
+  ]
 }
