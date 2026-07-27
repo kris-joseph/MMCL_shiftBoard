@@ -3,29 +3,9 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-26T23:26:41.580259+00:00",
-  "date": "2026-07-26",
-  "space_bookings": [
-    {
-      "bookId": "a54c883b342f",
-      "id": 16371500,
-      "eid": 35302,
-      "cid": 7245,
-      "lid": 3430,
-      "fromDate": "2026-07-25T15:00:00-04:00",
-      "toDate": "2026-07-26T18:00:00-04:00",
-      "created": "2026-07-25T13:04:42-04:00",
-      "firstName": "ALEXANDRA",
-      "lastName": "TARASSOVA",
-      "email": "sasha.tarassova01@gmail.com",
-      "account": "217121476",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Makerspace",
-      "category_name": "3D Printers",
-      "item_name": "Prusa XL #3 \"Scylla\"",
-      "event": null
-    }
-  ],
+  "fetch_timestamp": "2026-07-27T01:06:15.607488+00:00",
+  "date": "2026-07-27",
+  "space_bookings": [],
   "equipment_bookings": [],
   "appointments": [],
   "teaching_events": []
