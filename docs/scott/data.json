@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-28T21:04:03.378890+00:00",
+  "fetch_timestamp": "2026-07-28T22:30:39.395229+00:00",
   "date": "2026-07-28",
   "space_bookings": [
     {
@@ -1022,6 +1022,26 @@
       "item_name": "Canon RF 35mm",
       "event": null,
       "barcode": "39007054932405"
+    },
+    {
+      "bookId": "7b754004ed68",
+      "id": 368731,
+      "eid": 31910,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-07-28T17:13:21-04:00",
+      "toDate": "2026-07-30T17:00:00-04:00",
+      "created": "2026-07-28T17:13:19-04:00",
+      "firstName": "HOLD",
+      "lastName": "HOLD",
+      "email": "aalexa@yorku.ca",
+      "account": "aalexa@yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054932249"
     },
     {
       "bookId": "02e7680fedcf",
