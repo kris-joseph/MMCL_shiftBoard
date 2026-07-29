@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-29T05:16:34.096229+00:00",
+  "fetch_timestamp": "2026-07-29T14:56:42.351465+00:00",
   "date": "2026-07-29",
   "space_bookings": [
     {
@@ -26,6 +26,27 @@
       "event": null,
       "check_in_code": "2Q7",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAaFvXL7AAA="
+    },
+    {
+      "bookId": "829921fa147a",
+      "id": 16384120,
+      "eid": 30722,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-07-29T14:30:00-04:00",
+      "toDate": "2026-07-29T15:30:00-04:00",
+      "created": "2026-07-29T10:42:46-04:00",
+      "firstName": "ALEXANDRA",
+      "lastName": "TARASSOVA",
+      "email": "sasha.tarassova01@gmail.com",
+      "account": "217121476",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #2 (Rm 3060F)",
+      "event": null,
+      "check_in_code": "S7A",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpvAABH34X_zHuIQZyVVKGzvHhAAAaJqva-AAA="
     }
   ],
   "equipment_bookings": [
