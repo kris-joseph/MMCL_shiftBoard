@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1785441529">
+    <link rel="stylesheet" href="../static/style.css?v=1785445765">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Thursday, July 30, 2026</div>
-                <div class="last-updated">Last updated: 3:58 PM</div>
+                <div class="last-updated">Last updated: 5:09 PM</div>
                 <div class="shift-info">
                     <span class="shift-label">Closing Shift</span>
                 </div>
@@ -45,8 +45,8 @@
                 <div class="timeline-hour-label">10AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 28.57142857142857%;"></div>
-                <div class="timeline-count">2</div>
+                <div class="timeline-bar" style="height: 42.857142857142854%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour past">
@@ -60,18 +60,18 @@
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+                <div class="timeline-bar" style="height: 28.57142857142857%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
                 <div class="timeline-count">7</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 42.857142857142854%;"></div>
-                <div class="timeline-count">3</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 85.71428571428571%;"></div>
+                <div class="timeline-count">6</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
@@ -146,11 +146,45 @@
     <aside class="persistent-sections">
 
 
+        <section class="persistent-section overdue-section">
+            <div class="section-header">
+                <h2>Overdue Items</h2>
+                <span class="section-count">1</span>
+            </div>
+            <div class="booking-list">
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Sony MDR-7506 Headphones</h3>
+                            <div class="booking-category">Headphones</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Thursday, July 30, 2026 at 4:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">J.Y. (l***@yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: 16576c58b37e</div>
+                </article>
+            </div>
+        </section>
 
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">5</span>
+                <span class="section-count">8</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -269,6 +303,72 @@
                             </div>
                             <div class="booking-id">ID: 97cc6a8d2b9c</div>
                         </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Meta Quest 3</h3>
+                                    <div class="booking-category">VR Headsets</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">11:49 AM - 4:05 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">K.M.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 5aad6d58aba2</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Meta Quest 3</h3>
+                                    <div class="booking-category">VR Headsets</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:46 PM - 4:05 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">K.M.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 963ab05b54fe</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Meta Quest 3</h3>
+                                    <div class="booking-category">VR Headsets</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:46 PM - 4:05 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">K.M.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 963ab05b54fe</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -298,6 +398,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1785441529"></script>
+    <script src="../static/dashboard.js?v=1785445765"></script>
 </body>
 </html>
