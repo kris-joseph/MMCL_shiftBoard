@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-07-30T14:53:56.451999+00:00",
+  "fetch_timestamp": "2026-07-30T15:01:45.511733+00:00",
   "date": "2026-07-30",
   "space_bookings": [
     {
@@ -19,7 +19,7 @@
       "lastName": "Timotewos",
       "email": "neb2022@my.yorku.ca",
       "account": "neb2022@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Video Studios",
       "item_name": "Green Screen Video Studio (Rm 3060C)",
