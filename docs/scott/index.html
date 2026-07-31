@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1785517202">
+    <link rel="stylesheet" href="../static/style.css?v=1785522079">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Friday, July 31, 2026</div>
-                <div class="last-updated">Last updated: 12:59 PM</div>
+                <div class="last-updated">Last updated: 2:21 PM</div>
             </div>
         </div>
     </header>
@@ -46,12 +46,12 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 40.0%;"></div>
                 <div class="timeline-count">4</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">1PM</div>
@@ -119,11 +119,10 @@
 
 
 
-
-            <div class="hour-group">
+            <div class="hour-group outstanding-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
-                        <span class="hour-group-title">12 PM</span>
+                        <span class="hour-group-title">Still outstanding from earlier today</span>
                         <span class="hour-group-count">4 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
@@ -549,6 +548,7 @@ Checkout • S.D.                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
@@ -1133,6 +1133,6 @@ Checkout • B.S.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1785517202"></script>
+    <script src="../static/dashboard.js?v=1785522079"></script>
 </body>
 </html>
