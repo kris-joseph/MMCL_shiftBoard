@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-07-31T15:12:30.279473+00:00",
+  "fetch_timestamp": "2026-07-31T16:59:58.785280+00:00",
   "date": "2026-07-31",
   "space_bookings": [],
   "equipment_bookings": [
@@ -1125,7 +1125,7 @@
     {
       "bookId": "491a8eac8c4e",
       "id": 368703,
-      "eid": 29587,
+      "eid": 26372,
       "cid": 8147,
       "lid": 2632,
       "fromDate": "2026-07-30T13:39:00-04:00",
@@ -1140,7 +1140,7 @@
       "category_name": "Microphones",
       "item_name": "Audio-Technica AT2005USB",
       "event": null,
-      "barcode": "39007054931449"
+      "barcode": "39007054933452"
     },
     {
       "bookId": "491a8eac8c4e",
