@@ -3,8 +3,8 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-01T23:25:16.974688+00:00",
-  "date": "2026-08-01",
+  "fetch_timestamp": "2026-08-02T01:02:58.952392+00:00",
+  "date": "2026-08-02",
   "space_bookings": [],
   "equipment_bookings": [
     {
@@ -1815,6 +1815,26 @@
       "item_name": "SmallRig Mini Tripod",
       "event": null,
       "barcode": "39007054933700"
+    },
+    {
+      "bookId": "a2dffc49183b",
+      "id": 367974,
+      "eid": 31911,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-08-03T12:00:00-04:00",
+      "toDate": "2026-08-10T17:00:00-04:00",
+      "created": "2026-07-23T11:23:08-04:00",
+      "firstName": "CREDA",
+      "lastName": "MOSERI",
+      "email": "creda27@my.yorku.ca",
+      "account": "5859730001020101",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054932256"
     },
     {
       "bookId": "09ffc8ccb241",
