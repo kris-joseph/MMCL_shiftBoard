@@ -3,8 +3,8 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-02T23:25:52.676648+00:00",
-  "date": "2026-08-02",
+  "fetch_timestamp": "2026-08-03T01:03:10.860511+00:00",
+  "date": "2026-08-03",
   "space_bookings": [
     {
       "bookId": "b878403e92fa",
