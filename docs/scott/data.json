@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-04T00:02:54.144409+00:00",
+  "fetch_timestamp": "2026-08-04T02:10:08.874691+00:00",
   "date": "2026-08-04",
   "space_bookings": [
     {
@@ -2250,6 +2250,26 @@
       "item_name": "Boom Pole with Mic Mount",
       "event": null,
       "barcode": "39007054936216"
+    },
+    {
+      "bookId": "3f5ab2312f38",
+      "id": 369459,
+      "eid": 34165,
+      "cid": 8151,
+      "lid": 2632,
+      "fromDate": "2026-08-05T11:00:00-04:00",
+      "toDate": "2026-08-11T17:00:00-04:00",
+      "created": "2026-08-03T20:31:04-04:00",
+      "firstName": "Joe",
+      "lastName": "Twum-Antwi",
+      "email": "joe25@my.yorku.ca",
+      "account": "joe25@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Extras",
+      "item_name": "Extra Set of SD Cards",
+      "event": null,
+      "barcode": "39007054936257"
     },
     {
       "bookId": "ccb67de69dc2",
