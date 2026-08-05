@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1785906551">
+    <link rel="stylesheet" href="../static/style.css?v=1785941980">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Wednesday, August 05, 2026</div>
-                <div class="last-updated">Last updated: 1:09 AM</div>
+                <div class="last-updated">Last updated: 10:59 AM</div>
                 <div class="shift-info">
                     <span class="shift-label">Opening Shift</span>
                 </div>
@@ -29,19 +29,19 @@
         <h2>Staff Activity Timeline</h2>
         <p class="timeline-description">Shows hourly staff transactions (booking starts and ends requiring setup, teardown, checkout, or checkin)</p>
         <div class="timeline">
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">8AM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 9.090909090909092%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">9AM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+                <div class="timeline-bar" style="height: 9.090909090909092%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
             <div class="timeline-hour ">
@@ -50,28 +50,28 @@
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 80.0%;"></div>
+                <div class="timeline-bar" style="height: 72.72727272727273%;"></div>
                 <div class="timeline-count">8</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 10.0%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 18.181818181818183%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 20.0%;"></div>
+                <div class="timeline-bar" style="height: 18.181818181818183%;"></div>
                 <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 10.0%;"></div>
+                <div class="timeline-bar" style="height: 9.090909090909092%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour ">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">10</div>
+                <div class="timeline-count">11</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
@@ -774,7 +774,7 @@ Editing and Music Studio #3 (Rm 3060E)
 12:30 PM - 3:00 PM • S.W.                        </div>
                     </div>
                     <div class="booking-badges">
-                        <span class="badge status-tentative">TENTATIVE</span>
+                        <span class="badge status-confirmed">CONFIRMED</span>
                     </div>
                     <span class="booking-card-expand-icon">▼</span>
                 </div>
@@ -787,7 +787,7 @@ Editing and Music Studio #3 (Rm 3060E)
                         <div class="booking-category">Editing Studios</div>
                     </div>
                     <div class="booking-badges">
-                        <span class="badge status-tentative">TENTATIVE</span>
+                        <span class="badge status-confirmed">CONFIRMED</span>
                         <span class="badge shift-boundary-flag">Shift Boundary</span>
                     </div>
                 </div>
@@ -822,13 +822,75 @@ Editing and Music Studio #3 (Rm 3060E)
             <div class="shift-group-header">
                 <h2>Closing Shift</h2>
                 <div class="booking-count">
-                    0 space bookings •
+                    1 space booking •
                     4 equipment loans                </div>
             </div>
 
 
 
 
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">1 PM</span>
+                        <span class="hour-group-count">1 task</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card " data-booking-id="a8cfdda08b73" data-booking-type="space">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+Editing and Music Studio #1 (Rm 3060G)
+                        </div>
+                        <div class="booking-card-summary-time">
+1:30 PM - 4:00 PM • S.K.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-tentative">TENTATIVE</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Editing and Music Studio #1 (Rm 3060G)</h3>
+                        <div class="booking-category">Editing Studios</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-tentative">TENTATIVE</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">1:30 PM - 4:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">S.K. (s***@my.yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Check-in:</span>
+                        <span class="detail-value booking-id">E7V</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: a8cfdda08b73</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
+            </div>
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
@@ -1243,7 +1305,7 @@ Due back • A.S.                        </div>
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">0</span>
+                <span class="section-count">1</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -1251,8 +1313,29 @@ Due back • A.S.                        </div>
                     <span class="collapse-icon">▼</span>
                 </button>
                 <div id="completed-collapse" class="collapse-content">
-                    <div class="empty-state">
-                        <div class="empty-state-message">No completed bookings today</div>
+                    <div class="booking-list" style="margin-top: var(--spacing-md);">
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Sigma RF 18mm-50mm</h3>
+                                    <div class="booking-category">Camera Lenses</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">9:59 AM - 10:38 AM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">L.L.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: d1f0e8a5e8be</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -1282,6 +1365,6 @@ Due back • A.S.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1785906551"></script>
+    <script src="../static/dashboard.js?v=1785941980"></script>
 </body>
 </html>
