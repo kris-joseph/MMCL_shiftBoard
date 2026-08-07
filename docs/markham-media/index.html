@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1786111480">
+    <link rel="stylesheet" href="../static/style.css?v=1786115677">
     <meta name="description" content="Staff dashboard for Markham Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Friday, August 07, 2026</div>
-                <div class="last-updated">Last updated: 10:04 AM</div>
+                <div class="last-updated">Last updated: 11:14 AM</div>
                 <div class="shift-info">
                     <span class="shift-label">Opening Shift</span>
                 </div>
@@ -39,14 +39,14 @@
                 <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">9AM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+                <div class="timeline-bar" style="height: 50.0%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour ">
@@ -55,8 +55,8 @@
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 50.0%;"></div>
-                <div class="timeline-count">1</div>
+                <div class="timeline-bar" style="height: 100.0%;"></div>
+                <div class="timeline-count">2</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour ">
@@ -257,9 +257,40 @@ Due back • E.P.                        </div>
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>Patron Onsite</h2>
-                <span class="section-count">1</span>
+                <span class="section-count">2</span>
             </div>
             <div class="booking-list">
+                <article class="booking-card in-progress" data-booking-id="3cd36d852fce" data-booking-type="space">
+                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                        <div class="booking-card-summary">
+                            <div class="booking-card-summary-title">Editing and Music Studio #1 (Rm 3060G)</div>
+                            <div class="booking-card-summary-time">11:00 AM - 1:30 PM • I.G.</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge badge-task">IN PROGRESS</span>
+                            <span class="badge status-confirmed">CONFIRMED</span>
+                        </div>
+                        <span class="booking-card-expand-icon">▼</span>
+                    </div>
+
+                    <div class="booking-card-content">
+                        <div class="booking-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Time:</span>
+                                <span class="detail-value">11:00 AM - 1:30 PM</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Patron:</span>
+                                <span class="detail-value patron-info">I.G. (i***@yorku.ca)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Check-in Code:</span>
+                                <span class="detail-value">RA6</span>
+                            </div>
+                        </div>
+                        <div class="booking-id">ID: 3cd36d852fce</div>
+                    </div>
+                </article>
                 <article class="booking-card in-progress" data-booking-id="f95cf32e304b" data-booking-type="space">
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -337,6 +368,6 @@ Due back • E.P.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1786111480"></script>
+    <script src="../static/dashboard.js?v=1786115677"></script>
 </body>
 </html>
