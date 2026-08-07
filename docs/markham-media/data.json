@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-07T18:08:07.821733+00:00",
+  "fetch_timestamp": "2026-08-07T19:25:49.423632+00:00",
   "date": "2026-08-07",
   "space_bookings": [
     {
@@ -34,7 +34,7 @@
       "cid": 7761,
       "lid": 3432,
       "fromDate": "2026-08-07T09:31:00-04:00",
-      "toDate": "2026-08-07T15:00:00-04:00",
+      "toDate": "2026-08-07T14:50:00-04:00",
       "created": "2026-08-06T14:51:42-04:00",
       "firstName": "ARIA",
       "lastName": "BAHARLOOIE",
@@ -46,7 +46,7 @@
       "item_name": "Video and Photo Studio (Rm 3060H)",
       "event": null,
       "check_in_code": "X3B",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAaPIqNiAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAaPvBuXAAA="
     }
   ],
   "equipment_bookings": [
