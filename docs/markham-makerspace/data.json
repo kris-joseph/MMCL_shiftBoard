@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-08T14:55:17.954243+00:00",
+  "fetch_timestamp": "2026-08-08T15:19:17.299404+00:00",
   "date": "2026-08-08",
   "space_bookings": [
     {
@@ -39,7 +39,7 @@
       "lastName": "Galendez",
       "email": "ianmg@yorku.ca",
       "account": "ianmg@yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
