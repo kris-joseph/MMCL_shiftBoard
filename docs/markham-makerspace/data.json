@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-08T14:22:24.779361+00:00",
+  "fetch_timestamp": "2026-08-08T14:55:17.954243+00:00",
   "date": "2026-08-08",
   "space_bookings": [
     {
@@ -25,6 +25,25 @@
       "item_name": "Aeon Mira 9",
       "event": null,
       "cancelled": "2026-08-04T12:05:22+00:00"
+    },
+    {
+      "bookId": "458853f7b91d",
+      "id": 16423818,
+      "eid": 38168,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-08-08T11:00:00-04:00",
+      "toDate": "2026-08-08T16:00:00-04:00",
+      "created": "2026-08-08T10:38:50-04:00",
+      "firstName": "Ian",
+      "lastName": "Galendez",
+      "email": "ianmg@yorku.ca",
+      "account": "ianmg@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
+      "event": null
     },
     {
       "bookId": "49916611496a",
