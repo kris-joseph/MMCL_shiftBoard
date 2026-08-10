@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-10T17:21:26.527007+00:00",
+  "fetch_timestamp": "2026-08-10T18:10:09.337531+00:00",
   "date": "2026-08-10",
   "space_bookings": [
     {
@@ -19,7 +19,7 @@
       "lastName": "Savelkin",
       "email": "klim45@my.yorku.ca",
       "account": "klim45@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Audio Recording Rooms",
       "item_name": "Scott 203K - Audio Recording Studio",
@@ -1990,6 +1990,26 @@
       "item_name": "SmallRig Mini Tripod",
       "event": null,
       "barcode": "39007054933726"
+    },
+    {
+      "bookId": "9b3c9572736b",
+      "id": 369075,
+      "eid": 37348,
+      "cid": 8144,
+      "lid": 2632,
+      "fromDate": "2026-07-30T17:06:00-04:00",
+      "toDate": "2026-08-20T17:00:00-04:00",
+      "created": "2026-07-30T16:36:16-04:00",
+      "firstName": "HOLD FOR 203E",
+      "lastName": "HOLD FOR 203E",
+      "email": "ianmg@yorku.ca",
+      "account": "ianmg@yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Headphones",
+      "item_name": "Sony MDR-7506",
+      "event": null,
+      "barcode": "39007054936752"
     }
   ],
   "appointments": [],
