@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-10T03:46:57.189166+00:00",
+  "fetch_timestamp": "2026-08-10T14:04:30.879080+00:00",
   "date": "2026-08-10",
   "space_bookings": [
     {
@@ -19,12 +19,13 @@
       "lastName": "Burley",
       "email": "willb12@my.yorku.ca",
       "account": "willb12@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Flex Studio Spaces",
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
-      "check_in_code": "RH9"
+      "check_in_code": "RH9",
+      "cancelled": "2026-08-10T12:36:00+00:00"
     },
     {
       "bookId": "e7c2600c4fca",
