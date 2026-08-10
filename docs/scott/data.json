@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-10T15:28:14.809623+00:00",
+  "fetch_timestamp": "2026-08-10T16:21:57.389547+00:00",
   "date": "2026-08-10",
   "space_bookings": [
     {
@@ -40,7 +40,7 @@
       "lastName": "Agbai",
       "email": "ngozi360@my.yorku.ca",
       "account": "ngozi360@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Flex Studio Spaces",
       "item_name": "Scott 204 - Flex Studio",
@@ -1806,6 +1806,26 @@
       "item_name": "Canon EOS R50-V",
       "event": null,
       "barcode": "39007054936141"
+    },
+    {
+      "bookId": "c33dfe1d702a",
+      "id": 370226,
+      "eid": 34321,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-08-11T11:00:00-04:00",
+      "toDate": "2026-08-18T17:00:00-04:00",
+      "created": "2026-08-10T11:35:38-04:00",
+      "firstName": "Nikki",
+      "lastName": "Sepehri Far",
+      "email": "nikkisep@my.yorku.ca",
+      "account": "nikkisep@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936562"
     },
     {
       "bookId": "b179e564e9e0",
