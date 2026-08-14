@@ -3,35 +3,9 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-13T23:09:28.740232+00:00",
-  "date": "2026-08-13",
-  "space_bookings": [
-    {
-      "bookId": "aea7b2f67372",
-      "id": 16043985,
-      "eid": 31933,
-      "cid": 7767,
-      "lid": 3430,
-      "fromDate": "2026-08-13T13:00:00-04:00",
-      "toDate": "2026-08-13T15:00:00-04:00",
-      "created": "2026-05-04T16:46:44-04:00",
-      "firstName": "Betty",
-      "lastName": "Irving",
-      "email": "birving@yorku.ca",
-      "account": "admin",
-      "status": "Cancelled by Admin",
-      "location_name": "Markham Library Makerspace",
-      "category_name": "Makerspace Room",
-      "item_name": "Makerspace (Rm 3055)",
-      "event": {
-        "id": 4020514,
-        "title": "Makerspace Orientations: Introduction to 3D Printing"
-      },
-      "nickname": "Makerspace Orientations: Introduction to 3D Printing",
-      "cancelled": "2026-08-10T13:01:48+00:00",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAZQ6LBDAAA="
-    }
-  ],
+  "fetch_timestamp": "2026-08-14T00:04:57.281874+00:00",
+  "date": "2026-08-14",
+  "space_bookings": [],
   "equipment_bookings": [],
   "appointments": [],
   "teaching_events": []
