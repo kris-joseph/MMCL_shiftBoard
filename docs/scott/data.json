@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-16T21:40:35.782036+00:00",
+  "fetch_timestamp": "2026-08-16T22:10:10.228515+00:00",
   "date": "2026-08-16",
   "space_bookings": [
     {
@@ -1657,6 +1657,26 @@
       "item_name": "Power DeWise Lavalier Microphone",
       "event": null,
       "barcode": "39007054933809"
+    },
+    {
+      "bookId": "48b468e559f1",
+      "id": 371043,
+      "eid": 21621,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-08-17T11:00:00-04:00",
+      "toDate": "2026-08-24T17:00:00-04:00",
+      "created": "2026-08-16T17:53:36-04:00",
+      "firstName": "Aseel",
+      "lastName": "Mohammed",
+      "email": "aseel258@my.yorku.ca",
+      "account": "aseel258@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50",
+      "event": null,
+      "barcode": "39007054930235"
     }
   ],
   "appointments": [],
