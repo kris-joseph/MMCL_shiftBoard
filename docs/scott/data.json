@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-17T18:22:02.473733+00:00",
+  "fetch_timestamp": "2026-08-17T19:05:30.394767+00:00",
   "date": "2026-08-17",
   "space_bookings": [
     {
@@ -210,6 +210,28 @@
       "item_name": "Scott 203C - VR/Podcasting Room",
       "event": null,
       "check_in_code": "VC7"
+    },
+    {
+      "bookId": "1a4498d40472",
+      "id": 16453577,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-08-18T11:00:00-04:00",
+      "toDate": "2026-08-18T16:45:00-04:00",
+      "created": "2026-08-17T14:30:47-04:00",
+      "firstName": "Justice Isaiah",
+      "lastName": "Tulio",
+      "email": "jt27@my.yorku.ca",
+      "account": "jt27@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32116,
+      "seat_name": "Workstation 4 (Mac Studio)",
+      "check_in_code": "J6F"
     }
   ],
   "equipment_bookings": [
