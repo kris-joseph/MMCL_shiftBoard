@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-17T15:15:42.215994+00:00",
+  "fetch_timestamp": "2026-08-17T15:46:18.443696+00:00",
   "date": "2026-08-17",
   "space_bookings": [
     {
@@ -1781,26 +1781,6 @@
       "barcode": "39007054930235"
     },
     {
-      "bookId": "d9c849777c08",
-      "id": 371075,
-      "eid": 29580,
-      "cid": 8292,
-      "lid": 2632,
-      "fromDate": "2026-08-17T11:00:00-04:00",
-      "toDate": "2026-08-24T17:00:00-04:00",
-      "created": "2026-08-17T08:58:49-04:00",
-      "firstName": "Anvii",
-      "lastName": "Aggarwal",
-      "email": "anvii16@yorku.ca",
-      "account": "anvii16@yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Wireless Microphones",
-      "item_name": "Rode Wireless Pro",
-      "event": null,
-      "barcode": "39007054933940"
-    },
-    {
       "bookId": "ebb5fe978f3e",
       "id": 368875,
       "eid": 32764,
@@ -1839,6 +1819,26 @@
       "item_name": "Sony MDR-7506",
       "event": null,
       "barcode": "39007054931381"
+    },
+    {
+      "bookId": "d9c849777c08",
+      "id": 371075,
+      "eid": 29580,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-08-17T11:21:00-04:00",
+      "toDate": "2026-08-24T17:00:00-04:00",
+      "created": "2026-08-17T08:58:49-04:00",
+      "firstName": "Anvii",
+      "lastName": "Aggarwal",
+      "email": "anvii16@yorku.ca",
+      "account": "anvii16@yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless Pro",
+      "event": null,
+      "barcode": "39007054933940"
     },
     {
       "bookId": "27521e49b6f2",
