@@ -3,8 +3,8 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-17T23:42:49.007634+00:00",
-  "date": "2026-08-17",
+  "fetch_timestamp": "2026-08-18T01:01:10.299001+00:00",
+  "date": "2026-08-18",
   "space_bookings": [
     {
       "bookId": "e7484da8c2fd",
@@ -81,6 +81,30 @@
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
+    },
+    {
+      "bookId": "5786bfe4fc6a",
+      "id": 16044354,
+      "eid": 31933,
+      "cid": 7767,
+      "lid": 3430,
+      "fromDate": "2026-08-19T13:00:00-04:00",
+      "toDate": "2026-08-19T15:00:00-04:00",
+      "created": "2026-05-04T17:02:30-04:00",
+      "firstName": "Betty",
+      "lastName": "Irving",
+      "email": "birving@yorku.ca",
+      "account": "admin",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Makerspace Room",
+      "item_name": "Makerspace (Rm 3055)",
+      "event": {
+        "id": 4020523,
+        "title": "Makerspace Orientations: Introduction to Laser Cutting"
+      },
+      "nickname": "Makerspace Orientations: Introduction to Laser Cutting",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAZQ6LBFAAA="
     }
   ],
   "equipment_bookings": [],
