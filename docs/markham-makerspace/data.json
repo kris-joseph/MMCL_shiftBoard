@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-18T17:49:56.014368+00:00",
+  "fetch_timestamp": "2026-08-18T18:21:34.637557+00:00",
   "date": "2026-08-18",
   "space_bookings": [
     {
@@ -194,6 +194,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #03 \"Heaven's Door\"",
+      "event": null
+    },
+    {
+      "bookId": "40554788f842",
+      "id": 16458179,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-08-18T13:30:00-04:00",
+      "toDate": "2026-08-19T00:30:00-04:00",
+      "created": "2026-08-18T14:04:00-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
       "event": null
     },
     {
