@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-18T16:18:52.763564+00:00",
+  "fetch_timestamp": "2026-08-18T16:54:51.127316+00:00",
   "date": "2026-08-18",
   "space_bookings": [
     {
@@ -61,6 +61,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Scanners",
       "item_name": "Revopoint Pop 3 3D Scanner",
+      "event": null
+    },
+    {
+      "bookId": "c415cf3257db",
+      "id": 16457616,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-08-18T13:00:00-04:00",
+      "toDate": "2026-08-18T16:00:00-04:00",
+      "created": "2026-08-18T12:46:21-04:00",
+      "firstName": "Uzma",
+      "lastName": "Muzamal",
+      "email": "umuzamal@yorku.ca",
+      "account": "umuzamal@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
       "event": null
     },
     {
