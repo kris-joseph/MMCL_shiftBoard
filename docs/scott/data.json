@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-19T21:15:45.645303+00:00",
+  "fetch_timestamp": "2026-08-19T21:46:35.725902+00:00",
   "date": "2026-08-19",
   "space_bookings": [
     {
@@ -1640,6 +1640,26 @@
       "item_name": "DJI RS 4 Mini Gimbal",
       "event": null,
       "barcode": "39007054936497"
+    },
+    {
+      "bookId": "494c211c0bf1",
+      "id": 371665,
+      "eid": 31911,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-08-20T11:00:00-04:00",
+      "toDate": "2026-08-27T17:00:00-04:00",
+      "created": "2026-08-19T17:24:31-04:00",
+      "firstName": "Jessica",
+      "lastName": "Lawrence",
+      "email": "jess482@my.yorku.ca",
+      "account": "jess482@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054932256"
     },
     {
       "bookId": "2666d8d07dec",
