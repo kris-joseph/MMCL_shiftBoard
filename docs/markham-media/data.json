@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-19T01:01:45.978630+00:00",
+  "fetch_timestamp": "2026-08-19T02:36:30.784577+00:00",
   "date": "2026-08-19",
   "space_bookings": [
     {
@@ -322,12 +322,13 @@
       "lastName": "Bassi",
       "email": "bassi25@my.yorku.ca",
       "account": "bassi25@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by System",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Cameras",
       "item_name": "Canon EOS R50",
       "event": null,
-      "barcode": "39007054931639"
+      "barcode": "39007054931639",
+      "cancelled": "2026-08-19T01:32:06+00:00"
     },
     {
       "bookId": "cb0b4b540604",
