@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-19T19:46:52.360636+00:00",
+  "fetch_timestamp": "2026-08-19T20:14:49.807183+00:00",
   "date": "2026-08-19",
   "space_bookings": [
     {
@@ -251,6 +251,26 @@
       "barcode": "39007052957040"
     },
     {
+      "bookId": "37823c164b48",
+      "id": 371266,
+      "eid": 33664,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-08-18T09:38:15-04:00",
+      "toDate": "2026-08-19T15:54:00-04:00",
+      "created": "2026-08-18T09:38:13-04:00",
+      "firstName": "BURCU",
+      "lastName": "YURDAKUL",
+      "email": "burcu1@yorku.ca",
+      "account": "5859730001015942",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007052961091"
+    },
+    {
       "bookId": "2fa25b308b14",
       "id": 369924,
       "eid": 36636,
@@ -269,26 +289,6 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956760 "
-    },
-    {
-      "bookId": "37823c164b48",
-      "id": 371266,
-      "eid": 33664,
-      "cid": 8161,
-      "lid": 3432,
-      "fromDate": "2026-08-18T09:38:15-04:00",
-      "toDate": "2026-08-25T16:00:00-04:00",
-      "created": "2026-08-18T09:38:13-04:00",
-      "firstName": "BURCU",
-      "lastName": "YURDAKUL",
-      "email": "burcu1@yorku.ca",
-      "account": "5859730001015942",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Microphones",
-      "item_name": "Rode Wireless Pro II",
-      "event": null,
-      "barcode": "39007052961091"
     },
     {
       "bookId": "42e8c11903ae",
