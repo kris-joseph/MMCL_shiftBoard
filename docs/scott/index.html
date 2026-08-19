@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1787161608">
+    <link rel="stylesheet" href="../static/style.css?v=1787163496">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Wednesday, August 19, 2026</div>
-                <div class="last-updated">Last updated: 1:46 PM</div>
+                <div class="last-updated">Last updated: 2:18 PM</div>
             </div>
         </div>
     </header>
@@ -51,7 +51,7 @@
                 <div class="timeline-count">5</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 57.14285714285714%;"></div>
                 <div class="timeline-count">8</div>
                 <div class="timeline-hour-label">1PM</div>
@@ -124,7 +124,7 @@
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
                         <span class="hour-group-title">Still outstanding from earlier today</span>
-                        <span class="hour-group-count">1 task</span>
+                        <span class="hour-group-count">5 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
@@ -234,20 +234,6 @@ Checkout • T.K.                        </div>
                 </div> 
             </article>
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">12 PM</span>
-                        <span class="hour-group-count">4 tasks</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
                                     <article class="booking-card equipment-loan" data-booking-id="aa5b9479904a" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
@@ -667,6 +653,7 @@ Checkout • I.G.                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
@@ -1151,6 +1138,6 @@ Due back • D.C.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1787161608"></script>
+    <script src="../static/dashboard.js?v=1787163496"></script>
 </body>
 </html>
