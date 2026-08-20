@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-08-20T16:22:02.953270+00:00",
+  "fetch_timestamp": "2026-08-20T16:58:17.734219+00:00",
   "date": "2026-08-20",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 5832,
       "lid": 2632,
       "fromDate": "2026-08-20T11:15:00-04:00",
-      "toDate": "2026-08-20T13:15:00-04:00",
+      "toDate": "2026-08-20T12:30:00-04:00",
       "created": "2026-08-10T17:20:57-04:00",
       "firstName": "Salwa",
       "lastName": "Beheiry",
@@ -33,7 +33,7 @@
       "cid": 5833,
       "lid": 2632,
       "fromDate": "2026-08-20T11:15:00-04:00",
-      "toDate": "2026-08-20T13:45:00-04:00",
+      "toDate": "2026-08-20T12:57:00-04:00",
       "created": "2026-08-18T11:57:06-04:00",
       "firstName": "Matthew",
       "lastName": "Bucemi",
