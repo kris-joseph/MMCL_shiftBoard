@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-21T17:52:42.106938+00:00",
+  "fetch_timestamp": "2026-08-21T18:21:35.297054+00:00",
   "date": "2026-08-21",
   "space_bookings": [
     {
@@ -25,6 +25,25 @@
       "item_name": "Makerspace (Rm 3055)",
       "event": null,
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAZuVyvnAAA="
+    },
+    {
+      "bookId": "ff07a6766280",
+      "id": 16469002,
+      "eid": 30724,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-08-21T13:30:00-04:00",
+      "toDate": "2026-08-21T14:30:00-04:00",
+      "created": "2026-08-21T13:56:03-04:00",
+      "firstName": "Mohammadreza",
+      "lastName": "Hajipour",
+      "email": "mmdhp@yorku.ca",
+      "account": "mmdhp@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #01 \"Killer Queen\"",
+      "event": null
     },
     {
       "bookId": "487a59a3e6f8",
