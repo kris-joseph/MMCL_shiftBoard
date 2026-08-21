@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-21T18:21:34.954585+00:00",
+  "fetch_timestamp": "2026-08-21T19:04:20.881400+00:00",
   "date": "2026-08-21",
   "space_bookings": [
     {
@@ -317,6 +317,26 @@
       "barcode": " 39007052956711 "
     },
     {
+      "bookId": "4d01cfef5b79",
+      "id": 371955,
+      "eid": 36515,
+      "cid": 7832,
+      "lid": 3432,
+      "fromDate": "2026-08-21T14:29:36-04:00",
+      "toDate": "2026-08-28T16:00:00-04:00",
+      "created": "2026-08-21T14:26:52-04:00",
+      "firstName": "LORETTA",
+      "lastName": "LAM",
+      "email": "lorivalet@gmail.com",
+      "account": "5859730000587431",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Lenses",
+      "item_name": "Sigma RF 18mm-50mm",
+      "event": null,
+      "barcode": "39007052956802"
+    },
+    {
       "bookId": "000775f08427",
       "id": 371849,
       "eid": 32503,
@@ -329,7 +349,7 @@
       "lastName": "Lawrence",
       "email": "jess482@my.yorku.ca",
       "account": "jess482@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Cameras",
       "item_name": "Canon EOS R50",
