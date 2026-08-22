@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-22T17:11:38.502125+00:00",
+  "fetch_timestamp": "2026-08-22T17:42:20.202614+00:00",
   "date": "2026-08-22",
   "space_bookings": [
     {
@@ -95,11 +95,12 @@
       "lastName": "Yuan",
       "email": "jiaqi.yuan2@gmail.com",
       "account": "jiaqi.yuan2@gmail.com",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-08-22T17:16:30+00:00"
     },
     {
       "bookId": "92277a7634c6",
