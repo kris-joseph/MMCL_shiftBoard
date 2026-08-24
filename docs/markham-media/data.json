@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-24T19:08:02.056421+00:00",
+  "fetch_timestamp": "2026-08-24T19:51:04.836838+00:00",
   "date": "2026-08-24",
   "space_bookings": [
     {
@@ -92,6 +92,26 @@
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "a987a1f25fe6",
+      "id": 372285,
+      "eid": 37816,
+      "cid": 8162,
+      "lid": 3432,
+      "fromDate": "2026-08-24T15:23:39-04:00",
+      "toDate": "2026-08-24T15:33:00-04:00",
+      "created": "2026-08-24T15:23:38-04:00",
+      "firstName": "RUIYU",
+      "lastName": "HUANG",
+      "email": "ruiyu@my.yorku.ca",
+      "account": "221623806",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Headphones",
+      "item_name": "Sony MDR-7506 Headphones",
+      "event": null,
+      "barcode": "39007054934104"
+    },
     {
       "bookId": "42e8c11903ae",
       "id": 371340,
@@ -416,6 +436,47 @@
       "item_name": "Canon EOS R50-V",
       "event": null,
       "barcode": "39007052957073"
+    },
+    {
+      "bookId": "2e35180f2331",
+      "id": 372289,
+      "eid": 38610,
+      "cid": 8162,
+      "lid": 3432,
+      "fromDate": "2026-08-24T15:32:37-04:00",
+      "toDate": "2026-08-31T23:59:00-04:00",
+      "created": "2026-08-24T15:32:32-04:00",
+      "firstName": "RUIYU",
+      "lastName": "HUANG",
+      "email": "ruiyu@my.yorku.ca",
+      "account": "221623806",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Headphones",
+      "item_name": "Sony MDR-7506 Headphones",
+      "event": null,
+      "barcode": "39007054934120"
+    },
+    {
+      "bookId": "e030dca12d7f",
+      "id": 372281,
+      "eid": 37816,
+      "cid": 8162,
+      "lid": 3432,
+      "fromDate": "2026-08-24T00:00:00-04:00",
+      "toDate": "2026-08-31T23:59:00-04:00",
+      "created": "2026-08-24T15:20:16-04:00",
+      "firstName": "RUIYU",
+      "lastName": "HUANG",
+      "email": "ruiyu@my.yorku.ca",
+      "account": "221623806",
+      "status": "Cancelled by System",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Headphones",
+      "item_name": "Sony MDR-7506 Headphones",
+      "event": null,
+      "barcode": "39007054934104",
+      "cancelled": "2026-08-24T19:22:06+00:00"
     },
     {
       "bookId": "cc97068bbb2e",
