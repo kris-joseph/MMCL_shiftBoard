@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-24T17:02:28.344162+00:00",
+  "fetch_timestamp": "2026-08-24T17:54:07.956346+00:00",
   "date": "2026-08-24",
   "space_bookings": [
     {
@@ -34,7 +34,7 @@
       "cid": 7762,
       "lid": 3432,
       "fromDate": "2026-08-24T12:00:00-04:00",
-      "toDate": "2026-08-24T14:30:00-04:00",
+      "toDate": "2026-08-24T13:46:00-04:00",
       "created": "2026-08-20T23:13:26-04:00",
       "firstName": "Artemis",
       "lastName": "Fallahkhoshghalb",
@@ -46,7 +46,7 @@
       "item_name": "Podcast Studio #2 (Rm 3060D)",
       "event": null,
       "check_in_code": "X9T",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpxAABH34X_zHuIQZyVVKGzvHhAAAaY1PMtAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpxAABH34X_zHuIQZyVVKGzvHhAAAaaJ5sgAAA="
     },
     {
       "bookId": "454e6dc3342e",
@@ -68,6 +68,27 @@
       "event": null,
       "check_in_code": "N4X",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpuAABH34X_zHuIQZyVVKGzvHhAAAaaJ3bcAAA="
+    },
+    {
+      "bookId": "11f644ed2a16",
+      "id": 16473420,
+      "eid": 30720,
+      "cid": 7761,
+      "lid": 3432,
+      "fromDate": "2026-08-25T10:00:00-04:00",
+      "toDate": "2026-08-25T13:00:00-04:00",
+      "created": "2026-08-24T13:21:24-04:00",
+      "firstName": "ARIA",
+      "lastName": "BAHARLOOIE",
+      "email": "mbuni834@my.yorku.ca",
+      "account": "221673298",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Video Studios",
+      "item_name": "Video and Photo Studio (Rm 3060H)",
+      "event": null,
+      "check_in_code": "S3J",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAaaJ48uAAA="
     }
   ],
   "equipment_bookings": [
