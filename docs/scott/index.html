@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1787602668">
+    <link rel="stylesheet" href="../static/style.css?v=1787604898">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Monday, August 24, 2026</div>
-                <div class="last-updated">Last updated: 4:17 PM</div>
+                <div class="last-updated">Last updated: 4:54 PM</div>
             </div>
         </div>
     </header>
@@ -357,71 +357,9 @@ Due back • E.L.                        </div>
         <section class="persistent-section in-progress-section">
             <div class="section-header">
                 <h2>Patron Onsite</h2>
-                <span class="section-count">3</span>
+                <span class="section-count">1</span>
             </div>
             <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="76cc9a15c2b7" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 207 - Editing Lab</div>
-                            <div class="booking-card-summary-time">2:45 PM - 4:45 PM • J.T.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">2:45 PM - 4:45 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">J.T. (d***@gmail.com)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">6YN</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: 76cc9a15c2b7</div>
-                    </div>
-                </article>
-                <article class="booking-card in-progress" data-booking-id="b64e041d0422" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 203C - VR/Podcasting Room</div>
-                            <div class="booking-card-summary-time">11:15 AM - 4:45 PM • L.G.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">11:15 AM - 4:45 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">L.G. (l***@yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">WX7</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: b64e041d0422</div>
-                    </div>
-                </article>
                 <article class="booking-card in-progress" data-booking-id="acee74d6b745" data-booking-type="space">
                     <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                         <div class="booking-card-summary">
@@ -460,7 +398,7 @@ Due back • E.L.                        </div>
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">20</span>
+                <span class="section-count">22</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -490,6 +428,50 @@ Due back • E.L.                        </div>
                                 </div>
                             </div>
                             <div class="booking-id">ID: 5f9e878d2cbf</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 207 - Editing Lab</h3>
+                                    <div class="booking-category">Computer Labs</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:45 PM - 4:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">J.T.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 76cc9a15c2b7</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 203C - VR/Podcasting Room</h3>
+                                    <div class="booking-category">VR Rooms</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">11:15 AM - 4:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">L.G.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: b64e041d0422</div>
                         </article>
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
@@ -938,6 +920,6 @@ Due back • E.L.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1787602668"></script>
+    <script src="../static/dashboard.js?v=1787604898"></script>
 </body>
 </html>
