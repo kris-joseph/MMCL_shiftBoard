@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-25T02:52:15.624984+00:00",
+  "fetch_timestamp": "2026-08-25T13:32:26.707271+00:00",
   "date": "2026-08-25",
   "space_bookings": [
     {
@@ -614,6 +614,26 @@
       "item_name": "Crucial X10 SSD Drive",
       "event": null,
       "barcode": "39007052957214"
+    },
+    {
+      "bookId": "b718e4f6ed0e",
+      "id": 372361,
+      "eid": 36643,
+      "cid": 7830,
+      "lid": 3432,
+      "fromDate": "2026-08-25T09:18:23-04:00",
+      "toDate": "2026-12-31T23:59:00-05:00",
+      "created": "2026-08-25T09:18:21-04:00",
+      "firstName": "SEAN",
+      "lastName": "SWEENEY",
+      "email": "ssweeney@yorku.ca",
+      "account": "5859730001037090",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Tripods",
+      "item_name": "SmallRig Tripod",
+      "event": null,
+      "barcode": "39007052957164"
     }
   ],
   "appointments": [],
