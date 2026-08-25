@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-25T19:06:20.402485+00:00",
+  "fetch_timestamp": "2026-08-25T19:52:19.296524+00:00",
   "date": "2026-08-25",
   "space_bookings": [
     {
@@ -460,11 +460,12 @@
       "lastName": "Yuan",
       "email": "jiaqi.yuan2@gmail.com",
       "account": "jiaqi.yuan2@gmail.com",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-08-25T19:15:36+00:00"
     },
     {
       "bookId": "154c4d0b9e86",
@@ -483,6 +484,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Sewing, Textiles and Vinyl",
       "item_name": "Cricut Cutter",
+      "event": null
+    },
+    {
+      "bookId": "17bc6527a0f5",
+      "id": 16478336,
+      "eid": 38168,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-08-25T15:30:00-04:00",
+      "toDate": "2026-08-26T12:00:00-04:00",
+      "created": "2026-08-25T15:17:16-04:00",
+      "firstName": "Ian",
+      "lastName": "Galendez",
+      "email": "ianmg@yorku.ca",
+      "account": "ianmg@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
       "event": null
     },
     {
