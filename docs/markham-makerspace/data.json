@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-25T15:32:47.148247+00:00",
+  "fetch_timestamp": "2026-08-25T16:23:57.824198+00:00",
   "date": "2026-08-25",
   "space_bookings": [
     {
@@ -99,6 +99,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
+    },
+    {
+      "bookId": "524b7783f947",
+      "id": 16476776,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-08-25T13:00:00-04:00",
+      "toDate": "2026-08-25T15:00:00-04:00",
+      "created": "2026-08-25T12:02:59-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
     },
     {
@@ -426,6 +445,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #05 \"Golden Wind\"",
+      "event": null
+    },
+    {
+      "bookId": "3fd554719e3e",
+      "id": 16476909,
+      "eid": 38168,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-08-25T14:00:00-04:00",
+      "toDate": "2026-08-26T00:00:00-04:00",
+      "created": "2026-08-25T12:08:40-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
       "event": null
     },
     {

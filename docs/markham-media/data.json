@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-25T15:32:46.859305+00:00",
+  "fetch_timestamp": "2026-08-25T16:23:57.219414+00:00",
   "date": "2026-08-25",
   "space_bookings": [
     {
@@ -26,6 +26,27 @@
       "event": null,
       "check_in_code": "S3J",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAabc07zAAA="
+    },
+    {
+      "bookId": "ed48450d526a",
+      "id": 16476515,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-08-25T12:00:00-04:00",
+      "toDate": "2026-08-25T13:00:00-04:00",
+      "created": "2026-08-25T11:34:20-04:00",
+      "firstName": "Pierce",
+      "lastName": "Mossman",
+      "email": "piercem@my.yorku.ca",
+      "account": "piercem@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "Y5J",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAabc16xAAA="
     }
   ],
   "equipment_bookings": [
