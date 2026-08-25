@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-25T13:39:52.721626+00:00",
+  "fetch_timestamp": "2026-08-25T14:33:53.398163+00:00",
   "date": "2026-08-25",
   "space_bookings": [
     {
@@ -149,6 +149,26 @@
       "event": null,
       "barcode": "39007054931639",
       "cancelled": "2026-08-19T01:32:06+00:00"
+    },
+    {
+      "bookId": "fad7d0d933b2",
+      "id": 372381,
+      "eid": 32524,
+      "cid": 7830,
+      "lid": 3432,
+      "fromDate": "2026-08-25T10:20:29-04:00",
+      "toDate": "2026-08-26T09:00:00-04:00",
+      "created": "2026-08-25T10:20:27-04:00",
+      "firstName": "JESSE",
+      "lastName": "TSANG",
+      "email": "jessextsang@gmail.com",
+      "account": "5859730001050555",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Tripods",
+      "item_name": "SmallRig Tripod",
+      "event": null,
+      "barcode": "39007054933999"
     },
     {
       "bookId": "a4f860c0d147",
