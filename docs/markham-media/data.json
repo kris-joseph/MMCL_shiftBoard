@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-26T18:09:33.067552+00:00",
+  "fetch_timestamp": "2026-08-26T20:21:40.480633+00:00",
   "date": "2026-08-26",
   "space_bookings": [
     {
@@ -48,6 +48,27 @@
       "check_in_code": "S8J",
       "cancelled": "2026-08-26T16:35:18+00:00",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpvAABH34X_zHuIQZyVVKGzvHhAAAacB-U6AAA="
+    },
+    {
+      "bookId": "8b166f010eed",
+      "id": 16481337,
+      "eid": 30720,
+      "cid": 7761,
+      "lid": 3432,
+      "fromDate": "2026-08-26T14:00:00-04:00",
+      "toDate": "2026-08-26T14:36:00-04:00",
+      "created": "2026-08-26T14:18:51-04:00",
+      "firstName": "Marissa",
+      "lastName": "Largo",
+      "email": "largo@yorku.ca",
+      "account": "largo@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Video Studios",
+      "item_name": "Video and Photo Studio (Rm 3060H)",
+      "event": null,
+      "check_in_code": "Z4E",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DptAABH34X_zHuIQZyVVKGzvHhAAAacCEyEAAA="
     },
     {
       "bookId": "840bff522042",
@@ -153,6 +174,26 @@
       "barcode": "39007054931142"
     },
     {
+      "bookId": "d8e1af0644cd",
+      "id": 371864,
+      "eid": 36687,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-08-24T12:27:00-04:00",
+      "toDate": "2026-08-26T15:45:00-04:00",
+      "created": "2026-08-20T23:18:53-04:00",
+      "firstName": "Artemis",
+      "lastName": "Fallahkhoshghalb",
+      "email": "arti8686@my.yorku.ca",
+      "account": "arti8686@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50-V",
+      "event": null,
+      "barcode": "39007052957073"
+    },
+    {
       "bookId": "cb0b4b540604",
       "id": 371103,
       "eid": 32504,
@@ -255,26 +296,6 @@
       "event": null,
       "barcode": "39007054931639",
       "cancelled": "2026-08-22T01:32:07+00:00"
-    },
-    {
-      "bookId": "d8e1af0644cd",
-      "id": 371864,
-      "eid": 36687,
-      "cid": 7828,
-      "lid": 3432,
-      "fromDate": "2026-08-24T12:27:00-04:00",
-      "toDate": "2026-08-31T16:00:00-04:00",
-      "created": "2026-08-20T23:18:53-04:00",
-      "firstName": "Artemis",
-      "lastName": "Fallahkhoshghalb",
-      "email": "arti8686@my.yorku.ca",
-      "account": "arti8686@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS R50-V",
-      "event": null,
-      "barcode": "39007052957073"
     },
     {
       "bookId": "2e35180f2331",
