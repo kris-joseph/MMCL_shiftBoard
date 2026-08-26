@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-26T01:05:24.890863+00:00",
+  "fetch_timestamp": "2026-08-26T02:45:02.463884+00:00",
   "date": "2026-08-26",
   "space_bookings": [
     {
@@ -84,25 +84,6 @@
       "cancelled": "2026-08-25T19:15:36+00:00"
     },
     {
-      "bookId": "154c4d0b9e86",
-      "id": 16470882,
-      "eid": 33845,
-      "cid": 7718,
-      "lid": 3430,
-      "fromDate": "2026-08-26T11:00:00-04:00",
-      "toDate": "2026-08-26T12:00:00-04:00",
-      "created": "2026-08-22T19:42:28-04:00",
-      "firstName": "Ali",
-      "lastName": "Sheikh Rabiei",
-      "email": "routch@my.yorku.ca",
-      "account": "routch@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Markham Library Makerspace",
-      "category_name": "Sewing, Textiles and Vinyl",
-      "item_name": "Cricut Cutter",
-      "event": null
-    },
-    {
       "bookId": "17bc6527a0f5",
       "id": 16478336,
       "eid": 38168,
@@ -120,6 +101,26 @@
       "category_name": "3D Printers",
       "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
       "event": null
+    },
+    {
+      "bookId": "154c4d0b9e86",
+      "id": 16470882,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-08-26T11:00:00-04:00",
+      "toDate": "2026-08-26T12:00:00-04:00",
+      "created": "2026-08-22T19:42:28-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Cricut Cutter",
+      "event": null,
+      "cancelled": "2026-08-26T01:28:36+00:00"
     },
     {
       "bookId": "121687bb2c2d",
@@ -181,6 +182,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Soldering Stations",
       "item_name": "Soldering Station #01",
+      "event": null
+    },
+    {
+      "bookId": "ace8ed3c7a6e",
+      "id": 16479323,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-08-27T11:00:00-04:00",
+      "toDate": "2026-08-27T14:00:00-04:00",
+      "created": "2026-08-25T21:30:21-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Cricut Cutter",
       "event": null
     },
     {
