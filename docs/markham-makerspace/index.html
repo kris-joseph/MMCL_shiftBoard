@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markham Makerspace - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1787760546">
+    <link rel="stylesheet" href="../static/style.css?v=1787767774">
     <meta name="description" content="Staff dashboard for Markham Makerspace showing today's workstation bookings, appointments, and job progress">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,9 +17,9 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Wednesday, August 26, 2026</div>
-                <div class="last-updated">Last updated: 12:09 PM</div>
+                <div class="last-updated">Last updated: 2:09 PM</div>
                 <div class="shift-info">
-                    <span class="shift-label">Opening Shift</span>
+                    <span class="shift-label">Closing Shift</span>
                 </div>
             </div>
         </div>
@@ -49,12 +49,12 @@
                 <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">1PM</div>
@@ -106,7 +106,6 @@
         <span class="filters-label">Show:</span>
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Stations</button>
         <button class="filter-button" data-filter="3d-printers" onclick="filterBookings('3d-printers')">3D Printers</button>
-        <button class="filter-button" data-filter="teaching" onclick="filterBookings('teaching')">Teaching Event</button>
     </section>
 
     <main class="main-content">
@@ -129,68 +128,12 @@
             <div class="shift-group-header">
                 <h2>Closing Shift</h2>
                 <div class="booking-count">
-                    1 workstation booking • 1 teaching event                </div>
+                    1 workstation booking                </div>
             </div>
 
 
 
 
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">1 PM</span>
-                        <span class="hour-group-count">1 task</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card teaching-event" data-booking-id="121687bb2c2d" data-station-type="teaching">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">Makerspace (Rm 3055)</div>
-                        <div class="booking-card-summary-time">1:00 PM - 3:00 PM • J.T.</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Makerspace (Rm 3055)</h3>
-                        <div class="booking-category">Teaching Event</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="badge teaching-event-badge">Teaching Event</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">1:00 PM - 3:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">J.T. (j***@yorku.ca)</span>
-                    </div>
-                </div>
-
-
-                <div class="booking-id">ID: 121687bb2c2d</div>
-
-                </div> 
-            </article>
-
-                    </div>
-                </div>
-            </div>
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
@@ -374,7 +317,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.0 days</span>
+                            <span class="detail-value">1.1 days</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -490,7 +433,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.0 days</span>
+                            <span class="detail-value">1.1 days</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -606,7 +549,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">1.0 days</span>
+                            <span class="detail-value">1.1 days</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -722,7 +665,7 @@
                         </div>
                         <div class="detail-row">
                             <span class="detail-label">In progress:</span>
-                            <span class="detail-value">20.7 hours</span>
+                            <span class="detail-value">22.7 hours</span>
                         </div>
                     </div>
                     <div class="workflow-panel">
@@ -858,6 +801,6 @@
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1787760546"></script>
+    <script src="../static/dashboard.js?v=1787767774"></script>
 </body>
 </html>
