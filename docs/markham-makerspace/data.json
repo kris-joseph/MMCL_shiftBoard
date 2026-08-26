@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-08-26T20:21:41.052385+00:00",
+  "fetch_timestamp": "2026-08-26T23:51:00.780938+00:00",
   "date": "2026-08-26",
   "space_bookings": [
     {
@@ -368,11 +368,12 @@
       "lastName": "Hajipour",
       "email": "mmdhp@yorku.ca",
       "account": "mmdhp@yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-08-26T23:41:55+00:00"
     },
     {
       "bookId": "6bc3c84f05b9",
@@ -387,11 +388,12 @@
       "lastName": "Hajipour",
       "email": "mmdhp@yorku.ca",
       "account": "mmdhp@yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-08-26T23:41:39+00:00"
     },
     {
       "bookId": "91c73a968642",
