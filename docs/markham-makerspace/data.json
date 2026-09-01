@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-01T19:59:45.096945+00:00",
+  "fetch_timestamp": "2026-09-01T22:26:43.941570+00:00",
   "date": "2026-09-01",
   "space_bookings": [
     {
@@ -43,25 +43,6 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4S #02 \"Eurydice\"",
-      "event": null
-    },
-    {
-      "bookId": "f003d3a3ab1d",
-      "id": 16493480,
-      "eid": 35303,
-      "cid": 7245,
-      "lid": 3430,
-      "fromDate": "2026-08-31T10:00:00-04:00",
-      "toDate": "2026-09-01T16:00:00-04:00",
-      "created": "2026-08-31T10:09:51-04:00",
-      "firstName": "Sasha",
-      "lastName": "Tarassova",
-      "email": "sashatar@yorku.ca",
-      "account": "sashatar@yorku.ca",
-      "status": "Mediated Approved",
-      "location_name": "Markham Library Makerspace",
-      "category_name": "3D Printers",
-      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
       "event": null
     },
     {
@@ -138,6 +119,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
+      "event": null
+    },
+    {
+      "bookId": "f003d3a3ab1d",
+      "id": 16493480,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-08-31T10:00:00-04:00",
+      "toDate": "2026-09-02T11:00:00-04:00",
+      "created": "2026-08-31T10:09:51-04:00",
+      "firstName": "Sasha",
+      "lastName": "Tarassova",
+      "email": "sashatar@yorku.ca",
+      "account": "sashatar@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
       "event": null
     },
     {
