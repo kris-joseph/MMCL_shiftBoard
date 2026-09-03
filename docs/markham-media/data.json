@@ -3,9 +3,31 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-03T06:44:33.224978+00:00",
+  "fetch_timestamp": "2026-09-03T16:40:27.978459+00:00",
   "date": "2026-09-03",
-  "space_bookings": [],
+  "space_bookings": [
+    {
+      "bookId": "4aba3854332d",
+      "id": 16517591,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-09-03T12:00:00-04:00",
+      "toDate": "2026-09-03T13:00:00-04:00",
+      "created": "2026-09-03T10:58:19-04:00",
+      "firstName": "Pierce",
+      "lastName": "Mossman",
+      "email": "piercem@my.yorku.ca",
+      "account": "piercem@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "27K",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAaesQaOAAA="
+    }
+  ],
   "equipment_bookings": [
     {
       "bookId": "bb4d082c1d18",
@@ -513,6 +535,26 @@
       "event": null,
       "barcode": "39007054931019",
       "cancelled": "2026-09-03T01:32:07+00:00"
+    },
+    {
+      "bookId": "7648586bc757",
+      "id": 374337,
+      "eid": 33828,
+      "cid": 7832,
+      "lid": 3432,
+      "fromDate": "2026-09-03T12:27:00-04:00",
+      "toDate": "2026-09-10T18:30:00-04:00",
+      "created": "2026-09-03T11:27:26-04:00",
+      "firstName": "Cassandra",
+      "lastName": "Agbai",
+      "email": "ngozi360@my.yorku.ca",
+      "account": "ngozi360@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Lenses",
+      "item_name": "Canon RF 55mm-210mm",
+      "event": null,
+      "barcode": "39007054931019"
     },
     {
       "bookId": "87e31b16e06f",
