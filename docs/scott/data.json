@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-07T06:52:55.751864+00:00",
+  "fetch_timestamp": "2026-09-07T17:53:58.434747+00:00",
   "date": "2026-09-07",
   "space_bookings": [
     {
@@ -25,6 +25,28 @@
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
       "check_in_code": "N8C"
+    },
+    {
+      "bookId": "50881eaf5cf7",
+      "id": 16532402,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-09-08T12:00:00-04:00",
+      "toDate": "2026-09-08T17:00:00-04:00",
+      "created": "2026-09-07T09:34:37-04:00",
+      "firstName": "Mohammad Abrar",
+      "lastName": "Huq",
+      "email": "ahuq2625@my.yorku.ca",
+      "account": "ahuq2625@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32112,
+      "seat_name": "Workstation 2 (Dell G7 with Adobe CC)",
+      "check_in_code": "L5M"
     }
   ],
   "equipment_bookings": [
