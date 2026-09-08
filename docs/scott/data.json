@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-08T02:56:13.300497+00:00",
+  "fetch_timestamp": "2026-09-08T06:48:34.571037+00:00",
   "date": "2026-09-08",
   "space_bookings": [
     {
@@ -25,6 +25,26 @@
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
       "check_in_code": "N8C"
+    },
+    {
+      "bookId": "27147102cece",
+      "id": 16535319,
+      "eid": 29187,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-09-08T11:15:00-04:00",
+      "toDate": "2026-09-08T13:45:00-04:00",
+      "created": "2026-09-07T23:55:19-04:00",
+      "firstName": "Ayokunmi",
+      "lastName": "Lawal",
+      "email": "kum0ts@my.yorku.ca",
+      "account": "kum0ts@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 207C - Audio Recording Booth",
+      "event": null,
+      "check_in_code": "7FU"
     },
     {
       "bookId": "50881eaf5cf7",
@@ -1307,26 +1327,6 @@
       "barcode": "39007054931381"
     },
     {
-      "bookId": "735e7a24a09f",
-      "id": 373694,
-      "eid": 26357,
-      "cid": 8149,
-      "lid": 2632,
-      "fromDate": "2026-09-08T12:00:00-04:00",
-      "toDate": "2026-09-15T17:00:00-04:00",
-      "created": "2026-08-31T15:31:51-04:00",
-      "firstName": "Robert",
-      "lastName": "Hovhannisyan",
-      "email": "roberthv@my.yorku.ca",
-      "account": "roberthv@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Tripods",
-      "item_name": "Manfrotto BeFree Advanced, Travel Tripod",
-      "event": null,
-      "barcode": "39007054933346"
-    },
-    {
       "bookId": "ce0c3a111f68",
       "id": 374344,
       "eid": 32764,
@@ -1549,6 +1549,27 @@
       "event": null,
       "barcode": "39007054931647",
       "cancelled": "2026-09-08T02:56:13+00:00"
+    },
+    {
+      "bookId": "735e7a24a09f",
+      "id": 373694,
+      "eid": 26357,
+      "cid": 8149,
+      "lid": 2632,
+      "fromDate": "2026-09-08T12:00:00-04:00",
+      "toDate": "2026-09-15T17:00:00-04:00",
+      "created": "2026-08-31T15:31:51-04:00",
+      "firstName": "Robert",
+      "lastName": "Hovhannisyan",
+      "email": "roberthv@my.yorku.ca",
+      "account": "roberthv@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Tripods",
+      "item_name": "Manfrotto BeFree Advanced, Travel Tripod",
+      "event": null,
+      "barcode": "39007054933346",
+      "cancelled": "2026-09-08T02:59:10+00:00"
     },
     {
       "bookId": "26e235d61637",
