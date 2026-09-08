@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-08T16:54:08.546804+00:00",
+  "fetch_timestamp": "2026-09-08T19:39:03.126792+00:00",
   "date": "2026-09-08",
   "space_bookings": [
     {
@@ -139,6 +139,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Soldering Stations",
       "item_name": "Soldering Station #01",
+      "event": null
+    },
+    {
+      "bookId": "7553dc78a970",
+      "id": 16542132,
+      "eid": 35303,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-08T14:30:00-04:00",
+      "toDate": "2026-09-08T15:30:00-04:00",
+      "created": "2026-09-08T14:40:07-04:00",
+      "firstName": "ZUHAYR",
+      "lastName": "HOSSAIN",
+      "email": "zuhayrh@my.yorku.ca",
+      "account": "220388344",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
+      "event": null
+    },
+    {
+      "bookId": "4c141f2fb498",
+      "id": 16542021,
+      "eid": 31768,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-09-08T15:00:00-04:00",
+      "toDate": "2026-09-08T16:30:00-04:00",
+      "created": "2026-09-08T14:34:36-04:00",
+      "firstName": "Salma",
+      "lastName": "Abdi",
+      "email": "salma05@my.yorku.ca",
+      "account": "salma05@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Bernette 35 #03 \"Vera\"",
       "event": null
     },
     {
