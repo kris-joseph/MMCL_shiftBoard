@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-09T16:56:20+00:00",
+  "fetch_timestamp": "2026-09-09T19:34:11.857849+00:00",
   "date": "2026-09-09",
   "space_bookings": [
     {
@@ -42,6 +42,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #01 \"Killer Queen\"",
+      "event": null
+    },
+    {
+      "bookId": "2aad5836a019",
+      "id": 16554982,
+      "eid": 30730,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-09T14:00:00-04:00",
+      "toDate": "2026-09-09T18:00:00-04:00",
+      "created": "2026-09-09T13:57:19-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #07 \"The Hand\"",
       "event": null
     },
     {
@@ -213,6 +232,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4S #02 \"Eurydice\"",
+      "event": null
+    },
+    {
+      "bookId": "01841f1994a6",
+      "id": 16554955,
+      "eid": 30729,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-09T14:00:00-04:00",
+      "toDate": "2026-09-09T19:00:00-04:00",
+      "created": "2026-09-09T13:56:54-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #06 \"King Crimson\"",
       "event": null
     },
     {
