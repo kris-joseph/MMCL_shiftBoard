@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1788982452">
+    <link rel="stylesheet" href="../static/style.css?v=1788991546">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Wednesday, September 09, 2026</div>
-                <div class="last-updated">Last updated: 3:34 PM</div>
+                <div class="last-updated">Last updated: 6:05 PM</div>
             </div>
         </div>
     </header>
@@ -47,8 +47,8 @@
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 50.0%;"></div>
-                <div class="timeline-count">10</div>
+                <div class="timeline-bar" style="height: 45.0%;"></div>
+                <div class="timeline-count">9</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour past">
@@ -61,17 +61,17 @@
                 <div class="timeline-count">13</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 35.0%;"></div>
                 <div class="timeline-count">7</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 45.0%;"></div>
-                <div class="timeline-count">9</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 50.0%;"></div>
+                <div class="timeline-count">10</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
                 <div class="timeline-count">20</div>
                 <div class="timeline-hour-label">5PM</div>
@@ -114,128 +114,11 @@
                 <h2>Full Shift</h2>
                 <div class="booking-count">
                     0 space bookings •
-                    4 equipment loans                </div>
+                    3 equipment loans                </div>
             </div>
 
 
 
-            <div class="hour-group outstanding-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">Still outstanding from earlier today</span>
-                        <span class="hour-group-count">1 task</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card equipment-loan" data-booking-id="9106f5a2fc3b" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">12:00 PM</span>Meta Quest 3
-                        </div>
-                        <div class="booking-card-summary-time">
-Checkout • L.R.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKOUT NEEDED</span>
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Meta Quest 3</h3>
-                        <div class="booking-category">VR Headsets</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="equipment-indicator pickup">
-                            📦 Pickup
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">12:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">L.R. (b***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Checkout</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 6
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Verify patron identity against booking record</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Confirm any required batteries are fully charged</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">Check out equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 9106f5a2fc3b</div>
-
-                </div> 
-            </article>
-
-                    </div>
-                </div>
-            </div>
 
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
@@ -548,144 +431,150 @@ Due back • J.L.                        </div>
 
     <aside class="persistent-sections">
 
-        <section class="persistent-section in-progress-section">
+
+        <section class="persistent-section overdue-section">
             <div class="section-header">
-                <h2>Patron Onsite</h2>
-                <span class="section-count">4</span>
+                <h2>Overdue Items</h2>
+                <span class="section-count">5</span>
             </div>
             <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="75a8d8be45ae" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 207D -  Audio Recording Booth</div>
-                            <div class="booking-card-summary-time">2:00 PM - 4:00 PM • K.J.</div>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>DJI Osmo Pocket 3</h3>
+                            <div class="booking-category">Camera Stabilizers</div>
                         </div>
                         <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
+                            <span class="badge status-tentative">OVERDUE</span>
                         </div>
-                        <span class="booking-card-expand-icon">▼</span>
                     </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">2:00 PM - 4:00 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">K.J. (e***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">MN4</span>
-                            </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Wednesday, September 09, 2026 at 5:00 PM</span>
                         </div>
-                        <div class="booking-id">ID: 75a8d8be45ae</div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">C.A. (n***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">1 hour</span>
+                        </div>
                     </div>
+                    <div class="booking-id">ID: 550d3aeda25c</div>
                 </article>
-                <article class="booking-card in-progress" data-booking-id="f619043d161d" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 207C - Audio Recording Booth</div>
-                            <div class="booking-card-summary-time">2:30 PM - 4:30 PM • G.C.</div>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>DJI Osmo Pocket 3</h3>
+                            <div class="booking-category">Camera Stabilizers</div>
                         </div>
                         <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
+                            <span class="badge status-tentative">OVERDUE</span>
                         </div>
-                        <span class="booking-card-expand-icon">▼</span>
                     </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">2:30 PM - 4:30 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">G.C. (j***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">99D</span>
-                            </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Wednesday, September 09, 2026 at 5:00 PM</span>
                         </div>
-                        <div class="booking-id">ID: f619043d161d</div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">D.M. (d***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">1 hour</span>
+                        </div>
                     </div>
+                    <div class="booking-id">ID: f6c9da82863d</div>
                 </article>
-                <article class="booking-card in-progress" data-booking-id="c0d500f24b3b" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 203K - Audio Recording Studio</div>
-                            <div class="booking-card-summary-time">3:15 PM - 4:45 PM • P.K.</div>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Power DeWise Lavalier Microphone</h3>
+                            <div class="booking-category">Microphones</div>
                         </div>
                         <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
+                            <span class="badge status-tentative">OVERDUE</span>
                         </div>
-                        <span class="booking-card-expand-icon">▼</span>
                     </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">3:15 PM - 4:45 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">P.K. (p***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">X22</span>
-                            </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Wednesday, September 09, 2026 at 5:00 PM</span>
                         </div>
-                        <div class="booking-id">ID: c0d500f24b3b</div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">O.M. (o***@yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">1 hour</span>
+                        </div>
                     </div>
+                    <div class="booking-id">ID: 69370951d193</div>
                 </article>
-                <article class="booking-card in-progress" data-booking-id="86d6976b7699" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 207 - Editing Lab</div>
-                            <div class="booking-card-summary-time">12:00 PM - 5:00 PM • C.A.</div>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Canon EOS R50</h3>
+                            <div class="booking-category">Cameras</div>
                         </div>
                         <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
+                            <span class="badge status-tentative">OVERDUE</span>
                         </div>
-                        <span class="booking-card-expand-icon">▼</span>
                     </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">12:00 PM - 5:00 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">C.A. (n***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">Y2Q</span>
-                            </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Wednesday, September 09, 2026 at 5:00 PM</span>
                         </div>
-                        <div class="booking-id">ID: 86d6976b7699</div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">D.P. (d***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">1 hour</span>
+                        </div>
                     </div>
+                    <div class="booking-id">ID: 5f337dd87337</div>
+                </article>
+                <article class="booking-card overdue" data-booking-type="equipment">
+                    <div class="booking-header">
+                        <div class="booking-title">
+                            <h3>Rode Wireless Pro</h3>
+                            <div class="booking-category">Wireless Microphones</div>
+                        </div>
+                        <div class="booking-badges">
+                            <span class="badge status-tentative">OVERDUE</span>
+                        </div>
+                    </div>
+                    <div class="booking-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Due:</span>
+                            <span class="detail-value">Wednesday, September 09, 2026 at 5:00 PM</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Patron:</span>
+                            <span class="detail-value patron-info">D.P. (d***@my.yorku.ca)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Overdue by:</span>
+                            <span class="detail-value">1 hour</span>
+                        </div>
+                    </div>
+                    <div class="booking-id">ID: 5f337dd87337</div>
                 </article>
             </div>
         </section>
 
-
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">9</span>
+                <span class="section-count">13</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -715,6 +604,94 @@ Due back • J.L.                        </div>
                                 </div>
                             </div>
                             <div class="booking-id">ID: 5360af8e217e</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 207D -  Audio Recording Booth</h3>
+                                    <div class="booking-category">Audio Recording Rooms</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:00 PM - 4:00 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">K.J.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 75a8d8be45ae</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 207C - Audio Recording Booth</h3>
+                                    <div class="booking-category">Audio Recording Rooms</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:30 PM - 4:30 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">G.C.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: f619043d161d</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 203K - Audio Recording Studio</h3>
+                                    <div class="booking-category">Audio Recording Rooms</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">3:15 PM - 4:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">P.K.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: c0d500f24b3b</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 207 - Editing Lab</h3>
+                                    <div class="booking-category">Computer Labs</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">12:00 PM - 5:00 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">C.A.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 86d6976b7699</div>
                         </article>
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
@@ -921,6 +898,6 @@ Due back • J.L.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1788982452"></script>
+    <script src="../static/dashboard.js?v=1788991546"></script>
 </body>
 </html>
