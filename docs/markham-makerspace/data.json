@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-10T21:42:59.933624+00:00",
+  "fetch_timestamp": "2026-09-10T23:33:01.866041+00:00",
   "date": "2026-09-10",
   "space_bookings": [
     {
@@ -138,6 +138,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
+      "event": null
+    },
+    {
+      "bookId": "47eb4e224b66",
+      "id": 16572341,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-09-11T10:30:00-04:00",
+      "toDate": "2026-09-11T11:30:00-04:00",
+      "created": "2026-09-10T17:52:45-04:00",
+      "firstName": "Niranjany",
+      "lastName": "Rabindrakumar",
+      "email": "niranja@my.yorku.ca",
+      "account": "niranja@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Cricut Cutter",
       "event": null
     }
   ],
