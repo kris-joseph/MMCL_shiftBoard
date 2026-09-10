@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-10T02:57:12.887111+00:00",
+  "fetch_timestamp": "2026-09-10T06:53:57.840454+00:00",
   "date": "2026-09-10",
   "space_bookings": [
     {
@@ -86,6 +86,28 @@
       "item_name": "Scott 207C - Audio Recording Booth",
       "event": null,
       "check_in_code": "89Y"
+    },
+    {
+      "bookId": "6cd7f3d22d28",
+      "id": 16561483,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-09-10T12:00:00-04:00",
+      "toDate": "2026-09-10T17:00:00-04:00",
+      "created": "2026-09-09T23:48:11-04:00",
+      "firstName": "Wadi",
+      "lastName": "Ayyoub",
+      "email": "wa98@yorku.ca",
+      "account": "wa98@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32113,
+      "seat_name": "Workstation 5 (Mac Studio)",
+      "check_in_code": "A9L"
     }
   ],
   "equipment_bookings": [
@@ -1464,6 +1486,26 @@
       "item_name": "Canon RF-S 55-210mm",
       "event": null,
       "barcode": "39007054932322"
+    },
+    {
+      "bookId": "b63fe1eeab62",
+      "id": 376448,
+      "eid": 29587,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-09-10T12:00:00-04:00",
+      "toDate": "2026-09-17T17:00:00-04:00",
+      "created": "2026-09-09T23:53:28-04:00",
+      "firstName": "Aria",
+      "lastName": "Bagherpour",
+      "email": "aria356@my.yorku.ca",
+      "account": "aria356@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Audio-Technica AT2005USB",
+      "event": null,
+      "barcode": "39007054931449"
     },
     {
       "bookId": "3f7c9f29cf55",
