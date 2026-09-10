@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-10T06:53:58.807544+00:00",
+  "fetch_timestamp": "2026-09-10T16:40:28.738024+00:00",
   "date": "2026-09-10",
   "space_bookings": [
     {
@@ -26,6 +26,25 @@
       "event": null
     },
     {
+      "bookId": "c7b8ce2f0c05",
+      "id": 16566488,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-10T13:00:00-04:00",
+      "toDate": "2026-09-10T16:30:00-04:00",
+      "created": "2026-09-10T12:20:01-04:00",
+      "firstName": "Ali",
+      "lastName": "Sheikh Rabiei",
+      "email": "routch@my.yorku.ca",
+      "account": "routch@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
       "bookId": "abc232e06be8",
       "id": 16547490,
       "eid": 31767,
@@ -38,10 +57,30 @@
       "lastName": "Tang",
       "email": "youyangt@my.yorku.ca",
       "account": "youyangt@my.yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "Sewing, Textiles and Vinyl",
       "item_name": "Bernette 35 #02 \"Ralph\"",
+      "event": null,
+      "cancelled": "2026-09-10T16:09:43+00:00"
+    },
+    {
+      "bookId": "4d2b674befba",
+      "id": 16566294,
+      "eid": 31766,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-09-10T17:00:00-04:00",
+      "toDate": "2026-09-10T18:30:00-04:00",
+      "created": "2026-09-10T12:11:37-04:00",
+      "firstName": "Youyang",
+      "lastName": "Tang",
+      "email": "youyangt@my.yorku.ca",
+      "account": "youyangt@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Bernette 35 #01 \"Giorgio\"",
       "event": null
     },
     {
