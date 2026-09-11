@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-11T19:20:55.000593+00:00",
+  "fetch_timestamp": "2026-09-11T21:48:06.864828+00:00",
   "date": "2026-09-11",
   "space_bookings": [
     {
@@ -33,7 +33,7 @@
       "cid": 7718,
       "lid": 3430,
       "fromDate": "2026-09-11T14:00:00-04:00",
-      "toDate": "2026-09-11T15:00:00-04:00",
+      "toDate": "2026-09-11T16:00:00-04:00",
       "created": "2026-09-11T12:30:15-04:00",
       "firstName": "Niranjany",
       "lastName": "Rabindrakumar",
