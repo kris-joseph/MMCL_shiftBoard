@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-12T06:45:39.131280+00:00",
+  "fetch_timestamp": "2026-09-12T15:48:55.957132+00:00",
   "date": "2026-09-12",
   "space_bookings": [
     {
@@ -140,6 +140,25 @@
       "item_name": "Prusa XL #2 \"Orochi\"",
       "event": null,
       "cancelled": "2026-09-11T17:21:14+00:00"
+    },
+    {
+      "bookId": "9244e96442da",
+      "id": 16586458,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-12T11:30:00-04:00",
+      "toDate": "2026-09-12T20:30:00-04:00",
+      "created": "2026-09-12T11:40:25-04:00",
+      "firstName": "Sasha",
+      "lastName": "Tarassova",
+      "email": "sashatar@yorku.ca",
+      "account": "sashatar@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
     },
     {
       "bookId": "371a9603658e",
