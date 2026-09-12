@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-12T20:12:27.463447+00:00",
+  "fetch_timestamp": "2026-09-12T22:25:21.701977+00:00",
   "date": "2026-09-12",
   "space_bookings": [
     {
@@ -1317,6 +1317,26 @@
       "item_name": "DJI RS 4 Mini Gimbal",
       "event": null,
       "barcode": "39007054936497"
+    },
+    {
+      "bookId": "01f88226ffc0",
+      "id": 377443,
+      "eid": 37436,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-09-13T14:00:00-04:00",
+      "toDate": "2026-09-20T19:00:00-04:00",
+      "created": "2026-09-12T16:18:29-04:00",
+      "firstName": "Justice Isaiah",
+      "lastName": "Tulio",
+      "email": "jt27@my.yorku.ca",
+      "account": "jt27@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "DJI Mic 3",
+      "event": null,
+      "barcode": "39007054936737"
     },
     {
       "bookId": "f0db7b83771c",
