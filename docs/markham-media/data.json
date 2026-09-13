@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-13T16:44:21.101301+00:00",
+  "fetch_timestamp": "2026-09-13T19:05:21.924748+00:00",
   "date": "2026-09-13",
   "space_bookings": [
     {
@@ -72,6 +72,26 @@
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "87a96ba4289c",
+      "id": 377478,
+      "eid": 32507,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-09-13T14:10:59-04:00",
+      "toDate": "2026-09-13T23:59:00-04:00",
+      "created": "2026-09-13T14:10:58-04:00",
+      "firstName": "ALEXANDRA",
+      "lastName": "TARASSOVA",
+      "email": "sasha.tarassova01@gmail.com",
+      "account": "217121476",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931597"
+    },
     {
       "bookId": "77bc7911e1f7",
       "id": 375700,
