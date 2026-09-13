@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-13T19:05:22.513416+00:00",
+  "fetch_timestamp": "2026-09-13T21:30:17.512103+00:00",
   "date": "2026-09-13",
   "space_bookings": [
     {
@@ -80,6 +80,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
+      "event": null
+    },
+    {
+      "bookId": "ef7c46f2cdff",
+      "id": 16592084,
+      "eid": 30725,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-14T10:30:00-04:00",
+      "toDate": "2026-09-14T11:30:00-04:00",
+      "created": "2026-09-13T17:09:58-04:00",
+      "firstName": "Macie",
+      "lastName": "Thompson",
+      "email": "macie07@my.yorku.ca",
+      "account": "macie07@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #02 \"Star Platinum\"",
       "event": null
     },
     {
