@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-15T20:18:59.323139+00:00",
+  "fetch_timestamp": "2026-09-15T22:59:28.740333+00:00",
   "date": "2026-09-15",
   "space_bookings": [
     {
@@ -244,12 +244,13 @@
       "lastName": "ATSBHA",
       "email": "phil2026@my.yorku.ca",
       "account": "220707675",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Audio Recording Rooms",
       "item_name": "Scott 207C - Audio Recording Booth",
       "event": null,
-      "check_in_code": "B4S"
+      "check_in_code": "B4S",
+      "cancelled": "2026-09-15T21:17:05+00:00"
     }
   ],
   "equipment_bookings": [
@@ -454,6 +455,26 @@
       "barcode": "39007054930714"
     },
     {
+      "bookId": "9b95b3f5e07d",
+      "id": 378356,
+      "eid": 21830,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-09-15T15:29:07-04:00",
+      "toDate": "2026-09-15T16:52:00-04:00",
+      "created": "2026-09-15T15:29:06-04:00",
+      "firstName": "JOSHUA",
+      "lastName": "DOBSON",
+      "email": "joshua0dobson@gmail.com",
+      "account": "5859730001063948",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50",
+      "event": null,
+      "barcode": "39007054930276"
+    },
+    {
       "bookId": "814a1e467ab7",
       "id": 374777,
       "eid": 25983,
@@ -492,26 +513,6 @@
       "item_name": "Canon EOS M50 Mark II",
       "event": null,
       "barcode": "39007054933049"
-    },
-    {
-      "bookId": "9b95b3f5e07d",
-      "id": 378356,
-      "eid": 21830,
-      "cid": 8138,
-      "lid": 2632,
-      "fromDate": "2026-09-15T15:29:07-04:00",
-      "toDate": "2026-09-15T17:00:00-04:00",
-      "created": "2026-09-15T15:29:06-04:00",
-      "firstName": "JOSHUA",
-      "lastName": "DOBSON",
-      "email": "joshua0dobson@gmail.com",
-      "account": "5859730001063948",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS M50",
-      "event": null,
-      "barcode": "39007054930276"
     },
     {
       "bookId": "57f0843f7e91",
