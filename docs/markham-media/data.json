@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-15T07:03:01.021973+00:00",
+  "fetch_timestamp": "2026-09-15T17:15:33.904939+00:00",
   "date": "2026-09-15",
   "space_bookings": [
     {
@@ -32,6 +32,26 @@
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "148d40f72697",
+      "id": 377559,
+      "eid": 32521,
+      "cid": 7830,
+      "lid": 3432,
+      "fromDate": "2026-09-14T09:07:33-04:00",
+      "toDate": "2026-09-15T12:06:00-04:00",
+      "created": "2026-09-14T09:07:32-04:00",
+      "firstName": "LUXVNA",
+      "lastName": "UTHAYAKUMAR",
+      "email": "luxvnau@yorku.ca",
+      "account": "102109933",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Tripods",
+      "item_name": "SmallRig Tripod",
+      "event": null,
+      "barcode": "39007054933973"
+    },
     {
       "bookId": "77bc7911e1f7",
       "id": 375700,
@@ -133,26 +153,6 @@
       "barcode": "39007054931589"
     },
     {
-      "bookId": "148d40f72697",
-      "id": 377559,
-      "eid": 32521,
-      "cid": 7830,
-      "lid": 3432,
-      "fromDate": "2026-09-14T09:07:33-04:00",
-      "toDate": "2026-09-21T18:30:00-04:00",
-      "created": "2026-09-14T09:07:32-04:00",
-      "firstName": "LUXVNA",
-      "lastName": "UTHAYAKUMAR",
-      "email": "luxvnau@yorku.ca",
-      "account": "102109933",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Tripods",
-      "item_name": "SmallRig Tripod",
-      "event": null,
-      "barcode": "39007054933973"
-    },
-    {
       "bookId": "93290ac1acc2",
       "id": 377685,
       "eid": 33666,
@@ -191,6 +191,26 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007052961109"
+    },
+    {
+      "bookId": "7f2200e120dc",
+      "id": 378173,
+      "eid": 32504,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-09-15T12:09:11-04:00",
+      "toDate": "2026-09-22T18:30:00-04:00",
+      "created": "2026-09-15T12:09:09-04:00",
+      "firstName": "LUXVNA",
+      "lastName": "UTHAYAKUMAR",
+      "email": "luxvnau@yorku.ca",
+      "account": "5859730000338773",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931621"
     },
     {
       "bookId": "87e31b16e06f",
