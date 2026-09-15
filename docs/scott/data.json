@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-15T03:15:51.170067+00:00",
+  "fetch_timestamp": "2026-09-15T07:02:59.778221+00:00",
   "date": "2026-09-15",
   "space_bookings": [
     {
@@ -46,6 +46,28 @@
       "event": null,
       "check_in_code": "B5K",
       "cancelled": "2026-09-14T23:20:52+00:00"
+    },
+    {
+      "bookId": "c540e8274537",
+      "id": 16612108,
+      "eid": 21081,
+      "cid": 5395,
+      "lid": 2632,
+      "fromDate": "2026-09-15T12:00:00-04:00",
+      "toDate": "2026-09-15T17:00:00-04:00",
+      "created": "2026-09-15T00:01:20-04:00",
+      "firstName": "Justice Isaiah",
+      "lastName": "Tulio",
+      "email": "jt27@my.yorku.ca",
+      "account": "jt27@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Computer Labs",
+      "item_name": "Scott 207 - Editing Lab",
+      "event": null,
+      "seat_id": 32116,
+      "seat_name": "Workstation 4 (Mac Studio)",
+      "check_in_code": "82H"
     },
     {
       "bookId": "827c248afddc",
@@ -1078,26 +1100,6 @@
       "barcode": "39007054933916"
     },
     {
-      "bookId": "89f4b436cae5",
-      "id": 377854,
-      "eid": 34306,
-      "cid": 8139,
-      "lid": 2632,
-      "fromDate": "2026-09-14T16:00:00-04:00",
-      "toDate": "2026-09-21T17:00:00-04:00",
-      "created": "2026-09-14T15:39:33-04:00",
-      "firstName": "Elhanan",
-      "lastName": "Thayalakumar",
-      "email": "elhanan@my.yorku.ca",
-      "account": "elhanan@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Audio Mixers",
-      "item_name": "Zoom LiveTrak L8",
-      "event": null,
-      "barcode": "39007054936448"
-    },
-    {
       "bookId": "f55d0604125f",
       "id": 371301,
       "eid": 34321,
@@ -1277,6 +1279,27 @@
       "event": null,
       "barcode": "39007054930276",
       "cancelled": "2026-09-14T18:22:06+00:00"
+    },
+    {
+      "bookId": "89f4b436cae5",
+      "id": 377854,
+      "eid": 34306,
+      "cid": 8139,
+      "lid": 2632,
+      "fromDate": "2026-09-14T16:00:00-04:00",
+      "toDate": "2026-09-21T17:00:00-04:00",
+      "created": "2026-09-14T15:39:33-04:00",
+      "firstName": "Elhanan",
+      "lastName": "Thayalakumar",
+      "email": "elhanan@my.yorku.ca",
+      "account": "elhanan@my.yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Mixers",
+      "item_name": "Zoom LiveTrak L8",
+      "event": null,
+      "barcode": "39007054936448",
+      "cancelled": "2026-09-15T04:02:08+00:00"
     },
     {
       "bookId": "fef8b9282ef5",
