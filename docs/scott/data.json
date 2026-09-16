@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-16T01:08:42.219027+00:00",
+  "fetch_timestamp": "2026-09-16T03:11:56.874529+00:00",
   "date": "2026-09-16",
   "space_bookings": [
     {
@@ -1398,6 +1398,26 @@
       "item_name": "Canon EOS M50 Mark II",
       "event": null,
       "barcode": "39007054933049"
+    },
+    {
+      "bookId": "c2c59216b7fd",
+      "id": 378500,
+      "eid": 21830,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-09-17T12:00:00-04:00",
+      "toDate": "2026-09-24T17:00:00-04:00",
+      "created": "2026-09-15T21:22:07-04:00",
+      "firstName": "Asmita",
+      "lastName": "Arul",
+      "email": "asmita06@my.yorku.ca",
+      "account": "asmita06@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50",
+      "event": null,
+      "barcode": "39007054930276"
     },
     {
       "bookId": "f0db7b83771c",
