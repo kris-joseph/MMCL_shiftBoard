@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-16T17:22:32.026045+00:00",
+  "fetch_timestamp": "2026-09-16T20:16:56.398200+00:00",
   "date": "2026-09-16",
   "space_bookings": [
     {
@@ -29,6 +29,27 @@
       },
       "nickname": "Intro to Photography",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp1AABH34X_zHuIQZyVVKGzvHhAAAabc3i4AAA="
+    },
+    {
+      "bookId": "5309888c1128",
+      "id": 16639476,
+      "eid": 30722,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-09-16T15:00:00-04:00",
+      "toDate": "2026-09-16T18:30:00-04:00",
+      "created": "2026-09-16T15:12:52-04:00",
+      "firstName": "RYAN",
+      "lastName": "MPIANA-MUKAYA",
+      "email": "ryanmp@my.yorku.ca",
+      "account": "222631121",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #2 (Rm 3060F)",
+      "event": null,
+      "check_in_code": "XS2",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpvAABH34X_zHuIQZyVVKGzvHhAAAaqLwHrAAA="
     }
   ],
   "equipment_bookings": [

@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-16T17:22:33.022813+00:00",
+  "fetch_timestamp": "2026-09-16T20:16:57.058329+00:00",
   "date": "2026-09-16",
   "space_bookings": [
     {
@@ -114,11 +114,12 @@
       "lastName": "Huang",
       "email": "ruiyu@my.yorku.ca",
       "account": "ruiyu@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-09-16T17:52:05+00:00"
     },
     {
       "bookId": "eccac6efb026",
@@ -156,6 +157,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
+    },
+    {
+      "bookId": "270ac1d1e8af",
+      "id": 16640989,
+      "eid": 30736,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-16T16:00:00-04:00",
+      "toDate": "2026-09-16T18:30:00-04:00",
+      "created": "2026-09-16T16:14:54-04:00",
+      "firstName": "Jun",
+      "lastName": "Wang",
+      "email": "jun0623@my.yorku.ca",
+      "account": "jun0623@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4S #02 \"Eurydice\"",
+      "event": null
+    },
+    {
+      "bookId": "270ac1d1e8af",
+      "id": 16640990,
+      "eid": 30735,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-16T16:30:00-04:00",
+      "toDate": "2026-09-16T18:30:00-04:00",
+      "created": "2026-09-16T16:14:54-04:00",
+      "firstName": "Jun",
+      "lastName": "Wang",
+      "email": "jun0623@my.yorku.ca",
+      "account": "jun0623@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4S #01 \"Orpheus\"",
       "event": null
     },
     {
