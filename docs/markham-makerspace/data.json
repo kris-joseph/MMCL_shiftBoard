@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-21T18:22:44.969787+00:00",
+  "fetch_timestamp": "2026-09-21T22:04:39.804965+00:00",
   "date": "2026-09-21",
   "space_bookings": [
     {
@@ -251,6 +251,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
+    },
+    {
+      "bookId": "7ba661ec3e2c",
+      "id": 16696042,
+      "eid": 30736,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-21T15:00:00-04:00",
+      "toDate": "2026-09-21T20:00:00-04:00",
+      "created": "2026-09-21T15:15:56-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa MK4S #02 \"Eurydice\"",
       "event": null
     },
     {

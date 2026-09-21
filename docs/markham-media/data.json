@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-21T18:22:44.721245+00:00",
+  "fetch_timestamp": "2026-09-21T22:04:39.322803+00:00",
   "date": "2026-09-21",
   "space_bookings": [
     {
@@ -309,6 +309,26 @@
       "event": null,
       "barcode": "39007054931100",
       "cancelled": "2026-09-19T01:32:06+00:00"
+    },
+    {
+      "bookId": "c796eeaf33e4",
+      "id": 380994,
+      "eid": 32512,
+      "cid": 7827,
+      "lid": 3432,
+      "fromDate": "2026-09-21T09:30:00-04:00",
+      "toDate": "2026-09-28T18:30:00-04:00",
+      "created": "2026-09-21T17:18:15-04:00",
+      "firstName": "Qi Xin",
+      "lastName": "Zhou",
+      "email": "qixinz@my.yorku.ca",
+      "account": "qixinz@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054931803"
     },
     {
       "bookId": "c4c6f5cf6606",
