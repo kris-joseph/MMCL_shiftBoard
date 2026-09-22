@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-22T20:18:01.297014+00:00",
+  "fetch_timestamp": "2026-09-22T23:04:14.709372+00:00",
   "date": "2026-09-22",
   "space_bookings": [
     {
@@ -329,12 +329,13 @@
       "lastName": "Agard",
       "email": "maa206@my.yorku.ca",
       "account": "maa206@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by User",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Flex Studio Spaces",
       "item_name": "Scott 204 - Flex Studio",
       "event": null,
-      "check_in_code": "YP7"
+      "check_in_code": "YP7",
+      "cancelled": "2026-09-22T20:41:29+00:00"
     }
   ],
   "equipment_bookings": [
@@ -397,6 +398,46 @@
       "item_name": "Rode Wireless Pro",
       "event": null,
       "barcode": "39007054933940"
+    },
+    {
+      "bookId": "21b1f64d8242",
+      "id": 381224,
+      "eid": 31912,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-09-22T13:07:00-04:00",
+      "toDate": "2026-09-22T16:46:00-04:00",
+      "created": "2026-09-21T21:45:46-04:00",
+      "firstName": "Samuel",
+      "lastName": "Osei",
+      "email": "sky2032@my.yorku.ca",
+      "account": "sky2032@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054932264"
+    },
+    {
+      "bookId": "21b1f64d8242",
+      "id": 381225,
+      "eid": 34034,
+      "cid": 8142,
+      "lid": 2632,
+      "fromDate": "2026-09-22T13:07:00-04:00",
+      "toDate": "2026-09-22T16:46:00-04:00",
+      "created": "2026-09-21T21:45:46-04:00",
+      "firstName": "Samuel",
+      "lastName": "Osei",
+      "email": "sky2032@my.yorku.ca",
+      "account": "sky2032@my.yorku.ca",
+      "status": "Checked In",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Lenses",
+      "item_name": "Canon RF 35mm",
+      "event": null,
+      "barcode": "39007054932397"
     },
     {
       "bookId": "fef8b9282ef5",
@@ -517,26 +558,6 @@
       "item_name": "Rode Wireless ME Dual Ultra-compact Wireless Microphone",
       "event": null,
       "barcode": "39007054932157"
-    },
-    {
-      "bookId": "21b1f64d8242",
-      "id": 381224,
-      "eid": 31912,
-      "cid": 8138,
-      "lid": 2632,
-      "fromDate": "2026-09-22T13:07:00-04:00",
-      "toDate": "2026-09-22T17:00:00-04:00",
-      "created": "2026-09-21T21:45:46-04:00",
-      "firstName": "Samuel",
-      "lastName": "Osei",
-      "email": "sky2032@my.yorku.ca",
-      "account": "sky2032@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS R50",
-      "event": null,
-      "barcode": "39007054932264"
     },
     {
       "bookId": "b3ed6ad3d8b3",
@@ -2236,26 +2257,6 @@
       "item_name": "Canon EOS M50",
       "event": null,
       "barcode": "39007054930243"
-    },
-    {
-      "bookId": "21b1f64d8242",
-      "id": 381225,
-      "eid": 34034,
-      "cid": 8142,
-      "lid": 2632,
-      "fromDate": "2026-09-22T13:07:00-04:00",
-      "toDate": "2026-09-29T17:00:00-04:00",
-      "created": "2026-09-21T21:45:46-04:00",
-      "firstName": "Samuel",
-      "lastName": "Osei",
-      "email": "sky2032@my.yorku.ca",
-      "account": "sky2032@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Lenses",
-      "item_name": "Canon RF 35mm",
-      "event": null,
-      "barcode": "39007054932397"
     },
     {
       "bookId": "a48c3db7bc51",
