@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-23T07:08:21.021653+00:00",
+  "fetch_timestamp": "2026-09-23T17:27:00.578512+00:00",
   "date": "2026-09-23",
   "space_bookings": [
     {
@@ -30,6 +30,25 @@
       "nickname": "Cinematic video interview",
       "cancelled": "2026-08-26T14:32:24+00:00",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAabc4KnAAA="
+    },
+    {
+      "bookId": "e89ef9a7865f",
+      "id": 16730144,
+      "eid": 37118,
+      "cid": 8633,
+      "lid": 3430,
+      "fromDate": "2026-09-24T12:00:00-04:00",
+      "toDate": "2026-09-24T14:00:00-04:00",
+      "created": "2026-09-23T13:05:01-04:00",
+      "firstName": "Zuhayr",
+      "lastName": "Hossain",
+      "email": "zuhayrh@my.yorku.ca",
+      "account": "zuhayrh@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Laser Cutters",
+      "item_name": "Aeon Mira 9",
+      "event": null
     },
     {
       "bookId": "e78ed61ccb15",
