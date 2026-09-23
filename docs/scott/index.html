@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1790184841">
+    <link rel="stylesheet" href="../static/style.css?v=1790196601">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Wednesday, September 23, 2026</div>
-                <div class="last-updated">Last updated: 1:33 PM</div>
+                <div class="last-updated">Last updated: 4:49 PM</div>
             </div>
         </div>
     </header>
@@ -42,38 +42,38 @@
                 <div class="timeline-hour-label">10AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 62.5%;"></div>
-                <div class="timeline-count">10</div>
+                <div class="timeline-bar" style="height: 52.38095238095239%;"></div>
+                <div class="timeline-count">11</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 37.5%;"></div>
-                <div class="timeline-count">6</div>
+                <div class="timeline-bar" style="height: 19.047619047619047%;"></div>
+                <div class="timeline-count">4</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 37.5%;"></div>
-                <div class="timeline-count">6</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 38.095238095238095%;"></div>
+                <div class="timeline-count">8</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 6.25%;"></div>
-                <div class="timeline-count">1</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 14.285714285714285%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 12.5%;"></div>
-                <div class="timeline-count">2</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 14.285714285714285%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 18.75%;"></div>
-                <div class="timeline-count">3</div>
+                <div class="timeline-bar" style="height: 42.857142857142854%;"></div>
+                <div class="timeline-count">9</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">16</div>
+                <div class="timeline-count">21</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
             <div class="timeline-hour ">
@@ -82,8 +82,8 @@
                 <div class="timeline-hour-label">6PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 0%;"></div>
-                <div class="timeline-count">0</div>
+                <div class="timeline-bar" style="height: 4.761904761904762%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">7PM</div>
             </div>
             <div class="timeline-hour ">
@@ -104,7 +104,6 @@
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Bookings</button>
         <button class="filter-button" data-filter="space" onclick="filterBookings('space')">Space Bookings</button>
         <button class="filter-button" data-filter="equipment" onclick="filterBookings('equipment')">Equipment Loans</button>
-        <button class="filter-button" data-filter="teaching" onclick="filterBookings('teaching')">Teaching Events</button>
     </section>
 
     <main class="main-content">
@@ -115,31 +114,30 @@
                 <h2>Full Shift</h2>
                 <div class="booking-count">
                     0 space bookings •
-                    9 equipment loans • 1 teaching event                </div>
+                    8 equipment loans                </div>
             </div>
 
 
 
-
-            <div class="hour-group">
+            <div class="hour-group outstanding-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
-                        <span class="hour-group-title">12 PM</span>
-                        <span class="hour-group-count">4 tasks</span>
+                        <span class="hour-group-title">Still outstanding from earlier today</span>
+                        <span class="hour-group-count">3 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
                 <div class="hour-group-content collapsed">
                     <div class="booking-list">
-                                    <article class="booking-card equipment-loan" data-booking-id="5902e6c8b9d7" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="2413f965c7e9" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">12:00 PM</span>Neewer RGB 2 Panel Light Kit
+<span class="task-time-prominent">11:00 AM</span>Zoom H4n Pro
                         </div>
                         <div class="booking-card-summary-time">
-Checkout • J.Z.                        </div>
+Checkout • M.R.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKOUT NEEDED</span>
@@ -155,8 +153,8 @@ Checkout • J.Z.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Neewer RGB 2 Panel Light Kit</h3>
-                        <div class="booking-category">Lighting</div>
+                        <h3>Zoom H4n Pro</h3>
+                        <div class="booking-category">Audio Recorders</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CONFIRMED</span>
@@ -169,11 +167,11 @@ Checkout • J.Z.                        </div>
                 <div class="booking-details">
                     <div class="detail-row">
                         <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">12:00 PM</span>
+                        <span class="detail-value">11:00 AM</span>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">J.Z. (j***@yorku.ca)</span>
+                        <span class="detail-value patron-info">M.R. (m***@gmail.com)</span>
                     </div>
                 </div>
 
@@ -230,7 +228,7 @@ Checkout • J.Z.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 5902e6c8b9d7</div>
+                <div class="booking-id">ID: 2413f965c7e9</div>
 
                 </div> 
             </article>
@@ -443,15 +441,29 @@ Checkout • S.A.                        </div>
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="1f9fdd2363a4" data-booking-type="equipment">
+                    </div>
+                </div>
+            </div>
+
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">4 PM</span>
+                        <span class="hour-group-count">1 task</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card equipment-loan" data-booking-id="bd45f3e9e2c5" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">12:00 PM</span>Meta Quest 3
+<span class="task-time-prominent">4:30 PM</span>Aputure Travel LED Light Kit (4 Panel)
                         </div>
                         <div class="booking-card-summary-time">
-Checkout • M.T.                        </div>
+Checkout • C.A.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKOUT NEEDED</span>
@@ -467,8 +479,8 @@ Checkout • M.T.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Meta Quest 3</h3>
-                        <div class="booking-category">VR Headsets</div>
+                        <h3>Aputure Travel LED Light Kit (4 Panel)</h3>
+                        <div class="booking-category">Lighting</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CONFIRMED</span>
@@ -481,11 +493,11 @@ Checkout • M.T.                        </div>
                 <div class="booking-details">
                     <div class="detail-row">
                         <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">12:00 PM</span>
+                        <span class="detail-value">4:30 PM</span>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">M.T. (m***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">C.A. (n***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -542,66 +554,7 @@ Checkout • M.T.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 1f9fdd2363a4</div>
-
-                </div> 
-            </article>
-
-                    </div>
-                </div>
-            </div>
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">1 PM</span>
-                        <span class="hour-group-count">1 task</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card teaching-event" data-booking-id="bd144bab6659" data-booking-type="teaching">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-Scott 206 - Demo Space
-                        </div>
-                        <div class="booking-card-summary-time">
-1:30 PM - 3:30 PM • B.I.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Scott 206 - Demo Space</h3>
-                        <div class="booking-category">Teaching Event</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="badge teaching-event-badge">Teaching Event</span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Time:</span>
-                        <span class="detail-value">1:30 PM - 3:30 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">B.I. (b***@yorku.ca)</span>
-                    </div>
-                </div>
-
-
-                <div class="booking-id">ID: bd144bab6659</div>
+                <div class="booking-id">ID: bd45f3e9e2c5</div>
 
                 </div> 
             </article>
@@ -613,7 +566,7 @@ Scott 206 - Demo Space
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
                         <span class="hour-group-title">5 PM</span>
-                        <span class="hour-group-count">5 tasks</span>
+                        <span class="hour-group-count">4 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
@@ -910,15 +863,15 @@ Due back • M.B.                        </div>
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="e17a0ea8b1a3" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="5902e6c8b9d7" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>Canon EOS R50-V
+<span class="task-time-prominent">5:00 PM</span>Neewer RGB 2 Panel Light Kit
                         </div>
                         <div class="booking-card-summary-time">
-Due back • J.H.                        </div>
+Due back • J.Z.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKIN NEEDED</span>
@@ -934,8 +887,8 @@ Due back • J.H.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Canon EOS R50-V</h3>
-                        <div class="booking-category">Cameras</div>
+                        <h3>Neewer RGB 2 Panel Light Kit</h3>
+                        <div class="booking-category">Lighting</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CHECKED OUT</span>
@@ -952,7 +905,7 @@ Due back • J.H.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">J.H. (j***@gmail.com)</span>
+                        <span class="detail-value patron-info">J.Z. (j***@yorku.ca)</span>
                     </div>
                 </div>
 
@@ -1002,104 +955,7 @@ Due back • J.H.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: e17a0ea8b1a3</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="70d4d84c8777" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>Canon EOS M50 Mark II
-                        </div>
-                        <div class="booking-card-summary-time">
-Due back • Z.H.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKIN NEEDED</span>
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Canon EOS M50 Mark II</h3>
-                        <div class="booking-category">Cameras</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                        <span class="equipment-indicator return">
-                            ↩️ Return
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Due back:</span>
-                        <span class="detail-value">5:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">Z.H. (z***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Return</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 5
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Receive equipment from patron</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Check in equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 70d4d84c8777</div>
+                <div class="booking-id">ID: 5902e6c8b9d7</div>
 
                 </div> 
             </article>
@@ -1114,82 +970,12 @@ Due back • Z.H.                        </div>
 
     <aside class="persistent-sections">
 
-        <section class="persistent-section in-progress-section">
-            <div class="section-header">
-                <h2>Patron Onsite</h2>
-                <span class="section-count">2</span>
-            </div>
-            <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="31b016dc7b2a" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 204 - Flex Studio</div>
-                            <div class="booking-card-summary-time">11:15 AM - 3:30 PM • J.E.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">11:15 AM - 3:30 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">J.E. (j***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">98V</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: 31b016dc7b2a</div>
-                    </div>
-                </article>
-                <article class="booking-card in-progress" data-booking-id="149acb7d2a1a" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 207D -  Audio Recording Booth</div>
-                            <div class="booking-card-summary-time">1:05 PM - 4:45 PM • M.M.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">1:05 PM - 4:45 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">M.M. (m***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">W75</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: 149acb7d2a1a</div>
-                    </div>
-                </article>
-            </div>
-        </section>
 
 
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">6</span>
+                <span class="section-count">11</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -1219,6 +1005,50 @@ Due back • Z.H.                        </div>
                                 </div>
                             </div>
                             <div class="booking-id">ID: 488e490959a0</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 204 - Flex Studio</h3>
+                                    <div class="booking-category">Flex Studio Spaces</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">11:15 AM - 3:30 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">J.E.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 31b016dc7b2a</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 207D -  Audio Recording Booth</h3>
+                                    <div class="booking-category">Audio Recording Rooms</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">1:05 PM - 4:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">M.M.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 149acb7d2a1a</div>
                         </article>
                         <article class="booking-card" data-booking-type="equipment">
                             <div class="booking-header">
@@ -1330,6 +1160,72 @@ Due back • Z.H.                        </div>
                             </div>
                             <div class="booking-id">ID: 98b1dc5f367b</div>
                         </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Canon EOS M50 Mark II</h3>
+                                    <div class="booking-category">Cameras</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">4:21 PM - 1:38 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">Z.H.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: 70d4d84c8777</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Canon EOS R50-V</h3>
+                                    <div class="booking-category">Cameras</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">2:16 PM - 4:45 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">J.H.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: e17a0ea8b1a3</div>
+                        </article>
+                        <article class="booking-card" data-booking-type="equipment">
+                            <div class="booking-header">
+                                <div class="booking-title">
+                                    <h3>Scott 206 - Demo Space</h3>
+                                    <div class="booking-category">Classrooms</div>
+                                </div>
+                                <div class="booking-badges">
+                                    <span class="badge status-completed">COMPLETED</span>
+                                </div>
+                            </div>
+                            <div class="booking-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Time:</span>
+                                    <span class="detail-value">1:30 PM - 3:30 PM</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Patron:</span>
+                                    <span class="detail-value patron-info">B.I.</span>
+                                </div>
+                            </div>
+                            <div class="booking-id">ID: bd144bab6659</div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -1359,6 +1255,6 @@ Due back • Z.H.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1790184841"></script>
+    <script src="../static/dashboard.js?v=1790196601"></script>
 </body>
 </html>
