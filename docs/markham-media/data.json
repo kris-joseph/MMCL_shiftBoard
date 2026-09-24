@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-24T17:37:58.402507+00:00",
+  "fetch_timestamp": "2026-09-24T20:55:54.651896+00:00",
   "date": "2026-09-24",
   "space_bookings": [
     {
@@ -26,6 +26,27 @@
       "event": null,
       "check_in_code": "54H",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAavWDFDAAA="
+    },
+    {
+      "bookId": "1760b575f51a",
+      "id": 16750720,
+      "eid": 30721,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-09-24T16:30:00-04:00",
+      "toDate": "2026-09-24T18:30:00-04:00",
+      "created": "2026-09-24T15:07:50-04:00",
+      "firstName": "Benedict",
+      "lastName": "Cruz",
+      "email": "isola@my.yorku.ca",
+      "account": "isola@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #1 (Rm 3060G)",
+      "event": null,
+      "check_in_code": "KG7",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpuAABH34X_zHuIQZyVVKGzvHhAAAavWKKXAAA="
     }
   ],
   "equipment_bookings": [
@@ -318,14 +339,14 @@
       "eid": 32503,
       "cid": 7828,
       "lid": 3432,
-      "fromDate": "2026-09-24T09:30:00-04:00",
+      "fromDate": "2026-09-24T14:45:00-04:00",
       "toDate": "2026-10-01T18:30:00-04:00",
       "created": "2026-09-23T22:56:17-04:00",
       "firstName": "Suvarnan",
       "lastName": "Nishanthan",
       "email": "suvan1@my.yorku.ca",
       "account": "suvan1@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Checked Out",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Cameras",
       "item_name": "Canon EOS R50",
