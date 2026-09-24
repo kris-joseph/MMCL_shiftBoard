@@ -3,9 +3,31 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-24T01:31:39.745357+00:00",
+  "fetch_timestamp": "2026-09-24T03:01:05.126027+00:00",
   "date": "2026-09-24",
-  "space_bookings": [],
+  "space_bookings": [
+    {
+      "bookId": "f77706ada221",
+      "id": 16740191,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-09-24T09:30:00-04:00",
+      "toDate": "2026-09-24T12:00:00-04:00",
+      "created": "2026-09-23T22:01:34-04:00",
+      "firstName": "Alyssa",
+      "lastName": "Brown",
+      "email": "alyb08@my.yorku.ca",
+      "account": "alyb08@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "54H",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAavQ3QqAAA="
+    }
+  ],
   "equipment_bookings": [
     {
       "bookId": "7362cdfe2d22",
@@ -289,6 +311,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956711 "
+    },
+    {
+      "bookId": "e9618b41d4f6",
+      "id": 382048,
+      "eid": 32503,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-09-24T09:30:00-04:00",
+      "toDate": "2026-10-01T18:30:00-04:00",
+      "created": "2026-09-23T22:56:17-04:00",
+      "firstName": "Suvarnan",
+      "lastName": "Nishanthan",
+      "email": "suvan1@my.yorku.ca",
+      "account": "suvan1@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931639"
     },
     {
       "bookId": "87e31b16e06f",

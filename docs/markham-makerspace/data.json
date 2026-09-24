@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-24T01:31:40.402906+00:00",
+  "fetch_timestamp": "2026-09-24T03:01:05.752932+00:00",
   "date": "2026-09-24",
   "space_bookings": [
     {
@@ -44,6 +44,25 @@
       "item_name": "Cricut Cutter",
       "event": null,
       "cancelled": "2026-09-22T18:25:21+00:00"
+    },
+    {
+      "bookId": "daf5cf83e0ba",
+      "id": 16739981,
+      "eid": 38168,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-09-24T09:30:00-04:00",
+      "toDate": "2026-09-24T16:30:00-04:00",
+      "created": "2026-09-23T21:38:30-04:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
+      "event": null
     },
     {
       "bookId": "08924d2a46a7",
