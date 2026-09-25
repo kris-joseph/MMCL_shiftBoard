@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-25T17:31:51.203945+00:00",
+  "fetch_timestamp": "2026-09-25T17:37:16.593160+00:00",
   "date": "2026-09-25",
   "space_bookings": [],
   "equipment_bookings": [
@@ -1384,26 +1384,6 @@
       "barcode": "39007054936190"
     },
     {
-      "bookId": "387c6d32fac4",
-      "id": 381921,
-      "eid": 28531,
-      "cid": 5661,
-      "lid": 2632,
-      "fromDate": "2026-09-23T16:30:00-04:00",
-      "toDate": "2026-09-30T17:00:00-04:00",
-      "created": "2026-09-23T15:30:50-04:00",
-      "firstName": "JUSTICE ISAIAH",
-      "lastName": "TULIO",
-      "email": "denditulio@gmail.com",
-      "account": "5859730001064968",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "VR Headsets",
-      "item_name": "Meta Quest 3",
-      "event": null,
-      "barcode": "39007054933890"
-    },
-    {
       "bookId": "08ce66959a0a",
       "id": 381932,
       "eid": 24950,
@@ -1628,6 +1608,26 @@
       "event": null,
       "barcode": "39007054936612",
       "cancelled": "2026-09-24T00:02:07+00:00"
+    },
+    {
+      "bookId": "387c6d32fac4",
+      "id": 381921,
+      "eid": 28528,
+      "cid": 5661,
+      "lid": 2632,
+      "fromDate": "2026-09-23T16:30:00-04:00",
+      "toDate": "2026-09-30T18:00:00-04:00",
+      "created": "2026-09-23T15:30:50-04:00",
+      "firstName": "JUSTICE ISAIAH",
+      "lastName": "TULIO",
+      "email": "denditulio@gmail.com",
+      "account": "5859730001064968",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054933866"
     },
     {
       "bookId": "f5de0e238904",
