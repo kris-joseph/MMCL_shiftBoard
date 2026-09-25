@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1790357838">
+    <link rel="stylesheet" href="../static/style.css?v=1790369505">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Friday, September 25, 2026</div>
-                <div class="last-updated">Last updated: 1:37 PM</div>
+                <div class="last-updated">Last updated: 4:51 PM</div>
             </div>
         </div>
     </header>
@@ -51,17 +51,17 @@
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 100.0%;"></div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 75.0%;"></div>
                 <div class="timeline-count">6</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 16.666666666666664%;"></div>
-                <div class="timeline-count">1</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 50.0%;"></div>
+                <div class="timeline-count">4</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">3PM</div>
@@ -72,8 +72,8 @@
                 <div class="timeline-hour-label">4PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 83.33333333333334%;"></div>
-                <div class="timeline-count">5</div>
+                <div class="timeline-bar" style="height: 100.0%;"></div>
+                <div class="timeline-count">8</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
             <div class="timeline-hour ">
@@ -82,7 +82,7 @@
                 <div class="timeline-hour-label">6PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 16.666666666666664%;"></div>
+                <div class="timeline-bar" style="height: 12.5%;"></div>
                 <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">7PM</div>
             </div>
@@ -119,11 +119,10 @@
 
 
 
-
-            <div class="hour-group">
+            <div class="hour-group outstanding-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
-                        <span class="hour-group-title">1 PM</span>
+                        <span class="hour-group-title">Still outstanding from earlier today</span>
                         <span class="hour-group-count">3 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
@@ -445,6 +444,7 @@ Checkout • W.A.                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
@@ -606,6 +606,6 @@ Due back • A.P.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1790357838"></script>
+    <script src="../static/dashboard.js?v=1790369505"></script>
 </body>
 </html>
