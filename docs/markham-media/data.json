@@ -3,8 +3,8 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-27T23:11:09.647887+00:00",
-  "date": "2026-09-27",
+  "fetch_timestamp": "2026-09-28T01:48:23.015247+00:00",
+  "date": "2026-09-28",
   "space_bookings": [],
   "equipment_bookings": [
     {
@@ -328,6 +328,26 @@
       "item_name": "DJI Osmo Nano",
       "event": null,
       "barcode": "39007052960911"
+    },
+    {
+      "bookId": "ca3c6d1231a7",
+      "id": 383042,
+      "eid": 33661,
+      "cid": 8161,
+      "lid": 3432,
+      "fromDate": "2026-09-28T09:30:00-04:00",
+      "toDate": "2026-10-05T18:30:00-04:00",
+      "created": "2026-09-27T21:29:14-04:00",
+      "firstName": "Huu Quang",
+      "lastName": "Tran",
+      "email": "huqaa25@my.yorku.ca",
+      "account": "huqaa25@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Microphones",
+      "item_name": "Rode Wireless Pro II",
+      "event": null,
+      "barcode": "39007052961109"
     },
     {
       "bookId": "87e31b16e06f",
