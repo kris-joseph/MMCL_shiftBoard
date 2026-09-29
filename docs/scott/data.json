@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-29T04:04:39.983528+00:00",
+  "fetch_timestamp": "2026-09-29T07:45:10.526805+00:00",
   "date": "2026-09-29",
   "space_bookings": [
     {
@@ -173,6 +173,26 @@
       "item_name": "Scott 203K - Audio Recording Studio",
       "event": null,
       "check_in_code": "G44"
+    },
+    {
+      "bookId": "df8afbe818f8",
+      "id": 16803012,
+      "eid": 21082,
+      "cid": 5832,
+      "lid": 2632,
+      "fromDate": "2026-09-29T15:15:00-04:00",
+      "toDate": "2026-09-29T16:30:00-04:00",
+      "created": "2026-09-29T01:50:29-04:00",
+      "firstName": "Enver",
+      "lastName": "Khalilov",
+      "email": "enver18@my.yorku.ca",
+      "account": "enver18@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "VR Rooms",
+      "item_name": "Scott 203C - VR/Podcasting Room",
+      "event": null,
+      "check_in_code": "9M4"
     },
     {
       "bookId": "c2711d0b43ce",
