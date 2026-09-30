@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-09-30T18:11:44.123511+00:00",
+  "fetch_timestamp": "2026-09-30T22:25:56.523560+00:00",
   "date": "2026-09-30",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-09-30T13:00:00-04:00",
-      "toDate": "2026-09-30T16:00:00-04:00",
+      "toDate": "2026-09-30T19:00:00-04:00",
       "created": "2026-09-30T13:01:31-04:00",
       "firstName": "Sean",
       "lastName": "Sweeney",
@@ -25,10 +25,30 @@
       "item_name": "Editing and Music Studio #3 (Rm 3060E)",
       "event": null,
       "check_in_code": "T42",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAay-AAcAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAay-AAfAAA="
     }
   ],
   "equipment_bookings": [
+    {
+      "bookId": "087e2f744c94",
+      "id": 381999,
+      "eid": 36637,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-09-23T18:35:34-04:00",
+      "toDate": "2026-09-30T14:48:00-04:00",
+      "created": "2026-09-23T18:35:32-04:00",
+      "firstName": "BENEDICT",
+      "lastName": "CRUZ",
+      "email": "isola@my.yorku.ca",
+      "account": "5859730001068734",
+      "status": "Checked In",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": " 39007052956711 "
+    },
     {
       "bookId": "11678472ee4a",
       "id": 373713,
@@ -48,26 +68,6 @@
       "item_name": "ZHIYUN Molus G60 Light",
       "event": null,
       "barcode": " 39007054935150"
-    },
-    {
-      "bookId": "087e2f744c94",
-      "id": 381999,
-      "eid": 36637,
-      "cid": 7812,
-      "lid": 3432,
-      "fromDate": "2026-09-23T18:35:34-04:00",
-      "toDate": "2026-09-30T18:30:00-04:00",
-      "created": "2026-09-23T18:35:32-04:00",
-      "firstName": "BENEDICT",
-      "lastName": "CRUZ",
-      "email": "isola@my.yorku.ca",
-      "account": "5859730001068734",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": " 39007052956711 "
     },
     {
       "bookId": "7362cdfe2d22",
