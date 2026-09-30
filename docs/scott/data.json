@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-09-30T01:23:24.343844+00:00",
+  "fetch_timestamp": "2026-09-30T03:51:15.939377+00:00",
   "date": "2026-09-30",
   "space_bookings": [
     {
@@ -1649,6 +1649,26 @@
       "barcode": "39007054931688"
     },
     {
+      "bookId": "edc38025d4b0",
+      "id": 384132,
+      "eid": 21621,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-09-30T12:00:00-04:00",
+      "toDate": "2026-10-04T19:00:00-04:00",
+      "created": "2026-09-29T22:50:22-04:00",
+      "firstName": "Kenzi",
+      "lastName": "Sulaiman",
+      "email": "kenzi@my.yorku.ca",
+      "account": "kenzi@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50",
+      "event": null,
+      "barcode": "39007054930235"
+    },
+    {
       "bookId": "c3f23f526b02",
       "id": 382925,
       "eid": 27871,
@@ -2177,6 +2197,26 @@
       "item_name": "Canon EOS M50",
       "event": null,
       "barcode": "39007054930318"
+    },
+    {
+      "bookId": "8aa565f2054c",
+      "id": 384131,
+      "eid": 34037,
+      "cid": 8142,
+      "lid": 2632,
+      "fromDate": "2026-09-30T12:00:00-04:00",
+      "toDate": "2026-10-06T17:00:00-04:00",
+      "created": "2026-09-29T21:51:13-04:00",
+      "firstName": "Nathan",
+      "lastName": "Dennis",
+      "email": "d3nnis@my.yorku.ca",
+      "account": "d3nnis@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Lenses",
+      "item_name": "Canon RF 35mm",
+      "event": null,
+      "barcode": "39007054932389"
     },
     {
       "bookId": "a48c3db7bc51",
