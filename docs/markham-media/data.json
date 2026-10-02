@@ -3,9 +3,31 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-02T07:49:35.517027+00:00",
+  "fetch_timestamp": "2026-10-02T18:01:23.813720+00:00",
   "date": "2026-10-02",
-  "space_bookings": [],
+  "space_bookings": [
+    {
+      "bookId": "8d325b1a6d4d",
+      "id": 16860310,
+      "eid": 30722,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-10-02T12:00:00-04:00",
+      "toDate": "2026-10-02T14:30:00-04:00",
+      "created": "2026-10-02T11:56:19-04:00",
+      "firstName": "STEPHEN",
+      "lastName": "TEONG",
+      "email": "steong@yorku.ca",
+      "account": "5859730000103929",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #2 (Rm 3060F)",
+      "event": null,
+      "check_in_code": "X6WJ",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpvAABH34X_zHuIQZyVVKGzvHhAAAay-UPfAAA="
+    }
+  ],
   "equipment_bookings": [
     {
       "bookId": "7362cdfe2d22",
@@ -190,22 +212,22 @@
     {
       "bookId": "6133cb2bf008",
       "id": 384506,
-      "eid": 32186,
+      "eid": 32501,
       "cid": 7812,
       "lid": 3432,
-      "fromDate": "2026-10-02T09:30:00-04:00",
+      "fromDate": "2026-10-02T11:01:00-04:00",
       "toDate": "2026-10-09T16:30:00-04:00",
       "created": "2026-10-01T10:12:11-04:00",
       "firstName": "Adam",
       "lastName": "Jaffar",
       "email": "adamjaff@my.yorku.ca",
       "account": "adamjaff@my.yorku.ca",
-      "status": "Confirmed",
+      "status": "Checked Out",
       "location_name": "Markham Library Media Creation Studios and Equipment",
       "category_name": "Camera Stabilizers",
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
-      "barcode": "39007054931142"
+      "barcode": "39007054931126"
     },
     {
       "bookId": "5a472fe4c08c",
