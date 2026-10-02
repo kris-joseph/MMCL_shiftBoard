@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-02T03:55:44.480282+00:00",
+  "fetch_timestamp": "2026-10-02T07:49:36.238270+00:00",
   "date": "2026-10-02",
   "space_bookings": [
     {
@@ -26,6 +26,25 @@
       "event": null
     },
     {
+      "bookId": "068bf5bdc951",
+      "id": 16855636,
+      "eid": 37118,
+      "cid": 8633,
+      "lid": 3430,
+      "fromDate": "2026-10-02T10:00:00-04:00",
+      "toDate": "2026-10-02T11:00:00-04:00",
+      "created": "2026-10-02T00:05:01-04:00",
+      "firstName": "Grace",
+      "lastName": "Grothaus",
+      "email": "grothaus@yorku.ca",
+      "account": "grothaus@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Laser Cutters",
+      "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
       "bookId": "8611f61ae903",
       "id": 16725721,
       "eid": 31933,
@@ -44,6 +63,25 @@
       "item_name": "Makerspace (Rm 3055)",
       "event": null,
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAau2mXBAAA="
+    },
+    {
+      "bookId": "e30354a2fc0c",
+      "id": 16855637,
+      "eid": 37118,
+      "cid": 8633,
+      "lid": 3430,
+      "fromDate": "2026-10-02T15:00:00-04:00",
+      "toDate": "2026-10-02T16:00:00-04:00",
+      "created": "2026-10-02T00:05:01-04:00",
+      "firstName": "Grace",
+      "lastName": "Grothaus",
+      "email": "grothaus@yorku.ca",
+      "account": "grothaus@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Laser Cutters",
+      "item_name": "Aeon Mira 9",
+      "event": null
     },
     {
       "bookId": "91b9507dbdc6",
