@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-03T19:35:39.331134+00:00",
+  "fetch_timestamp": "2026-10-03T22:33:29.579206+00:00",
   "date": "2026-10-03",
   "space_bookings": [
     {
@@ -133,11 +133,12 @@
       "lastName": "Karimpour",
       "email": "shaadi@my.yorku.ca",
       "account": "shaadi@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-10-03T19:51:52+00:00"
     },
     {
       "bookId": "4f019b4f4bcd",
