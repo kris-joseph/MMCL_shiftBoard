@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-04T17:11:16.145291+00:00",
+  "fetch_timestamp": "2026-10-04T20:16:01.275922+00:00",
   "date": "2026-10-04",
   "space_bookings": [
     {
@@ -13,7 +13,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-10-04T13:00:00-04:00",
-      "toDate": "2026-10-04T15:30:00-04:00",
+      "toDate": "2026-10-04T17:30:00-04:00",
       "created": "2026-10-02T13:10:09-04:00",
       "firstName": "Sandy",
       "lastName": "Chan",
@@ -25,7 +25,7 @@
       "item_name": "Editing and Music Studio #3 (Rm 3060E)",
       "event": null,
       "check_in_code": "Y8P",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAay-AAhAAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAay-AAkAAA="
     }
   ],
   "equipment_bookings": [
@@ -288,6 +288,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931639"
+    },
+    {
+      "bookId": "76b9615a00e1",
+      "id": 385777,
+      "eid": 37816,
+      "cid": 8162,
+      "lid": 3432,
+      "fromDate": "2026-10-04T15:24:00-04:00",
+      "toDate": "2026-10-11T18:00:00-04:00",
+      "created": "2026-10-04T15:24:14-04:00",
+      "firstName": "WILLIAM",
+      "lastName": "TANG",
+      "email": "willt12@my.yorku.ca",
+      "account": "223334170",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Headphones",
+      "item_name": "Sony MDR-7506 Headphones",
+      "event": null,
+      "barcode": "39007054934104"
     },
     {
       "bookId": "87e31b16e06f",
