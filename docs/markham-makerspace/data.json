@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-05T08:05:03.481923+00:00",
+  "fetch_timestamp": "2026-10-05T21:02:45.058362+00:00",
   "date": "2026-10-05",
   "space_bookings": [
     {
@@ -84,6 +84,25 @@
       "cancelled": "2026-09-29T00:30:37+00:00"
     },
     {
+      "bookId": "fea5207ca14a",
+      "id": 16893031,
+      "eid": 35452,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-10-05T13:30:00-04:00",
+      "toDate": "2026-10-05T14:30:00-04:00",
+      "created": "2026-10-05T13:38:56-04:00",
+      "firstName": "Aria",
+      "lastName": "Baharlooie",
+      "email": "ariab@yorku.ca",
+      "account": "ariab@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #4 \"Striker Eureka\"",
+      "event": null
+    },
+    {
       "bookId": "c7de46fec297",
       "id": 16800543,
       "eid": 38168,
@@ -96,11 +115,12 @@
       "lastName": "Abebe",
       "email": "nabebe@my.yorku.ca",
       "account": "nabebe@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-10-05T13:01:30+00:00"
     },
     {
       "bookId": "d664a6e46244",
@@ -211,11 +231,12 @@
       "lastName": "Mansouri",
       "email": "amir01mn@my.yorku.ca",
       "account": "amir01mn@my.yorku.ca",
-      "status": "Mediated Approved",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-10-05T16:49:21+00:00"
     },
     {
       "bookId": "3f690fcdbbea",
