@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-06T18:41:21.887661+00:00",
+  "fetch_timestamp": "2026-10-06T22:49:59.438531+00:00",
   "date": "2026-10-06",
   "space_bookings": [
     {
@@ -140,6 +140,25 @@
       "item_name": "Makerspace (Rm 3055)",
       "event": null,
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAay__p8AAA="
+    },
+    {
+      "bookId": "e2398d0624b2",
+      "id": 16918959,
+      "eid": 35302,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-10-06T17:30:00-04:00",
+      "toDate": "2026-10-06T18:30:00-04:00",
+      "created": "2026-10-06T18:12:40-04:00",
+      "firstName": "Shalini",
+      "lastName": "Senthilruban",
+      "email": "shady07@my.yorku.ca",
+      "account": "shady07@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #3 \"Scylla\"",
+      "event": null
     },
     {
       "bookId": "92be08d7dda7",
