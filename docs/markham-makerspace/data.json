@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-08T19:04:10.414600+00:00",
+  "fetch_timestamp": "2026-10-08T23:48:47.934247+00:00",
   "date": "2026-10-08",
   "space_bookings": [
     {
@@ -68,6 +68,25 @@
       },
       "nickname": "Makerspace Orientations: Introduction to Sewing Machines",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAadZV41AAA="
+    },
+    {
+      "bookId": "6206e68bf0e7",
+      "id": 16951446,
+      "eid": 38168,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-10-08T16:30:00-04:00",
+      "toDate": "2026-10-08T17:30:00-04:00",
+      "created": "2026-10-08T15:47:12-04:00",
+      "firstName": "Santiago",
+      "lastName": "Diaz Aguilar",
+      "email": "santida7@my.yorku.ca",
+      "account": "santida7@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
+      "event": null
     },
     {
       "bookId": "c47177b2edae",
