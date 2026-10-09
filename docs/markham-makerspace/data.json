@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-09T18:30:20.390135+00:00",
+  "fetch_timestamp": "2026-10-09T18:34:44.791182+00:00",
   "date": "2026-10-09",
   "space_bookings": [
     {
@@ -61,6 +61,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #3 \"Cherno Alpha\"",
+      "event": null
+    },
+    {
+      "bookId": "4712fa4a8d74",
+      "id": 16963185,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-10-09T14:30:00-04:00",
+      "toDate": "2026-10-09T15:30:00-04:00",
+      "created": "2026-10-09T14:31:51-04:00",
+      "firstName": "Zuhayr",
+      "lastName": "Hossain",
+      "email": "zuhayrh@my.yorku.ca",
+      "account": "zuhayrh@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
     },
     {
