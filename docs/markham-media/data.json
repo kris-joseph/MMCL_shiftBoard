@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-09T18:34:44.218255+00:00",
+  "fetch_timestamp": "2026-10-09T22:57:47.585493+00:00",
   "date": "2026-10-09",
   "space_bookings": [
     {
@@ -351,6 +351,26 @@
       "item_name": "Canon RF 55mm-210mm",
       "event": null,
       "barcode": "39007054931019"
+    },
+    {
+      "bookId": "ef5bc8a0f01e",
+      "id": 387955,
+      "eid": 36636,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-10-09T15:15:00-04:00",
+      "toDate": "2026-10-16T16:30:00-04:00",
+      "created": "2026-10-09T15:06:39-04:00",
+      "firstName": "Toufic",
+      "lastName": "Fares",
+      "email": "toufic@my.yorku.ca",
+      "account": "toufic@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": " 39007052956760 "
     },
     {
       "bookId": "87e31b16e06f",
