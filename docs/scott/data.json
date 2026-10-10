@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-10-10T20:52:03.452684+00:00",
+  "fetch_timestamp": "2026-10-10T23:57:48.088529+00:00",
   "date": "2026-10-10",
   "space_bookings": [
     {
@@ -3161,26 +3161,6 @@
       "barcode": "39007054933916"
     },
     {
-      "bookId": "5c568b76aeb7",
-      "id": 384251,
-      "eid": 28527,
-      "cid": 5661,
-      "lid": 2632,
-      "fromDate": "2026-10-11T14:00:00-04:00",
-      "toDate": "2026-10-18T19:00:00-04:00",
-      "created": "2026-09-30T13:18:38-04:00",
-      "firstName": "Mary",
-      "lastName": "Tran",
-      "email": "maryt26@my.yorku.ca",
-      "account": "maryt26@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "VR Headsets",
-      "item_name": "Meta Quest 3",
-      "event": null,
-      "barcode": "39007054933858"
-    },
-    {
       "bookId": "1c1a34bd5fda",
       "id": 386131,
       "eid": 26372,
@@ -3319,6 +3299,27 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007054936463"
+    },
+    {
+      "bookId": "5c568b76aeb7",
+      "id": 384251,
+      "eid": 28527,
+      "cid": 5661,
+      "lid": 2632,
+      "fromDate": "2026-10-11T14:00:00-04:00",
+      "toDate": "2026-10-18T19:00:00-04:00",
+      "created": "2026-09-30T13:18:38-04:00",
+      "firstName": "Mary",
+      "lastName": "Tran",
+      "email": "maryt26@my.yorku.ca",
+      "account": "maryt26@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054933858",
+      "cancelled": "2026-10-10T21:38:46+00:00"
     },
     {
       "bookId": "e2432efd16a1",

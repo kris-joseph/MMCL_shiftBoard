@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-10T20:52:04.631866+00:00",
+  "fetch_timestamp": "2026-10-10T23:57:48.936418+00:00",
   "date": "2026-10-10",
   "space_bookings": [
     {
@@ -48,6 +48,27 @@
       "event": null,
       "check_in_code": "S4F",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAa6AyLCAAA="
+    },
+    {
+      "bookId": "ff3081bbc820",
+      "id": 16971294,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-10-11T12:00:00-04:00",
+      "toDate": "2026-10-11T14:30:00-04:00",
+      "created": "2026-10-10T17:09:50-04:00",
+      "firstName": "Sandy",
+      "lastName": "Chan",
+      "email": "sdychan@yorku.ca",
+      "account": "sdychan@yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "8FQ",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAa6AyLDAAA="
     }
   ],
   "equipment_bookings": [
@@ -372,6 +393,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956760 "
+    },
+    {
+      "bookId": "8c0b089e29f5",
+      "id": 388195,
+      "eid": 36655,
+      "cid": 7830,
+      "lid": 3432,
+      "fromDate": "2026-10-10T16:53:00-04:00",
+      "toDate": "2026-10-17T17:30:00-04:00",
+      "created": "2026-10-10T16:53:30-04:00",
+      "firstName": "EDWARD VINCENT",
+      "lastName": "GUEVARRA",
+      "email": "gvincent@yorku.ca",
+      "account": "102132681",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Tripods",
+      "item_name": "SmallRig Tripod",
+      "event": null,
+      "barcode": "39007052956950"
     },
     {
       "bookId": "87e31b16e06f",
