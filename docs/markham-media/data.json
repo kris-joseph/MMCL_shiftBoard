@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-10T17:31:31.363784+00:00",
+  "fetch_timestamp": "2026-10-10T20:52:04.631866+00:00",
   "date": "2026-10-10",
   "space_bookings": [
     {
@@ -35,7 +35,7 @@
       "cid": 7467,
       "lid": 3432,
       "fromDate": "2026-10-10T14:00:00-04:00",
-      "toDate": "2026-10-10T16:30:00-04:00",
+      "toDate": "2026-10-10T17:30:00-04:00",
       "created": "2026-10-10T12:24:58-04:00",
       "firstName": "Sandy",
       "lastName": "Chan",
@@ -47,7 +47,7 @@
       "item_name": "Editing and Music Studio #3 (Rm 3060E)",
       "event": null,
       "check_in_code": "S4F",
-      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAa6AyK8AAA="
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAa6AyLCAAA="
     }
   ],
   "equipment_bookings": [
@@ -130,6 +130,26 @@
       "item_name": "Crucial X10 SSD Drive",
       "event": null,
       "barcode": "39007052957263"
+    },
+    {
+      "bookId": "6e2235bbcf51",
+      "id": 388194,
+      "eid": 36515,
+      "cid": 7832,
+      "lid": 3432,
+      "fromDate": "2026-10-10T16:49:50-04:00",
+      "toDate": "2026-10-14T18:30:00-04:00",
+      "created": "2026-10-10T16:49:49-04:00",
+      "firstName": "GLEB",
+      "lastName": "GULID",
+      "email": "gleb.gulid@yahoo.com",
+      "account": "222193965",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Lenses",
+      "item_name": "Sigma RF 18mm-50mm",
+      "event": null,
+      "barcode": "39007052956802"
     },
     {
       "bookId": "2c484edaea5b",
