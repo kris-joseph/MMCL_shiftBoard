@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-13T19:38:11.366948+00:00",
+  "fetch_timestamp": "2026-10-13T23:30:33.617451+00:00",
   "date": "2026-10-13",
   "space_bookings": [
     {
@@ -47,6 +47,27 @@
       "event": null,
       "check_in_code": "68ZG",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpvAABH34X_zHuIQZyVVKGzvHhAAAa7xcPgAAA="
+    },
+    {
+      "bookId": "7af33b146997",
+      "id": 16997647,
+      "eid": 30723,
+      "cid": 7467,
+      "lid": 3432,
+      "fromDate": "2026-10-14T17:00:00-04:00",
+      "toDate": "2026-10-14T18:30:00-04:00",
+      "created": "2026-10-13T16:04:55-04:00",
+      "firstName": "Sandy",
+      "lastName": "Chan",
+      "email": "sdychan@yorku.ca",
+      "account": "sdychan@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Editing Studios",
+      "item_name": "Editing and Music Studio #3 (Rm 3060E)",
+      "event": null,
+      "check_in_code": "F5F",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0DpwAABH34X_zHuIQZyVVKGzvHhAAAa7xYq7AAA="
     }
   ],
   "equipment_bookings": [
@@ -631,6 +652,26 @@
       "item_name": "SmallRig Tripod",
       "event": null,
       "barcode": "39007052956943"
+    },
+    {
+      "bookId": "596a213b7f3d",
+      "id": 388822,
+      "eid": 32186,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-10-14T09:30:00-04:00",
+      "toDate": "2026-10-21T18:30:00-04:00",
+      "created": "2026-10-13T16:55:58-04:00",
+      "firstName": "Mohammed",
+      "lastName": "Abdella",
+      "email": "mohabd1@my.yorku.ca",
+      "account": "mohabd1@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054931142"
     },
     {
       "bookId": "fb17e28f365b",
