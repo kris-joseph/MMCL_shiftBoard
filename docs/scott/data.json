@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-10-13T02:39:33.791465+00:00",
+  "fetch_timestamp": "2026-10-13T05:20:32.010545+00:00",
   "date": "2026-10-13",
   "space_bookings": [
     {
@@ -1106,26 +1106,6 @@
       "cancelled": "2026-10-07T00:02:07+00:00"
     },
     {
-      "bookId": "cbd60fd05039",
-      "id": 385679,
-      "eid": 34321,
-      "cid": 8143,
-      "lid": 2632,
-      "fromDate": "2026-10-13T12:00:00-04:00",
-      "toDate": "2026-10-14T17:00:00-04:00",
-      "created": "2026-10-04T00:40:31-04:00",
-      "firstName": "Gemeriah Crisha",
-      "lastName": "Doria",
-      "email": "crisha12@my.yorku.ca",
-      "account": "crisha12@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": "39007054936562"
-    },
-    {
       "bookId": "344bb2b21049",
       "id": 382966,
       "eid": 34921,
@@ -1405,6 +1385,27 @@
       "event": null,
       "barcode": "39007054933890",
       "cancelled": "2026-10-07T00:20:52+00:00"
+    },
+    {
+      "bookId": "cbd60fd05039",
+      "id": 385679,
+      "eid": 34321,
+      "cid": 8143,
+      "lid": 2632,
+      "fromDate": "2026-10-13T12:00:00-04:00",
+      "toDate": "2026-10-14T17:00:00-04:00",
+      "created": "2026-10-04T00:40:31-04:00",
+      "firstName": "Gemeriah Crisha",
+      "lastName": "Doria",
+      "email": "crisha12@my.yorku.ca",
+      "account": "crisha12@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": "39007054936562",
+      "cancelled": "2026-10-13T04:26:42+00:00"
     },
     {
       "bookId": "7cefb95f8a0f",
@@ -3378,6 +3379,26 @@
       "item_name": "Vbestlife W49, Mini Dimmable LED Light Panel",
       "event": null,
       "barcode": "39007054930581"
+    },
+    {
+      "bookId": "c2a65846ccd4",
+      "id": 388427,
+      "eid": 21818,
+      "cid": 5661,
+      "lid": 2632,
+      "fromDate": "2026-10-13T12:00:00-04:00",
+      "toDate": "2026-10-20T17:00:00-04:00",
+      "created": "2026-10-12T23:46:14-04:00",
+      "firstName": "Muhammad Abdullah",
+      "lastName": "Baig",
+      "email": "mbaig1@yorku.ca",
+      "account": "mbaig1@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 2 (128 GB), VR Headset & Controllers",
+      "event": null,
+      "barcode": "39007054930201"
     },
     {
       "bookId": "1d55e32c2290",
