@@ -3,9 +3,28 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-12T21:27:58.122597+00:00",
-  "date": "2026-10-12",
+  "fetch_timestamp": "2026-10-13T02:39:35.072093+00:00",
+  "date": "2026-10-13",
   "space_bookings": [
+    {
+      "bookId": "61699b64415a",
+      "id": 16983805,
+      "eid": 31776,
+      "cid": 7722,
+      "lid": 3430,
+      "fromDate": "2026-10-13T11:00:00-04:00",
+      "toDate": "2026-10-13T12:00:00-04:00",
+      "created": "2026-10-12T21:26:27-04:00",
+      "firstName": "Salih Mithat",
+      "lastName": "Kaya",
+      "email": "smkaya@my.yorku.ca",
+      "account": "smkaya@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Soldering Stations",
+      "item_name": "Soldering Station #01",
+      "event": null
+    },
     {
       "bookId": "4acf1355b70f",
       "id": 16941031,
@@ -82,6 +101,30 @@
       "category_name": "Sewing, Textiles and Vinyl",
       "item_name": "Cricut Cutter",
       "event": null
+    },
+    {
+      "bookId": "c4f8d0dae670",
+      "id": 16485649,
+      "eid": 31933,
+      "cid": 7767,
+      "lid": 3430,
+      "fromDate": "2026-10-14T13:30:00-04:00",
+      "toDate": "2026-10-14T15:30:00-04:00",
+      "created": "2026-08-27T15:49:50-04:00",
+      "firstName": "Betty",
+      "lastName": "Irving",
+      "email": "birving@yorku.ca",
+      "account": "admin",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Makerspace Room",
+      "item_name": "Makerspace (Rm 3055)",
+      "event": {
+        "id": 4056977,
+        "title": "Makerspace Orientations: Makey Makey, Everything is a game controller"
+      },
+      "nickname": "Makerspace Orientations: Makey Makey, Everything is a game controller",
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAacCAEFAAA="
     }
   ],
   "equipment_bookings": [],
