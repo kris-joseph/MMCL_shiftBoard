@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-15T17:28:34.416237+00:00",
+  "fetch_timestamp": "2026-10-15T20:27:35.309724+00:00",
   "date": "2026-10-15",
   "space_bookings": [
     {
@@ -70,7 +70,7 @@
       "cid": 7245,
       "lid": 3430,
       "fromDate": "2026-10-15T14:30:00-04:00",
-      "toDate": "2026-10-15T15:30:00-04:00",
+      "toDate": "2026-10-15T19:30:00-04:00",
       "created": "2026-10-13T22:41:42-04:00",
       "firstName": "Deborah",
       "lastName": "Odongo",
