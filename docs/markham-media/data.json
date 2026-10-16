@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-16T17:03:51.771915+00:00",
+  "fetch_timestamp": "2026-10-16T19:59:42.944787+00:00",
   "date": "2026-10-16",
   "space_bookings": [
     {
@@ -112,26 +112,6 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007052956703"
-    },
-    {
-      "bookId": "ef5bc8a0f01e",
-      "id": 387955,
-      "eid": 36636,
-      "cid": 7812,
-      "lid": 3432,
-      "fromDate": "2026-10-09T15:15:00-04:00",
-      "toDate": "2026-10-16T16:30:00-04:00",
-      "created": "2026-10-09T15:06:39-04:00",
-      "firstName": "Toufic",
-      "lastName": "Fares",
-      "email": "toufic@my.yorku.ca",
-      "account": "toufic@my.yorku.ca",
-      "status": "Checked Out",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Camera Stabilizers",
-      "item_name": "DJI Osmo Pocket 3",
-      "event": null,
-      "barcode": " 39007052956760 "
     },
     {
       "bookId": "337971271d3b",
@@ -453,6 +433,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931621"
+    },
+    {
+      "bookId": "ef5bc8a0f01e",
+      "id": 387955,
+      "eid": 36636,
+      "cid": 7812,
+      "lid": 3432,
+      "fromDate": "2026-10-09T15:15:00-04:00",
+      "toDate": "2026-10-23T16:30:00-04:00",
+      "created": "2026-10-09T15:06:39-04:00",
+      "firstName": "Toufic",
+      "lastName": "Fares",
+      "email": "toufic@my.yorku.ca",
+      "account": "toufic@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Camera Stabilizers",
+      "item_name": "DJI Osmo Pocket 3",
+      "event": null,
+      "barcode": " 39007052956760 "
     },
     {
       "bookId": "bfba8a93161c",
