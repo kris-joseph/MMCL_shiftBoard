@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-16T19:59:43.355494+00:00",
+  "fetch_timestamp": "2026-10-16T22:38:58.449468+00:00",
   "date": "2026-10-16",
   "space_bookings": [
     {
@@ -42,6 +42,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
+      "bookId": "5c9c97c0db14",
+      "id": 17049259,
+      "eid": 31766,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-10-17T12:00:00-04:00",
+      "toDate": "2026-10-17T14:00:00-04:00",
+      "created": "2026-10-16T18:20:51-04:00",
+      "firstName": "Youyang",
+      "lastName": "Tang",
+      "email": "youyangt@my.yorku.ca",
+      "account": "youyangt@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Bernette 35 #01 \"Giorgio\"",
       "event": null
     }
   ],
