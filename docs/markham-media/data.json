@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-17T00:53:50.764345+00:00",
+  "fetch_timestamp": "2026-10-17T02:52:40.745584+00:00",
   "date": "2026-10-17",
   "space_bookings": [],
   "equipment_bookings": [
@@ -527,6 +527,26 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007052961109"
+    },
+    {
+      "bookId": "1ef235c0e46f",
+      "id": 390220,
+      "eid": 32510,
+      "cid": 8306,
+      "lid": 3432,
+      "fromDate": "2026-10-17T11:00:00-04:00",
+      "toDate": "2026-10-24T17:30:00-04:00",
+      "created": "2026-10-16T22:34:51-04:00",
+      "firstName": "Josef",
+      "lastName": "Geshelin",
+      "email": "josef50@my.yorku.ca",
+      "account": "josef50@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "360 Cameras",
+      "item_name": "Insta360 x4 (8K Action Cam)",
+      "event": null,
+      "barcode": "39007054931100"
     },
     {
       "bookId": "fb17e28f365b",
