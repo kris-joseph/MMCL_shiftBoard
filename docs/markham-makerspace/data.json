@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-19T07:11:29.176663+00:00",
+  "fetch_timestamp": "2026-10-19T18:49:32.619410+00:00",
   "date": "2026-10-19",
   "space_bookings": [
     {
@@ -19,11 +19,32 @@
       "lastName": "Tsang",
       "email": "jxt24@my.yorku.ca",
       "account": "jxt24@my.yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by Admin",
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
-      "event": null
+      "event": null,
+      "cancelled": "2026-10-19T16:34:44+00:00"
+    },
+    {
+      "bookId": "b631361b6ba7",
+      "id": 17078252,
+      "eid": 31933,
+      "cid": 7767,
+      "lid": 3430,
+      "fromDate": "2026-10-19T15:00:00-04:00",
+      "toDate": "2026-10-19T19:00:00-04:00",
+      "created": "2026-10-19T12:35:14-04:00",
+      "firstName": "JACOB",
+      "lastName": "TUROLA",
+      "email": "jturola@yorku.ca",
+      "account": "102124161",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Makerspace Room",
+      "item_name": "Makerspace (Rm 3055)",
+      "event": null,
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAa-ASXpAAA="
     },
     {
       "bookId": "7c4d9dc38981",
