@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-10-19T03:07:26.669117+00:00",
+  "fetch_timestamp": "2026-10-19T07:11:27.324822+00:00",
   "date": "2026-10-19",
   "space_bookings": [
     {
@@ -2542,6 +2542,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007054936604"
+    },
+    {
+      "bookId": "d6d71db3f972",
+      "id": 390447,
+      "eid": 32764,
+      "cid": 8146,
+      "lid": 2632,
+      "fromDate": "2026-10-19T12:00:00-04:00",
+      "toDate": "2026-10-26T17:00:00-04:00",
+      "created": "2026-10-19T00:23:46-04:00",
+      "firstName": "Hashem",
+      "lastName": "Alhasan",
+      "email": "hash33@my.yorku.ca",
+      "account": "hash33@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Lighting",
+      "item_name": "Neewer Ring Light",
+      "event": null,
+      "barcode": "39007054932280"
     },
     {
       "bookId": "b814165e1ad2",
