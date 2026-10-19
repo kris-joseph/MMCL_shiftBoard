@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-10-19T18:49:30.743122+00:00",
+  "fetch_timestamp": "2026-10-19T18:53:27.007358+00:00",
   "date": "2026-10-19",
   "space_bookings": [
     {
@@ -453,6 +453,26 @@
       "item_name": "Sony MDR-7506",
       "event": null,
       "barcode": "39007054931399"
+    },
+    {
+      "bookId": "7dc173e00f35",
+      "id": 390692,
+      "eid": 34105,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-10-19T15:00:00-04:00",
+      "toDate": "2026-10-19T17:00:00-04:00",
+      "created": "2026-10-19T14:52:58-04:00",
+      "firstName": "Joseph",
+      "lastName": "Boivin",
+      "email": "joseph76@my.yorku.ca",
+      "account": "joseph76@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50-V",
+      "event": null,
+      "barcode": "39007054936141"
     },
     {
       "bookId": "f3cf386f6ecb",

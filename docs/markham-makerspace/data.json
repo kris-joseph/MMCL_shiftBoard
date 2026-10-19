@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-19T18:49:32.619410+00:00",
+  "fetch_timestamp": "2026-10-19T18:53:28.957023+00:00",
   "date": "2026-10-19",
   "space_bookings": [
     {
@@ -45,6 +45,25 @@
       "item_name": "Makerspace (Rm 3055)",
       "event": null,
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp0AABH34X_zHuIQZyVVKGzvHhAAAa-ASXpAAA="
+    },
+    {
+      "bookId": "12dd20a61a0d",
+      "id": 17082031,
+      "eid": 35452,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-10-20T09:30:00-04:00",
+      "toDate": "2026-10-20T11:00:00-04:00",
+      "created": "2026-10-19T14:50:41-04:00",
+      "firstName": "Noah",
+      "lastName": "Abebe",
+      "email": "nabebe@my.yorku.ca",
+      "account": "nabebe@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #4 \"Striker Eureka\"",
+      "event": null
     },
     {
       "bookId": "7c4d9dc38981",
