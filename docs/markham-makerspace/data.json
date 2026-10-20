@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-20T06:59:13.589507+00:00",
+  "fetch_timestamp": "2026-10-20T17:30:44.288689+00:00",
   "date": "2026-10-20",
   "space_bookings": [
     {
@@ -38,10 +38,29 @@
       "lastName": "Abebe",
       "email": "nabebe@my.yorku.ca",
       "account": "nabebe@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #4 \"Striker Eureka\"",
+      "event": null
+    },
+    {
+      "bookId": "e5a356bafbb9",
+      "id": 17094574,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-10-20T09:30:00-04:00",
+      "toDate": "2026-10-20T11:30:00-04:00",
+      "created": "2026-10-20T09:48:20-04:00",
+      "firstName": "Afraz",
+      "lastName": "Mahida",
+      "email": "afrazm1@my.yorku.ca",
+      "account": "afrazm1@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null
     },
     {
@@ -76,7 +95,7 @@
       "lastName": "Hamza",
       "email": "syed67@my.yorku.ca",
       "account": "syed67@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
