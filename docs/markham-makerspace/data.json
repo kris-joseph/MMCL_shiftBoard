@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-21T17:45:56.344997+00:00",
+  "fetch_timestamp": "2026-10-21T21:00:58.736243+00:00",
   "date": "2026-10-21",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Sewing, Textiles and Vinyl",
       "item_name": "Bernette 35 #05 \"Yves\"",
+      "event": null
+    },
+    {
+      "bookId": "0b30c76431f3",
+      "id": 17122000,
+      "eid": 31768,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-10-21T15:30:00-04:00",
+      "toDate": "2026-10-21T17:00:00-04:00",
+      "created": "2026-10-21T15:15:54-04:00",
+      "firstName": "Alexa",
+      "lastName": "Adams",
+      "email": "aa108@my.yorku.ca",
+      "account": "aa108@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Bernette 35 #03 \"Vera\"",
       "event": null
     },
     {
@@ -138,6 +157,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Sewing, Textiles and Vinyl",
       "item_name": "Bernette 35 #05 \"Yves\"",
+      "event": null
+    },
+    {
+      "bookId": "6f99098b71b2",
+      "id": 17124059,
+      "eid": 35301,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-10-21T16:30:00-04:00",
+      "toDate": "2026-10-22T12:30:00-04:00",
+      "created": "2026-10-21T16:47:30-04:00",
+      "firstName": "JANA",
+      "lastName": "HUSSIEN",
+      "email": "jana444@my.yorku.ca",
+      "account": "222143515",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa XL #2 \"Orochi\"",
       "event": null
     },
     {
