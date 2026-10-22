@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-22T03:10:06.774700+00:00",
+  "fetch_timestamp": "2026-10-22T06:56:45.928836+00:00",
   "date": "2026-10-22",
   "space_bookings": [],
   "equipment_bookings": [
@@ -780,6 +780,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956737 "
+    },
+    {
+      "bookId": "bc7a8492b2cc",
+      "id": 391929,
+      "eid": 32505,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-10-22T09:30:00-04:00",
+      "toDate": "2026-10-29T18:30:00-04:00",
+      "created": "2026-10-22T00:16:06-04:00",
+      "firstName": "Quentin",
+      "lastName": "Nwankwo",
+      "email": "quent03@my.yorku.ca",
+      "account": "quent03@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931613"
     },
     {
       "bookId": "fb17e28f365b",
