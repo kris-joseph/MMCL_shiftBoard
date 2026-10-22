@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-22T06:56:45.928836+00:00",
+  "fetch_timestamp": "2026-10-22T17:37:20.205434+00:00",
   "date": "2026-10-22",
   "space_bookings": [],
   "equipment_bookings": [
@@ -800,6 +800,26 @@
       "item_name": "Canon EOS R50",
       "event": null,
       "barcode": "39007054931613"
+    },
+    {
+      "bookId": "1ba2e3307f67",
+      "id": 392045,
+      "eid": 32513,
+      "cid": 7827,
+      "lid": 3432,
+      "fromDate": "2026-10-22T11:02:20-04:00",
+      "toDate": "2026-10-29T18:30:00-04:00",
+      "created": "2026-10-22T11:02:18-04:00",
+      "firstName": "ADAM",
+      "lastName": "DUNCAN",
+      "email": "aduncan@yorku.ca",
+      "account": "29007022790571",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054931795"
     },
     {
       "bookId": "fb17e28f365b",
