@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-23T17:25:56.246302+00:00",
+  "fetch_timestamp": "2026-10-23T17:35:19.843945+00:00",
   "date": "2026-10-23",
   "space_bookings": [
     {
@@ -745,26 +745,6 @@
       "cancelled": "2026-10-23T01:32:06+00:00"
     },
     {
-      "bookId": "99f4df94fbe5",
-      "id": 392475,
-      "eid": 32537,
-      "cid": 7831,
-      "lid": 3432,
-      "fromDate": "2026-10-23T09:30:00-04:00",
-      "toDate": "2026-10-30T16:30:00-04:00",
-      "created": "2026-10-23T11:54:21-04:00",
-      "firstName": "Aaliyah",
-      "lastName": "Koury Pereyra",
-      "email": "koury9@my.yorku.ca",
-      "account": "koury9@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Markham Library Media Creation Studios and Equipment",
-      "category_name": "Audio Recorders",
-      "item_name": "Zoom H1e",
-      "event": null,
-      "barcode": "39007054931993"
-    },
-    {
       "bookId": "3a8e86352b5d",
       "id": 392507,
       "eid": 32503,
@@ -1143,6 +1123,26 @@
       "item_name": "55mm ND Filter",
       "event": null,
       "barcode": "39007054935564"
+    },
+    {
+      "bookId": "99f4df94fbe5",
+      "id": 392475,
+      "eid": 32537,
+      "cid": 7831,
+      "lid": 3432,
+      "fromDate": "2026-10-23T13:33:00-04:00",
+      "toDate": "2026-10-30T16:30:00-04:00",
+      "created": "2026-10-23T11:54:21-04:00",
+      "firstName": "Aaliyah",
+      "lastName": "Koury Pereyra",
+      "email": "koury9@my.yorku.ca",
+      "account": "koury9@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Audio Recorders",
+      "item_name": "Zoom H1e",
+      "event": null,
+      "barcode": "39007054931993"
     },
     {
       "bookId": "2fabee0def16",
