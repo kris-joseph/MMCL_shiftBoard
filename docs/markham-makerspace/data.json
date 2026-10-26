@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-26T07:17:50.033146+00:00",
+  "fetch_timestamp": "2026-10-26T18:51:00.867666+00:00",
   "date": "2026-10-26",
   "space_bookings": [
     {
@@ -19,11 +19,12 @@
       "lastName": "Hamza",
       "email": "syed67@my.yorku.ca",
       "account": "syed67@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-10-26T09:25:43+00:00"
     },
     {
       "bookId": "8445d2fdd52b",
@@ -81,7 +82,7 @@
       "lastName": "Fong",
       "email": "mjf1@my.yorku.ca",
       "account": "mjf1@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Mediated Approved",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #03 \"Heaven's Door\"",
