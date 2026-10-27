@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-27T18:14:55.968721+00:00",
+  "fetch_timestamp": "2026-10-27T18:27:55.155970+00:00",
   "date": "2026-10-27",
   "space_bookings": [
     {
@@ -312,6 +312,25 @@
       "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
       "event": null,
       "cancelled": "2026-10-27T15:05:23+00:00"
+    },
+    {
+      "bookId": "a8e4e051bcc5",
+      "id": 17203106,
+      "eid": 38168,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-10-27T15:30:00-04:00",
+      "toDate": "2026-10-28T17:30:00-04:00",
+      "created": "2026-10-27T14:24:32-04:00",
+      "firstName": "AMIRHOSSEIN",
+      "lastName": "MANSOURI",
+      "email": "amir01mn@my.yorku.ca",
+      "account": "219146240",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
+      "event": null
     },
     {
       "bookId": "8972c670d627",
