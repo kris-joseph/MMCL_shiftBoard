@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-27T03:35:38.377019+00:00",
+  "fetch_timestamp": "2026-10-27T07:09:52.582084+00:00",
   "date": "2026-10-27",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "8c8d766f4d68",
+      "id": 17194183,
+      "eid": 31768,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-10-27T13:30:00-04:00",
+      "toDate": "2026-10-27T16:30:00-04:00",
+      "created": "2026-10-27T00:40:54-04:00",
+      "firstName": "Alexa",
+      "lastName": "Adams",
+      "email": "aa108@my.yorku.ca",
+      "account": "aa108@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Bernette 35 #03 \"Vera\"",
       "event": null
     },
     {
