@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-28T18:33:49.943630+00:00",
+  "fetch_timestamp": "2026-10-28T22:54:46.246201+00:00",
   "date": "2026-10-28",
   "space_bookings": [
     {
@@ -315,6 +315,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Sewing, Textiles and Vinyl",
       "item_name": "Bernette 35 #03 \"Vera\"",
+      "event": null
+    },
+    {
+      "bookId": "bb50346dc4ab",
+      "id": 17220892,
+      "eid": 33845,
+      "cid": 7718,
+      "lid": 3430,
+      "fromDate": "2026-10-28T17:30:00-04:00",
+      "toDate": "2026-10-28T18:30:00-04:00",
+      "created": "2026-10-28T14:40:19-04:00",
+      "firstName": "Niranjany",
+      "lastName": "Rabindrakumar",
+      "email": "niranja@my.yorku.ca",
+      "account": "niranja@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Sewing, Textiles and Vinyl",
+      "item_name": "Cricut Cutter",
       "event": null
     },
     {
