@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-10-29T01:59:48.184169+00:00",
+  "fetch_timestamp": "2026-10-29T04:14:32.125458+00:00",
   "date": "2026-10-29",
   "space_bookings": [
     {
@@ -2797,6 +2797,26 @@
       "item_name": "Rode Wireless ME Dual Ultra-compact Wireless Microphone",
       "event": null,
       "barcode": "39007054932157"
+    },
+    {
+      "bookId": "8ba717e698ba",
+      "id": 394698,
+      "eid": 24202,
+      "cid": 8145,
+      "lid": 2632,
+      "fromDate": "2026-10-29T11:00:00-04:00",
+      "toDate": "2026-11-05T17:00:00-05:00",
+      "created": "2026-10-28T22:13:41-04:00",
+      "firstName": "Adebola",
+      "lastName": "Adekoya",
+      "email": "adecliq@my.yorku.ca",
+      "account": "adecliq@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Lightboxes",
+      "item_name": "Puluz 40 cm Foldable LED Ring Light Studio Box, Portable Lightbox",
+      "event": null,
+      "barcode": "39007054931274"
     },
     {
       "bookId": "41376c841415",
