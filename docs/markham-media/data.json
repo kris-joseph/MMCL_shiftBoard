@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-10-31T20:32:07.382519+00:00",
+  "fetch_timestamp": "2026-10-31T23:51:03.505845+00:00",
   "date": "2026-10-31",
   "space_bookings": [],
   "equipment_bookings": [
@@ -469,6 +469,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": " 39007052956737 "
+    },
+    {
+      "bookId": "8960c9f82813",
+      "id": 395511,
+      "eid": 32516,
+      "cid": 7827,
+      "lid": 3432,
+      "fromDate": "2026-10-31T18:08:30-04:00",
+      "toDate": "2026-11-07T18:30:00-05:00",
+      "created": "2026-10-31T18:08:29-04:00",
+      "firstName": "SHINGO",
+      "lastName": "ABETA",
+      "email": "shingoa@my.yorku.ca",
+      "account": "215771132",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054931753"
     },
     {
       "bookId": "8c0b089e29f5",
