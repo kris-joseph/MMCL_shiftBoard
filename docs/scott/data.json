@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-01T08:32:53.391698+00:00",
+  "fetch_timestamp": "2026-11-01T18:05:19.262423+00:00",
   "date": "2026-11-01",
   "space_bookings": [
     {
@@ -1979,26 +1979,6 @@
       "cancelled": "2026-10-28T18:05:57+00:00"
     },
     {
-      "bookId": "3bfb50bd8650",
-      "id": 393080,
-      "eid": 29567,
-      "cid": 8138,
-      "lid": 2632,
-      "fromDate": "2026-11-01T14:00:00-05:00",
-      "toDate": "2026-11-05T17:00:00-05:00",
-      "created": "2026-10-26T12:06:36-04:00",
-      "firstName": "Rahmet",
-      "lastName": "Siraj",
-      "email": "rahmet05@my.yorku.ca",
-      "account": "rahmet05@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Cameras",
-      "item_name": "Canon EOS R50",
-      "event": null,
-      "barcode": "39007054933965"
-    },
-    {
       "bookId": "b7937afbeed9",
       "id": 394422,
       "eid": 21834,
@@ -2539,6 +2519,27 @@
       "barcode": "39007054930284"
     },
     {
+      "bookId": "3bfb50bd8650",
+      "id": 393080,
+      "eid": 29567,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-11-01T14:00:00-05:00",
+      "toDate": "2026-11-05T17:00:00-05:00",
+      "created": "2026-10-26T12:06:36-04:00",
+      "firstName": "Rahmet",
+      "lastName": "Siraj",
+      "email": "rahmet05@my.yorku.ca",
+      "account": "rahmet05@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054933965",
+      "cancelled": "2026-11-01T17:46:56+00:00"
+    },
+    {
       "bookId": "54bf7664b6c2",
       "id": 394635,
       "eid": 31564,
@@ -3012,6 +3013,26 @@
       "barcode": "39007054933486"
     },
     {
+      "bookId": "2ce5ef618c76",
+      "id": 395539,
+      "eid": 31564,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-11-01T14:00:00-05:00",
+      "toDate": "2026-11-08T19:00:00-05:00",
+      "created": "2026-11-01T09:31:55-05:00",
+      "firstName": "Maisa",
+      "lastName": "De Mattos Althoff",
+      "email": "maisaalt@my.yorku.ca",
+      "account": "maisaalt@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode Wireless ME Dual Ultra-compact Wireless Microphone",
+      "event": null,
+      "barcode": "39007054932157"
+    },
+    {
       "bookId": "13d8b043f5a5",
       "id": 393784,
       "eid": 31912,
@@ -3051,6 +3072,26 @@
       "item_name": "Meta Quest 3",
       "event": null,
       "barcode": "39007054933890"
+    },
+    {
+      "bookId": "777c97d8fb0f",
+      "id": 395566,
+      "eid": 29567,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-11-02T11:00:00-05:00",
+      "toDate": "2026-11-09T17:00:00-05:00",
+      "created": "2026-11-01T13:00:19-05:00",
+      "firstName": "Asim",
+      "lastName": "Zaman",
+      "email": "asim620@my.yorku.ca",
+      "account": "asim620@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054933965"
     },
     {
       "bookId": "651ddeacb207",
