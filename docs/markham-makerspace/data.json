@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-01T18:10:59.259025+00:00",
+  "fetch_timestamp": "2026-11-01T22:13:39.736767+00:00",
   "date": "2026-11-01",
   "space_bookings": [
     {
@@ -99,6 +99,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "Laser Cutters",
       "item_name": "Aeon Mira 9",
+      "event": null
+    },
+    {
+      "bookId": "4a05d663742c",
+      "id": 17273645,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-01T15:00:00-05:00",
+      "toDate": "2026-11-01T17:30:00-05:00",
+      "created": "2026-11-01T14:50:36-05:00",
+      "firstName": "Noah",
+      "lastName": "Abebe",
+      "email": "nabebe@my.yorku.ca",
+      "account": "nabebe@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
+    },
+    {
+      "bookId": "d4cd4fcc2cf4",
+      "id": 17273976,
+      "eid": 30724,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-01T15:00:00-05:00",
+      "toDate": "2026-11-01T17:30:00-05:00",
+      "created": "2026-11-01T15:20:10-05:00",
+      "firstName": "Noah",
+      "lastName": "Abebe",
+      "email": "nabebe@my.yorku.ca",
+      "account": "nabebe@my.yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #01 \"Killer Queen\"",
       "event": null
     },
     {
