@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-02T01:37:52.853513+00:00",
+  "fetch_timestamp": "2026-11-02T04:15:18.476152+00:00",
   "date": "2026-11-02",
   "space_bookings": [
     {
@@ -2931,26 +2931,6 @@
       "barcode": "39007054936364"
     },
     {
-      "bookId": "51271a4f6638",
-      "id": 395056,
-      "eid": 35840,
-      "cid": 8292,
-      "lid": 2632,
-      "fromDate": "2026-11-01T14:00:00-05:00",
-      "toDate": "2026-11-08T19:00:00-05:00",
-      "created": "2026-10-29T16:48:17-04:00",
-      "firstName": "Devayu",
-      "lastName": "Pawa",
-      "email": "dpawa@my.yorku.ca",
-      "account": "dpawa@my.yorku.ca",
-      "status": "Confirmed",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Wireless Microphones",
-      "item_name": "Rode GO (Gen 3)",
-      "event": null,
-      "barcode": "39007054936570"
-    },
-    {
       "bookId": "f87ba015f8c5",
       "id": 388915,
       "eid": 34101,
@@ -3131,6 +3111,27 @@
       "event": null,
       "barcode": "39007054931522",
       "cancelled": "2026-11-01T21:11:18+00:00"
+    },
+    {
+      "bookId": "51271a4f6638",
+      "id": 395056,
+      "eid": 35840,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-11-01T14:00:00-05:00",
+      "toDate": "2026-11-08T19:00:00-05:00",
+      "created": "2026-10-29T16:48:17-04:00",
+      "firstName": "Devayu",
+      "lastName": "Pawa",
+      "email": "dpawa@my.yorku.ca",
+      "account": "dpawa@my.yorku.ca",
+      "status": "Cancelled by System",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "Rode GO (Gen 3)",
+      "event": null,
+      "barcode": "39007054936570",
+      "cancelled": "2026-11-02T03:02:07+00:00"
     },
     {
       "bookId": "9c3de8d58372",
