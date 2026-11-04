@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1793735607">
+    <link rel="stylesheet" href="../static/style.css?v=1793751347">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -16,8 +16,8 @@
                 <div class="service-type">Media Creation Lab</div>
             </div>
             <div class="header-meta">
-                <div class="current-date">Tuesday, November 03, 2026</div>
-                <div class="last-updated">Last updated: 2:53 PM</div>
+                <div class="current-date">Wednesday, November 04, 2026</div>
+                <div class="last-updated">Last updated: 7:15 PM</div>
             </div>
         </div>
     </header>
@@ -37,46 +37,46 @@
                 <div class="timeline-hour-label">9AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 7.6923076923076925%;"></div>
-                <div class="timeline-count">2</div>
+                <div class="timeline-bar" style="height: 5.555555555555555%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">10AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 96.15384615384616%;"></div>
-                <div class="timeline-count">25</div>
+                <div class="timeline-bar" style="height: 77.77777777777779%;"></div>
+                <div class="timeline-count">14</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 30.76923076923077%;"></div>
-                <div class="timeline-count">8</div>
+                <div class="timeline-bar" style="height: 5.555555555555555%;"></div>
+                <div class="timeline-count">1</div>
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour past">
-                <div class="timeline-bar" style="height: 26.923076923076923%;"></div>
-                <div class="timeline-count">7</div>
+                <div class="timeline-bar" style="height: 16.666666666666664%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 61.53846153846154%;"></div>
-                <div class="timeline-count">16</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 33.33333333333333%;"></div>
+                <div class="timeline-count">6</div>
                 <div class="timeline-hour-label">2PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 7.6923076923076925%;"></div>
-                <div class="timeline-count">2</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 44.44444444444444%;"></div>
+                <div class="timeline-count">8</div>
                 <div class="timeline-hour-label">3PM</div>
             </div>
-            <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 30.76923076923077%;"></div>
-                <div class="timeline-count">8</div>
+            <div class="timeline-hour past">
+                <div class="timeline-bar" style="height: 27.77777777777778%;"></div>
+                <div class="timeline-count">5</div>
                 <div class="timeline-hour-label">4PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 100.0%;"></div>
-                <div class="timeline-count">26</div>
+                <div class="timeline-count">18</div>
                 <div class="timeline-hour-label">5PM</div>
             </div>
-            <div class="timeline-hour ">
+            <div class="timeline-hour past">
                 <div class="timeline-bar" style="height: 0%;"></div>
                 <div class="timeline-count">0</div>
                 <div class="timeline-hour-label">6PM</div>
@@ -104,6 +104,7 @@
         <button class="filter-button" data-filter="all" onclick="filterBookings('all')">All Bookings</button>
         <button class="filter-button" data-filter="space" onclick="filterBookings('space')">Space Bookings</button>
         <button class="filter-button" data-filter="equipment" onclick="filterBookings('equipment')">Equipment Loans</button>
+        <button class="filter-button" data-filter="teaching" onclick="filterBookings('teaching')">Teaching Events</button>
     </section>
 
     <main class="main-content">
@@ -113,31 +114,32 @@
             <div class="shift-group-header">
                 <h2>Full Shift</h2>
                 <div class="booking-count">
-                    0 space bookings •
-                    23 equipment loans                </div>
+                    4 space bookings •
+                    23 equipment loans • 1 teaching event                </div>
             </div>
 
 
 
-            <div class="hour-group outstanding-group">
+
+            <div class="hour-group">
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
-                        <span class="hour-group-title">Still outstanding from earlier today</span>
-                        <span class="hour-group-count">13 tasks</span>
+                        <span class="hour-group-title">10 AM</span>
+                        <span class="hour-group-count">1 task</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
                 <div class="hour-group-content collapsed">
                     <div class="booking-list">
-                                    <article class="booking-card equipment-loan" data-booking-id="a90f4dbca684" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="646b335ce304" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:00 AM</span>DJI Mic 3
+<span class="task-time-prominent">10:59 AM</span>Rode VideoMic GO
                         </div>
                         <div class="booking-card-summary-time">
-Due back • J.F.                        </div>
+Due back • T.H.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKIN NEEDED</span>
@@ -153,7 +155,7 @@ Due back • J.F.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>DJI Mic 3</h3>
+                        <h3>Rode VideoMic GO</h3>
                         <div class="booking-category">Wireless Microphones</div>
                     </div>
                     <div class="booking-badges">
@@ -167,11 +169,11 @@ Due back • J.F.                        </div>
                 <div class="booking-details">
                     <div class="detail-row">
                         <span class="detail-label">Due back:</span>
-                        <span class="detail-value">11:00 AM</span>
+                        <span class="detail-value">10:59 AM</span>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">J.F. (j***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">T.H. (t***@yorku.ca)</span>
                     </div>
                 </div>
 
@@ -221,20 +223,33 @@ Due back • J.F.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: a90f4dbca684</div>
+                <div class="booking-id">ID: 646b335ce304</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="92281380dcd1" data-booking-type="equipment">
+                    </div>
+                </div>
+            </div>
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">11 AM</span>
+                        <span class="hour-group-count">8 tasks</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card equipment-loan" data-booking-id="c9593c4205b1" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:00 AM</span>Canon EOS M50 Mark II
+<span class="task-time-prominent">11:00 AM</span>Canon EOS R50
                         </div>
                         <div class="booking-card-summary-time">
-Checkout • J.N.                        </div>
+Checkout • S.H.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKOUT NEEDED</span>
@@ -250,7 +265,7 @@ Checkout • J.N.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Canon EOS M50 Mark II</h3>
+                        <h3>Canon EOS R50</h3>
                         <div class="booking-category">Cameras</div>
                     </div>
                     <div class="booking-badges">
@@ -268,7 +283,7 @@ Checkout • J.N.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">J.N. (j***@yorku.ca)</span>
+                        <span class="detail-value patron-info">S.H. (s***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -325,20 +340,20 @@ Checkout • J.N.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 92281380dcd1</div>
+                <div class="booking-id">ID: c9593c4205b1</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="b9f6a74a7c55" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="8282860a4c0c" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:00 AM</span>DJI Mic 3
+<span class="task-time-prominent">11:00 AM</span>Canon EOS R50
                         </div>
                         <div class="booking-card-summary-time">
-Checkout • A.H.                        </div>
+Checkout • M.B.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKOUT NEEDED</span>
@@ -354,8 +369,8 @@ Checkout • A.H.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>DJI Mic 3</h3>
-                        <div class="booking-category">Wireless Microphones</div>
+                        <h3>Canon EOS R50</h3>
+                        <div class="booking-category">Cameras</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CONFIRMED</span>
@@ -372,7 +387,7 @@ Checkout • A.H.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">A.H. (a***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">M.B. (m***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -429,12 +444,12 @@ Checkout • A.H.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: b9f6a74a7c55</div>
+                <div class="booking-id">ID: 8282860a4c0c</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="b9f6a74a7c55" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="2feb7e2ef723" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
@@ -442,7 +457,7 @@ Checkout • A.H.                        </div>
 <span class="task-time-prominent">11:00 AM</span>DJI Osmo Pocket 3
                         </div>
                         <div class="booking-card-summary-time">
-Checkout • A.H.                        </div>
+Checkout • M.B.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKOUT NEEDED</span>
@@ -476,7 +491,7 @@ Checkout • A.H.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">A.H. (a***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">M.B. (m***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -533,20 +548,20 @@ Checkout • A.H.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: b9f6a74a7c55</div>
+                <div class="booking-id">ID: 2feb7e2ef723</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="3acfe0498c32" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="397d9d5d8a63" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:00 AM</span>Canon EOS R50-V
+<span class="task-time-prominent">11:00 AM</span>Canon EOS M50 Mark II
                         </div>
                         <div class="booking-card-summary-time">
-Checkout • G.N.                        </div>
+Checkout • H.B.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKOUT NEEDED</span>
@@ -562,7 +577,7 @@ Checkout • G.N.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Canon EOS R50-V</h3>
+                        <h3>Canon EOS M50 Mark II</h3>
                         <div class="booking-category">Cameras</div>
                     </div>
                     <div class="booking-badges">
@@ -580,7 +595,7 @@ Checkout • G.N.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">G.N. (n***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">H.B. (h***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -637,20 +652,20 @@ Checkout • G.N.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 3acfe0498c32</div>
+                <div class="booking-id">ID: 397d9d5d8a63</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="99dfb1620b65" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="e3bf3157bfdd" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:00 AM</span>Zoom Podtrak P4
+<span class="task-time-prominent">11:00 AM</span>Zoom H4n Pro
                         </div>
                         <div class="booking-card-summary-time">
-Checkout • B.P.                        </div>
+Checkout • D.M.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKOUT NEEDED</span>
@@ -666,8 +681,8 @@ Checkout • B.P.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Zoom Podtrak P4</h3>
-                        <div class="booking-category">Audio Mixers</div>
+                        <h3>Zoom H4n Pro</h3>
+                        <div class="booking-category">Audio Recorders</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CONFIRMED</span>
@@ -684,7 +699,7 @@ Checkout • B.P.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">B.P. (b***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">D.M. (d***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -741,24 +756,623 @@ Checkout • B.P.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 99dfb1620b65</div>
+                <div class="booking-id">ID: e3bf3157bfdd</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="99dfb1620b65" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="e0d91475664a" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:00 AM</span>Audio-Technica AT2005USB
+<span class="task-time-prominent">11:00 AM</span>Canon EOS M50
                         </div>
                         <div class="booking-card-summary-time">
-Checkout • B.P.                        </div>
+Checkout • F.H.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKOUT NEEDED</span>
                         <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Canon EOS M50</h3>
+                        <div class="booking-category">Cameras</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                        <span class="equipment-indicator pickup">
+                            📦 Pickup
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Checkout:</span>
+                        <span class="detail-value">11:00 AM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">F.H. (g***@my.yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Checkout</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 6
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Verify patron identity against booking record</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Confirm any required batteries are fully charged</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">Check out equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="6"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">6</span>
+                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: e0d91475664a</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card equipment-loan" data-booking-id="2796ec571546" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">11:00 AM</span>Manfrotto BeFree Advanced, Travel Tripod
+                        </div>
+                        <div class="booking-card-summary-time">
+Checkout • F.H.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKOUT NEEDED</span>
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Manfrotto BeFree Advanced, Travel Tripod</h3>
+                        <div class="booking-category">Tripods</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                        <span class="equipment-indicator pickup">
+                            📦 Pickup
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Checkout:</span>
+                        <span class="detail-value">11:00 AM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">F.H. (g***@my.yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Checkout</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 6
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Verify patron identity against booking record</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Confirm any required batteries are fully charged</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">Check out equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="6"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">6</span>
+                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 2796ec571546</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card " data-booking-id="c27f1c77d553" data-booking-type="space">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+Scott 203K - Audio Recording Studio
+                        </div>
+                        <div class="booking-card-summary-time">
+11:15 AM - 2:00 PM • W.A.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Scott 203K - Audio Recording Studio</h3>
+                        <div class="booking-category">Audio Recording Rooms</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">11:15 AM - 2:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">W.A. (w***@my.yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Check-in:</span>
+                        <span class="detail-value booking-id">L26</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: c27f1c77d553</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">1 PM</span>
+                        <span class="hour-group-count">3 tasks</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card " data-booking-id="e7d5005bfb60" data-booking-type="space">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+Scott 203C - VR/Podcasting Room
+                        </div>
+                        <div class="booking-card-summary-time">
+1:00 PM - 3:00 PM • O.A.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Scott 203C - VR/Podcasting Room</h3>
+                        <div class="booking-category">VR Rooms</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">1:00 PM - 3:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">O.A. (t***@my.yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Check-in:</span>
+                        <span class="detail-value booking-id">TW8</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: e7d5005bfb60</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card " data-booking-id="ffa575fd4f70" data-booking-type="space">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+Scott 207 - Editing Lab
+                        </div>
+                        <div class="booking-card-summary-time">
+1:00 PM - 5:00 PM • T.C.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Scott 207 - Editing Lab</h3>
+                        <div class="booking-category">Computer Labs</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">1:00 PM - 5:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">T.C. (t***@yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Check-in:</span>
+                        <span class="detail-value booking-id">7MA</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: ffa575fd4f70</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card teaching-event" data-booking-id="68d2a7008a23" data-booking-type="teaching">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+Scott 206 - Demo Space
+                        </div>
+                        <div class="booking-card-summary-time">
+1:30 PM - 3:30 PM • B.I.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Scott 206 - Demo Space</h3>
+                        <div class="booking-category">Teaching Event</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                        <span class="badge teaching-event-badge">Teaching Event</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">1:30 PM - 3:30 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">B.I. (b***@yorku.ca)</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: 68d2a7008a23</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">2 PM</span>
+                        <span class="hour-group-count">1 task</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card " data-booking-id="95f368071b4c" data-booking-type="space">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+Scott 204 - Flex Studio
+                        </div>
+                        <div class="booking-card-summary-time">
+2:15 PM - 4:45 PM • M.T.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Scott 204 - Flex Studio</h3>
+                        <div class="booking-category">Flex Studio Spaces</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">2:15 PM - 4:45 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">M.T. (m***@yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Check-in:</span>
+                        <span class="detail-value booking-id">G22</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: 95f368071b4c</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">3 PM</span>
+                        <span class="hour-group-count">1 task</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card equipment-loan" data-booking-id="09518cae020f" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">3:45 PM</span>Zoom H4n Pro
+                        </div>
+                        <div class="booking-card-summary-time">
+Due back • M.S.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKIN NEEDED</span>
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Zoom H4n Pro</h3>
+                        <div class="booking-category">Audio Recorders</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                        <span class="equipment-indicator return">
+                            ↩️ Return
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Due back:</span>
+                        <span class="detail-value">3:45 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">M.S. (m***@gmail.com)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Return</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 5
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Receive equipment from patron</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Check in equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 09518cae020f</div>
+
+                </div> 
+            </article>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hour-group">
+                <div class="hour-group-header" onclick="toggleHourGroup(this)">
+                    <div class="hour-group-label">
+                        <span class="hour-group-title">4 PM</span>
+                        <span class="hour-group-count">4 tasks</span>
+                    </div>
+                    <span class="hour-group-icon">▼</span>
+                </div>
+                <div class="hour-group-content collapsed">
+                    <div class="booking-list">
+                                    <article class="booking-card equipment-loan" data-booking-id="bfef508be15d" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">4:00 PM</span>Audio-Technica AT2005USB
+                        </div>
+                        <div class="booking-card-summary-time">
+Due back • B.P.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKIN NEEDED</span>
+                        <span class="badge status-confirmed">CHECKED OUT</span>
                     </div>
                     <span class="booking-card-expand-icon">▼</span>
                     <div class="workflow-header-progress">
@@ -774,748 +1388,6 @@ Checkout • B.P.                        </div>
                         <div class="booking-category">Microphones</div>
                     </div>
                     <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="equipment-indicator pickup">
-                            📦 Pickup
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">11:00 AM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">B.P. (b***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Checkout</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 6
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Verify patron identity against booking record</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Confirm any required batteries are fully charged</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">Check out equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 99dfb1620b65</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="99dfb1620b65" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:00 AM</span>Sony MDR-7506
-                        </div>
-                        <div class="booking-card-summary-time">
-Checkout • B.P.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKOUT NEEDED</span>
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Sony MDR-7506</h3>
-                        <div class="booking-category">Headphones</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="equipment-indicator pickup">
-                            📦 Pickup
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">11:00 AM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">B.P. (b***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Checkout</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 6
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Verify patron identity against booking record</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Confirm any required batteries are fully charged</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">Check out equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 99dfb1620b65</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="c726fd87b852" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:00 AM</span>Canon EOS M50
-                        </div>
-                        <div class="booking-card-summary-time">
-Checkout • M.M.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKOUT NEEDED</span>
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Canon EOS M50</h3>
-                        <div class="booking-category">Cameras</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="equipment-indicator pickup">
-                            📦 Pickup
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">11:00 AM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">M.M. (m***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Checkout</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 6
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Verify patron identity against booking record</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Confirm any required batteries are fully charged</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">Check out equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: c726fd87b852</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="e52fc169dcd7" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:00 AM</span>Insta360 One R (4K Edition), 4K Wide-Angle Camera
-                        </div>
-                        <div class="booking-card-summary-time">
-Checkout • M.M.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKOUT NEEDED</span>
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Insta360 One R (4K Edition), 4K Wide-Angle Camera</h3>
-                        <div class="booking-category">Cameras</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="equipment-indicator pickup">
-                            📦 Pickup
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">11:00 AM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">M.M. (m***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Checkout</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 6
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Verify patron identity against booking record</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Confirm any required batteries are fully charged</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">Check out equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: e52fc169dcd7</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="0e31ba6d1e43" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:30 AM</span>Canon EOS M50 Mark II
-                        </div>
-                        <div class="booking-card-summary-time">
-Checkout • H.B.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKOUT NEEDED</span>
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Canon EOS M50 Mark II</h3>
-                        <div class="booking-category">Cameras</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="equipment-indicator pickup">
-                            📦 Pickup
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">11:30 AM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">H.B. (h***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Checkout</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 6
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Verify patron identity against booking record</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Confirm any required batteries are fully charged</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">Check out equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 0e31ba6d1e43</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="0e31ba6d1e43" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:30 AM</span>Canon EF-M 32 mm
-                        </div>
-                        <div class="booking-card-summary-time">
-Checkout • H.B.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKOUT NEEDED</span>
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Canon EF-M 32 mm</h3>
-                        <div class="booking-category">Camera Lenses</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="equipment-indicator pickup">
-                            📦 Pickup
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">11:30 AM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">H.B. (h***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Checkout</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 6
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Verify patron identity against booking record</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Confirm any required batteries are fully charged</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">Check out equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 0e31ba6d1e43</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="0e31ba6d1e43" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">11:30 AM</span>Novation Launchkey Mini MK3
-                        </div>
-                        <div class="booking-card-summary-time">
-Checkout • H.B.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKOUT NEEDED</span>
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Novation Launchkey Mini MK3</h3>
-                        <div class="booking-category">Audio Production</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CONFIRMED</span>
-                        <span class="equipment-indicator pickup">
-                            📦 Pickup
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Checkout:</span>
-                        <span class="detail-value">11:30 AM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">H.B. (h***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Checkout</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 6
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Verify patron identity against booking record</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Retrieve equipment kit; check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Confirm any required batteries are fully charged</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Inspect equipment condition; document any existing damage or wear</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">Check out equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="6"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">6</span>
-                            <span class="step-description">Provide patron with return instructions and due date reminder</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 0e31ba6d1e43</div>
-
-                </div> 
-            </article>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">2 PM</span>
-                        <span class="hour-group-count">1 task</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card equipment-loan" data-booking-id="96cfd8165500" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">2:00 PM</span>02 Buchla Easel Command (with keyboard controller)
-                        </div>
-                        <div class="booking-card-summary-time">
-Due back • M.C.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKIN NEEDED</span>
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>02 Buchla Easel Command (with keyboard controller)</h3>
-                        <div class="booking-category">Synthesizers (HUMA 2001) </div>
-                    </div>
-                    <div class="booking-badges">
                         <span class="badge status-confirmed">CHECKED OUT</span>
                         <span class="equipment-indicator return">
                             ↩️ Return
@@ -1526,11 +1398,11 @@ Due back • M.C.                        </div>
                 <div class="booking-details">
                     <div class="detail-row">
                         <span class="detail-label">Due back:</span>
-                        <span class="detail-value">2:00 PM</span>
+                        <span class="detail-value">4:00 PM</span>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">M.C. (m***@fastmail.com)</span>
+                        <span class="detail-value patron-info">B.P. (b***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -1580,33 +1452,20 @@ Due back • M.C.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 96cfd8165500</div>
+                <div class="booking-id">ID: bfef508be15d</div>
 
                 </div> 
             </article>
 
-                    </div>
-                </div>
-            </div>
-            <div class="hour-group">
-                <div class="hour-group-header" onclick="toggleHourGroup(this)">
-                    <div class="hour-group-label">
-                        <span class="hour-group-title">4 PM</span>
-                        <span class="hour-group-count">2 tasks</span>
-                    </div>
-                    <span class="hour-group-icon">▼</span>
-                </div>
-                <div class="hour-group-content collapsed">
-                    <div class="booking-list">
-                                    <article class="booking-card equipment-loan" data-booking-id="7f44bb3787a1" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="bfef508be15d" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">4:00 PM</span>Canon EOS M50
+<span class="task-time-prominent">4:00 PM</span>Audio-Technica AT2005USB
                         </div>
                         <div class="booking-card-summary-time">
-Due back • N.S.                        </div>
+Due back • B.P.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKIN NEEDED</span>
@@ -1622,8 +1481,8 @@ Due back • N.S.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Canon EOS M50</h3>
-                        <div class="booking-category">Cameras</div>
+                        <h3>Audio-Technica AT2005USB</h3>
+                        <div class="booking-category">Microphones</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CHECKED OUT</span>
@@ -1640,7 +1499,7 @@ Due back • N.S.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">N.S. (n***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">B.P. (b***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -1690,20 +1549,20 @@ Due back • N.S.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 7f44bb3787a1</div>
+                <div class="booking-id">ID: bfef508be15d</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="7f44bb3787a1" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="bfef508be15d" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">4:00 PM</span>DJI Osmo Pocket 3
+<span class="task-time-prominent">4:00 PM</span>Zoom Podtrak P4
                         </div>
                         <div class="booking-card-summary-time">
-Due back • N.S.                        </div>
+Due back • B.P.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKIN NEEDED</span>
@@ -1719,8 +1578,8 @@ Due back • N.S.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>DJI Osmo Pocket 3</h3>
-                        <div class="booking-category">Camera Stabilizers</div>
+                        <h3>Zoom Podtrak P4</h3>
+                        <div class="booking-category">Audio Mixers</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CHECKED OUT</span>
@@ -1737,7 +1596,7 @@ Due back • N.S.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">N.S. (n***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">B.P. (b***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -1787,7 +1646,104 @@ Due back • N.S.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 7f44bb3787a1</div>
+                <div class="booking-id">ID: bfef508be15d</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card equipment-loan" data-booking-id="bfef508be15d" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">4:00 PM</span>Manfrotto BeFree Advanced, Travel Tripod
+                        </div>
+                        <div class="booking-card-summary-time">
+Due back • B.P.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKIN NEEDED</span>
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Manfrotto BeFree Advanced, Travel Tripod</h3>
+                        <div class="booking-category">Tripods</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                        <span class="equipment-indicator return">
+                            ↩️ Return
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Due back:</span>
+                        <span class="detail-value">4:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">B.P. (b***@my.yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Return</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 5
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Receive equipment from patron</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Check in equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: bfef508be15d</div>
 
                 </div> 
             </article>
@@ -1799,21 +1755,21 @@ Due back • N.S.                        </div>
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
                         <span class="hour-group-title">5 PM</span>
-                        <span class="hour-group-count">7 tasks</span>
+                        <span class="hour-group-count">10 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
                 <div class="hour-group-content collapsed">
                     <div class="booking-list">
-                                    <article class="booking-card equipment-loan" data-booking-id="8d29fa1aa2aa" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="f3cf386f6ecb" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>DJI Osmo Pocket 3
+<span class="task-time-prominent">5:00 PM</span>Extra Set of SD Cards
                         </div>
                         <div class="booking-card-summary-time">
-Due back • B.B.                        </div>
+Due back • J.T.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKIN NEEDED</span>
@@ -1829,8 +1785,8 @@ Due back • B.B.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>DJI Osmo Pocket 3</h3>
-                        <div class="booking-category">Camera Stabilizers</div>
+                        <h3>Extra Set of SD Cards</h3>
+                        <div class="booking-category">Extras</div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge status-confirmed">CHECKED OUT</span>
@@ -1847,7 +1803,7 @@ Due back • B.B.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">B.B. (b***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">J.T. (d***@gmail.com)</span>
                     </div>
                 </div>
 
@@ -1897,20 +1853,20 @@ Due back • B.B.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 8d29fa1aa2aa</div>
+                <div class="booking-id">ID: f3cf386f6ecb</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="2c5e35e138bd" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="ba1d2d0c7ab8" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>Neewer Ring Light
+<span class="task-time-prominent">5:00 PM</span>Sigma RF-S 10-18mm F2.8 DC DN
                         </div>
                         <div class="booking-card-summary-time">
-Due back • T.B.                        </div>
+Due back • O.O.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKIN NEEDED</span>
@@ -1926,7 +1882,201 @@ Due back • T.B.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Neewer Ring Light</h3>
+                        <h3>Sigma RF-S 10-18mm F2.8 DC DN</h3>
+                        <div class="booking-category">Camera Lenses</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                        <span class="equipment-indicator return">
+                            ↩️ Return
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Due back:</span>
+                        <span class="detail-value">5:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">O.O. (o***@my.yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Return</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 5
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Receive equipment from patron</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Check in equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: ba1d2d0c7ab8</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card equipment-loan" data-booking-id="666884eb94e4" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">5:00 PM</span>Canon EOS M50 Mark II
+                        </div>
+                        <div class="booking-card-summary-time">
+Due back • M.U.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKIN NEEDED</span>
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Canon EOS M50 Mark II</h3>
+                        <div class="booking-category">Cameras</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                        <span class="equipment-indicator return">
+                            ↩️ Return
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Due back:</span>
+                        <span class="detail-value">5:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">M.U. (u***@yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Return</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 5
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Receive equipment from patron</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Check in equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 666884eb94e4</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card equipment-loan" data-booking-id="e27df3fb689f" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">5:00 PM</span>Aputure Travel LED Light Kit (4 Panel)
+                        </div>
+                        <div class="booking-card-summary-time">
+Due back • A.E.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKIN NEEDED</span>
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Aputure Travel LED Light Kit (4 Panel)</h3>
                         <div class="booking-category">Lighting</div>
                     </div>
                     <div class="booking-badges">
@@ -1944,7 +2094,7 @@ Due back • T.B.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">T.B. (t***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">A.E. (a***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -1994,20 +2144,20 @@ Due back • T.B.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: 2c5e35e138bd</div>
+                <div class="booking-id">ID: e27df3fb689f</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="a157cd5ae612" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="3051ffd7731b" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>Canon EOS M50 Mark II
+<span class="task-time-prominent">5:00 PM</span>Canon EOS R50
                         </div>
                         <div class="booking-card-summary-time">
-Due back • S.N.                        </div>
+Due back • A.A.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKIN NEEDED</span>
@@ -2023,7 +2173,7 @@ Due back • S.N.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Canon EOS M50 Mark II</h3>
+                        <h3>Canon EOS R50</h3>
                         <div class="booking-category">Cameras</div>
                     </div>
                     <div class="booking-badges">
@@ -2041,7 +2191,7 @@ Due back • S.N.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">S.N. (s***@my.yorku.ca)</span>
+                        <span class="detail-value patron-info">A.A. (a***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -2091,20 +2241,20 @@ Due back • S.N.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: a157cd5ae612</div>
+                <div class="booking-id">ID: 3051ffd7731b</div>
 
                 </div> 
             </article>
 
-                                    <article class="booking-card equipment-loan" data-booking-id="dbeb4875010f" data-booking-type="equipment">
+                                    <article class="booking-card equipment-loan" data-booking-id="3051ffd7731b" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
                     <div class="booking-card-summary">
                         <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>Canon EOS M50
+<span class="task-time-prominent">5:00 PM</span>Rode Wireless Pro
                         </div>
                         <div class="booking-card-summary-time">
-Due back • T.D.                        </div>
+Due back • A.A.                        </div>
                     </div>
                     <div class="booking-badges">
                         <span class="badge badge-task">CHECKIN NEEDED</span>
@@ -2120,7 +2270,395 @@ Due back • T.D.                        </div>
 
                 <div class="booking-header">
                     <div class="booking-title">
-                        <h3>Canon EOS M50</h3>
+                        <h3>Rode Wireless Pro</h3>
+                        <div class="booking-category">Wireless Microphones</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                        <span class="equipment-indicator return">
+                            ↩️ Return
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Due back:</span>
+                        <span class="detail-value">5:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">A.A. (a***@my.yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Return</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 5
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Receive equipment from patron</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Check in equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 3051ffd7731b</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card equipment-loan" data-booking-id="692f9e636c0c" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">5:00 PM</span>MKE 600 Shotgun Microphone
+                        </div>
+                        <div class="booking-card-summary-time">
+Due back • P.A.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKIN NEEDED</span>
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>MKE 600 Shotgun Microphone</h3>
+                        <div class="booking-category">Microphones</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                        <span class="equipment-indicator return">
+                            ↩️ Return
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Due back:</span>
+                        <span class="detail-value">5:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">P.A. (p***@my.yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Return</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 5
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Receive equipment from patron</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Check in equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 692f9e636c0c</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card equipment-loan" data-booking-id="b0c26ceb4d44" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">5:00 PM</span>Boom Pole with Mic Mount
+                        </div>
+                        <div class="booking-card-summary-time">
+Due back • P.A.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKIN NEEDED</span>
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Boom Pole with Mic Mount</h3>
+                        <div class="booking-category">Stands, Poles, and Mounts</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                        <span class="equipment-indicator return">
+                            ↩️ Return
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Due back:</span>
+                        <span class="detail-value">5:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">P.A. (p***@my.yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Return</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 5
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Receive equipment from patron</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Check in equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: b0c26ceb4d44</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card equipment-loan" data-booking-id="8d0b1761705e" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">5:00 PM</span>Portable LED Light Kit (2 Panel)
+                        </div>
+                        <div class="booking-card-summary-time">
+Due back • B.P.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKIN NEEDED</span>
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Portable LED Light Kit (2 Panel)</h3>
+                        <div class="booking-category">Lighting</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                        <span class="equipment-indicator return">
+                            ↩️ Return
+                        </span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Due back:</span>
+                        <span class="detail-value">5:00 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">B.P. (b***@my.yorku.ca)</span>
+                    </div>
+                </div>
+
+                <div class="workflow-panel">
+                    <div class="workflow-header">
+                        <span class="workflow-title">Equipment Return</span>
+                        <span class="workflow-progress">
+                            <span class="workflow-step-counter">0</span> / 5
+                        </span>
+                    </div>
+                    <ol class="workflow-steps">
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="1"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">1</span>
+                            <span class="step-description">Receive equipment from patron</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="2"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">2</span>
+                            <span class="step-description">Check all components against printed component list</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="3"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">3</span>
+                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="4"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">4</span>
+                            <span class="step-description">Check in equipment in LibCal system</span>
+                        </li>
+                        <li class="workflow-step">
+                            <input type="checkbox" class="step-checkbox"
+                                   data-step="5"
+                                   onchange="onStepChecked(this)">
+                            <span class="step-number">5</span>
+                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="booking-id">ID: 8d0b1761705e</div>
+
+                </div> 
+            </article>
+
+                                    <article class="booking-card equipment-loan" data-booking-id="d72b3a5d4c47" data-booking-type="equipment">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+<span class="task-time-prominent">5:00 PM</span>Canon EOS R50
+                        </div>
+                        <div class="booking-card-summary-time">
+Due back • B.P.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge badge-task">CHECKIN NEEDED</span>
+                        <span class="badge status-confirmed">CHECKED OUT</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                    <div class="workflow-header-progress">
+                        <div class="workflow-header-progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Canon EOS R50</h3>
                         <div class="booking-category">Cameras</div>
                     </div>
                     <div class="booking-badges">
@@ -2138,7 +2676,7 @@ Due back • T.D.                        </div>
                     </div>
                     <div class="detail-row">
                         <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">T.D. (t***@gmail.com)</span>
+                        <span class="detail-value patron-info">B.P. (b***@my.yorku.ca)</span>
                     </div>
                 </div>
 
@@ -2188,298 +2726,7 @@ Due back • T.D.                        </div>
                     </ol>
                 </div>
 
-                <div class="booking-id">ID: dbeb4875010f</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="17f662ca4e23" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>360° Auto Face Tracking Mobile Phone Tripod
-                        </div>
-                        <div class="booking-card-summary-time">
-Due back • J.F.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKIN NEEDED</span>
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>360° Auto Face Tracking Mobile Phone Tripod</h3>
-                        <div class="booking-category">Camera Stabilizers</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                        <span class="equipment-indicator return">
-                            ↩️ Return
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Due back:</span>
-                        <span class="detail-value">5:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">J.F. (j***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Return</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 5
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Receive equipment from patron</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Check in equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 17f662ca4e23</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="989c779c5ec9" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>DJI Osmo Mobile 7p
-                        </div>
-                        <div class="booking-card-summary-time">
-Due back • G.B.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKIN NEEDED</span>
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>DJI Osmo Mobile 7p</h3>
-                        <div class="booking-category">Camera Stabilizers</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                        <span class="equipment-indicator return">
-                            ↩️ Return
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Due back:</span>
-                        <span class="detail-value">5:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">G.B. (g***@gmail.com)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Return</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 5
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Receive equipment from patron</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Check in equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 989c779c5ec9</div>
-
-                </div> 
-            </article>
-
-                                    <article class="booking-card equipment-loan" data-booking-id="4fbd2fbf958f" data-booking-type="equipment">
-
-                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                    <div class="booking-card-summary">
-                        <div class="booking-card-summary-title">
-<span class="task-time-prominent">5:00 PM</span>Zoom H6
-                        </div>
-                        <div class="booking-card-summary-time">
-Due back • E.A.                        </div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge badge-task">CHECKIN NEEDED</span>
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                    </div>
-                    <span class="booking-card-expand-icon">▼</span>
-                    <div class="workflow-header-progress">
-                        <div class="workflow-header-progress-fill"></div>
-                    </div>
-                </div>
-
-                <div class="booking-card-content">
-
-                <div class="booking-header">
-                    <div class="booking-title">
-                        <h3>Zoom H6</h3>
-                        <div class="booking-category">Audio Recorders</div>
-                    </div>
-                    <div class="booking-badges">
-                        <span class="badge status-confirmed">CHECKED OUT</span>
-                        <span class="equipment-indicator return">
-                            ↩️ Return
-                        </span>
-                    </div>
-                </div>
-
-                <div class="booking-details">
-                    <div class="detail-row">
-                        <span class="detail-label">Due back:</span>
-                        <span class="detail-value">5:00 PM</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Patron:</span>
-                        <span class="detail-value patron-info">E.A. (e***@my.yorku.ca)</span>
-                    </div>
-                </div>
-
-                <div class="workflow-panel">
-                    <div class="workflow-header">
-                        <span class="workflow-title">Equipment Return</span>
-                        <span class="workflow-progress">
-                            <span class="workflow-step-counter">0</span> / 5
-                        </span>
-                    </div>
-                    <ol class="workflow-steps">
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="1"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">1</span>
-                            <span class="step-description">Receive equipment from patron</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="2"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">2</span>
-                            <span class="step-description">Check all components against printed component list</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="3"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">3</span>
-                            <span class="step-description">Inspect equipment condition; compare against checkout notes</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="4"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">4</span>
-                            <span class="step-description">Check in equipment in LibCal system</span>
-                        </li>
-                        <li class="workflow-step">
-                            <input type="checkbox" class="step-checkbox"
-                                   data-step="5"
-                                   onchange="onStepChecked(this)">
-                            <span class="step-number">5</span>
-                            <span class="step-description">If damage or missing components detected: flag in system and notify supervisor</span>
-                        </li>
-                    </ol>
-                </div>
-
-                <div class="booking-id">ID: 4fbd2fbf958f</div>
+                <div class="booking-id">ID: d72b3a5d4c47</div>
 
                 </div> 
             </article>
@@ -2494,147 +2741,12 @@ Due back • E.A.                        </div>
 
     <aside class="persistent-sections">
 
-        <section class="persistent-section in-progress-section">
-            <div class="section-header">
-                <h2>Patron Onsite</h2>
-                <span class="section-count">3</span>
-            </div>
-            <div class="booking-list">
-                <article class="booking-card in-progress" data-booking-id="8e5bacdeffff" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 204 - Flex Studio</div>
-                            <div class="booking-card-summary-time">2:45 PM - 4:30 PM • C.A.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
 
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">2:45 PM - 4:30 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">C.A. (c***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">H4R</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: 8e5bacdeffff</div>
-                    </div>
-                </article>
-                <article class="booking-card in-progress" data-booking-id="d365ffd1dc3f" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 203K - Audio Recording Studio</div>
-                            <div class="booking-card-summary-time">2:00 PM - 4:45 PM • J.B.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">2:00 PM - 4:45 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">J.B. (j***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">B8K8</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: d365ffd1dc3f</div>
-                    </div>
-                </article>
-                <article class="booking-card in-progress" data-booking-id="2c6c8defb0fc" data-booking-type="space">
-                    <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
-                        <div class="booking-card-summary">
-                            <div class="booking-card-summary-title">Scott 207C - Audio Recording Booth</div>
-                            <div class="booking-card-summary-time">1:00 PM - 5:30 PM • W.A.</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge badge-task">IN PROGRESS</span>
-                            <span class="badge status-confirmed">CONFIRMED</span>
-                        </div>
-                        <span class="booking-card-expand-icon">▼</span>
-                    </div>
-
-                    <div class="booking-card-content">
-                        <div class="booking-details">
-                            <div class="detail-row">
-                                <span class="detail-label">Time:</span>
-                                <span class="detail-value">1:00 PM - 5:30 PM</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Patron:</span>
-                                <span class="detail-value patron-info">W.A. (w***@my.yorku.ca)</span>
-                            </div>
-                            <div class="detail-row">
-                                <span class="detail-label">Check-in Code:</span>
-                                <span class="detail-value">A4A</span>
-                            </div>
-                        </div>
-                        <div class="booking-id">ID: 2c6c8defb0fc</div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section class="persistent-section overdue-section">
-            <div class="section-header">
-                <h2>Overdue Items</h2>
-                <span class="section-count">1</span>
-            </div>
-            <div class="booking-list">
-                <article class="booking-card overdue" data-booking-type="equipment">
-                    <div class="booking-header">
-                        <div class="booking-title">
-                            <h3>Canon EOS R50</h3>
-                            <div class="booking-category">Cameras</div>
-                        </div>
-                        <div class="booking-badges">
-                            <span class="badge status-tentative">OVERDUE</span>
-                        </div>
-                    </div>
-                    <div class="booking-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Due:</span>
-                            <span class="detail-value">Tuesday, November 03, 2026 at 11:00 AM</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Patron:</span>
-                            <span class="detail-value patron-info">W.A. (w***@my.yorku.ca)</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Overdue by:</span>
-                            <span class="detail-value">3 hours</span>
-                        </div>
-                    </div>
-                    <div class="booking-id">ID: 02594c9fe19b</div>
-                </article>
-            </div>
-        </section>
 
         <section class="persistent-section">
             <div class="section-header">
                 <h2>Completed Today</h2>
-                <span class="section-count">14</span>
+                <span class="section-count">0</span>
             </div>
             <div class="collapsible-section">
                 <button class="collapse-toggle" aria-expanded="false" data-target="completed-collapse">
@@ -2642,315 +2754,8 @@ Due back • E.A.                        </div>
                     <span class="collapse-icon">▼</span>
                 </button>
                 <div id="completed-collapse" class="collapse-content">
-                    <div class="booking-list" style="margin-top: var(--spacing-md);">
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Scott 207D -  Audio Recording Booth</h3>
-                                    <div class="booking-category">Audio Recording Rooms</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">1:30 PM - 2:45 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">I.L.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 1acedb0387c3</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Zoom Podtrak P4</h3>
-                                    <div class="booking-category">Audio Mixers</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">2:35 PM - 11:00 AM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">V.F.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 273a0d3ba02d</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Canon EF-M 55-200 mm</h3>
-                                    <div class="booking-category">Camera Lenses</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">12:57 PM - 11:05 AM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">I.F.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 972e2493e2eb</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Canon EOS M50</h3>
-                                    <div class="booking-category">Cameras</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">11:33 AM - 11:12 AM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">T.S.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 0ec0b53ccd93</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Zoom H4n Pro</h3>
-                                    <div class="booking-category">Audio Recorders</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">12:31 PM - 11:21 AM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">T.H.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 0a309f68aca1</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Canon EOS M50</h3>
-                                    <div class="booking-category">Cameras</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">2:27 PM - 12:06 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">H.H.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 9e3bca8b19ba</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Manfrotto BeFree Advanced, Travel Tripod</h3>
-                                    <div class="booking-category">Tripods</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">2:27 PM - 12:06 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">H.H.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 7bf2491acb86</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Zoom H4n Pro</h3>
-                                    <div class="booking-category">Audio Recorders</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">2:38 PM - 12:30 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">A.N.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 6b2418287b54</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Meta Quest 3</h3>
-                                    <div class="booking-category">VR Headsets</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">11:11 AM - 12:54 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">V.K.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 3bbe24416f74</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Canon EF-M 55-200 mm</h3>
-                                    <div class="booking-category">Camera Lenses</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">2:41 PM - 1:39 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">E.O.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 0cb0fae6ed49</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Extra M50 Battery</h3>
-                                    <div class="booking-category">Extras</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">2:41 PM - 1:39 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">E.O.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 0cb0fae6ed49</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Sennheiser HD 280 Pro</h3>
-                                    <div class="booking-category">Headphones</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">2:35 PM - 2:44 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">V.F.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: 4f1f20d4b303</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Audio-Technica AT2005USB</h3>
-                                    <div class="booking-category">Microphones</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">5:31 PM - 2:44 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">V.F.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: bfee5d832a4e</div>
-                        </article>
-                        <article class="booking-card" data-booking-type="equipment">
-                            <div class="booking-header">
-                                <div class="booking-title">
-                                    <h3>Audio-Technica AT2005USB</h3>
-                                    <div class="booking-category">Microphones</div>
-                                </div>
-                                <div class="booking-badges">
-                                    <span class="badge status-completed">COMPLETED</span>
-                                </div>
-                            </div>
-                            <div class="booking-details">
-                                <div class="detail-row">
-                                    <span class="detail-label">Time:</span>
-                                    <span class="detail-value">5:31 PM - 2:44 PM</span>
-                                </div>
-                                <div class="detail-row">
-                                    <span class="detail-label">Patron:</span>
-                                    <span class="detail-value patron-info">V.F.</span>
-                                </div>
-                            </div>
-                            <div class="booking-id">ID: bfee5d832a4e</div>
-                        </article>
+                    <div class="empty-state">
+                        <div class="empty-state-message">No completed bookings today</div>
                     </div>
                 </div>
             </div>
@@ -2980,6 +2785,6 @@ Due back • E.A.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1793735607"></script>
+    <script src="../static/dashboard.js?v=1793751347"></script>
 </body>
 </html>
