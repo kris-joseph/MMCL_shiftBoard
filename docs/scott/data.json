@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-06T19:45:10.643027+00:00",
+  "fetch_timestamp": "2026-11-06T23:52:03.396149+00:00",
   "date": "2026-11-06",
   "space_bookings": [],
   "equipment_bookings": [
@@ -2225,6 +2225,26 @@
       "event": null,
       "barcode": "39007054930250",
       "cancelled": "2026-11-06T00:02:07+00:00"
+    },
+    {
+      "bookId": "05646c5a3a1f",
+      "id": 397784,
+      "eid": 37344,
+      "cid": 5661,
+      "lid": 2632,
+      "fromDate": "2026-11-06T15:35:00-05:00",
+      "toDate": "2026-11-15T19:00:00-05:00",
+      "created": "2026-11-06T15:24:37-05:00",
+      "firstName": "KESHA",
+      "lastName": "UPADHYAY",
+      "email": "kesha15@yorku.ca",
+      "account": "kesha15@yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054936695"
     },
     {
       "bookId": "7a5c7b6c6ae7",
