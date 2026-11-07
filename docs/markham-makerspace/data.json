@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-07T17:51:08.981671+00:00",
+  "fetch_timestamp": "2026-11-07T17:53:41.235333+00:00",
   "date": "2026-11-07",
   "space_bookings": [
     {
@@ -23,6 +23,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
+      "event": null
+    },
+    {
+      "bookId": "c6a4c8609370",
+      "id": 17367134,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-07T13:00:00-05:00",
+      "toDate": "2026-11-07T18:00:00-05:00",
+      "created": "2026-11-07T12:52:57-05:00",
+      "firstName": "Ian",
+      "lastName": "Galendez",
+      "email": "ianmg@yorku.ca",
+      "account": "ianmg@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
+      "bookId": "c6a4c8609370",
+      "id": 17367135,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-07T13:00:00-05:00",
+      "toDate": "2026-11-07T18:00:00-05:00",
+      "created": "2026-11-07T12:52:57-05:00",
+      "firstName": "Ian",
+      "lastName": "Galendez",
+      "email": "ianmg@yorku.ca",
+      "account": "ianmg@yorku.ca",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
       "event": null
     },
     {
