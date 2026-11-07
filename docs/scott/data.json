@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-07T17:53:40.304996+00:00",
+  "fetch_timestamp": "2026-11-07T21:12:49.192955+00:00",
   "date": "2026-11-07",
   "space_bookings": [
     {
@@ -1140,6 +1140,26 @@
       "event": null,
       "barcode": " 39007054931480",
       "cancelled": "2026-11-04T00:32:07+00:00"
+    },
+    {
+      "bookId": "e4779f897cc0",
+      "id": 397917,
+      "eid": 31911,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-11-08T14:00:00-05:00",
+      "toDate": "2026-11-11T17:00:00-05:00",
+      "created": "2026-11-07T13:33:58-05:00",
+      "firstName": "Jasmine",
+      "lastName": "Musiime",
+      "email": "jas887@my.yorku.ca",
+      "account": "jas887@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054932256"
     },
     {
       "bookId": "f3cf386f6ecb",
