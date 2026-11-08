@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-08T18:08:39.704483+00:00",
+  "fetch_timestamp": "2026-11-08T22:17:49.540893+00:00",
   "date": "2026-11-08",
   "space_bookings": [
     {
@@ -268,6 +268,26 @@
       "item_name": "Rode Wireless Pro II",
       "event": null,
       "barcode": "39007052961117"
+    },
+    {
+      "bookId": "f06781c8efb6",
+      "id": 398026,
+      "eid": 32518,
+      "cid": 7827,
+      "lid": 3432,
+      "fromDate": "2026-11-08T17:15:00-05:00",
+      "toDate": "2026-11-15T17:30:00-05:00",
+      "created": "2026-11-08T16:44:19-05:00",
+      "firstName": "Qi Xin",
+      "lastName": "Zhou",
+      "email": "qixinz@my.yorku.ca",
+      "account": "qixinz@my.yorku.ca",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054931738"
     },
     {
       "bookId": "8e6649eb3275",
