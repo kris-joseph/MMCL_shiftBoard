@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-09T22:41:26.880735+00:00",
+  "fetch_timestamp": "2026-11-09T22:46:48.318912+00:00",
   "date": "2026-11-09",
   "space_bookings": [
     {
@@ -3317,6 +3317,26 @@
       "event": null,
       "cancelled": "2026-09-01T19:43:25+00:00",
       "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp4AABH34X_zHuIQZyVVKGzvHhAAAZqcGnuAAA="
+    },
+    {
+      "bookId": "424a075303c9",
+      "id": 17393462,
+      "eid": 32792,
+      "cid": 6572,
+      "lid": 3458,
+      "fromDate": "2026-11-10T11:00:00-05:00",
+      "toDate": "2026-11-10T12:00:00-05:00",
+      "created": "2026-11-09T17:45:53-05:00",
+      "firstName": "Pio",
+      "lastName": "Sebastiampillai",
+      "email": "psebasti@yorku.ca",
+      "account": "psebasti@yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Staff Spaces and Classrooms",
+      "category_name": "Staff Meeting Rooms",
+      "item_name": "Scott 503 - Meeting Room",
+      "event": null,
+      "exchange_id": "AAMkADdhM2NmYjVhLTg0MWEtNDI5Mi05NjU4LTg5MmM4NzBjMzAyYgBGAAAAAAC5PdeYnXM3SIYuZCMvF6gWBwBH34X_zHuIQZyVVKGzvHhAAAZJ0Dp6AABH34X_zHuIQZyVVKGzvHhAAAbOGHUsAAA="
     },
     {
       "bookId": "7a08943d4212",
