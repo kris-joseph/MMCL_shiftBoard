@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Media Lab - Dashboard</title>
-    <link rel="stylesheet" href="../static/style.css?v=1794289879">
+    <link rel="stylesheet" href="../static/style.css?v=1794301390">
     <meta name="description" content="Staff dashboard for Scott Media Lab showing today's bookings, equipment loans, and schedules">
     <meta http-equiv="refresh" content="300"> </head>
 <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="header-meta">
                 <div class="current-date">Tuesday, November 10, 2026</div>
-                <div class="last-updated">Last updated: 12:51 AM</div>
+                <div class="last-updated">Last updated: 4:03 AM</div>
             </div>
         </div>
     </header>
@@ -42,8 +42,8 @@
                 <div class="timeline-hour-label">10AM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 62.5%;"></div>
-                <div class="timeline-count">15</div>
+                <div class="timeline-bar" style="height: 66.66666666666666%;"></div>
+                <div class="timeline-count">16</div>
                 <div class="timeline-hour-label">11AM</div>
             </div>
             <div class="timeline-hour ">
@@ -52,8 +52,8 @@
                 <div class="timeline-hour-label">12PM</div>
             </div>
             <div class="timeline-hour ">
-                <div class="timeline-bar" style="height: 8.333333333333332%;"></div>
-                <div class="timeline-count">2</div>
+                <div class="timeline-bar" style="height: 12.5%;"></div>
+                <div class="timeline-count">3</div>
                 <div class="timeline-hour-label">1PM</div>
             </div>
             <div class="timeline-hour ">
@@ -113,7 +113,7 @@
             <div class="shift-group-header">
                 <h2>Full Shift</h2>
                 <div class="booking-count">
-                    4 space bookings •
+                    5 space bookings •
                     21 equipment loans                </div>
             </div>
 
@@ -124,12 +124,61 @@
                 <div class="hour-group-header" onclick="toggleHourGroup(this)">
                     <div class="hour-group-label">
                         <span class="hour-group-title">11 AM</span>
-                        <span class="hour-group-count">11 tasks</span>
+                        <span class="hour-group-count">12 tasks</span>
                     </div>
                     <span class="hour-group-icon">▼</span>
                 </div>
                 <div class="hour-group-content collapsed">
                     <div class="booking-list">
+                                    <article class="booking-card " data-booking-id="60f868a6d4a2" data-booking-type="space">
+
+                <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
+                    <div class="booking-card-summary">
+                        <div class="booking-card-summary-title">
+Scott 207 - Editing Lab
+                        </div>
+                        <div class="booking-card-summary-time">
+11:00 AM - 1:30 PM • G.F.                        </div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                    <span class="booking-card-expand-icon">▼</span>
+                </div>
+
+                <div class="booking-card-content">
+
+                <div class="booking-header">
+                    <div class="booking-title">
+                        <h3>Scott 207 - Editing Lab</h3>
+                        <div class="booking-category">Computer Labs</div>
+                    </div>
+                    <div class="booking-badges">
+                        <span class="badge status-confirmed">CONFIRMED</span>
+                    </div>
+                </div>
+
+                <div class="booking-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Time:</span>
+                        <span class="detail-value">11:00 AM - 1:30 PM</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Patron:</span>
+                        <span class="detail-value patron-info">G.F. (g***@my.yorku.ca)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Check-in:</span>
+                        <span class="detail-value booking-id">C4W</span>
+                    </div>
+                </div>
+
+
+                <div class="booking-id">ID: 60f868a6d4a2</div>
+
+                </div> 
+            </article>
+
                                     <article class="booking-card equipment-loan" data-booking-id="40dd77243e41" data-booking-type="equipment">
 
                 <div class="booking-card-header-bar" onclick="toggleBookingCard(this)">
@@ -2526,6 +2575,6 @@ Due back • B.C.                        </div>
         </div>
     </footer>
 
-    <script src="../static/dashboard.js?v=1794289879"></script>
+    <script src="../static/dashboard.js?v=1794301390"></script>
 </body>
 </html>
