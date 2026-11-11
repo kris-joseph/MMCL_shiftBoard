@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-11T00:43:32.347419+00:00",
+  "fetch_timestamp": "2026-11-11T04:35:00.918875+00:00",
   "date": "2026-11-11",
   "space_bookings": [
     {
@@ -1855,6 +1855,26 @@
       "barcode": "39007054933486"
     },
     {
+      "bookId": "6aea15dae3fe",
+      "id": 398993,
+      "eid": 24227,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-11-12T11:00:00-05:00",
+      "toDate": "2026-11-17T17:00:00-05:00",
+      "created": "2026-11-10T21:20:15-05:00",
+      "firstName": "Luong Van Anh",
+      "lastName": "Tran",
+      "email": "vananh27@my.yorku.ca",
+      "account": "vananh27@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Shure SM58",
+      "event": null,
+      "barcode": "39007054932165"
+    },
+    {
       "bookId": "e1e79329edbb",
       "id": 393746,
       "eid": 37356,
@@ -2314,6 +2334,26 @@
       "item_name": "Rode Wireless Go",
       "event": null,
       "barcode": "39007054930623"
+    },
+    {
+      "bookId": "161cff117f5a",
+      "id": 398976,
+      "eid": 28558,
+      "cid": 5661,
+      "lid": 2632,
+      "fromDate": "2026-11-11T11:00:00-05:00",
+      "toDate": "2026-11-18T17:00:00-05:00",
+      "created": "2026-11-10T20:13:26-05:00",
+      "firstName": "Mary",
+      "lastName": "Tran",
+      "email": "maryt26@my.yorku.ca",
+      "account": "maryt26@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "VR Headsets",
+      "item_name": "Meta Quest 3",
+      "event": null,
+      "barcode": "39007054933916"
     },
     {
       "bookId": "78949869d3ce",
