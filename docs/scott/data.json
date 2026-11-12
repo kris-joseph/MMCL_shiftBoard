@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-12T20:26:04.886745+00:00",
+  "fetch_timestamp": "2026-11-12T20:31:53.066105+00:00",
   "date": "2026-11-12",
   "space_bookings": [
     {
@@ -151,6 +151,26 @@
       "check_in_code": "85M"
     },
     {
+      "bookId": "7261ccecf24e",
+      "id": 17434962,
+      "eid": 32502,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-11-12T14:15:00-05:00",
+      "toDate": "2026-11-12T15:31:00-05:00",
+      "created": "2026-11-12T14:27:52-05:00",
+      "firstName": "MAIKEL",
+      "lastName": "MIRZADEGAN",
+      "email": "mamirzadegan@hotmail.com",
+      "account": "5859730001069042",
+      "status": "Mediated Approved",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 207D -  Audio Recording Booth",
+      "event": null,
+      "check_in_code": "9P9"
+    },
+    {
       "bookId": "c6b85027561c",
       "id": 17171635,
       "eid": 21082,
@@ -210,26 +230,6 @@
       "item_name": "Scott 203K - Audio Recording Studio",
       "event": null,
       "check_in_code": "D4UN"
-    },
-    {
-      "bookId": "7261ccecf24e",
-      "id": 17434962,
-      "eid": 32502,
-      "cid": 5833,
-      "lid": 2632,
-      "fromDate": "2026-11-12T14:15:00-05:00",
-      "toDate": "2026-11-12T16:45:00-05:00",
-      "created": "2026-11-12T14:27:52-05:00",
-      "firstName": "MAIKEL",
-      "lastName": "MIRZADEGAN",
-      "email": "mamirzadegan@hotmail.com",
-      "account": "5859730001069042",
-      "status": "Mediated Approved",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Audio Recording Rooms",
-      "item_name": "Scott 207D -  Audio Recording Booth",
-      "event": null,
-      "check_in_code": "9P9"
     },
     {
       "bookId": "d0d9b27dcfdd",
@@ -789,26 +789,6 @@
       "cancelled": "2026-11-06T00:02:07+00:00"
     },
     {
-      "bookId": "62ee201b5adb",
-      "id": 392295,
-      "eid": 25241,
-      "cid": 8147,
-      "lid": 2632,
-      "fromDate": "2026-10-22T17:06:00-04:00",
-      "toDate": "2026-11-15T17:00:00-05:00",
-      "created": "2026-10-22T17:05:59-04:00",
-      "firstName": "JOSHUA",
-      "lastName": "DOBSON",
-      "email": "joshua0dobson@gmail.com",
-      "account": "5859730001063948",
-      "status": "Checked Out",
-      "location_name": "Scott Library Making & Media Creation Lab",
-      "category_name": "Microphones",
-      "item_name": "Blue Yeti Nano",
-      "event": null,
-      "barcode": "39007054933130"
-    },
-    {
       "bookId": "2283b64e1a9d",
       "id": 399598,
       "eid": 21835,
@@ -1254,6 +1234,26 @@
       "event": null,
       "barcode": "39007054936232",
       "cancelled": "2026-11-10T00:02:07+00:00"
+    },
+    {
+      "bookId": "f75c08df06eb",
+      "id": 399657,
+      "eid": 21831,
+      "cid": 8138,
+      "lid": 2632,
+      "fromDate": "2026-11-12T16:00:00-05:00",
+      "toDate": "2026-11-17T11:00:00-05:00",
+      "created": "2026-11-12T15:26:14-05:00",
+      "firstName": "IRSHADULLAH",
+      "lastName": "GHORI",
+      "email": "irshadgh@my.yorku.ca",
+      "account": "29007017889765",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS M50",
+      "event": null,
+      "barcode": "39007054930284"
     },
     {
       "bookId": "e1e79329edbb",
@@ -2783,6 +2783,26 @@
       "item_name": "Meta Quest 3",
       "event": null,
       "barcode": "39007054936695"
+    },
+    {
+      "bookId": "62ee201b5adb",
+      "id": 392295,
+      "eid": 25241,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-10-22T17:06:00-04:00",
+      "toDate": "2026-11-26T17:00:00-05:00",
+      "created": "2026-10-22T17:05:59-04:00",
+      "firstName": "JOSHUA",
+      "lastName": "DOBSON",
+      "email": "joshua0dobson@gmail.com",
+      "account": "5859730001063948",
+      "status": "Checked Out",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Blue Yeti Nano",
+      "event": null,
+      "barcode": "39007054933130"
     },
     {
       "bookId": "74e46d90ebd2",
