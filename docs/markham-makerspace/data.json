@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-12T09:04:01.677116+00:00",
+  "fetch_timestamp": "2026-11-12T20:26:06.573840+00:00",
   "date": "2026-11-12",
   "space_bookings": [
     {
@@ -19,11 +19,12 @@
       "lastName": "Abebe",
       "email": "nabebe@my.yorku.ca",
       "account": "nabebe@my.yorku.ca",
-      "status": "Confirmed",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "Soldering Stations",
       "item_name": "Soldering Station #01",
-      "event": null
+      "event": null,
+      "cancelled": "2026-11-12T15:25:06+00:00"
     },
     {
       "bookId": "416f729e8df8",
@@ -57,11 +58,12 @@
       "lastName": "Abebe",
       "email": "nabebe@my.yorku.ca",
       "account": "nabebe@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-11-12T15:25:20+00:00"
     },
     {
       "bookId": "36cdb2705a09",
@@ -76,11 +78,12 @@
       "lastName": "Abebe",
       "email": "nabebe@my.yorku.ca",
       "account": "nabebe@my.yorku.ca",
-      "status": "Mediated Tentative",
+      "status": "Cancelled by User",
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
-      "event": null
+      "event": null,
+      "cancelled": "2026-11-12T15:24:51+00:00"
     },
     {
       "bookId": "41bc4194563c",
