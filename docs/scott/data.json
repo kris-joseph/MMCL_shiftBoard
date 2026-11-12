@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-12T01:43:44.692135+00:00",
+  "fetch_timestamp": "2026-11-12T05:39:17.657427+00:00",
   "date": "2026-11-12",
   "space_bookings": [
     {
@@ -147,6 +147,26 @@
       "event": null,
       "check_in_code": "8NV",
       "cancelled": "2026-10-26T14:48:22+00:00"
+    },
+    {
+      "bookId": "f758cfb0ad22",
+      "id": 17426637,
+      "eid": 29187,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-11-12T13:45:00-05:00",
+      "toDate": "2026-11-12T16:15:00-05:00",
+      "created": "2026-11-11T23:33:48-05:00",
+      "firstName": "Amr",
+      "lastName": "Alhafi",
+      "email": "amrhafi@my.yorku.ca",
+      "account": "amrhafi@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 207C - Audio Recording Booth",
+      "event": null,
+      "check_in_code": "ZA4"
     },
     {
       "bookId": "d0d9b27dcfdd",
@@ -1512,6 +1532,26 @@
       "event": null,
       "barcode": "39007054930235",
       "cancelled": "2026-11-10T21:32:07+00:00"
+    },
+    {
+      "bookId": "6aa316e51ecc",
+      "id": 399285,
+      "eid": 26372,
+      "cid": 8147,
+      "lid": 2632,
+      "fromDate": "2026-11-12T11:00:00-05:00",
+      "toDate": "2026-11-18T17:00:00-05:00",
+      "created": "2026-11-11T21:27:03-05:00",
+      "firstName": "Elhana",
+      "lastName": "Zekaryas",
+      "email": "ez14@my.yorku.ca",
+      "account": "ez14@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Microphones",
+      "item_name": "Audio-Technica AT2005USB",
+      "event": null,
+      "barcode": "39007054933452"
     },
     {
       "bookId": "78949869d3ce",
