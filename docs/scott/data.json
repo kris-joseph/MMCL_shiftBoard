@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-13T04:55:59.470194+00:00",
+  "fetch_timestamp": "2026-11-13T08:58:20.365579+00:00",
   "date": "2026-11-13",
   "space_bookings": [],
   "equipment_bookings": [
@@ -468,12 +468,13 @@
       "lastName": "GHORI",
       "email": "irshadgh@my.yorku.ca",
       "account": "29007017889765",
-      "status": "Confirmed",
+      "status": "Cancelled by System",
       "location_name": "Scott Library Making & Media Creation Lab",
       "category_name": "Cameras",
       "item_name": "Canon EOS M50",
       "event": null,
-      "barcode": "39007054930284"
+      "barcode": "39007054930284",
+      "cancelled": "2026-11-13T05:02:08+00:00"
     },
     {
       "bookId": "e1e79329edbb",
