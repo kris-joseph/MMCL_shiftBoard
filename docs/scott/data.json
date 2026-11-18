@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-18T02:59:29.657880+00:00",
+  "fetch_timestamp": "2026-11-18T05:48:32.075745+00:00",
   "date": "2026-11-18",
   "space_bookings": [
     {
@@ -87,6 +87,26 @@
       "seat_id": 32114,
       "seat_name": "Workstation 1 (Dell G7)",
       "check_in_code": "M8H"
+    },
+    {
+      "bookId": "bc089a1393b3",
+      "id": 17520778,
+      "eid": 32502,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-11-18T14:00:00-05:00",
+      "toDate": "2026-11-18T16:30:00-05:00",
+      "created": "2026-11-17T22:35:50-05:00",
+      "firstName": "Farsam",
+      "lastName": "Sadeghinejad",
+      "email": "farsam@my.yorku.ca",
+      "account": "farsam@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 207D -  Audio Recording Booth",
+      "event": null,
+      "check_in_code": "JG5"
     },
     {
       "bookId": "07116b850cd8",
