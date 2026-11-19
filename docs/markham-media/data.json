@@ -3,7 +3,7 @@
   "location_name": "Markham Media Lab",
   "template": "media-lab",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-19T20:57:50.041339+00:00",
+  "fetch_timestamp": "2026-11-19T21:04:23.630425+00:00",
   "date": "2026-11-19",
   "space_bookings": [
     {
@@ -809,6 +809,26 @@
       "item_name": "SmallRig Tripod",
       "event": null,
       "barcode": "39007054933973"
+    },
+    {
+      "bookId": "ea7a9a0b0eff",
+      "id": 402805,
+      "eid": 32504,
+      "cid": 7828,
+      "lid": 3432,
+      "fromDate": "2026-11-19T15:59:12-05:00",
+      "toDate": "2026-11-27T23:59:00-05:00",
+      "created": "2026-11-19T15:59:03-05:00",
+      "firstName": "SANDY",
+      "lastName": "CHAN",
+      "email": "sdychan@yorku.ca",
+      "account": "29007023874531",
+      "status": "Checked Out",
+      "location_name": "Markham Library Media Creation Studios and Equipment",
+      "category_name": "Cameras",
+      "item_name": "Canon EOS R50",
+      "event": null,
+      "barcode": "39007054931621"
     }
   ],
   "appointments": [],
