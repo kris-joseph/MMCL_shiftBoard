@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-19T09:43:38.717419+00:00",
+  "fetch_timestamp": "2026-11-19T20:57:50.980046+00:00",
   "date": "2026-11-19",
   "space_bookings": [
     {
@@ -42,6 +42,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa MK4S #01 \"Orpheus\"",
+      "event": null
+    },
+    {
+      "bookId": "209d7f49db8b",
+      "id": 17542891,
+      "eid": 35142,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-19T09:30:00-05:00",
+      "toDate": "2026-11-19T12:30:00-05:00",
+      "created": "2026-11-19T09:56:44-05:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #1 \"Gipsy Danger\"",
+      "event": null
+    },
+    {
+      "bookId": "37837d246238",
+      "id": 17542887,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-19T09:30:00-05:00",
+      "toDate": "2026-11-19T18:30:00-05:00",
+      "created": "2026-11-19T09:56:29-05:00",
+      "firstName": "Jiaqi",
+      "lastName": "Yuan",
+      "email": "jiaqi.yuan2@gmail.com",
+      "account": "jiaqi.yuan2@gmail.com",
+      "status": "Mediated Approved",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
       "event": null
     },
     {
