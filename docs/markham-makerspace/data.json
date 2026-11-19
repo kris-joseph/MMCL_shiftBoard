@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-19T02:17:04.187437+00:00",
+  "fetch_timestamp": "2026-11-19T05:47:57.514342+00:00",
   "date": "2026-11-19",
   "space_bookings": [
     {
@@ -63,6 +63,25 @@
       "item_name": "Prusa Mini #07 \"The Hand\"",
       "event": null,
       "cancelled": "2026-11-19T02:09:31+00:00"
+    },
+    {
+      "bookId": "b17751bffd89",
+      "id": 17538981,
+      "eid": 37118,
+      "cid": 8633,
+      "lid": 3430,
+      "fromDate": "2026-11-20T10:00:00-05:00",
+      "toDate": "2026-11-20T11:00:00-05:00",
+      "created": "2026-11-18T22:05:01-05:00",
+      "firstName": "Adrian",
+      "lastName": "Wu",
+      "email": "adrianwu2008@my.yorku.ca",
+      "account": "adrianwu2008@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Laser Cutters",
+      "item_name": "Aeon Mira 9",
+      "event": null
     },
     {
       "bookId": "40aae34172ae",
