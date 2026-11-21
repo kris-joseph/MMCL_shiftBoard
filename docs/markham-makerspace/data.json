@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-21T19:52:24.298408+00:00",
+  "fetch_timestamp": "2026-11-21T23:59:08.403107+00:00",
   "date": "2026-11-21",
   "space_bookings": [
     {
@@ -182,6 +182,26 @@
       "event": null
     },
     {
+      "bookId": "913f19ad9c66",
+      "id": 17573878,
+      "eid": 30731,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-22T14:00:00-05:00",
+      "toDate": "2026-11-22T15:00:00-05:00",
+      "created": "2026-11-21T16:43:34-05:00",
+      "firstName": "Adrian",
+      "lastName": "Wu",
+      "email": "awu2008@my.yorku.ca",
+      "account": "awu2008@my.yorku.ca",
+      "status": "Cancelled by User",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #08 \"Echoes\"",
+      "event": null,
+      "cancelled": "2026-11-21T21:43:56+00:00"
+    },
+    {
       "bookId": "99c5be21fec7",
       "id": 17560705,
       "eid": 37118,
@@ -217,6 +237,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa Mini #09 \"Crazy Diamond\"",
+      "event": null
+    },
+    {
+      "bookId": "cb2bc841a67b",
+      "id": 17573885,
+      "eid": 30731,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-22T14:30:00-05:00",
+      "toDate": "2026-11-22T16:00:00-05:00",
+      "created": "2026-11-21T16:44:41-05:00",
+      "firstName": "Adrian",
+      "lastName": "Wu",
+      "email": "awu2008@my.yorku.ca",
+      "account": "awu2008@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Mini #08 \"Echoes\"",
       "event": null
     }
   ],
