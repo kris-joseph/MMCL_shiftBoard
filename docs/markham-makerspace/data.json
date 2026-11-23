@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-23T00:58:41.659019+00:00",
+  "fetch_timestamp": "2026-11-23T05:37:52.592209+00:00",
   "date": "2026-11-23",
   "space_bookings": [
     {
@@ -23,6 +23,25 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
+    },
+    {
+      "bookId": "f5ef7fd442e9",
+      "id": 17586745,
+      "eid": 37118,
+      "cid": 8633,
+      "lid": 3430,
+      "fromDate": "2026-11-23T12:30:00-05:00",
+      "toDate": "2026-11-23T13:30:00-05:00",
+      "created": "2026-11-23T00:05:01-05:00",
+      "firstName": "Hui",
+      "lastName": "Rhyanna",
+      "email": "rhyannahui2020@gmail.com",
+      "account": "rhyannahui2020@gmail.com",
+      "status": "Confirmed",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "Laser Cutters",
+      "item_name": "Aeon Mira 9",
       "event": null
     },
     {
