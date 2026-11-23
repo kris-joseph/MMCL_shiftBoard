@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-23T05:37:52.592209+00:00",
+  "fetch_timestamp": "2026-11-23T10:07:10.195110+00:00",
   "date": "2026-11-23",
   "space_bookings": [
     {
@@ -61,6 +61,44 @@
       "location_name": "Markham Library Makerspace",
       "category_name": "3D Printers",
       "item_name": "Prusa XL #2 \"Orochi\"",
+      "event": null
+    },
+    {
+      "bookId": "558b65a1fa25",
+      "id": 17587532,
+      "eid": 35300,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-23T16:00:00-05:00",
+      "toDate": "2026-11-23T17:00:00-05:00",
+      "created": "2026-11-23T02:15:29-05:00",
+      "firstName": "Stefania",
+      "lastName": "Stefanova",
+      "email": "stef08st@my.yorku.ca",
+      "account": "stef08st@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One #2 \"Crimson Typhoon\"",
+      "event": null
+    },
+    {
+      "bookId": "a7f8fef47109",
+      "id": 17587540,
+      "eid": 38168,
+      "cid": 7245,
+      "lid": 3430,
+      "fromDate": "2026-11-23T16:00:00-05:00",
+      "toDate": "2026-11-23T17:00:00-05:00",
+      "created": "2026-11-23T02:17:00-05:00",
+      "firstName": "Stefania",
+      "lastName": "Stefanova",
+      "email": "stef08st@my.yorku.ca",
+      "account": "stef08st@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Markham Library Makerspace",
+      "category_name": "3D Printers",
+      "item_name": "Prusa Core One L #1 \"Pillar of Autumn\"",
       "event": null
     },
     {
