@@ -3,7 +3,7 @@
   "location_name": "Markham Makerspace",
   "template": "makerspace",
   "shift_boundary": "13:00",
-  "fetch_timestamp": "2026-11-24T22:45:03.731755+00:00",
+  "fetch_timestamp": "2026-11-24T22:50:24.355190+00:00",
   "date": "2026-11-24",
   "space_bookings": [
     {
@@ -185,7 +185,7 @@
       "cid": 7245,
       "lid": 3430,
       "fromDate": "2026-11-24T15:00:00-05:00",
-      "toDate": "2026-11-24T19:00:00-05:00",
+      "toDate": "2026-11-24T17:45:00-05:00",
       "created": "2026-11-20T13:19:39-05:00",
       "firstName": "Hermione",
       "lastName": "Yeung",
