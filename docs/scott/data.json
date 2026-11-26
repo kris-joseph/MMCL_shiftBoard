@@ -3,7 +3,7 @@
   "location_name": "Scott Media Lab",
   "template": "media-lab",
   "shift_boundary": null,
-  "fetch_timestamp": "2026-11-26T04:13:42.907398+00:00",
+  "fetch_timestamp": "2026-11-26T06:43:38.640974+00:00",
   "date": "2026-11-26",
   "space_bookings": [
     {
@@ -149,6 +149,26 @@
       "check_in_code": "R9L6"
     },
     {
+      "bookId": "b032566d10a8",
+      "id": 17647629,
+      "eid": 19905,
+      "cid": 5833,
+      "lid": 2632,
+      "fromDate": "2026-11-26T14:00:00-05:00",
+      "toDate": "2026-11-26T16:30:00-05:00",
+      "created": "2026-11-25T23:16:34-05:00",
+      "firstName": "Cyria-Amin",
+      "lastName": "Hasmani",
+      "email": "cyriahas@my.yorku.ca",
+      "account": "cyriahas@my.yorku.ca",
+      "status": "Mediated Tentative",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Audio Recording Rooms",
+      "item_name": "Scott 203K - Audio Recording Studio",
+      "event": null,
+      "check_in_code": "DT9K"
+    },
+    {
       "bookId": "7f49d99f4b8e",
       "id": 17505054,
       "eid": 19904,
@@ -291,6 +311,26 @@
       "item_name": "DJI Osmo Pocket 3",
       "event": null,
       "barcode": "39007054936604"
+    },
+    {
+      "bookId": "22cc78222478",
+      "id": 405347,
+      "eid": 37357,
+      "cid": 8292,
+      "lid": 2632,
+      "fromDate": "2026-11-26T11:00:00-05:00",
+      "toDate": "2026-11-26T17:00:00-05:00",
+      "created": "2026-11-26T00:12:45-05:00",
+      "firstName": "Robert",
+      "lastName": "Hovhannisyan",
+      "email": "roberthv@my.yorku.ca",
+      "account": "roberthv@my.yorku.ca",
+      "status": "Confirmed",
+      "location_name": "Scott Library Making & Media Creation Lab",
+      "category_name": "Wireless Microphones",
+      "item_name": "DJI Mic 3",
+      "event": null,
+      "barcode": "39007054936729"
     },
     {
       "bookId": "c77aafb6a72d",
